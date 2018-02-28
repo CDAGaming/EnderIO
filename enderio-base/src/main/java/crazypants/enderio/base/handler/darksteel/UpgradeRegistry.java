@@ -1,10 +1,6 @@
 package crazypants.enderio.base.handler.darksteel;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.util.NNList;
-
 import crazypants.enderio.api.upgrades.IDarkSteelUpgrade;
 import crazypants.enderio.base.EnderIO;
 import net.minecraft.util.ResourceLocation;
@@ -14,6 +10,9 @@ import net.minecraftforge.fml.common.eventhandler.EventPriority;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.registries.IForgeRegistry;
 import net.minecraftforge.registries.RegistryBuilder;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 @EventBusSubscriber(modid = EnderIO.MODID)
 public class UpgradeRegistry {

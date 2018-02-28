@@ -1,12 +1,12 @@
 package crazypants.enderio.base.item.darksteel.upgrade.elytra;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.handler.darksteel.DarkSteelController;
 import net.minecraft.client.entity.AbstractClientPlayer;
 import net.minecraft.client.renderer.entity.layers.LayerCape;
 import net.minecraft.client.renderer.entity.layers.LayerRenderer;
 import net.minecraft.inventory.EntityEquipmentSlot;
+
+import javax.annotation.Nonnull;
 
 public class CapeFilterLayer extends LayerCape {
 

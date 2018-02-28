@@ -1,12 +1,6 @@
 package crazypants.enderio.machines.machine.soul;
 
-import java.util.Random;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.client.ClientUtil;
-
 import crazypants.enderio.base.init.IModObject;
 import crazypants.enderio.base.machine.baselegacy.AbstractPoweredTaskBlock;
 import crazypants.enderio.base.machine.render.SoulBinderBlockRenderMapper;
@@ -30,6 +24,10 @@ import net.minecraft.world.World;
 import net.minecraftforge.fml.client.registry.ClientRegistry;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.Random;
 
 public class BlockSoulBinder extends AbstractPoweredTaskBlock<TileSoulBinder>
     implements IPaintable.INonSolidBlockPaintableBlock, IPaintable.IWrenchHideablePaint, IHaveTESR {

@@ -1,7 +1,5 @@
 package crazypants.enderio.base.integration.te;
 
-import javax.annotation.Nonnull;
-
 import cofh.api.item.IToolHammer;
 import crazypants.enderio.api.tool.ITool;
 import crazypants.enderio.base.tool.IToolProvider;
@@ -10,6 +8,8 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.EnumHand;
 import net.minecraft.util.math.BlockPos;
+
+import javax.annotation.Nonnull;
 
 public class TEToolProvider implements IToolProvider {
 

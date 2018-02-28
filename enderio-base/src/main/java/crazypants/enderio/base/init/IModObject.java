@@ -1,10 +1,6 @@
 package crazypants.enderio.base.init;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.util.stackable.IProducer;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.gui.handler.GuiHelper;
 import net.minecraft.block.Block;
@@ -18,6 +14,9 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 public interface IModObject extends IProducer {
 

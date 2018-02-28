@@ -1,10 +1,10 @@
 package crazypants.enderio.base.fluid;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import net.minecraftforge.fluids.Fluid;
 import net.minecraftforge.fluids.FluidStack;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 public interface IFluidRegister {
 

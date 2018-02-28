@@ -1,9 +1,6 @@
 package crazypants.enderio.base.filter.items;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.api.client.gui.IResourceTooltipProvider;
-
 import crazypants.enderio.base.EnderIOTab;
 import crazypants.enderio.base.filter.IItemFilter;
 import crazypants.enderio.base.filter.IItemFilterUpgrade;
@@ -12,6 +9,8 @@ import crazypants.enderio.base.init.IModObject;
 import crazypants.enderio.util.NbtValue;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+
+import javax.annotation.Nonnull;
 
 /**
  *

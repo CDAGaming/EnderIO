@@ -1,13 +1,8 @@
 package crazypants.enderio.machines.machine.solar;
 
-import java.util.Random;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.api.client.gui.IResourceTooltipProvider;
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.NNList.Callback;
-
 import crazypants.enderio.base.BlockEio;
 import crazypants.enderio.base.init.IModObject;
 import crazypants.enderio.base.render.IBlockStateWrapper;
@@ -34,6 +29,9 @@ import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import java.util.Random;
 
 public class BlockSolarPanel extends BlockEio<TileSolarPanel> implements IResourceTooltipProvider, ISmartRenderAwareBlock, ICustomSubItems {
 

@@ -1,12 +1,6 @@
 package crazypants.enderio.base.integration.jei.energy;
 
-import java.util.List;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.google.common.collect.Lists;
-
 import crazypants.enderio.base.lang.Lang;
 import crazypants.enderio.base.lang.LangPower;
 import crazypants.enderio.base.material.material.Material;
@@ -17,6 +11,10 @@ import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.renderer.RenderHelper;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.util.text.TextFormatting;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.List;
 
 public class EnergyIngredientRenderer implements IIngredientRenderer<EnergyIngredient> {
 

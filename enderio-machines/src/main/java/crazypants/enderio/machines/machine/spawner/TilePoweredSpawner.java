@@ -1,15 +1,9 @@
 package crazypants.enderio.machines.machine.spawner;
 
-import java.util.EnumSet;
-import java.util.Set;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.client.render.BoundingBox;
 import com.enderio.core.common.NBTAction;
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.vecmath.Vector4f;
-
 import crazypants.enderio.base.init.ModObject;
 import crazypants.enderio.base.machine.baselegacy.AbstractPoweredTaskEntity;
 import crazypants.enderio.base.machine.baselegacy.SlotDefinition;
@@ -46,10 +40,11 @@ import net.minecraft.world.DifficultyInstance;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-import static crazypants.enderio.machines.capacitor.CapacitorKey.SPAWNER_POWER_BUFFER;
-import static crazypants.enderio.machines.capacitor.CapacitorKey.SPAWNER_POWER_INTAKE;
-import static crazypants.enderio.machines.capacitor.CapacitorKey.SPAWNER_POWER_USE;
-import static crazypants.enderio.machines.capacitor.CapacitorKey.SPAWNER_SPEEDUP;
+import javax.annotation.Nonnull;
+import java.util.EnumSet;
+import java.util.Set;
+
+import static crazypants.enderio.machines.capacitor.CapacitorKey.*;
 
 @Storable
 public class TilePoweredSpawner extends AbstractPoweredTaskEntity implements IPaintable.IPaintableTileEntity, IRanged, EntityAction.Implementer, INotifier {

@@ -1,9 +1,6 @@
 package crazypants.enderio.powertools.machine.monitor;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.network.MessageTileEntity;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.conduit.power.NetworkPowerManager;
 import crazypants.enderio.powertools.machine.monitor.TilePowerMonitor.StatData;
@@ -14,6 +11,8 @@ import net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler;
 import net.minecraftforge.fml.common.network.simpleimpl.MessageContext;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
 
 public class PacketPowerMonitorStatData extends MessageTileEntity<TilePowerMonitor> {
 

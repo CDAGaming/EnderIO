@@ -1,10 +1,10 @@
 package crazypants.enderio.base.conduit;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.api.tool.IHideFacades;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
+
+import javax.annotation.Nonnull;
 
 public interface IConduitItem extends IHideFacades {
 

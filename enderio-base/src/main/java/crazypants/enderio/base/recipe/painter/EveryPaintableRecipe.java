@@ -1,10 +1,10 @@
 package crazypants.enderio.base.recipe.painter;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.paint.IPaintable;
 import net.minecraft.block.Block;
 import net.minecraft.item.ItemStack;
+
+import javax.annotation.Nonnull;
 
 public class EveryPaintableRecipe<T extends Block & IPaintable> extends BasicPainterTemplate<T> {
 

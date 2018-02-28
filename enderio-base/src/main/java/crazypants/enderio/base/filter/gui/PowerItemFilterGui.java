@@ -1,14 +1,13 @@
 package crazypants.enderio.base.filter.gui;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.client.gui.button.ToggleButton;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.filter.filters.PowerItemFilter;
 import crazypants.enderio.base.gui.GuiContainerBaseEIO;
 import crazypants.enderio.base.gui.IconEIO;
 import net.minecraft.client.gui.GuiButton;
+
+import javax.annotation.Nonnull;
 
 public class PowerItemFilterGui implements IItemFilterGui {
 

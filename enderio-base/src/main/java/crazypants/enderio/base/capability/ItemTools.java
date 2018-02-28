@@ -1,12 +1,8 @@
 package crazypants.enderio.base.capability;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.util.ItemUtil;
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.NullHelper;
-
 import crazypants.enderio.base.diagnostics.Prof;
 import crazypants.enderio.base.machine.base.te.AbstractMachineEntity;
 import crazypants.enderio.base.machine.modes.IoMode;
@@ -23,6 +19,9 @@ import net.minecraftforge.common.capabilities.Capability;
 import net.minecraftforge.common.capabilities.CapabilityInject;
 import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.ItemHandlerHelper;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 public class ItemTools {
 

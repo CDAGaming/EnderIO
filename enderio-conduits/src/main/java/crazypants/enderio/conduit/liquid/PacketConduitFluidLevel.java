@@ -1,7 +1,5 @@
 package crazypants.enderio.conduit.liquid;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.conduit.packet.AbstractConduitPacket;
 import io.netty.buffer.ByteBuf;
 import net.minecraft.nbt.NBTTagCompound;
@@ -9,6 +7,8 @@ import net.minecraftforge.fml.common.network.ByteBufUtils;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler;
 import net.minecraftforge.fml.common.network.simpleimpl.MessageContext;
+
+import javax.annotation.Nonnull;
 
 public class PacketConduitFluidLevel extends AbstractConduitPacket<ILiquidConduit> {
 

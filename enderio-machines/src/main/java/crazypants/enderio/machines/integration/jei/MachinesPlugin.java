@@ -1,12 +1,12 @@
 package crazypants.enderio.machines.integration.jei;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.machines.integration.jei.sagmill.SagMillRecipeCategory;
 import mezz.jei.api.BlankModPlugin;
 import mezz.jei.api.IGuiHelper;
 import mezz.jei.api.IModRegistry;
 import mezz.jei.api.JEIPlugin;
+
+import javax.annotation.Nonnull;
 
 @JEIPlugin
 public class MachinesPlugin extends BlankModPlugin {

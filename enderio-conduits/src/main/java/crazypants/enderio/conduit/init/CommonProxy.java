@@ -1,10 +1,10 @@
 package crazypants.enderio.conduit.init;
 
-import javax.annotation.Nonnull;
-
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+
+import javax.annotation.Nonnull;
 
 public class CommonProxy {
 

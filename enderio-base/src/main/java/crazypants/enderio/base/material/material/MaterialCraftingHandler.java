@@ -1,10 +1,5 @@
 package crazypants.enderio.base.material.material;
 
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Random;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.config.config.InfinityConfig;
 import net.minecraft.block.BlockFire;
@@ -18,6 +13,11 @@ import net.minecraft.world.World;
 import net.minecraftforge.event.world.BlockEvent.NeighborNotifyEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Random;
 
 @EventBusSubscriber(modid = EnderIO.MODID)
 public class MaterialCraftingHandler {

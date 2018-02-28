@@ -1,8 +1,8 @@
 package crazypants.enderio.base.item.coordselector;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.api.teleport.ITravelAccessable;
+
+import javax.annotation.Nonnull;
 
 public interface ICoordinateAware {
 

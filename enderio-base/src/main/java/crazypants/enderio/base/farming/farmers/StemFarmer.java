@@ -1,13 +1,7 @@
 package crazypants.enderio.base.farming.farmers;
 
-import java.util.Collections;
-import java.util.Comparator;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.NNList.Callback;
-
 import crazypants.enderio.api.farm.FarmNotification;
 import crazypants.enderio.api.farm.FarmingAction;
 import crazypants.enderio.api.farm.IFarmer;
@@ -23,6 +17,10 @@ import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraftforge.event.ForgeEventFactory;
+
+import javax.annotation.Nonnull;
+import java.util.Collections;
+import java.util.Comparator;
 
 public class StemFarmer extends CustomSeedFarmer {
 

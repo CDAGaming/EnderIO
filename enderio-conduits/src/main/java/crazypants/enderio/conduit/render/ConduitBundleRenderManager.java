@@ -1,7 +1,5 @@
 package crazypants.enderio.conduit.render;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.conduit.IConduitRenderer;
 import crazypants.enderio.base.conduit.geom.ConduitConnectorType;
 import crazypants.enderio.base.conduit.registry.ConduitRegistry;
@@ -15,6 +13,8 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
 
 @SideOnly(Side.CLIENT)
 public class ConduitBundleRenderManager {

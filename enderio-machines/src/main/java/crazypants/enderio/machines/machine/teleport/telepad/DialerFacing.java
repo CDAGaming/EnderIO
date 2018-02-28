@@ -1,16 +1,11 @@
 package crazypants.enderio.machines.machine.teleport.telepad;
 
-import javax.annotation.Nonnull;
-
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.IStringSerializable;
 
-import static net.minecraft.util.EnumFacing.DOWN;
-import static net.minecraft.util.EnumFacing.EAST;
-import static net.minecraft.util.EnumFacing.NORTH;
-import static net.minecraft.util.EnumFacing.SOUTH;
-import static net.minecraft.util.EnumFacing.UP;
-import static net.minecraft.util.EnumFacing.WEST;
+import javax.annotation.Nonnull;
+
+import static net.minecraft.util.EnumFacing.*;
 
 //Derived from LogicFacing in RTTools
 public enum DialerFacing implements IStringSerializable {

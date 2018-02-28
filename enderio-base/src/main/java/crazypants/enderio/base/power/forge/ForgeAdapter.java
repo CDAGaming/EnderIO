@@ -1,16 +1,8 @@
 package crazypants.enderio.base.power.forge;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.Log;
-import crazypants.enderio.base.power.ILegacyPowerReceiver;
-import crazypants.enderio.base.power.ILegacyPoweredTile;
-import crazypants.enderio.base.power.IPowerApiAdapter;
-import crazypants.enderio.base.power.IPowerInterface;
-import crazypants.enderio.base.power.ItemPowerCapabilityBackend;
-import crazypants.enderio.base.power.PowerHandlerUtil;
+import crazypants.enderio.base.power.*;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.ResourceLocation;
@@ -19,6 +11,9 @@ import net.minecraftforge.common.capabilities.Capability;
 import net.minecraftforge.common.capabilities.ICapabilityProvider;
 import net.minecraftforge.energy.IEnergyStorage;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 public class ForgeAdapter implements IPowerApiAdapter {
 

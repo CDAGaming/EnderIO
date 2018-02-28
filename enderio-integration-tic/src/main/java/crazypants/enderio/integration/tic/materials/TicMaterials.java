@@ -1,26 +1,18 @@
 package crazypants.enderio.integration.tic.materials;
 
-import java.util.EnumMap;
-import java.util.Map;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NullHelper;
-
 import crazypants.enderio.base.material.alloy.Alloy;
 import crazypants.enderio.integration.tic.traits.TraitPickup;
 import crazypants.enderio.integration.tic.traits.TraitTeleport;
 import net.minecraftforge.fluids.Fluid;
 import slimeknights.tconstruct.library.TinkerRegistry;
-import slimeknights.tconstruct.library.materials.BowMaterialStats;
-import slimeknights.tconstruct.library.materials.BowStringMaterialStats;
-import slimeknights.tconstruct.library.materials.ExtraMaterialStats;
-import slimeknights.tconstruct.library.materials.HandleMaterialStats;
-import slimeknights.tconstruct.library.materials.HeadMaterialStats;
-import slimeknights.tconstruct.library.materials.Material;
-import slimeknights.tconstruct.library.materials.MaterialTypes;
+import slimeknights.tconstruct.library.materials.*;
 import slimeknights.tconstruct.library.utils.HarvestLevels;
 import slimeknights.tconstruct.tools.TinkerTraits;
+
+import javax.annotation.Nonnull;
+import java.util.EnumMap;
+import java.util.Map;
 
 import static slimeknights.tconstruct.library.utils.HarvestLevels.STONE;
 

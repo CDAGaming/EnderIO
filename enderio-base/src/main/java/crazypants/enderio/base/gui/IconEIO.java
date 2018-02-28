@@ -1,16 +1,15 @@
 package crazypants.enderio.base.gui;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.api.client.render.IWidgetIcon;
 import com.enderio.core.api.client.render.IWidgetMap;
-
 import crazypants.enderio.base.EnderIO;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 public enum IconEIO implements IWidgetIcon {
 

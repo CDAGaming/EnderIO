@@ -1,7 +1,5 @@
 package crazypants.enderio.powertools.recipes;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.powertools.EnderIOPowerTools;
 import crazypants.enderio.powertools.machine.capbank.BlockItemCapBank;
@@ -12,6 +10,8 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.registries.IForgeRegistry;
+
+import javax.annotation.Nonnull;
 
 import static crazypants.enderio.base.init.ModObject.itemBasicCapacitor;
 import static crazypants.enderio.base.material.alloy.Alloy.ENERGETIC_ALLOY;

@@ -1,7 +1,5 @@
 package crazypants.enderio.base.item.darksteel.upgrade.elytra;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.api.upgrades.IHasPlayerRenderer;
 import crazypants.enderio.api.upgrades.IRenderUpgrade;
 import crazypants.enderio.base.config.Config;
@@ -12,6 +10,8 @@ import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
 
 public class ElytraUpgrade extends AbstractUpgrade implements IHasPlayerRenderer {
 

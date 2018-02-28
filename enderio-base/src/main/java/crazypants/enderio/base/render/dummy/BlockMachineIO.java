@@ -1,7 +1,5 @@
 package crazypants.enderio.base.render.dummy;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.init.IModObject;
 import crazypants.enderio.base.render.property.IOMode;
 import net.minecraft.block.Block;
@@ -18,6 +16,8 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
 
 public class BlockMachineIO extends Block {
 

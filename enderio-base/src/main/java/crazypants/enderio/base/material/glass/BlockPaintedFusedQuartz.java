@@ -1,10 +1,7 @@
 package crazypants.enderio.base.material.glass;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.NNList.NNIterator;
-
 import crazypants.enderio.base.block.painted.BlockItemPaintedBlock.INamedSubBlocks;
 import crazypants.enderio.base.block.painted.TileEntityPaintedBlock;
 import crazypants.enderio.base.init.IModObject;
@@ -36,6 +33,8 @@ import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
 
 public class BlockPaintedFusedQuartz extends BlockFusedQuartzBase<TileEntityPaintedBlock>
     implements ITileEntityProvider, IPaintable.IBlockPaintableBlock, INamedSubBlocks, ICustomSubItems {

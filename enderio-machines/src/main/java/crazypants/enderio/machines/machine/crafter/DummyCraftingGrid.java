@@ -1,9 +1,6 @@
 package crazypants.enderio.machines.machine.crafter;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NullHelper;
-
 import crazypants.enderio.util.Prep;
 import info.loenwind.autosave.annotations.Storable;
 import info.loenwind.autosave.annotations.Store;
@@ -12,6 +9,8 @@ import net.minecraft.inventory.IInventory;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.TextComponentString;
+
+import javax.annotation.Nonnull;
 
 @Storable
 public class DummyCraftingGrid implements IInventory {

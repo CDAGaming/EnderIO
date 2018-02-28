@@ -1,10 +1,10 @@
 package crazypants.enderio.machines.machine.obelisk.weather;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.machines.machine.obelisk.render.ObeliskSpecialRenderer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
+
+import javax.annotation.Nonnull;
 
 import static crazypants.enderio.machines.init.MachineObject.block_weather_obelisk;
 

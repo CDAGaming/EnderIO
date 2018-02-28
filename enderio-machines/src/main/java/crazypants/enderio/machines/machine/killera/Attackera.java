@@ -1,22 +1,19 @@
 package crazypants.enderio.machines.machine.killera;
 
-import java.util.UUID;
-
-import javax.annotation.Nonnull;
-
-import org.apache.commons.lang3.StringUtils;
-
 import com.enderio.core.common.transform.EnderCoreMethods.ICreeperTarget;
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.UserIdent;
 import com.mojang.authlib.GameProfile;
-
 import crazypants.enderio.base.machine.fakeplayer.FakePlayerEIO;
 import crazypants.enderio.base.power.wireless.WirelessChargedLocation;
 import crazypants.enderio.machines.config.config.KillerJoeConfig;
 import net.minecraft.entity.monster.EntityCreeper;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.ItemStack;
+import org.apache.commons.lang3.StringUtils;
+
+import javax.annotation.Nonnull;
+import java.util.UUID;
 
 class Attackera extends FakePlayerEIO implements ICreeperTarget {
 

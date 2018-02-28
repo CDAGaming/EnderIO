@@ -1,10 +1,10 @@
 package crazypants.enderio.machines.machine.tank;
 
-import javax.annotation.Nonnull;
-
 import net.minecraft.inventory.IInventory;
 import net.minecraft.inventory.Slot;
 import net.minecraft.item.ItemStack;
+
+import javax.annotation.Nonnull;
 
 public class InventorySlot extends Slot {
   public InventorySlot(@Nonnull IInventory inventoryIn, int index, int xPosition, int yPosition) {

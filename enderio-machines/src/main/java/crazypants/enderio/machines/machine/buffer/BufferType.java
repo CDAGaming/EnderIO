@@ -1,15 +1,13 @@
 package crazypants.enderio.machines.machine.buffer;
 
-import java.util.Locale;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NullHelper;
-
 import crazypants.enderio.machines.init.MachineObject;
 import net.minecraft.block.properties.PropertyEnum;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.IStringSerializable;
+
+import javax.annotation.Nonnull;
+import java.util.Locale;
 
 import static crazypants.enderio.machines.init.MachineObject.block_buffer;
 

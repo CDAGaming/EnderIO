@@ -1,15 +1,14 @@
 package crazypants.enderio.machines.machine.generator.zombie;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.client.render.ManagedTESR;
-
-import crazypants.enderio.base.render.util.TankRenderHelper;
 import crazypants.enderio.base.render.util.HalfBakedQuad.HalfBakedList;
+import crazypants.enderio.base.render.util.TankRenderHelper;
 import crazypants.enderio.machines.init.MachineObject;
 import net.minecraft.block.state.IBlockState;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
 
 @SideOnly(Side.CLIENT)
 public class ZombieGeneratorRenderer extends ManagedTESR<TileZombieGenerator> {

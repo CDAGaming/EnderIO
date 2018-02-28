@@ -1,17 +1,14 @@
 package crazypants.enderio.machines.machine.obelisk.inhibitor;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.machine.baselegacy.SlotDefinition;
 import crazypants.enderio.machines.init.MachineObject;
 import crazypants.enderio.machines.machine.obelisk.base.AbstractRangedObeliskEntity;
 import info.loenwind.autosave.annotations.Storable;
 import net.minecraft.item.ItemStack;
 
-import static crazypants.enderio.machines.capacitor.CapacitorKey.INHIBITOR_POWER_BUFFER;
-import static crazypants.enderio.machines.capacitor.CapacitorKey.INHIBITOR_POWER_INTAKE;
-import static crazypants.enderio.machines.capacitor.CapacitorKey.INHIBITOR_POWER_USE;
-import static crazypants.enderio.machines.capacitor.CapacitorKey.INHIBITOR_RANGE;
+import javax.annotation.Nonnull;
+
+import static crazypants.enderio.machines.capacitor.CapacitorKey.*;
 
 @Storable
 public class TileInhibitorObelisk extends AbstractRangedObeliskEntity {

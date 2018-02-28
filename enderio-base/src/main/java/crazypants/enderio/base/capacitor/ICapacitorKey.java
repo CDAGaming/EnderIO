@@ -1,9 +1,9 @@
 package crazypants.enderio.base.capacitor;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.config.Config.Section;
 import crazypants.enderio.base.init.IModObject;
+
+import javax.annotation.Nonnull;
 
 public interface ICapacitorKey {
 

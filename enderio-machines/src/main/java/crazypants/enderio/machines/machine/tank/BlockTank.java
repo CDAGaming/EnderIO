@@ -1,16 +1,10 @@
 package crazypants.enderio.machines.machine.tank;
 
-import java.util.List;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.api.client.gui.IAdvancedTooltipProvider;
 import com.enderio.core.client.handlers.SpecialTooltipHandler;
 import com.enderio.core.common.BlockEnder;
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.NNList.Callback;
-
 import crazypants.enderio.base.init.IModObject;
 import crazypants.enderio.base.lang.Lang;
 import crazypants.enderio.base.machine.baselegacy.AbstractInventoryMachineBlock;
@@ -46,6 +40,10 @@ import net.minecraftforge.fluids.FluidStack;
 import net.minecraftforge.fml.client.registry.ClientRegistry;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.List;
 
 public class BlockTank extends AbstractInventoryMachineBlock<TileTank>
     implements IAdvancedTooltipProvider, IPaintable.INonSolidBlockPaintableBlock, IPaintable.IWrenchHideablePaint, IHaveTESR, ICustomSubItems {

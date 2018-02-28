@@ -1,10 +1,5 @@
 package crazypants.enderio.machines.machine.obelisk.weather;
 
-import java.util.Random;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.init.IModObject;
 import crazypants.enderio.machines.EnderIOMachines;
@@ -25,6 +20,10 @@ import net.minecraftforge.fml.common.registry.EntityEntry;
 import net.minecraftforge.fml.common.registry.EntityRegistry;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.Random;
 
 @EventBusSubscriber(modid = EnderIOMachines.MODID)
 public class BlockWeatherObelisk extends AbstractBlockObelisk<TileWeatherObelisk> {

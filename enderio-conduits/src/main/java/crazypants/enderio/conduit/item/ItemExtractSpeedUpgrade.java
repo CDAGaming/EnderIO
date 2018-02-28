@@ -1,9 +1,6 @@
 package crazypants.enderio.conduit.item;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.api.client.gui.IResourceTooltipProvider;
-
 import crazypants.enderio.base.EnderIOTab;
 import crazypants.enderio.base.init.IModObject;
 import crazypants.enderio.base.render.IHaveRenderers;
@@ -15,6 +12,8 @@ import net.minecraft.util.NonNullList;
 import net.minecraft.util.math.MathHelper;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
 
 /**
  * Allows item conduits to extract more quickly

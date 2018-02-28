@@ -1,32 +1,16 @@
 package crazypants.enderio.conduit;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Random;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.client.render.BoundingBox;
 import com.enderio.core.client.render.RenderUtil;
 import com.enderio.core.common.util.ItemUtil;
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.NullHelper;
 import com.enderio.core.common.util.Util;
-
 import crazypants.enderio.api.tool.ITool;
 import crazypants.enderio.base.BlockEio;
 import crazypants.enderio.base.EnderIO;
-import crazypants.enderio.base.conduit.ConduitDisplayMode;
-import crazypants.enderio.base.conduit.ConduitUtil;
-import crazypants.enderio.base.conduit.IConduit;
-import crazypants.enderio.base.conduit.IConduitBundle;
+import crazypants.enderio.base.conduit.*;
 import crazypants.enderio.base.conduit.IConduitBundle.FacadeRenderState;
-import crazypants.enderio.base.conduit.IConduitItem;
-import crazypants.enderio.base.conduit.RaytraceResult;
 import crazypants.enderio.base.conduit.facade.EnumFacadeType;
 import crazypants.enderio.base.conduit.geom.CollidableComponent;
 import crazypants.enderio.base.conduit.geom.ConduitConnectorType;
@@ -88,6 +72,10 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import net.minecraftforge.server.permission.PermissionAPI;
 import net.minecraftforge.server.permission.context.BlockPosContext;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.*;
 
 public class BlockConduitBundle extends BlockEio<TileConduitBundle>
     implements IEioGuiHandler.WithPos, IPaintable.IBlockPaintableBlock, IPaintable.IWrenchHideablePaint {

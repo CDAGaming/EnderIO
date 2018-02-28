@@ -1,11 +1,6 @@
 package crazypants.enderio.conduit.redstone;
 
-import java.util.List;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.client.render.ColorUtil;
-
 import crazypants.enderio.base.conduit.IConduit;
 import crazypants.enderio.base.conduit.IConduitBundle;
 import crazypants.enderio.base.conduit.geom.CollidableComponent;
@@ -14,6 +9,9 @@ import crazypants.enderio.conduit.render.DefaultConduitRenderer;
 import net.minecraft.client.renderer.block.model.BakedQuad;
 import net.minecraft.client.renderer.texture.TextureAtlasSprite;
 import net.minecraft.util.BlockRenderLayer;
+
+import javax.annotation.Nonnull;
+import java.util.List;
 
 public class InsulatedRedstoneConduitRenderer extends DefaultConduitRenderer {
 

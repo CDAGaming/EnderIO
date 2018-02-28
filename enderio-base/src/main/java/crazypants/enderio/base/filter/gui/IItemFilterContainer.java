@@ -1,8 +1,8 @@
 package crazypants.enderio.base.filter.gui;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.filter.IItemFilter;
+
+import javax.annotation.Nonnull;
 
 public interface IItemFilterContainer {
 

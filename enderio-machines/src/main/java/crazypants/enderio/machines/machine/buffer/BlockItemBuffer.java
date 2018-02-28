@@ -1,8 +1,5 @@
 package crazypants.enderio.machines.machine.buffer;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import crazypants.enderio.base.capacitor.DefaultCapacitorData;
 import crazypants.enderio.base.power.PoweredBlockItem;
 import crazypants.enderio.machines.capacitor.CapacitorKey;
@@ -10,6 +7,9 @@ import net.minecraft.block.Block;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraftforge.common.capabilities.ICapabilityProvider;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 public class BlockItemBuffer extends PoweredBlockItem {
 

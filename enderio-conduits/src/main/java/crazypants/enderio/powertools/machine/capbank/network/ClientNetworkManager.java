@@ -1,11 +1,5 @@
 package crazypants.enderio.powertools.machine.capbank.network;
 
-import java.lang.ref.WeakReference;
-import java.util.HashMap;
-import java.util.Map;
-
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.powertools.EnderIOPowerTools;
 import crazypants.enderio.powertools.machine.capbank.TileCapBank;
 import net.minecraft.client.multiplayer.WorldClient;
@@ -14,6 +8,11 @@ import net.minecraftforge.event.world.WorldEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.relauncher.Side;
+
+import javax.annotation.Nonnull;
+import java.lang.ref.WeakReference;
+import java.util.HashMap;
+import java.util.Map;
 
 @EventBusSubscriber(modid = EnderIOPowerTools.MODID, value = Side.CLIENT)
 public class ClientNetworkManager {

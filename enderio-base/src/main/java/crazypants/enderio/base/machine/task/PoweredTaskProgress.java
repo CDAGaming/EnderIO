@@ -1,15 +1,14 @@
 package crazypants.enderio.base.machine.task;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
-
 import crazypants.enderio.base.machine.interfaces.IPoweredTask;
 import crazypants.enderio.base.recipe.IMachineRecipe;
 import crazypants.enderio.base.recipe.IMachineRecipe.ResultStack;
 import crazypants.enderio.base.recipe.MachineRecipeInput;
 import crazypants.enderio.base.recipe.RecipeBonusType;
 import net.minecraft.nbt.NBTTagCompound;
+
+import javax.annotation.Nonnull;
 
 /**
  * Client side stub for reporting progress.

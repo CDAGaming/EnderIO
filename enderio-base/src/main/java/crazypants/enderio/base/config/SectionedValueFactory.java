@@ -1,12 +1,11 @@
 package crazypants.enderio.base.config;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.stackable.Things;
-
 import crazypants.enderio.base.config.Config.Section;
 import crazypants.enderio.base.config.ValueFactory.IValue;
 import net.minecraftforge.fluids.Fluid;
+
+import javax.annotation.Nonnull;
 
 public class SectionedValueFactory {
 

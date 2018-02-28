@@ -1,29 +1,20 @@
 package crazypants.enderio.base.recipe.alloysmelter;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.Map.Entry;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.NullHelper;
-
 import crazypants.enderio.base.material.OreDictionaryPreferences;
-import crazypants.enderio.base.recipe.IMachineRecipe;
-import crazypants.enderio.base.recipe.IRecipe;
-import crazypants.enderio.base.recipe.MachineRecipeInput;
-import crazypants.enderio.base.recipe.MachineRecipeRegistry;
-import crazypants.enderio.base.recipe.Recipe;
-import crazypants.enderio.base.recipe.RecipeBonusType;
-import crazypants.enderio.base.recipe.RecipeInput;
-import crazypants.enderio.base.recipe.RecipeOutput;
+import crazypants.enderio.base.recipe.*;
 import crazypants.enderio.util.Prep;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.crafting.FurnaceRecipes;
 import net.minecraft.tileentity.TileEntityFurnace;
+
+import javax.annotation.Nonnull;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
 
 public class VanillaSmeltingRecipe implements IMachineRecipe {
 

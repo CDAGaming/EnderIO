@@ -1,15 +1,14 @@
 package crazypants.enderio.base.machine.base.network;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.network.MessageTileEntity;
-
 import crazypants.enderio.base.machine.base.te.AbstractCapabilityPoweredMachineEntity;
 import io.netty.buffer.ByteBuf;
 import net.minecraft.client.Minecraft;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler;
 import net.minecraftforge.fml.common.network.simpleimpl.MessageContext;
+
+import javax.annotation.Nonnull;
 
 public class PacketPowerStorage extends MessageTileEntity<AbstractCapabilityPoweredMachineEntity> {
 

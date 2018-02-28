@@ -1,12 +1,7 @@
 package crazypants.enderio.base.render.itemoverlay;
 
-import javax.annotation.Nonnull;
-
-import org.lwjgl.opengl.GL11;
-
 import com.enderio.core.common.util.FluidUtil;
 import com.enderio.core.common.vecmath.Vector4i;
-
 import crazypants.enderio.base.item.darksteel.upgrade.energy.EnergyUpgradeManager;
 import crazypants.enderio.base.power.PowerHandlerUtil;
 import net.minecraft.client.renderer.BufferBuilder;
@@ -18,6 +13,9 @@ import net.minecraftforge.energy.IEnergyStorage;
 import net.minecraftforge.fluids.FluidStack;
 import net.minecraftforge.fluids.capability.IFluidHandler;
 import net.minecraftforge.fluids.capability.IFluidTankProperties;
+import org.lwjgl.opengl.GL11;
+
+import javax.annotation.Nonnull;
 
 public class PowerBarOverlayRenderHelper {
 

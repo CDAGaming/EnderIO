@@ -1,5 +1,6 @@
 package crazypants.enderio.machines.machine.obelisk.weather;
 
+import crazypants.enderio.machines.machine.obelisk.weather.TileWeatherObelisk.WeatherTask;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.particle.ParticleFirework;
 import net.minecraft.entity.item.EntityFireworkRocket;
@@ -16,8 +17,6 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
 import javax.annotation.Nonnull;
-
-import crazypants.enderio.machines.machine.obelisk.weather.TileWeatherObelisk.WeatherTask;
 
 public class EntityWeatherRocket extends EntityFireworkRocket {
 

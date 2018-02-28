@@ -1,10 +1,6 @@
 package crazypants.enderio.machine;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.util.NullHelper;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.init.IModObject;
 import crazypants.enderio.base.init.ModObjectRegistry;
@@ -46,6 +42,9 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.EventPriority;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 @EventBusSubscriber(modid = EnderIOMachines.MODID)
 public enum MachineObject implements IModObject.Registerable {

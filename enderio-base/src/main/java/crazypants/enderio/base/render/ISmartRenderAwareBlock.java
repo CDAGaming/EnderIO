@@ -1,9 +1,9 @@
 package crazypants.enderio.base.render;
 
-import javax.annotation.Nonnull;
-
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
 
 public interface ISmartRenderAwareBlock {
 

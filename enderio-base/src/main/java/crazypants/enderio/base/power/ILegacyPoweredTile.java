@@ -1,9 +1,9 @@
 package crazypants.enderio.base.power;
 
-import javax.annotation.Nonnull;
-
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
+
+import javax.annotation.Nonnull;
 
 public interface ILegacyPoweredTile {
 

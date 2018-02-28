@@ -1,14 +1,9 @@
 package crazypants.enderio.base.recipe.sagmill;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
+import crazypants.enderio.base.recipe.*;
 
-import crazypants.enderio.base.recipe.AbstractMachineRecipe;
-import crazypants.enderio.base.recipe.IRecipe;
-import crazypants.enderio.base.recipe.MachineRecipeInput;
-import crazypants.enderio.base.recipe.MachineRecipeRegistry;
-import crazypants.enderio.base.recipe.RecipeBonusType;
+import javax.annotation.Nonnull;
 
 public class SagMillMachineRecipe extends AbstractMachineRecipe {
 

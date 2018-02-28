@@ -1,14 +1,9 @@
 package crazypants.enderio.base.render.ranged;
 
-import javax.annotation.Nonnull;
-
-import org.lwjgl.opengl.GL11;
-
 import com.enderio.core.client.render.BoundingBox;
 import com.enderio.core.client.render.IconUtil;
 import com.enderio.core.client.render.RenderUtil;
 import com.enderio.core.common.vecmath.Vector4f;
-
 import net.minecraft.client.particle.Particle;
 import net.minecraft.client.renderer.BufferBuilder;
 import net.minecraft.client.renderer.GlStateManager;
@@ -16,6 +11,9 @@ import net.minecraft.client.renderer.OpenGlHelper;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+import org.lwjgl.opengl.GL11;
+
+import javax.annotation.Nonnull;
 
 public class MarkerParticle extends Particle {
 

@@ -1,14 +1,12 @@
 package crazypants.enderio.base.filter.items;
 
-import java.util.Locale;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NullHelper;
-
 import crazypants.enderio.base.init.ModObject;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.IStringSerializable;
+
+import javax.annotation.Nonnull;
+import java.util.Locale;
 
 public enum BasicFilterTypes implements IStringSerializable {
   filterUpgradeBasic("basic"),

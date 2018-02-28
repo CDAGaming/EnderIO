@@ -1,14 +1,6 @@
 package crazypants.enderio.base.material.glass;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.annotation.Nonnull;
-
-import org.apache.commons.lang3.tuple.Pair;
-
 import com.enderio.core.common.fluid.SmartTank;
-
 import crazypants.enderio.base.fluid.ItemTankHelper;
 import crazypants.enderio.base.render.ICacheKey;
 import crazypants.enderio.base.render.IRenderMapper;
@@ -25,6 +17,11 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.EnumFacing;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+import org.apache.commons.lang3.tuple.Pair;
+
+import javax.annotation.Nonnull;
+import java.util.ArrayList;
+import java.util.List;
 
 import static crazypants.enderio.base.render.property.EnumMergingBlockRenderMode.RENDER;
 

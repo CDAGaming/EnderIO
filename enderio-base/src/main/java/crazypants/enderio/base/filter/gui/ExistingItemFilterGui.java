@@ -1,12 +1,5 @@
 package crazypants.enderio.base.filter.gui;
 
-import java.awt.Rectangle;
-import java.util.List;
-
-import javax.annotation.Nonnull;
-
-import org.lwjgl.opengl.GL11;
-
 import com.enderio.core.api.client.gui.IGuiOverlay;
 import com.enderio.core.api.client.gui.IGuiScreen;
 import com.enderio.core.client.gui.button.IconButton;
@@ -14,7 +7,6 @@ import com.enderio.core.client.gui.button.ToggleButton;
 import com.enderio.core.client.gui.button.TooltipButton;
 import com.enderio.core.client.render.RenderUtil;
 import com.enderio.core.common.vecmath.Vector4f;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.filter.filters.ExistingItemFilter;
 import crazypants.enderio.base.gui.GuiContainerBaseEIO;
@@ -24,6 +16,11 @@ import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.renderer.RenderHelper;
 import net.minecraft.client.renderer.RenderItem;
 import net.minecraft.item.ItemStack;
+import org.lwjgl.opengl.GL11;
+
+import javax.annotation.Nonnull;
+import java.awt.*;
+import java.util.List;
 
 public class ExistingItemFilterGui implements IItemFilterGui {
 

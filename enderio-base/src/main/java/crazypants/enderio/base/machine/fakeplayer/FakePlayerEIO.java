@@ -1,13 +1,7 @@
 package crazypants.enderio.base.machine.fakeplayer;
 
-import java.util.UUID;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.util.UserIdent;
 import com.mojang.authlib.GameProfile;
-
 import crazypants.enderio.util.Prep;
 import net.minecraft.item.ItemStack;
 import net.minecraft.potion.PotionEffect;
@@ -15,6 +9,10 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraftforge.common.util.FakePlayer;
 import net.minecraftforge.fml.common.FMLCommonHandler;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.UUID;
 
 public class FakePlayerEIO extends FakePlayer {
 

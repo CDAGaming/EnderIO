@@ -1,10 +1,6 @@
 package crazypants.enderio.machines.machine.buffer;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.util.NNList;
-
 import crazypants.enderio.base.init.IModObject;
 import crazypants.enderio.base.machine.baselegacy.AbstractPowerConsumerBlock;
 import crazypants.enderio.base.machine.render.RenderMappers;
@@ -32,6 +28,9 @@ import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 public class BlockBuffer extends AbstractPowerConsumerBlock<TileBuffer>
     implements IPaintable.ISolidBlockPaintableBlock, IPaintable.IWrenchHideablePaint, ICustomSubItems {

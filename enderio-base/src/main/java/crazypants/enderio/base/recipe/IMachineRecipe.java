@@ -1,15 +1,13 @@
 package crazypants.enderio.base.recipe;
 
-import java.util.List;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.util.NNList;
-
 import crazypants.enderio.util.Prep;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fluids.FluidStack;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.List;
 
 /**
  * A MachineRecipe implementation must be stateless, always returning the same values given the same parameters. The 'in progress' recipe for a machine is

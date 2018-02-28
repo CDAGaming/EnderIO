@@ -1,14 +1,7 @@
 package crazypants.enderio.base.render.registry;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Map.Entry;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.client.render.RenderUtil;
 import com.enderio.core.common.util.NullHelper;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.Log;
 import net.minecraft.client.renderer.texture.TextureAtlasSprite;
@@ -18,6 +11,11 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Map.Entry;
 
 public class TextureRegistry {
 

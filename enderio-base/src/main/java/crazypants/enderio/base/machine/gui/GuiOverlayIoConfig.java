@@ -1,18 +1,11 @@
 package crazypants.enderio.base.machine.gui;
 
-import java.awt.Color;
-import java.awt.Rectangle;
-import java.util.Collection;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.api.client.gui.IGuiOverlay;
 import com.enderio.core.api.client.gui.IGuiScreen;
 import com.enderio.core.client.gui.button.ToggleButton;
 import com.enderio.core.client.render.ColorUtil;
 import com.enderio.core.client.render.RenderUtil;
 import com.enderio.core.common.util.NNList;
-
 import crazypants.enderio.base.gui.IoConfigRenderer;
 import crazypants.enderio.base.gui.IoConfigRenderer.SelectedFace;
 import crazypants.enderio.base.machine.interfaces.IIoConfigurable;
@@ -21,6 +14,10 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.ScaledResolution;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.math.BlockPos;
+
+import javax.annotation.Nonnull;
+import java.awt.*;
+import java.util.Collection;
 
 public class GuiOverlayIoConfig<E extends TileEntity & IIoConfigurable> implements IGuiOverlay {
 

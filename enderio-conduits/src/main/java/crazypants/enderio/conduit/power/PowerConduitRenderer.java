@@ -1,15 +1,10 @@
 package crazypants.enderio.conduit.power;
 
-import java.util.List;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.client.render.BoundingBox;
 import com.enderio.core.client.render.ColorUtil;
 import com.enderio.core.common.util.ForgeDirectionOffsets;
 import com.enderio.core.common.vecmath.Vector3d;
 import com.enderio.core.common.vecmath.Vector4f;
-
 import crazypants.enderio.base.conduit.ConnectionMode;
 import crazypants.enderio.base.conduit.IConduit;
 import crazypants.enderio.base.conduit.IConduitBundle;
@@ -21,6 +16,9 @@ import crazypants.enderio.conduit.render.DefaultConduitRenderer;
 import net.minecraft.client.renderer.block.model.BakedQuad;
 import net.minecraft.client.renderer.texture.TextureAtlasSprite;
 import net.minecraft.util.BlockRenderLayer;
+
+import javax.annotation.Nonnull;
+import java.util.List;
 
 public class PowerConduitRenderer extends DefaultConduitRenderer {
 

@@ -1,13 +1,11 @@
 package crazypants.enderio.base.item.darksteel.attributes;
 
-import java.util.UUID;
-
-import javax.annotation.Nonnull;
-
 import com.google.common.base.Charsets;
-
 import crazypants.enderio.base.config.ValueFactory.IValue;
 import net.minecraft.entity.ai.attributes.AttributeModifier;
+
+import javax.annotation.Nonnull;
+import java.util.UUID;
 
 class DoubleSteelAttributeModifier extends AttributeModifier {
 

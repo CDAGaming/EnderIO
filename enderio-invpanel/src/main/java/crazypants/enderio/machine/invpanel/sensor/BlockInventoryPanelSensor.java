@@ -1,7 +1,6 @@
 package crazypants.enderio.machine.invpanel.sensor;
 
 import com.enderio.core.api.client.gui.IResourceTooltipProvider;
-
 import crazypants.enderio.base.GuiID;
 import crazypants.enderio.base.network.PacketHandler;
 import crazypants.enderio.base.paint.IPaintable;

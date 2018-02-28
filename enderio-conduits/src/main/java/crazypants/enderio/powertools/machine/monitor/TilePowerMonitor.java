@@ -1,17 +1,6 @@
 package crazypants.enderio.powertools.machine.monitor;
 
-import static com.enderio.core.common.NBTAction.CLIENT;
-import static com.enderio.core.common.NBTAction.ITEM;
-import static com.enderio.core.common.NBTAction.SAVE;
-import static crazypants.enderio.powertools.capacitor.CapacitorKey.POWER_MONITOR_POWER_BUFFER;
-import static crazypants.enderio.powertools.capacitor.CapacitorKey.POWER_MONITOR_POWER_INTAKE;
-import static crazypants.enderio.powertools.capacitor.CapacitorKey.POWER_MONITOR_POWER_USE;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.util.NullHelper;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.conduit.ConduitUtil;
 import crazypants.enderio.base.conduit.IConduitNetwork;
@@ -34,6 +23,12 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.EnumFacing;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+
+import static com.enderio.core.common.NBTAction.*;
+import static crazypants.enderio.powertools.capacitor.CapacitorKey.*;
 
 @Storable
 public class TilePowerMonitor extends AbstractPoweredTaskEntity implements IPaintableTileEntity {

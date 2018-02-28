@@ -1,10 +1,6 @@
 package crazypants.enderio.base;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.BlockEnder;
-
 import crazypants.enderio.api.tool.ITool;
 import crazypants.enderio.base.gui.handler.IEioGuiHandler;
 import crazypants.enderio.base.init.IModObject;
@@ -27,6 +23,9 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.server.permission.DefaultPermissionLevel;
 import net.minecraftforge.server.permission.PermissionAPI;
 import net.minecraftforge.server.permission.context.BlockPosContext;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 public abstract class BlockEio<T extends TileEntityEio> extends BlockEnder<T> implements IModObject.LifecycleInit, IModObject.WithBlockItem {
 

@@ -1,13 +1,7 @@
 package crazypants.enderio.base.gui.tooltip;
 
-import java.util.List;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.client.handlers.SpecialTooltipHandler.ITooltipCallback;
 import com.enderio.core.common.util.FluidUtil;
-
 import crazypants.enderio.base.config.config.PersonalConfig;
 import crazypants.enderio.base.fluid.FluidFuelRegister;
 import crazypants.enderio.base.fluid.IFluidCoolant;
@@ -18,6 +12,10 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.text.TextFormatting;
 import net.minecraftforge.fluids.FluidStack;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.List;
 
 public class TooltipHandlerFluid implements ITooltipCallback {
 

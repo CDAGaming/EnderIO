@@ -1,7 +1,5 @@
 package crazypants.enderio.base.item.yetawrench;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.api.tool.IConduitControl;
 import crazypants.enderio.base.conduit.ConduitDisplayMode;
 import crazypants.enderio.base.item.conduitprobe.ItemConduitProbe;
@@ -16,6 +14,8 @@ import net.minecraftforge.client.event.MouseEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
 
 @SideOnly(Side.CLIENT)
 public class ToolTickHandler {

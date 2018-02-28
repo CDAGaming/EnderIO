@@ -1,10 +1,10 @@
 package crazypants.enderio.util;
 
-import java.util.Map.Entry;
-import java.util.concurrent.ConcurrentHashMap;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.Log;
+
+import java.util.Map.Entry;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class Profiler {
 

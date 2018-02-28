@@ -1,12 +1,6 @@
 package crazypants.enderio.machines.machine.obelisk.base;
 
-import java.util.Collections;
-import java.util.Set;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
-
 import crazypants.enderio.api.ILocalizable;
 import crazypants.enderio.base.capacitor.ICapacitorKey;
 import crazypants.enderio.base.machine.baselegacy.SlotDefinition;
@@ -19,6 +13,10 @@ import info.loenwind.autosave.annotations.Storable;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.math.Vec3d;
+
+import javax.annotation.Nonnull;
+import java.util.Collections;
+import java.util.Set;
 
 @Storable
 public abstract class AbstractMobObeliskEntity extends AbstractRangedObeliskEntity implements EntityAction.Implementer, INotifier {

@@ -1,13 +1,13 @@
 package crazypants.enderio.machines.darksteel.upgrade.solar;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.api.upgrades.IDarkSteelUpgrade;
 import crazypants.enderio.machines.EnderIOMachines;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.registries.IForgeRegistry;
+
+import javax.annotation.Nonnull;
 
 @EventBusSubscriber(modid = EnderIOMachines.MODID)
 public class SolarUpgradeManager {

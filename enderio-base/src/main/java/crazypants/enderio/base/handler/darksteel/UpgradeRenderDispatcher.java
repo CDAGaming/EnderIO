@@ -1,10 +1,7 @@
 package crazypants.enderio.base.handler.darksteel;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.NNList.Callback;
-
 import crazypants.enderio.api.upgrades.IDarkSteelItem;
 import crazypants.enderio.api.upgrades.IDarkSteelUpgrade;
 import crazypants.enderio.api.upgrades.IHasPlayerRenderer;
@@ -17,6 +14,8 @@ import net.minecraft.inventory.IInventory;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
 
 @SideOnly(Side.CLIENT)
 public class UpgradeRenderDispatcher implements LayerRenderer<AbstractClientPlayer> {

@@ -1,7 +1,5 @@
 package crazypants.enderio.base.item.darksteel.upgrade.elytra;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.api.upgrades.IRenderUpgrade;
 import crazypants.enderio.base.EnderIO;
 import net.minecraft.client.entity.AbstractClientPlayer;
@@ -13,6 +11,8 @@ import net.minecraft.entity.player.EnumPlayerModelParts;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
+
+import javax.annotation.Nonnull;
 
 public class ElytraUpgradeLayer implements IRenderUpgrade {
 

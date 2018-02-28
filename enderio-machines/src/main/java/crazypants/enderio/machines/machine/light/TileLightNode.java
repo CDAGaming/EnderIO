@@ -1,13 +1,13 @@
 package crazypants.enderio.machines.machine.light;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import crazypants.enderio.base.TileEntityEio;
 import info.loenwind.autosave.annotations.Storable;
 import info.loenwind.autosave.annotations.Store;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.math.BlockPos;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 import static crazypants.enderio.machines.init.MachineObject.block_electric_light;
 

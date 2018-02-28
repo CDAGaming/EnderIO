@@ -1,23 +1,21 @@
 package crazypants.enderio.machines.machine.tank;
 
-import java.awt.Rectangle;
-import java.io.IOException;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.client.gui.button.CycleButton;
 import com.enderio.core.client.gui.widget.GuiToolTip;
 import com.enderio.core.client.render.RenderUtil;
-
 import crazypants.enderio.base.lang.LangFluid;
 import crazypants.enderio.base.machine.gui.GuiMachineBase;
-import crazypants.enderio.machines.network.PacketHandler;
 import crazypants.enderio.machines.lang.Lang;
+import crazypants.enderio.machines.network.PacketHandler;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.inventory.Slot;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.awt.*;
+import java.io.IOException;
 
 public class GuiTank extends GuiMachineBase<TileTank> {
 

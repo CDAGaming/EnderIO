@@ -1,8 +1,8 @@
 package crazypants.enderio.base.capacitor;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.EnderIO;
+
+import javax.annotation.Nonnull;
 
 public enum DefaultCapacitorData implements ICapacitorData {
 

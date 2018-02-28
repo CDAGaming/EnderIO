@@ -1,13 +1,12 @@
 package crazypants.enderio.base.fluid;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.fluid.SmartTank;
-
 import crazypants.enderio.util.NbtValue;
 import info.loenwind.autosave.Reader;
 import info.loenwind.autosave.Writer;
 import net.minecraft.item.ItemStack;
+
+import javax.annotation.Nonnull;
 
 public class ItemTankHelper {
 

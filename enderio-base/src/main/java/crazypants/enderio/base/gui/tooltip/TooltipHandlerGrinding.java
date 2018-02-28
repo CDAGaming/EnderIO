@@ -1,12 +1,6 @@
 package crazypants.enderio.base.gui.tooltip;
 
-import java.util.List;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.client.handlers.SpecialTooltipHandler.ITooltipCallback;
-
 import crazypants.enderio.base.lang.Lang;
 import crazypants.enderio.base.recipe.sagmill.IGrindingMultiplier;
 import crazypants.enderio.base.recipe.sagmill.SagMillRecipeManager;
@@ -15,6 +9,10 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.text.TextFormatting;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.List;
 
 public class TooltipHandlerGrinding implements ITooltipCallback {
 

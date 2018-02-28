@@ -1,16 +1,14 @@
 package info.loenwind.autosave.handlers;
 
-import java.lang.reflect.Field;
-import java.util.Set;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.NBTAction;
-
 import info.loenwind.autosave.Registry;
 import info.loenwind.autosave.exceptions.NoHandlerFoundException;
 import net.minecraft.nbt.NBTTagCompound;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.lang.reflect.Field;
+import java.util.Set;
 
 /**
  * IHandlers convert objects into NBT and vice versa.

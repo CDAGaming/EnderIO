@@ -1,15 +1,13 @@
 package crazypants.enderio.base.render.property;
 
-import java.util.Locale;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.util.NullHelper;
-
 import net.minecraft.block.properties.PropertyEnum;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.IStringSerializable;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.Locale;
 
 public enum EnumRenderPart implements IStringSerializable {
   DEFAULTS,

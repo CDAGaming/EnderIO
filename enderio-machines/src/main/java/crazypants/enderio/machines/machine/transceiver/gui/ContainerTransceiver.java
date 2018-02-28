@@ -1,12 +1,5 @@
 package crazypants.enderio.machines.machine.transceiver.gui;
 
-import java.awt.Point;
-import java.util.Map.Entry;
-import java.util.Set;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import crazypants.enderio.base.machine.baselegacy.SlotDefinition;
 import crazypants.enderio.base.machine.gui.AbstractMachineContainer;
 import crazypants.enderio.machines.machine.transceiver.TileTransceiver;
@@ -14,6 +7,12 @@ import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.inventory.Slot;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.awt.*;
+import java.util.Map.Entry;
+import java.util.Set;
 
 public class ContainerTransceiver extends AbstractMachineContainer<TileTransceiver> implements ITransceiverRemoteExec.Container {
 

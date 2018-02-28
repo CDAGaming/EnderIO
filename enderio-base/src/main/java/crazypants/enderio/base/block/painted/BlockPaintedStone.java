@@ -1,11 +1,7 @@
 package crazypants.enderio.base.block.painted;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.NullHelper;
-
 import crazypants.enderio.base.init.IModObject;
 import crazypants.enderio.base.paint.IPaintable;
 import crazypants.enderio.base.paint.PaintUtil;
@@ -39,6 +35,9 @@ import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 public class BlockPaintedStone extends Block implements ITileEntityProvider, IPaintable.ISolidBlockPaintableBlock, IModObject.WithBlockItem, ICustomSubItems {
 

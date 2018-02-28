@@ -1,12 +1,6 @@
 package crazypants.enderio.base.handler;
 
-import java.util.IdentityHashMap;
-import java.util.Map.Entry;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NullHelper;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.diagnostics.Prof;
 import net.minecraft.profiler.Profiler;
@@ -15,6 +9,10 @@ import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.TickEvent;
 import net.minecraftforge.fml.common.gameevent.TickEvent.Phase;
+
+import javax.annotation.Nonnull;
+import java.util.IdentityHashMap;
+import java.util.Map.Entry;
 
 @EventBusSubscriber(modid = EnderIO.MODID)
 public class ServerTickHandler {

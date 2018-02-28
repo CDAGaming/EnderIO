@@ -1,10 +1,5 @@
 package crazypants.enderio.machines.machine.teleport.anchor;
 
-import javax.annotation.Nonnull;
-
-import org.lwjgl.opengl.GL11;
-import org.lwjgl.opengl.GL14;
-
 import com.enderio.core.client.render.ManagedTESR;
 import com.enderio.core.client.render.RenderUtil;
 import com.enderio.core.common.util.BlockCoord;
@@ -13,18 +8,12 @@ import com.enderio.core.common.util.Util;
 import com.enderio.core.common.vecmath.Vector3d;
 import com.enderio.core.common.vecmath.Vector3f;
 import com.enderio.core.common.vecmath.Vector4f;
-
 import crazypants.enderio.api.teleport.TravelSource;
 import crazypants.enderio.base.teleport.TravelController;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.Minecraft;
-import net.minecraft.client.renderer.BlockRendererDispatcher;
-import net.minecraft.client.renderer.BufferBuilder;
-import net.minecraft.client.renderer.GlStateManager;
-import net.minecraft.client.renderer.RenderHelper;
-import net.minecraft.client.renderer.RenderItem;
-import net.minecraft.client.renderer.Tessellator;
+import net.minecraft.client.renderer.*;
 import net.minecraft.client.renderer.block.model.IBakedModel;
 import net.minecraft.client.renderer.block.model.ItemCameraTransforms;
 import net.minecraft.client.renderer.entity.RenderManager;
@@ -38,6 +27,10 @@ import net.minecraft.world.World;
 import net.minecraftforge.client.ForgeHooksClient;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+import org.lwjgl.opengl.GL11;
+import org.lwjgl.opengl.GL14;
+
+import javax.annotation.Nonnull;
 
 import static crazypants.enderio.machines.init.MachineObject.block_travel_anchor;
 

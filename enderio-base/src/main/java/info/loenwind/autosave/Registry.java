@@ -1,36 +1,22 @@
 package info.loenwind.autosave;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import crazypants.enderio.base.recipe.sagmill.GrindingMultiplierNBT;
 import info.loenwind.autosave.annotations.Storable;
 import info.loenwind.autosave.handlers.IHandler;
 import info.loenwind.autosave.handlers.endercore.HandleEnderInventory;
 import info.loenwind.autosave.handlers.endercore.HandleSmartTank;
 import info.loenwind.autosave.handlers.endercore.HandleUserIdent;
-import info.loenwind.autosave.handlers.enderio.HandleCapturedMob;
-import info.loenwind.autosave.handlers.enderio.HandleChannelList;
-import info.loenwind.autosave.handlers.enderio.HandleExperienceContainer;
-import info.loenwind.autosave.handlers.enderio.HandleIMachineRecipe;
-import info.loenwind.autosave.handlers.enderio.HandlePoweredTask;
+import info.loenwind.autosave.handlers.enderio.*;
 import info.loenwind.autosave.handlers.forge.HandleFluid;
 import info.loenwind.autosave.handlers.forge.HandleFluidStack;
 import info.loenwind.autosave.handlers.internal.HandleStorable;
-import info.loenwind.autosave.handlers.java.HandleBoolean;
-import info.loenwind.autosave.handlers.java.HandleEnum;
-import info.loenwind.autosave.handlers.java.HandleFloat;
-import info.loenwind.autosave.handlers.java.HandleFloatArray;
-import info.loenwind.autosave.handlers.java.HandleInteger;
-import info.loenwind.autosave.handlers.java.HandleString;
-import info.loenwind.autosave.handlers.minecraft.HandleBlockPos;
-import info.loenwind.autosave.handlers.minecraft.HandleIBlockState;
-import info.loenwind.autosave.handlers.minecraft.HandleItem;
-import info.loenwind.autosave.handlers.minecraft.HandleItemStack;
-import info.loenwind.autosave.handlers.minecraft.HandleItemStackArray;
+import info.loenwind.autosave.handlers.java.*;
+import info.loenwind.autosave.handlers.minecraft.*;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * A registry for {@link IHandler}s.

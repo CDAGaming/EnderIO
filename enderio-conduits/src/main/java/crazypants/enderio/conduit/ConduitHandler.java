@@ -1,14 +1,6 @@
 package crazypants.enderio.conduit;
 
-import java.lang.reflect.Field;
-import java.util.Set;
-import java.util.concurrent.CopyOnWriteArrayList;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.NBTAction;
-
 import crazypants.enderio.base.conduit.ConduitUtil;
 import crazypants.enderio.base.conduit.IConduit;
 import crazypants.enderio.util.NbtValue;
@@ -17,6 +9,12 @@ import info.loenwind.autosave.exceptions.NoHandlerFoundException;
 import info.loenwind.autosave.handlers.IHandler;
 import info.loenwind.autosave.handlers.java.HandleAbstractCollection;
 import net.minecraft.nbt.NBTTagCompound;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.lang.reflect.Field;
+import java.util.Set;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 public class ConduitHandler implements IHandler<IConduit> {
 

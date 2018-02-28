@@ -1,13 +1,7 @@
 package crazypants.enderio.machines.machine.tank;
 
-import java.util.List;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.api.client.gui.IAdvancedTooltipProvider;
 import com.enderio.core.common.fluid.SmartTank;
-
 import crazypants.enderio.base.EnderIOTab;
 import crazypants.enderio.base.lang.LangFluid;
 import net.minecraft.block.Block;
@@ -16,6 +10,10 @@ import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraftforge.common.capabilities.ICapabilityProvider;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.List;
 
 public class BlockItemTank extends ItemBlock implements IAdvancedTooltipProvider {
 

@@ -1,14 +1,13 @@
 package crazypants.enderio.machines.machine.solar;
 
-import java.util.Collections;
-import java.util.Set;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.Collections;
+import java.util.Set;
 
 public class NoSolarPanelNetwork implements ISolarPanelNetwork {
 

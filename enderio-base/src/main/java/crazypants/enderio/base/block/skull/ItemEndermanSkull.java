@@ -1,7 +1,5 @@
 package crazypants.enderio.base.block.skull;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.EnderIOTab;
 import net.minecraft.block.Block;
 import net.minecraft.creativetab.CreativeTabs;
@@ -11,6 +9,8 @@ import net.minecraft.util.NonNullList;
 import net.minecraft.util.math.MathHelper;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
 
 public class ItemEndermanSkull extends ItemBlock {
 

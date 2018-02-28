@@ -1,15 +1,5 @@
 package crazypants.enderio.conduit.power;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.ListIterator;
-import java.util.Map;
-import java.util.Set;
-
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.Log;
 import crazypants.enderio.base.conduit.ConnectionMode;
 import crazypants.enderio.base.diagnostics.Prof;
@@ -21,6 +11,9 @@ import net.minecraft.profiler.Profiler;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.World;
+
+import javax.annotation.Nonnull;
+import java.util.*;
 
 // TODO Javadocs
 

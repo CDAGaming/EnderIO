@@ -1,10 +1,6 @@
 package crazypants.enderio.base.item.conduitprobe;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.util.ChatUtil;
-
 import crazypants.enderio.base.conduit.IConduitBundle;
 import crazypants.enderio.base.power.ILegacyPoweredTile;
 import io.netty.buffer.ByteBuf;
@@ -16,6 +12,9 @@ import net.minecraft.world.World;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler;
 import net.minecraftforge.fml.common.network.simpleimpl.MessageContext;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 public class PacketConduitProbe implements IMessage {
 

@@ -1,11 +1,5 @@
 package crazypants.enderio.base.integration.top;
 
-import java.util.List;
-import java.util.Locale;
-import java.util.Set;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.api.client.render.IWidgetIcon;
 import com.enderio.core.api.common.util.IProgressTile;
 import com.enderio.core.api.common.util.ITankAccess;
@@ -14,7 +8,6 @@ import com.enderio.core.client.render.BoundingBox;
 import com.enderio.core.common.inventory.EnderInventory;
 import com.enderio.core.common.inventory.InventorySlot;
 import com.enderio.core.common.util.UserIdent;
-
 import crazypants.enderio.api.ILocalizable;
 import crazypants.enderio.base.block.painted.TileEntityTwicePaintedBlock;
 import crazypants.enderio.base.conduit.IConduitBundle;
@@ -44,6 +37,11 @@ import crazypants.enderio.util.Prep;
 import mcjty.theoneprobe.api.IProbeHitData;
 import net.minecraft.item.ItemStack;
 import net.minecraft.tileentity.TileEntity;
+
+import javax.annotation.Nonnull;
+import java.util.List;
+import java.util.Locale;
+import java.util.Set;
 
 class TOPData {
   static enum ProgressResult {

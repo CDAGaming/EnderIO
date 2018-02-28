@@ -1,9 +1,5 @@
 package crazypants.enderio.conduit.geom;
 
-import java.util.ArrayList;
-import java.util.EnumMap;
-import java.util.List;
-
 import com.enderio.core.api.client.render.VertexTransform;
 import com.enderio.core.client.render.BoundingBox;
 import com.enderio.core.client.render.VertexRotation;
@@ -12,15 +8,18 @@ import com.enderio.core.client.render.VertexTranslation;
 import com.enderio.core.common.vecmath.Vector3d;
 import com.enderio.core.common.vecmath.Vector4f;
 import com.enderio.core.common.vecmath.Vertex;
-
-import static com.enderio.core.common.util.ForgeDirectionOffsets.offsetScaled;
-
 import crazypants.enderio.base.conduit.geom.ConduitGeometryUtil;
 import crazypants.enderio.base.conduit.geom.Offset;
 import crazypants.enderio.conduit.render.BakedQuadBuilder;
 import net.minecraft.client.renderer.block.model.BakedQuad;
 import net.minecraft.client.renderer.texture.TextureAtlasSprite;
 import net.minecraft.util.EnumFacing;
+
+import java.util.ArrayList;
+import java.util.EnumMap;
+import java.util.List;
+
+import static com.enderio.core.common.util.ForgeDirectionOffsets.offsetScaled;
 
 public class ConnectionModeGeometry {
 

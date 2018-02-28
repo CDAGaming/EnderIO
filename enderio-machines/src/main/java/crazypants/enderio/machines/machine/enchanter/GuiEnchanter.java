@@ -1,9 +1,6 @@
 package crazypants.enderio.machines.machine.enchanter;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.client.gui.button.IconButton;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.gui.GuiContainerBaseEIO;
 import crazypants.enderio.base.gui.IconEIO;
@@ -12,6 +9,8 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.InventoryPlayer;
+
+import javax.annotation.Nonnull;
 
 public class GuiEnchanter extends GuiContainerBaseEIO {
 

@@ -1,14 +1,9 @@
 package crazypants.enderio.base.item.yetawrench;
 
-import javax.annotation.Nonnull;
-
-import org.lwjgl.opengl.GL11;
-
 import com.enderio.core.api.client.render.IWidgetIcon;
 import com.enderio.core.client.handlers.ClientHandler;
 import com.enderio.core.client.render.RenderUtil;
 import com.enderio.core.common.vecmath.Vector4f;
-
 import crazypants.enderio.api.tool.IConduitControl;
 import crazypants.enderio.base.conduit.ConduitDisplayMode;
 import crazypants.enderio.base.config.config.PersonalConfig;
@@ -25,6 +20,9 @@ import net.minecraft.item.ItemStack;
 import net.minecraftforge.client.event.RenderGameOverlayEvent;
 import net.minecraftforge.client.event.RenderGameOverlayEvent.ElementType;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import org.lwjgl.opengl.GL11;
+
+import javax.annotation.Nonnull;
 
 public class YetaWrenchOverlayRenderer {
 

@@ -1,21 +1,9 @@
 package crazypants.enderio.base.farming.farmers;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.NNList.Callback;
 import com.enderio.core.common.util.stackable.Things;
-
-import crazypants.enderio.api.farm.FarmNotification;
-import crazypants.enderio.api.farm.FarmingAction;
-import crazypants.enderio.api.farm.IFarmer;
-import crazypants.enderio.api.farm.IFarmerJoe;
-import crazypants.enderio.api.farm.IHarvestResult;
+import crazypants.enderio.api.farm.*;
 import crazypants.enderio.base.farming.FarmersRegistry;
 import crazypants.enderio.base.farming.FarmingTool;
 import crazypants.enderio.base.farming.harvesters.FarmHarvestingTarget;
@@ -36,6 +24,12 @@ import net.minecraftforge.common.IPlantable;
 import net.minecraftforge.common.IShearable;
 import net.minecraftforge.event.ForgeEventFactory;
 import net.minecraftforge.registries.IForgeRegistryEntry.Impl;
+
+import javax.annotation.Nonnull;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
 
 public class TreeFarmer extends Impl<IFarmerJoe> implements IFarmerJoe {
 

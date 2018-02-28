@@ -1,17 +1,15 @@
 package crazypants.enderio.powertools.machine.monitor;
 
-import java.lang.reflect.Field;
-import java.util.Set;
-
-import javax.annotation.Nullable;
-import javax.annotation.ParametersAreNonnullByDefault;
-
 import com.enderio.core.common.NBTAction;
-
 import info.loenwind.autosave.Registry;
 import info.loenwind.autosave.exceptions.NoHandlerFoundException;
 import info.loenwind.autosave.handlers.IHandler;
 import net.minecraft.nbt.NBTTagCompound;
+
+import javax.annotation.Nullable;
+import javax.annotation.ParametersAreNonnullByDefault;
+import java.lang.reflect.Field;
+import java.util.Set;
 
 @ParametersAreNonnullByDefault
 public class HandleStatCollector implements IHandler<StatCollector> {

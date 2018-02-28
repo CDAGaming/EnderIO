@@ -1,10 +1,10 @@
 package crazypants.enderio.api.tool;
 
-import javax.annotation.Nonnull;
-
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.util.EnumHand;
 import net.minecraft.util.math.BlockPos;
+
+import javax.annotation.Nonnull;
 
 public interface ITool extends IHideFacades {
 

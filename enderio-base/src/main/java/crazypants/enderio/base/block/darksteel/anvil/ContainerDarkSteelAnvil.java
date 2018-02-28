@@ -1,11 +1,6 @@
 package crazypants.enderio.base.block.darksteel.anvil;
 
-import java.lang.reflect.Field;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NullHelper;
-
 import crazypants.enderio.base.config.Config;
 import crazypants.enderio.util.Prep;
 import net.minecraft.block.BlockAnvil;
@@ -19,6 +14,9 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.ReflectionHelper;
+
+import javax.annotation.Nonnull;
+import java.lang.reflect.Field;
 
 import static crazypants.enderio.base.init.ModObject.blockDarkSteelAnvil;
 

@@ -1,9 +1,5 @@
 package crazypants.enderio.base.item.conduitprobe;
 
-import javax.annotation.Nonnull;
-
-import org.lwjgl.opengl.GL11;
-
 import crazypants.enderio.base.gui.IconEIO;
 import crazypants.enderio.util.Prep;
 import net.minecraft.client.Minecraft;
@@ -12,6 +8,9 @@ import net.minecraft.item.ItemStack;
 import net.minecraftforge.client.event.RenderGameOverlayEvent;
 import net.minecraftforge.client.event.RenderGameOverlayEvent.ElementType;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import org.lwjgl.opengl.GL11;
+
+import javax.annotation.Nonnull;
 
 import static crazypants.enderio.base.init.ModObject.itemConduitProbe;
 

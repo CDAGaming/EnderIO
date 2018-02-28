@@ -1,12 +1,5 @@
 package crazypants.enderio.conduit.item;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.diagnostics.Prof;
 import crazypants.enderio.base.filter.IItemFilter;
 import crazypants.enderio.base.filter.INetworkedInventory;
@@ -19,6 +12,12 @@ import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
 import net.minecraftforge.fml.common.gameevent.TickEvent.ServerTickEvent;
 import net.minecraftforge.items.IItemHandler;
+
+import javax.annotation.Nonnull;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class ItemConduitNetwork extends AbstractConduitNetwork<IItemConduit, IItemConduit> {
 

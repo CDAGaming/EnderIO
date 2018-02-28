@@ -1,25 +1,12 @@
 package crazypants.enderio.base.render.registry;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.Map.Entry;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.NullHelper;
-
 import crazypants.enderio.base.Log;
 import crazypants.enderio.base.init.IModObject.Registerable;
 import crazypants.enderio.base.init.ModObjectRegistry;
 import crazypants.enderio.base.paint.IPaintable;
-import crazypants.enderio.base.render.ICustomItemResourceLocation;
-import crazypants.enderio.base.render.ICustomSubItems;
-import crazypants.enderio.base.render.IDefaultRenderers;
-import crazypants.enderio.base.render.IHaveRenderers;
-import crazypants.enderio.base.render.ITintedBlock;
-import crazypants.enderio.base.render.ITintedItem;
+import crazypants.enderio.base.render.*;
 import crazypants.enderio.base.render.model.RelayingBakedModel;
 import crazypants.enderio.base.render.pipeline.BlockStateWrapperBase;
 import crazypants.enderio.base.render.pipeline.OverlayHolder;
@@ -44,6 +31,12 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
 
 public class SmartModelAttacher {
 

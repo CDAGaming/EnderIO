@@ -1,7 +1,5 @@
 package crazypants.enderio.conduit.item;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.conduit.ConduitDisplayMode;
 import crazypants.enderio.base.conduit.IConduit;
 import crazypants.enderio.base.conduit.geom.Offset;
@@ -14,6 +12,8 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
 
 public class ItemItemConduit extends AbstractItemConduit {
 

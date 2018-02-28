@@ -1,17 +1,15 @@
 package crazypants.enderio.base.recipe.spawner;
 
-import java.util.Collections;
-import java.util.List;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
-
 import crazypants.enderio.base.recipe.IMachineRecipe;
 import crazypants.enderio.base.recipe.MachineRecipeInput;
 import crazypants.enderio.base.recipe.MachineRecipeRegistry;
 import crazypants.enderio.base.recipe.RecipeBonusType;
 import net.minecraft.item.ItemStack;
+
+import javax.annotation.Nonnull;
+import java.util.Collections;
+import java.util.List;
 
 public class DummyRecipe implements IMachineRecipe {
 

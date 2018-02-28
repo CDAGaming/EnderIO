@@ -1,16 +1,15 @@
 package crazypants.enderio.powertools.machine.capbank.network;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.concurrent.atomic.AtomicInteger;
-
 import com.enderio.core.common.util.NullHelper;
-
 import crazypants.enderio.powertools.machine.capbank.TileCapBank;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.world.World;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.concurrent.atomic.AtomicInteger;
 
 public class NetworkUtil {
 

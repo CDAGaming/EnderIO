@@ -1,9 +1,9 @@
 package crazypants.enderio.machines.machine.spawner;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.api.ILocalizable;
 import crazypants.enderio.machines.EnderIOMachines;
+
+import javax.annotation.Nonnull;
 
 public enum SpawnerNotification implements ILocalizable {
 

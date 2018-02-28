@@ -1,14 +1,9 @@
 package crazypants.enderio.base.loot;
 
-import java.util.Random;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
 import com.google.gson.JsonDeserializationContext;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonSerializationContext;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.handler.darksteel.DarkSteelRecipeManager;
 import crazypants.enderio.base.handler.darksteel.DarkSteelRecipeManager.UpgradePath;
@@ -18,6 +13,9 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.world.storage.loot.conditions.LootCondition;
 import net.minecraft.world.storage.loot.functions.LootFunction;
+
+import javax.annotation.Nonnull;
+import java.util.Random;
 
 public class SetRandomDarkUpgrade extends LootFunction {
 

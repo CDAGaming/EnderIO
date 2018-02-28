@@ -1,12 +1,6 @@
 package crazypants.enderio.base.conduit;
 
-import java.util.Collection;
-import java.util.List;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.DyeColor;
-
 import crazypants.enderio.base.conduit.facade.EnumFacadeType;
 import crazypants.enderio.base.conduit.geom.CollidableComponent;
 import crazypants.enderio.base.conduit.geom.Offset;
@@ -23,6 +17,10 @@ import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import java.util.Collection;
+import java.util.List;
 
 //@InterfaceList({ @Interface(iface = "appeng.api.networking.IGridHost", modid = "appliedenergistics2"),
 //    @Interface(iface = "li.cil.oc.api.network.Environment", modid = "OpenComputersAPI|Network"),

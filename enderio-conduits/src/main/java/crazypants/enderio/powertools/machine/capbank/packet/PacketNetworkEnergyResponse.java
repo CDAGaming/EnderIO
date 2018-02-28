@@ -1,13 +1,13 @@
 package crazypants.enderio.powertools.machine.capbank.packet;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.powertools.machine.capbank.network.ClientNetworkManager;
 import crazypants.enderio.powertools.machine.capbank.network.ICapBankNetwork;
 import io.netty.buffer.ByteBuf;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler;
 import net.minecraftforge.fml.common.network.simpleimpl.MessageContext;
+
+import javax.annotation.Nonnull;
 
 public class PacketNetworkEnergyResponse implements IMessage {
 

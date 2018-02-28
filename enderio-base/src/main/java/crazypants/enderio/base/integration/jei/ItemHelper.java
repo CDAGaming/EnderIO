@@ -1,16 +1,15 @@
 package crazypants.enderio.base.integration.jei;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.NNList.Callback;
-
 import crazypants.enderio.base.Log;
 import crazypants.enderio.util.Prep;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+
+import javax.annotation.Nonnull;
 
 public class ItemHelper {
 

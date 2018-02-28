@@ -1,10 +1,6 @@
 package crazypants.enderio.machines.machine.alloy;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.util.Util;
-
 import crazypants.enderio.base.machine.gui.AbstractMachineContainer;
 import crazypants.enderio.machines.machine.alloy.TileAlloySmelter.Mode;
 import net.minecraft.block.state.IBlockState;
@@ -15,6 +11,9 @@ import net.minecraft.inventory.Slot;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.FMLCommonHandler;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 public abstract class ContainerAlloySmelter<T extends TileAlloySmelter> extends AbstractMachineContainer<T> implements IAlloySmelterRemoteExec.Container {
 

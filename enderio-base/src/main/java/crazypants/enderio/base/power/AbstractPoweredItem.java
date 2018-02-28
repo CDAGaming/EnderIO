@@ -1,12 +1,12 @@
 package crazypants.enderio.base.power;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraftforge.common.capabilities.ICapabilityProvider;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 public abstract class AbstractPoweredItem extends Item implements IInternalPoweredItem {
 

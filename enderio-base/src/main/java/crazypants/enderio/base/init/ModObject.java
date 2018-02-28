@@ -1,10 +1,6 @@
 package crazypants.enderio.base.init;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.util.NullHelper;
-
 import crazypants.enderio.base.block.coldfire.BlockColdFire;
 import crazypants.enderio.base.block.darksteel.anvil.BlockDarkSteelAnvil;
 import crazypants.enderio.base.block.darksteel.bars.BlockDarkIronBars;
@@ -17,37 +13,17 @@ import crazypants.enderio.base.block.decoration.BlockDecorationFacing;
 import crazypants.enderio.base.block.detector.BlockDetector;
 import crazypants.enderio.base.block.infinity.BlockInfinity;
 import crazypants.enderio.base.block.lever.BlockSelfResettingLever;
-import crazypants.enderio.base.block.painted.BlockPaintedCarpet;
-import crazypants.enderio.base.block.painted.BlockPaintedDoor;
-import crazypants.enderio.base.block.painted.BlockPaintedFence;
-import crazypants.enderio.base.block.painted.BlockPaintedFenceGate;
-import crazypants.enderio.base.block.painted.BlockPaintedGlowstone;
-import crazypants.enderio.base.block.painted.BlockPaintedPressurePlate;
-import crazypants.enderio.base.block.painted.BlockPaintedRedstone;
-import crazypants.enderio.base.block.painted.BlockPaintedSlabManager;
-import crazypants.enderio.base.block.painted.BlockPaintedStairs;
-import crazypants.enderio.base.block.painted.BlockPaintedStone;
-import crazypants.enderio.base.block.painted.BlockPaintedTrapDoor;
-import crazypants.enderio.base.block.painted.BlockPaintedWall;
+import crazypants.enderio.base.block.painted.*;
 import crazypants.enderio.base.block.rail.BlockExitRail;
 import crazypants.enderio.base.block.skull.BlockEndermanSkull;
 import crazypants.enderio.base.capacitor.ItemCapacitor;
 import crazypants.enderio.base.conduit.facade.ItemConduitFacade;
-import crazypants.enderio.base.filter.items.ItemBasicItemFilter;
-import crazypants.enderio.base.filter.items.ItemExistingItemFilter;
-import crazypants.enderio.base.filter.items.ItemModItemFilter;
-import crazypants.enderio.base.filter.items.ItemPowerItemFilter;
-import crazypants.enderio.base.filter.items.ItemSpeciesItemFilter;
+import crazypants.enderio.base.filter.items.*;
 import crazypants.enderio.base.item.coldfire.ItemColdFireIgniter;
 import crazypants.enderio.base.item.conduitprobe.ItemConduitProbe;
 import crazypants.enderio.base.item.coordselector.ItemCoordSelector;
 import crazypants.enderio.base.item.coordselector.ItemLocationPrintout;
-import crazypants.enderio.base.item.darksteel.ItemDarkSteelArmor;
-import crazypants.enderio.base.item.darksteel.ItemDarkSteelAxe;
-import crazypants.enderio.base.item.darksteel.ItemDarkSteelBow;
-import crazypants.enderio.base.item.darksteel.ItemDarkSteelPickaxe;
-import crazypants.enderio.base.item.darksteel.ItemDarkSteelShears;
-import crazypants.enderio.base.item.darksteel.ItemDarkSteelSword;
+import crazypants.enderio.base.item.darksteel.*;
 import crazypants.enderio.base.item.enderface.ItemEnderface;
 import crazypants.enderio.base.item.magnet.ItemMagnet;
 import crazypants.enderio.base.item.rodofreturn.ItemRodOfReturn;
@@ -66,6 +42,9 @@ import crazypants.enderio.base.render.dummy.BlockMachineBase;
 import crazypants.enderio.base.render.dummy.BlockMachineIO;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 public enum ModObject implements IModObject.Registerable {
 

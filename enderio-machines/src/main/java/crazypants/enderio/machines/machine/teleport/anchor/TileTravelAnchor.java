@@ -1,14 +1,7 @@
 package crazypants.enderio.machines.machine.teleport.anchor;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.UserIdent;
-
 import crazypants.enderio.api.teleport.ITravelAccessable;
 import crazypants.enderio.api.teleport.TravelSource;
 import crazypants.enderio.base.capacitor.CapacitorKeyType;
@@ -31,6 +24,11 @@ import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.ArrayList;
+import java.util.List;
 
 @Storable
 public class TileTravelAnchor extends AbstractCapabilityPoweredMachineEntity implements ITravelAccessable, IPaintable.IPaintableTileEntity {

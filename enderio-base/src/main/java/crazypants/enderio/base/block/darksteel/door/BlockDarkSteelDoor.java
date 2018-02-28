@@ -1,9 +1,5 @@
 package crazypants.enderio.base.block.darksteel.door;
 
-import java.util.Random;
-
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.EnderIOTab;
 import crazypants.enderio.base.init.IModObject;
 import crazypants.enderio.base.render.IDefaultRenderers;
@@ -18,6 +14,9 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.world.World;
+
+import javax.annotation.Nonnull;
+import java.util.Random;
 
 public class BlockDarkSteelDoor extends BlockDoor implements IDefaultRenderers, IModObject.WithBlockItem {
 

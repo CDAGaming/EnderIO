@@ -1,9 +1,9 @@
 package crazypants.enderio.api.upgrades;
 
-import javax.annotation.Nonnull;
-
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+
+import javax.annotation.Nonnull;
 
 /**
  * This interface for {@link Item}s marks them as being eligable for {@link IDarkSteelUpgrade}s. Ender IO will also handle repairing them if

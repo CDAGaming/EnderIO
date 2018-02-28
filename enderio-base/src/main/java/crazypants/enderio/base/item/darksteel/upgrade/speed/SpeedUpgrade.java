@@ -1,7 +1,5 @@
 package crazypants.enderio.base.item.darksteel.upgrade.speed;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.config.Config;
 import crazypants.enderio.base.handler.darksteel.AbstractUpgrade;
 import crazypants.enderio.base.init.ModObject;
@@ -12,6 +10,8 @@ import net.minecraft.init.PotionTypes;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.ItemStack;
 import net.minecraft.potion.PotionUtils;
+
+import javax.annotation.Nonnull;
 
 public class SpeedUpgrade extends AbstractUpgrade {
 

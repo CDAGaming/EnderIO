@@ -1,10 +1,5 @@
 package crazypants.enderio.machines.machine.solar;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.render.IBlockStateWrapper;
 import crazypants.enderio.base.render.property.EnumMergingBlockRenderMode;
 import crazypants.enderio.base.render.rendermapper.ConnectedBlockRenderMapper;
@@ -16,6 +11,10 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import java.util.ArrayList;
+import java.util.List;
 
 import static crazypants.enderio.base.render.property.EnumMergingBlockRenderMode.RENDER;
 

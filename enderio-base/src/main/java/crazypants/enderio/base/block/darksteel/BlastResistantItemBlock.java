@@ -1,10 +1,5 @@
 package crazypants.enderio.base.block.darksteel;
 
-import java.util.List;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import crazypants.enderio.base.lang.Lang;
 import net.minecraft.block.Block;
 import net.minecraft.client.util.ITooltipFlag;
@@ -13,6 +8,10 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.List;
 
 public class BlastResistantItemBlock extends ItemBlock {
 

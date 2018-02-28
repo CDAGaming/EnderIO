@@ -1,9 +1,5 @@
 package crazypants.enderio.base.paint.render;
 
-import java.util.Random;
-
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.paint.IPaintable;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
@@ -21,6 +17,9 @@ import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import java.util.Random;
 
 public class PaintHelper {
 

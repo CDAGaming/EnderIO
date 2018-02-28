@@ -1,14 +1,8 @@
 package crazypants.enderio.base.init;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.EnderCore;
 import com.enderio.core.client.handlers.SpecialTooltipHandler;
 import com.enderio.core.common.vecmath.Vector4f;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.Log;
 import crazypants.enderio.base.block.coldfire.ColdFireStateMapper;
@@ -63,6 +57,10 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import java.util.ArrayList;
+import java.util.List;
 
 @SideOnly(Side.CLIENT)
 @EventBusSubscriber(modid = EnderIO.MODID, value = Side.CLIENT)

@@ -1,12 +1,7 @@
 package crazypants.enderio.machines.machine.obelisk.xp;
 
-import java.io.IOException;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.client.gui.button.IconButton;
 import com.enderio.core.client.gui.widget.GuiToolTip;
-
 import crazypants.enderio.base.gui.IconEIO;
 import crazypants.enderio.base.machine.gui.GuiMachineBase;
 import crazypants.enderio.base.xp.ExperienceBarRenderer;
@@ -16,6 +11,9 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.entity.player.InventoryPlayer;
+
+import javax.annotation.Nonnull;
+import java.io.IOException;
 
 public class GuiExperienceObelisk extends GuiMachineBase<TileExperienceObelisk> implements IExperienceObeliskRemoteExec.GUI {
 

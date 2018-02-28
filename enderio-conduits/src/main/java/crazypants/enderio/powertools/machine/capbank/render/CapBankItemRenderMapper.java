@@ -1,12 +1,5 @@
 package crazypants.enderio.powertools.machine.capbank.render;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.annotation.Nonnull;
-
-import org.apache.commons.lang3.tuple.Pair;
-
 import crazypants.enderio.base.power.PowerHandlerUtil;
 import crazypants.enderio.base.render.IRenderMapper.IItemRenderMapper;
 import crazypants.enderio.base.render.property.EnumMergingBlockRenderMode;
@@ -21,6 +14,11 @@ import net.minecraft.util.EnumFacing;
 import net.minecraftforge.energy.IEnergyStorage;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+import org.apache.commons.lang3.tuple.Pair;
+
+import javax.annotation.Nonnull;
+import java.util.ArrayList;
+import java.util.List;
 
 import static crazypants.enderio.base.render.property.EnumMergingBlockRenderMode.RENDER;
 

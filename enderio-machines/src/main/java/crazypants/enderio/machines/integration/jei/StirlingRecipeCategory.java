@@ -1,17 +1,8 @@
 package crazypants.enderio.machines.integration.jei;
 
-import java.awt.Color;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.TreeSet;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.client.render.ColorUtil;
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.NNMap;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.Log;
 import crazypants.enderio.base.capacitor.DefaultCapacitorData;
@@ -28,12 +19,7 @@ import crazypants.enderio.machines.machine.generator.stirling.TileStirlingGenera
 import crazypants.enderio.util.Prep;
 import mezz.jei.api.IGuiHelper;
 import mezz.jei.api.IModRegistry;
-import mezz.jei.api.gui.IDrawable;
-import mezz.jei.api.gui.IDrawableAnimated;
-import mezz.jei.api.gui.IDrawableStatic;
-import mezz.jei.api.gui.IGuiIngredientGroup;
-import mezz.jei.api.gui.IGuiItemStackGroup;
-import mezz.jei.api.gui.IRecipeLayout;
+import mezz.jei.api.gui.*;
 import mezz.jei.api.ingredients.IIngredients;
 import mezz.jei.api.recipe.BlankRecipeCategory;
 import mezz.jei.api.recipe.BlankRecipeWrapper;
@@ -42,6 +28,13 @@ import net.minecraft.client.gui.FontRenderer;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
+
+import javax.annotation.Nonnull;
+import java.awt.*;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+import java.util.TreeSet;
 
 public class StirlingRecipeCategory extends BlankRecipeCategory<StirlingRecipeCategory.StirlingRecipeWrapper> {
 

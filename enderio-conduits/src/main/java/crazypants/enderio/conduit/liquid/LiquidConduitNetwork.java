@@ -1,14 +1,6 @@
 package crazypants.enderio.conduit.liquid;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.List;
-import java.util.Set;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.fluid.IFluidWrapper;
-
 import crazypants.enderio.base.conduit.ConduitUtil;
 import crazypants.enderio.base.diagnostics.Prof;
 import net.minecraft.profiler.Profiler;
@@ -16,6 +8,12 @@ import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
 import net.minecraftforge.fluids.FluidStack;
 import net.minecraftforge.fml.common.gameevent.TickEvent.ServerTickEvent;
+
+import javax.annotation.Nonnull;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+import java.util.Set;
 
 public class LiquidConduitNetwork extends AbstractTankConduitNetwork<LiquidConduit> {
 

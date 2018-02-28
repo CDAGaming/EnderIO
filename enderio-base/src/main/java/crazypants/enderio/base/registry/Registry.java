@@ -1,11 +1,11 @@
 package crazypants.enderio.base.registry;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import crazypants.enderio.base.conduit.registry.ConduitRegistry;
 import crazypants.enderio.base.init.IModObject;
 import net.minecraft.block.Block;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 /**
  * Central registry dispatcher for sub mods.

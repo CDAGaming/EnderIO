@@ -1,8 +1,8 @@
 package crazypants.enderio.machine;
 
-import javax.annotation.Nonnull;
-
 import net.minecraftforge.fml.common.Mod;
+
+import javax.annotation.Nonnull;
 
 import static crazypants.enderio.machine.EnderIOMachines.*;
 

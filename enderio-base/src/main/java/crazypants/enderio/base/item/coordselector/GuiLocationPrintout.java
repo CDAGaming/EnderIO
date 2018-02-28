@@ -1,17 +1,11 @@
 package crazypants.enderio.base.item.coordselector;
 
-import java.awt.Color;
-import java.io.IOException;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.client.gui.GhostSlotHandler;
 import com.enderio.core.client.gui.GuiScreenBase;
 import com.enderio.core.client.gui.button.TooltipButton;
 import com.enderio.core.client.gui.widget.TextFieldEnder;
 import com.enderio.core.client.render.ColorUtil;
 import com.enderio.core.client.render.RenderUtil;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.network.PacketHandler;
 import net.minecraft.client.Minecraft;
@@ -23,6 +17,10 @@ import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.BlockPos;
+
+import javax.annotation.Nonnull;
+import java.awt.*;
+import java.io.IOException;
 
 public class GuiLocationPrintout extends GuiScreenBase {
 

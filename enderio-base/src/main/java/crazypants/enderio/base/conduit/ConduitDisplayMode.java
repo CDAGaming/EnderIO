@@ -1,21 +1,18 @@
 package crazypants.enderio.base.conduit;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.api.client.render.IWidgetIcon;
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.NullHelper;
 import com.google.common.base.Objects;
 import com.google.common.base.Predicate;
 import com.google.common.collect.FluentIterable;
-
 import crazypants.enderio.api.tool.IConduitControl;
 import net.minecraft.item.ItemStack;
 
-import static crazypants.enderio.base.gui.IconEIO.CROSS;
-import static crazypants.enderio.base.gui.IconEIO.TICK;
-import static crazypants.enderio.base.gui.IconEIO.YETA_GEAR;
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+
+import static crazypants.enderio.base.gui.IconEIO.*;
 import static crazypants.enderio.util.NbtValue.DISPLAYMODE;
 
 public class ConduitDisplayMode {

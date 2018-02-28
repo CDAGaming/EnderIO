@@ -1,21 +1,19 @@
 package info.loenwind.autosave.handlers.endercore;
 
-import java.lang.reflect.Field;
-import java.util.Set;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.NBTAction;
 import com.enderio.core.common.util.NNList.NNIterator;
 import com.enderio.core.common.util.stackable.Things;
-
 import info.loenwind.autosave.Registry;
 import info.loenwind.autosave.exceptions.NoHandlerFoundException;
 import info.loenwind.autosave.handlers.IHandler;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.nbt.NBTTagList;
 import net.minecraft.nbt.NBTTagString;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.lang.reflect.Field;
+import java.util.Set;
 
 public class HandleThings implements IHandler<Things> {
 

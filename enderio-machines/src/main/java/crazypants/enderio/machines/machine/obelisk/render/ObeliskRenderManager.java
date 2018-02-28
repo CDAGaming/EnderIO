@@ -1,7 +1,5 @@
 package crazypants.enderio.machines.machine.obelisk.render;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.init.ModObject;
 import crazypants.enderio.base.machine.base.te.AbstractMachineEntity;
 import crazypants.enderio.base.material.material.Material;
@@ -27,12 +25,9 @@ import net.minecraftforge.fml.client.registry.ClientRegistry;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-import static crazypants.enderio.machines.init.MachineObject.block_attractor_obelisk;
-import static crazypants.enderio.machines.init.MachineObject.block_aversion_obelisk;
-import static crazypants.enderio.machines.init.MachineObject.block_experience_obelisk;
-import static crazypants.enderio.machines.init.MachineObject.block_inhibitor_obelisk;
-import static crazypants.enderio.machines.init.MachineObject.block_relocator_obelisk;
-import static crazypants.enderio.machines.init.MachineObject.block_weather_obelisk;
+import javax.annotation.Nonnull;
+
+import static crazypants.enderio.machines.init.MachineObject.*;
 
 @SideOnly(Side.CLIENT)
 public class ObeliskRenderManager {

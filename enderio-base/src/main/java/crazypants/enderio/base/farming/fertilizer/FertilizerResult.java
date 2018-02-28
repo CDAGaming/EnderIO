@@ -1,9 +1,9 @@
 package crazypants.enderio.base.farming.fertilizer;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.api.farm.IFertilizerResult;
 import net.minecraft.item.ItemStack;
+
+import javax.annotation.Nonnull;
 
 public class FertilizerResult implements IFertilizerResult {
 

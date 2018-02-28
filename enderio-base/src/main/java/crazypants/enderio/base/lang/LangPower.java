@@ -1,15 +1,11 @@
 package crazypants.enderio.base.lang;
 
-import java.text.NumberFormat;
-
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.EnderIO;
 
-import static crazypants.enderio.base.lang.Lang.POWER;
-import static crazypants.enderio.base.lang.Lang.POWER_OF;
-import static crazypants.enderio.base.lang.Lang.POWER_PERTICK;
-import static crazypants.enderio.base.lang.Lang.POWER_SYMBOL;
+import javax.annotation.Nonnull;
+import java.text.NumberFormat;
+
+import static crazypants.enderio.base.lang.Lang.*;
 
 public final class LangPower {
 

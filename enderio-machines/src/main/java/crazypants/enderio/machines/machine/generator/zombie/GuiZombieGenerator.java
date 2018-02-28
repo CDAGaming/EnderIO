@@ -1,15 +1,8 @@
 package crazypants.enderio.machines.machine.generator.zombie;
 
-import java.awt.Color;
-import java.awt.Rectangle;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.client.gui.widget.GuiToolTip;
 import com.enderio.core.client.render.ColorUtil;
 import com.enderio.core.client.render.RenderUtil;
-
 import crazypants.enderio.base.lang.LangFluid;
 import crazypants.enderio.base.lang.LangPower;
 import crazypants.enderio.base.machine.gui.GuiInventoryMachineBase;
@@ -20,6 +13,10 @@ import crazypants.enderio.machines.lang.Lang;
 import net.minecraft.client.gui.FontRenderer;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.entity.player.InventoryPlayer;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.awt.*;
 
 public class GuiZombieGenerator extends GuiInventoryMachineBase<TileZombieGenerator> {
 

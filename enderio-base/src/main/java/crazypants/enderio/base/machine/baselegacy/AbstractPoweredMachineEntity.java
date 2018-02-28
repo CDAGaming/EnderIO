@@ -1,11 +1,8 @@
 package crazypants.enderio.base.machine.baselegacy;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.NBTAction;
 import com.enderio.core.common.util.NullHelper;
 import com.enderio.core.common.vecmath.VecmathUtil;
-
 import crazypants.enderio.base.capacitor.CapacitorHelper;
 import crazypants.enderio.base.capacitor.DefaultCapacitorData;
 import crazypants.enderio.base.capacitor.ICapacitorData;
@@ -18,6 +15,8 @@ import info.loenwind.autosave.annotations.Store;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.MathHelper;
+
+import javax.annotation.Nonnull;
 
 @Storable
 public abstract class AbstractPoweredMachineEntity extends AbstractInventoryMachineEntity implements ILegacyPoweredTile {

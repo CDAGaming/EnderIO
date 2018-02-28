@@ -1,12 +1,6 @@
 package crazypants.enderio.base.paint;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.ItemUtil;
-
 import crazypants.enderio.base.config.config.RecipeConfig;
 import crazypants.enderio.base.recipe.IRecipeInput;
 import crazypants.enderio.base.recipe.RecipeInput;
@@ -14,6 +8,10 @@ import crazypants.enderio.util.Prep;
 import net.minecraft.block.Block;
 import net.minecraft.block.ITileEntityProvider;
 import net.minecraft.item.ItemStack;
+
+import javax.annotation.Nonnull;
+import java.util.ArrayList;
+import java.util.List;
 
 public class PaintSourceValidator {
 

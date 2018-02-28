@@ -1,9 +1,9 @@
 package crazypants.enderio.base.recipe;
 
-import javax.annotation.Nonnull;
-
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fluids.FluidStack;
+
+import javax.annotation.Nonnull;
 
 public interface IRecipeInput {
 

@@ -1,16 +1,9 @@
 package crazypants.enderio.base.item.yetawrench;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
-import com.enderio.core.api.client.gui.IAdvancedTooltipProvider;
-import com.enderio.core.client.handlers.SpecialTooltipHandler;
-
 import buildcraft.api.tools.IToolWrench;
 import cofh.api.item.IToolHammer;
+import com.enderio.core.api.client.gui.IAdvancedTooltipProvider;
+import com.enderio.core.client.handlers.SpecialTooltipHandler;
 import crazypants.enderio.api.tool.IConduitControl;
 import crazypants.enderio.api.tool.ITool;
 import crazypants.enderio.base.BlockEio;
@@ -48,6 +41,11 @@ import net.minecraftforge.fml.common.Optional.Interface;
 import net.minecraftforge.fml.common.eventhandler.Event.Result;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.ArrayList;
+import java.util.List;
 
 @Optional.InterfaceList({ @Interface(iface = "buildcraft.api.tools.IToolWrench", modid = "BuildCraftAPI|core"),
     @Interface(iface = "cofh.api.item.IToolHammer", modid = "cofhapi|item") })

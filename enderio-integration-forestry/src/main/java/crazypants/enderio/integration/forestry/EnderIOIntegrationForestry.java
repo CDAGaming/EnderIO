@@ -1,10 +1,6 @@
 package crazypants.enderio.integration.forestry;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.Lang;
-
 import crazypants.enderio.api.addon.IEnderIOAddon;
 import crazypants.enderio.base.Log;
 import crazypants.enderio.integration.forestry.config.ConfigHandler;
@@ -19,6 +15,9 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 @Mod(modid = EnderIOIntegrationForestry.MODID, name = EnderIOIntegrationForestry.MOD_NAME, version = EnderIOIntegrationForestry.VERSION, dependencies = EnderIOIntegrationForestry.DEPENDENCIES)
 @EventBusSubscriber

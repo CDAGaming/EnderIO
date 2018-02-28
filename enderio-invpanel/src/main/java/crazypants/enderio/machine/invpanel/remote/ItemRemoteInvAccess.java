@@ -4,7 +4,6 @@ import com.enderio.core.api.client.gui.IAdvancedTooltipProvider;
 import com.enderio.core.client.handlers.SpecialTooltipHandler;
 import com.enderio.core.common.CompoundCapabilityProvider;
 import com.enderio.core.common.transform.EnderCoreMethods.IOverlayRenderAware;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.EnderIOTab;
 import crazypants.enderio.base.Log;

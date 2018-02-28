@@ -1,20 +1,18 @@
 package crazypants.enderio.machines.machine.solar;
 
-import java.util.List;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.api.client.gui.IAdvancedTooltipProvider;
 import com.enderio.core.api.client.gui.IResourceTooltipProvider;
 import com.enderio.core.client.handlers.SpecialTooltipHandler;
-
 import crazypants.enderio.base.EnderIOTab;
 import crazypants.enderio.base.lang.LangPower;
 import crazypants.enderio.machines.lang.Lang;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.List;
 
 public class BlockItemSolarPanel extends ItemBlock implements IAdvancedTooltipProvider, IResourceTooltipProvider {
 

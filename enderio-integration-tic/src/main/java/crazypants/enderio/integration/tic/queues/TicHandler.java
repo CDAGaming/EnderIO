@@ -1,14 +1,12 @@
 package crazypants.enderio.integration.tic.queues;
 
-import javax.annotation.Nonnull;
-
-import org.apache.commons.lang3.tuple.Pair;
-
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.stackable.Things;
-
 import crazypants.enderio.base.integration.tic.ITicHandler;
 import net.minecraftforge.fluids.Fluid;
+import org.apache.commons.lang3.tuple.Pair;
+
+import javax.annotation.Nonnull;
 
 public class TicHandler implements ITicHandler {
 

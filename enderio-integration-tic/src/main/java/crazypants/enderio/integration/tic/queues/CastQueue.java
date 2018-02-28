@@ -1,11 +1,10 @@
 package crazypants.enderio.integration.tic.queues;
 
+import com.enderio.core.common.util.stackable.Things;
+import net.minecraftforge.fluids.Fluid;
+
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
-
-import com.enderio.core.common.util.stackable.Things;
-
-import net.minecraftforge.fluids.Fluid;
 
 public class CastQueue {
   final @Nonnull private Things result;

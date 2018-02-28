@@ -1,9 +1,6 @@
 package crazypants.enderio.conduit.packet;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.network.ThreadedNetworkWrapper;
-
 import crazypants.enderio.conduit.EnderIOConduits;
 import crazypants.enderio.conduit.liquid.PacketConduitFluidLevel;
 import net.minecraft.entity.player.EntityPlayerMP;
@@ -11,6 +8,8 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
 import net.minecraftforge.fml.relauncher.Side;
+
+import javax.annotation.Nonnull;
 
 public class PacketHandler {
 

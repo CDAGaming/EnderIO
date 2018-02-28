@@ -1,9 +1,6 @@
 package crazypants.enderio.machines.network;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.network.ThreadedNetworkWrapper;
-
 import crazypants.enderio.machines.EnderIOMachines;
 import crazypants.enderio.machines.machine.buffer.PacketBufferIO;
 import crazypants.enderio.machines.machine.farm.PacketFarmAction;
@@ -20,12 +17,7 @@ import crazypants.enderio.machines.machine.spawner.PacketSpawnerUpdateNotificati
 import crazypants.enderio.machines.machine.tank.PacketTankFluid;
 import crazypants.enderio.machines.machine.tank.PacketTankVoidMode;
 import crazypants.enderio.machines.machine.teleport.packet.PacketDrainStaff;
-import crazypants.enderio.machines.machine.teleport.telepad.packet.PacketTelePadFluidLevel;
-import crazypants.enderio.machines.machine.teleport.telepad.packet.PacketOpenServerGui;
-import crazypants.enderio.machines.machine.teleport.telepad.packet.PacketSetTarget;
-import crazypants.enderio.machines.machine.teleport.telepad.packet.PacketTargetList;
-import crazypants.enderio.machines.machine.teleport.telepad.packet.PacketTeleport;
-import crazypants.enderio.machines.machine.teleport.telepad.packet.PacketTeleportTrigger;
+import crazypants.enderio.machines.machine.teleport.telepad.packet.*;
 import crazypants.enderio.machines.machine.transceiver.PacketItemFilter;
 import crazypants.enderio.machines.machine.transceiver.PacketSendRecieveChannel;
 import crazypants.enderio.machines.machine.transceiver.PacketSendRecieveChannelList;
@@ -39,6 +31,8 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
 import net.minecraftforge.fml.relauncher.Side;
+
+import javax.annotation.Nonnull;
 
 public class PacketHandler {
 

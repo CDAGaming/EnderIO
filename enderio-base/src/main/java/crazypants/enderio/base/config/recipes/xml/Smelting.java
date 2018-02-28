@@ -1,15 +1,15 @@
 package crazypants.enderio.base.config.recipes.xml;
 
-import javax.annotation.Nonnull;
-import javax.xml.stream.XMLStreamException;
-import javax.xml.stream.events.StartElement;
-
 import crazypants.enderio.base.config.recipes.InvalidRecipeConfigException;
 import crazypants.enderio.base.config.recipes.StaxFactory;
 import crazypants.enderio.base.integration.tic.TicProxy;
 import crazypants.enderio.util.Prep;
 import net.minecraft.item.crafting.FurnaceRecipes;
 import net.minecraftforge.fml.common.registry.GameRegistry;
+
+import javax.annotation.Nonnull;
+import javax.xml.stream.XMLStreamException;
+import javax.xml.stream.events.StartElement;
 
 public class Smelting extends AbstractCrafting {
 

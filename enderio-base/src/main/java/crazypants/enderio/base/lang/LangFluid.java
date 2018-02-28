@@ -1,10 +1,10 @@
 package crazypants.enderio.base.lang;
 
-import javax.annotation.Nonnull;
-
 import net.minecraftforge.fluids.Fluid;
 import net.minecraftforge.fluids.FluidStack;
 import net.minecraftforge.fluids.IFluidTank;
+
+import javax.annotation.Nonnull;
 
 public final class LangFluid {
 

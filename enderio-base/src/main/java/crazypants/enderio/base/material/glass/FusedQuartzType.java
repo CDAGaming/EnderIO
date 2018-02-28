@@ -1,15 +1,13 @@
 package crazypants.enderio.base.material.glass;
 
-import java.util.Locale;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NullHelper;
-
 import crazypants.enderio.base.config.Config;
 import net.minecraft.block.Block;
 import net.minecraft.block.properties.PropertyEnum;
 import net.minecraft.util.IStringSerializable;
+
+import javax.annotation.Nonnull;
+import java.util.Locale;
 
 public enum FusedQuartzType implements IStringSerializable {
 

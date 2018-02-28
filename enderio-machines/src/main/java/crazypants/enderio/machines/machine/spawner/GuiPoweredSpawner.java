@@ -1,18 +1,10 @@
 package crazypants.enderio.machines.machine.spawner;
 
-import java.awt.Color;
-import java.awt.Rectangle;
-import java.io.IOException;
-import java.util.List;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.client.gui.button.MultiIconButton;
 import com.enderio.core.client.gui.button.ToggleButton;
 import com.enderio.core.client.gui.widget.GuiToolTip;
 import com.enderio.core.client.render.ColorUtil;
 import com.google.common.collect.Lists;
-
 import crazypants.enderio.base.gui.IconEIO;
 import crazypants.enderio.base.machine.gui.GuiInventoryMachineBase;
 import crazypants.enderio.base.machine.gui.PowerBar;
@@ -23,6 +15,11 @@ import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.text.TextFormatting;
+
+import javax.annotation.Nonnull;
+import java.awt.*;
+import java.io.IOException;
+import java.util.List;
 
 public class GuiPoweredSpawner extends GuiInventoryMachineBase<TilePoweredSpawner> implements IPoweredSpawnerRemoteExec.GUI {
 

@@ -1,9 +1,5 @@
 package crazypants.enderio.machine.invpanel;
 
-import java.util.Random;
-
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.GuiID;
 import crazypants.enderio.base.machine.base.block.AbstractMachineBlock;
 import crazypants.enderio.base.network.PacketHandler;
@@ -28,6 +24,9 @@ import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import java.util.Random;
 
 public class BlockInventoryPanel extends AbstractMachineBlock<TileInventoryPanel> {
 

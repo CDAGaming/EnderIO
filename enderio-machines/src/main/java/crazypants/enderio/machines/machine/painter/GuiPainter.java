@@ -1,15 +1,14 @@
 package crazypants.enderio.machines.machine.painter;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.vecmath.Vector4f;
-
 import crazypants.enderio.base.machine.gui.GuiInventoryMachineBase;
 import crazypants.enderio.base.machine.gui.PowerBar;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
 
 @SideOnly(Side.CLIENT)
 public class GuiPainter extends GuiInventoryMachineBase<TileEntityPainter> {

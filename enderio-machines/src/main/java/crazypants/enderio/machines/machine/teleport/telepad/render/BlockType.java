@@ -1,15 +1,13 @@
 package crazypants.enderio.machines.machine.teleport.telepad.render;
 
-import java.util.Locale;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NullHelper;
-
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.IStringSerializable;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Vec3i;
+
+import javax.annotation.Nonnull;
+import java.util.Locale;
 
 public enum BlockType implements IStringSerializable {
 

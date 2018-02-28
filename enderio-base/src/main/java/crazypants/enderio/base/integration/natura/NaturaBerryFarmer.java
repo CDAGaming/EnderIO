@@ -1,7 +1,5 @@
 package crazypants.enderio.base.integration.natura;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.api.farm.FarmNotification;
 import crazypants.enderio.api.farm.IFarmer;
 import crazypants.enderio.api.farm.IHarvestResult;
@@ -12,6 +10,8 @@ import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.math.BlockPos;
+
+import javax.annotation.Nonnull;
 
 public class NaturaBerryFarmer extends PickableFarmer {
 

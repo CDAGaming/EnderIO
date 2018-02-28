@@ -1,14 +1,13 @@
 package crazypants.enderio.base.conduit.geom;
 
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
+import crazypants.enderio.base.conduit.IConduit;
+import net.minecraft.util.EnumFacing;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
-
-import crazypants.enderio.base.conduit.IConduit;
-import net.minecraft.util.EnumFacing;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Map;
 
 public class CollidableCache {
 

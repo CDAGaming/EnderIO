@@ -1,9 +1,5 @@
 package crazypants.enderio.conduit.render;
 
-import java.util.List;
-
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.render.IBlockStateWrapper;
 import crazypants.enderio.base.render.IRenderMapper;
 import crazypants.enderio.base.render.util.QuadCollector;
@@ -14,6 +10,9 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.BlockRenderLayer;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
+
+import javax.annotation.Nonnull;
+import java.util.List;
 
 public class ConduitRenderMapper implements IRenderMapper.IBlockRenderMapper.IRenderLayerAware.IPaintAware {
 

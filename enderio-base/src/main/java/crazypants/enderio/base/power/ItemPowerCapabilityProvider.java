@@ -1,11 +1,11 @@
 package crazypants.enderio.base.power;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.EnumFacing;
 import net.minecraftforge.common.capabilities.Capability;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 public interface ItemPowerCapabilityProvider {
 

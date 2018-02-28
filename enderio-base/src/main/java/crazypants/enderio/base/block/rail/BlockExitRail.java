@@ -1,7 +1,5 @@
 package crazypants.enderio.base.block.rail;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.init.IModObject;
 import crazypants.enderio.base.render.IDefaultRenderers;
 import net.minecraft.block.BlockRailBase;
@@ -18,6 +16,8 @@ import net.minecraft.util.Rotation;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
+
+import javax.annotation.Nonnull;
 
 import static net.minecraft.block.BlockRailDetector.SHAPE;
 

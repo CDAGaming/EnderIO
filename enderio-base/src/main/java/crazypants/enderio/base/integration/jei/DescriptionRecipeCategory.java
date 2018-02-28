@@ -1,11 +1,8 @@
 package crazypants.enderio.base.integration.jei;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.client.handlers.SpecialTooltipHandler;
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.NNList.Callback;
-
 import crazypants.enderio.base.init.IModObject;
 import crazypants.enderio.base.init.IModObject.Registerable;
 import crazypants.enderio.base.init.ModObjectRegistry;
@@ -14,6 +11,8 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.text.TextFormatting;
+
+import javax.annotation.Nonnull;
 
 public class DescriptionRecipeCategory {
 

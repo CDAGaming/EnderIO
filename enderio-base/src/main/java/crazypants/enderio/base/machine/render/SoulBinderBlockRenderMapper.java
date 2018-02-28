@@ -1,10 +1,5 @@
 package crazypants.enderio.base.machine.render;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.init.ModObject;
 import crazypants.enderio.base.machine.base.block.AbstractMachineBlock;
 import crazypants.enderio.base.machine.base.te.AbstractMachineEntity;
@@ -18,6 +13,10 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import java.util.ArrayList;
+import java.util.List;
 
 public class SoulBinderBlockRenderMapper extends MachineRenderMapper {
 

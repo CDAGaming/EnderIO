@@ -1,21 +1,10 @@
 package crazypants.enderio.base.farming;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.stackable.Things;
-
 import crazypants.enderio.api.farm.IFarmerJoe;
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.config.Config;
-import crazypants.enderio.base.farming.farmers.ChorusFarmer;
-import crazypants.enderio.base.farming.farmers.CocoaFarmer;
-import crazypants.enderio.base.farming.farmers.CustomSeedFarmer;
-import crazypants.enderio.base.farming.farmers.FlowerPicker;
-import crazypants.enderio.base.farming.farmers.MelonFarmer;
-import crazypants.enderio.base.farming.farmers.PickableFarmer;
-import crazypants.enderio.base.farming.farmers.PlantableFarmer;
-import crazypants.enderio.base.farming.farmers.StemFarmer;
-import crazypants.enderio.base.farming.farmers.TreeFarmer;
+import crazypants.enderio.base.farming.farmers.*;
 import crazypants.enderio.base.init.ModObject;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
@@ -27,6 +16,8 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.EventPriority;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+
+import javax.annotation.Nonnull;
 
 @EventBusSubscriber(modid = EnderIO.MODID)
 public final class FarmersRegistry {

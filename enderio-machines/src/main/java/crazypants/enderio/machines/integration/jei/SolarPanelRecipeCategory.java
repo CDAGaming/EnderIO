@@ -1,14 +1,7 @@
 package crazypants.enderio.machines.integration.jei;
 
-import java.awt.Color;
-import java.util.Collections;
-import java.util.List;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.client.render.ColorUtil;
 import com.enderio.core.common.util.NNList;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.integration.jei.energy.EnergyIngredient;
 import crazypants.enderio.base.integration.jei.energy.EnergyIngredientRenderer;
@@ -30,6 +23,11 @@ import net.minecraft.client.gui.FontRenderer;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
+
+import javax.annotation.Nonnull;
+import java.awt.*;
+import java.util.Collections;
+import java.util.List;
 
 public class SolarPanelRecipeCategory extends BlankRecipeCategory<SolarPanelRecipeCategory.SolarPanelRecipeWrapper> {
 

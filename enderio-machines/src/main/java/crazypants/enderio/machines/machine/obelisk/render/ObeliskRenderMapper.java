@@ -1,11 +1,5 @@
 package crazypants.enderio.machines.machine.obelisk.render;
 
-import java.util.List;
-
-import javax.annotation.Nonnull;
-
-import org.apache.commons.lang3.tuple.Pair;
-
 import crazypants.enderio.base.machine.base.te.AbstractMachineEntity;
 import crazypants.enderio.base.machine.render.MachineRenderMapper;
 import crazypants.enderio.base.paint.render.PaintedBlockAccessWrapper;
@@ -21,6 +15,10 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+import org.apache.commons.lang3.tuple.Pair;
+
+import javax.annotation.Nonnull;
+import java.util.List;
 
 public class ObeliskRenderMapper extends MachineRenderMapper {
 

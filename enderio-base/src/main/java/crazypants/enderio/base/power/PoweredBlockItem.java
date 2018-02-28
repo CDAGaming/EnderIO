@@ -1,10 +1,6 @@
 package crazypants.enderio.base.power;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.transform.EnderCoreMethods.IOverlayRenderAware;
-
 import crazypants.enderio.base.render.itemoverlay.PowerBarOverlayRenderHelper;
 import crazypants.enderio.util.NbtValue;
 import net.minecraft.block.Block;
@@ -12,6 +8,9 @@ import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraftforge.common.capabilities.ICapabilityProvider;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 public class PoweredBlockItem extends ItemBlock implements IInternalPoweredItem, IOverlayRenderAware {
 

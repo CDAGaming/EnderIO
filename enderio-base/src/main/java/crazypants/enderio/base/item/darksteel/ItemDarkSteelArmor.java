@@ -1,12 +1,5 @@
 package crazypants.enderio.base.item.darksteel;
 
-import java.util.Iterator;
-import java.util.List;
-import java.util.UUID;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.api.client.gui.IAdvancedTooltipProvider;
 import com.enderio.core.client.handlers.SpecialTooltipHandler;
 import com.enderio.core.common.transform.EnderCoreMethods.IElytraFlyingProvider;
@@ -16,7 +9,6 @@ import com.enderio.core.common.util.NNMap;
 import com.enderio.core.common.util.NullHelper;
 import com.enderio.core.common.util.OreDictionaryHelper;
 import com.google.common.collect.Multimap;
-
 import crazypants.enderio.api.upgrades.IDarkSteelItem;
 import crazypants.enderio.api.upgrades.IDarkSteelUpgrade;
 import crazypants.enderio.api.upgrades.IHasPlayerRenderer;
@@ -71,6 +63,12 @@ import net.minecraftforge.fml.common.Optional.Method;
 import net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.Iterator;
+import java.util.List;
+import java.util.UUID;
 
 @InterfaceList({ @Interface(iface = "thaumcraft.api.items.IGoggles", modid = "Thaumcraft"),
     @Interface(iface = "thaumcraft.api.items.IVisDiscountGear", modid = "Thaumcraft"),

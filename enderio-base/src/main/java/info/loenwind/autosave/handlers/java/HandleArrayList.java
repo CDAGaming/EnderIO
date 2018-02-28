@@ -1,10 +1,9 @@
 package info.loenwind.autosave.handlers.java;
 
-import java.util.ArrayList;
+import info.loenwind.autosave.handlers.IHandler;
 
 import javax.annotation.Nonnull;
-
-import info.loenwind.autosave.handlers.IHandler;
+import java.util.ArrayList;
 
 public class HandleArrayList<E> extends HandleAbstractCollection<E, ArrayList<E>> {
 

@@ -1,12 +1,9 @@
 package crazypants.enderio.machines.machine.reservoir;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.api.common.util.ITankAccess;
 import com.enderio.core.common.fluid.SmartTank;
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.NNList.NNIterator;
-
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
@@ -14,6 +11,8 @@ import net.minecraft.world.World;
 import net.minecraftforge.fluids.Fluid;
 import net.minecraftforge.fluids.FluidStack;
 import net.minecraftforge.fluids.FluidTank;
+
+import javax.annotation.Nonnull;
 
 class ReservoirTankWrapper implements ITankAccess {
 

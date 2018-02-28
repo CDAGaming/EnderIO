@@ -1,15 +1,9 @@
 package crazypants.enderio.base.conduit.geom;
 
-import java.util.HashMap;
-import java.util.Map;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.client.render.BoundingBox;
 import com.enderio.core.common.util.ForgeDirectionOffsets;
 import com.enderio.core.common.vecmath.VecmathUtil;
 import com.enderio.core.common.vecmath.Vector3d;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.conduit.IConduit;
 import crazypants.enderio.base.config.Config;
@@ -17,6 +11,10 @@ import crazypants.enderio.base.events.EnderIOLifecycleEvent;
 import net.minecraft.util.EnumFacing;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+
+import javax.annotation.Nonnull;
+import java.util.HashMap;
+import java.util.Map;
 
 @EventBusSubscriber(modid = EnderIO.MODID)
 public class ConduitGeometryUtil {

@@ -1,16 +1,15 @@
 package crazypants.enderio.base.config.recipes.xml;
 
-import javax.annotation.Nonnull;
-import javax.xml.stream.XMLStreamException;
-
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.stackable.Things;
-
 import crazypants.enderio.base.config.recipes.InvalidRecipeConfigException;
 import crazypants.enderio.base.config.recipes.StaxFactory;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.JsonToNBT;
 import net.minecraft.nbt.NBTException;
+
+import javax.annotation.Nonnull;
+import javax.xml.stream.XMLStreamException;
 
 public class Output extends AbstractConditional {
 

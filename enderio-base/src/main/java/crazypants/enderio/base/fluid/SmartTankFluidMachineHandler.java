@@ -1,12 +1,11 @@
 package crazypants.enderio.base.fluid;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.fluid.SmartTankFluidHandler;
-
 import crazypants.enderio.base.machine.interfaces.IIoConfigurable;
 import net.minecraft.util.EnumFacing;
 import net.minecraftforge.fluids.capability.IFluidHandler;
+
+import javax.annotation.Nonnull;
 
 public class SmartTankFluidMachineHandler extends SmartTankFluidHandler {
 

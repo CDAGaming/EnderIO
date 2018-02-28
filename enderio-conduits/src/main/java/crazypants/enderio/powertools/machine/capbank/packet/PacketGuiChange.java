@@ -1,8 +1,5 @@
 package crazypants.enderio.powertools.machine.capbank.packet;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import crazypants.enderio.base.Log;
 import crazypants.enderio.base.config.config.DiagnosticsConfig;
 import crazypants.enderio.base.machine.modes.RedstoneControlMode;
@@ -11,6 +8,9 @@ import crazypants.enderio.powertools.machine.capbank.network.ICapBankNetwork;
 import io.netty.buffer.ByteBuf;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
 import net.minecraftforge.fml.common.network.simpleimpl.MessageContext;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 public class PacketGuiChange extends PacketCapBank<PacketGuiChange, IMessage> {
 

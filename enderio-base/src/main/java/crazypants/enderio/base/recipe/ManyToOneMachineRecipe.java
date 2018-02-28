@@ -1,12 +1,10 @@
 package crazypants.enderio.base.recipe;
 
-import java.util.List;
+import com.enderio.core.common.util.NNList;
+import net.minecraft.item.ItemStack;
 
 import javax.annotation.Nonnull;
-
-import com.enderio.core.common.util.NNList;
-
-import net.minecraft.item.ItemStack;
+import java.util.List;
 
 public class ManyToOneMachineRecipe extends AbstractMachineRecipe {
 

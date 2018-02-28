@@ -1,15 +1,7 @@
 package crazypants.enderio.powertools.machine.gauge;
 
-import java.util.Map;
-import java.util.Map.Entry;
-
-import javax.annotation.Nonnull;
-
-import org.lwjgl.opengl.GL11;
-
 import com.enderio.core.client.render.ManagedTESR;
 import com.enderio.core.common.util.NullHelper;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.power.IPowerInterface;
 import crazypants.enderio.powertools.machine.capbank.render.FillGaugeBakery;
@@ -18,6 +10,11 @@ import net.minecraft.client.renderer.RenderHelper;
 import net.minecraft.client.renderer.texture.TextureAtlasSprite;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.world.World;
+import org.lwjgl.opengl.GL11;
+
+import javax.annotation.Nonnull;
+import java.util.Map;
+import java.util.Map.Entry;
 
 import static crazypants.enderio.powertools.init.PowerToolObject.block_gauge;
 

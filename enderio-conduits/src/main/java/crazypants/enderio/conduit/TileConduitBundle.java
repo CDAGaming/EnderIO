@@ -1,34 +1,13 @@
 package crazypants.enderio.conduit;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.EnumSet;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
-import java.util.concurrent.CopyOnWriteArrayList;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.client.render.BoundingBox;
 import com.enderio.core.common.util.DyeColor;
 import com.enderio.core.common.util.NullHelper;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.TileEntityEio;
-import crazypants.enderio.base.conduit.ConduitDisplayMode;
-import crazypants.enderio.base.conduit.ConduitUtil;
-import crazypants.enderio.base.conduit.ConnectionMode;
-import crazypants.enderio.base.conduit.IConduit;
-import crazypants.enderio.base.conduit.IConduitBundle;
+import crazypants.enderio.base.conduit.*;
 import crazypants.enderio.base.conduit.facade.EnumFacadeType;
-import crazypants.enderio.base.conduit.geom.CollidableCache;
-import crazypants.enderio.base.conduit.geom.CollidableComponent;
-import crazypants.enderio.base.conduit.geom.ConduitConnectorType;
-import crazypants.enderio.base.conduit.geom.ConduitGeometryUtil;
-import crazypants.enderio.base.conduit.geom.Offset;
-import crazypants.enderio.base.conduit.geom.Offsets;
+import crazypants.enderio.base.conduit.geom.*;
 import crazypants.enderio.base.conduit.registry.ConduitRegistry;
 import crazypants.enderio.base.diagnostics.Prof;
 import crazypants.enderio.base.paint.YetaUtil;
@@ -52,6 +31,11 @@ import net.minecraft.world.World;
 import net.minecraftforge.common.capabilities.Capability;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.*;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 import static crazypants.enderio.base.config.Config.transparentFacadesLetThroughBeaconBeam;
 

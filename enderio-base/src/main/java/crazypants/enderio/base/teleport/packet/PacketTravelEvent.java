@@ -1,11 +1,8 @@
 package crazypants.enderio.base.teleport.packet;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NullHelper;
 import com.enderio.core.common.util.Util;
 import com.enderio.core.common.vecmath.Vector3d;
-
 import crazypants.enderio.api.teleport.IItemOfTravel;
 import crazypants.enderio.api.teleport.TeleportEntityEvent;
 import crazypants.enderio.api.teleport.TravelSource;
@@ -22,6 +19,8 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler;
 import net.minecraftforge.fml.common.network.simpleimpl.MessageContext;
+
+import javax.annotation.Nonnull;
 
 public class PacketTravelEvent implements IMessage {
 

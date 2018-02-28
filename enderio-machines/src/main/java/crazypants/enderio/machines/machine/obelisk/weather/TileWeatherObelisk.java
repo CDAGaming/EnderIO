@@ -1,17 +1,9 @@
 package crazypants.enderio.machines.machine.obelisk.weather;
 
-import java.awt.Color;
-import java.util.Collections;
-import java.util.List;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.api.common.util.IProgressTile;
 import com.enderio.core.api.common.util.ITankAccess;
 import com.enderio.core.common.fluid.SmartTank;
 import com.enderio.core.common.fluid.SmartTankFluidHandler;
-
 import crazypants.enderio.base.fluid.Fluids;
 import crazypants.enderio.base.fluid.SmartTankFluidMachineHandler;
 import crazypants.enderio.base.machine.baselegacy.AbstractPowerConsumerEntity;
@@ -41,9 +33,13 @@ import net.minecraftforge.fluids.capability.CapabilityFluidHandler;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-import static crazypants.enderio.machines.capacitor.CapacitorKey.WEATHER_POWER_BUFFER;
-import static crazypants.enderio.machines.capacitor.CapacitorKey.WEATHER_POWER_INTAKE;
-import static crazypants.enderio.machines.capacitor.CapacitorKey.WEATHER_POWER_USE;
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.awt.*;
+import java.util.Collections;
+import java.util.List;
+
+import static crazypants.enderio.machines.capacitor.CapacitorKey.*;
 
 @Storable
 public class TileWeatherObelisk extends AbstractPowerConsumerEntity implements IProgressTile, ITankAccess.IExtendedTankAccess {

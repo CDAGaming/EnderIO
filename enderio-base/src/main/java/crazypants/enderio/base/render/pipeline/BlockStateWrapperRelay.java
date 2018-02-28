@@ -1,7 +1,5 @@
 package crazypants.enderio.base.render.pipeline;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.paint.IPaintable.IBlockPaintableBlock;
 import crazypants.enderio.base.paint.IPaintable.IWrenchHideablePaint;
 import crazypants.enderio.base.render.model.CollectedQuadBakedBlockModel;
@@ -13,6 +11,8 @@ import net.minecraft.client.renderer.block.model.IBakedModel;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
 import net.minecraftforge.client.MinecraftForgeClient;
+
+import javax.annotation.Nonnull;
 
 public class BlockStateWrapperRelay extends BlockStateWrapperBase {
 

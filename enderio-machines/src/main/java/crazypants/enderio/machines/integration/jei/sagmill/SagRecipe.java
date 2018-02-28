@@ -1,13 +1,6 @@
 package crazypants.enderio.machines.integration.jei.sagmill;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
-
 import crazypants.enderio.base.integration.jei.RecipeWrapper;
 import crazypants.enderio.base.integration.jei.energy.EnergyIngredient;
 import crazypants.enderio.base.recipe.IRecipe;
@@ -17,6 +10,11 @@ import crazypants.enderio.base.recipe.sagmill.SagMillRecipeManager;
 import crazypants.enderio.util.Prep;
 import mezz.jei.api.ingredients.IIngredients;
 import net.minecraft.item.ItemStack;
+
+import javax.annotation.Nonnull;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 public class SagRecipe extends RecipeWrapper {
 

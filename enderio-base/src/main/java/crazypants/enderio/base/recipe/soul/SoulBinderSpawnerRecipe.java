@@ -1,19 +1,18 @@
 package crazypants.enderio.base.recipe.soul;
 
-import static crazypants.enderio.base.init.ModObject.itemBrokenSpawner;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.EntityUtil;
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.NNList.NNIterator;
-
 import crazypants.enderio.base.config.Config;
 import crazypants.enderio.base.item.spawner.BrokenSpawnerHandler;
 import crazypants.enderio.base.recipe.spawner.PoweredSpawnerRecipeRegistry;
 import crazypants.enderio.util.CapturedMob;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
+
+import javax.annotation.Nonnull;
+
+import static crazypants.enderio.base.init.ModObject.itemBrokenSpawner;
 
 public class SoulBinderSpawnerRecipe extends AbstractSoulBinderRecipe {
 

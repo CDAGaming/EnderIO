@@ -1,9 +1,6 @@
 package crazypants.enderio.machines.machine.light;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.vecmath.Vector3f;
-
 import crazypants.enderio.api.redstone_dont_crash_us_mcjty.IRedstoneConnectable_dont_crash_us_mcjty;
 import crazypants.enderio.base.BlockEio;
 import crazypants.enderio.base.init.IModObject;
@@ -28,6 +25,8 @@ import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
 
 public class BlockElectricLight extends BlockEio<TileElectricLight> implements IRedstoneConnectable_dont_crash_us_mcjty, IHaveRenderers {
 

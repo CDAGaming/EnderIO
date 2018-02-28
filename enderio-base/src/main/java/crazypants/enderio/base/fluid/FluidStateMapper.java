@@ -1,7 +1,5 @@
 package crazypants.enderio.base.fluid;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.EnderIO;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.renderer.ItemMeshDefinition;
@@ -9,6 +7,8 @@ import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.client.renderer.block.statemap.StateMapperBase;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fluids.Fluid;
+
+import javax.annotation.Nonnull;
 
 public class FluidStateMapper extends StateMapperBase implements ItemMeshDefinition {
 

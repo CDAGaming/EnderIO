@@ -1,18 +1,8 @@
 package crazypants.enderio.base.loot;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Map.Entry;
-import java.util.Random;
-
-import javax.annotation.Nonnull;
-
 import com.google.gson.JsonDeserializationContext;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonSerializationContext;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.Log;
 import crazypants.enderio.base.capacitor.CapacitorHelper;
@@ -24,6 +14,10 @@ import net.minecraft.util.WeightedRandom;
 import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.world.storage.loot.conditions.LootCondition;
 import net.minecraft.world.storage.loot.functions.LootFunction;
+
+import javax.annotation.Nonnull;
+import java.util.*;
+import java.util.Map.Entry;
 
 public class LootSelector extends LootFunction {
 

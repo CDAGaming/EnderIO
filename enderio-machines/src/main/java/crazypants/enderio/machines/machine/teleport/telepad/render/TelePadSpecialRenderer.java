@@ -1,22 +1,12 @@
 package crazypants.enderio.machines.machine.teleport.telepad.render;
 
-import java.util.Random;
-
-import javax.annotation.Nonnull;
-
-import org.lwjgl.opengl.GL11;
-
 import crazypants.enderio.base.render.property.EnumRenderMode;
 import crazypants.enderio.machines.config.config.TelePadConfig;
 import crazypants.enderio.machines.machine.teleport.anchor.TravelEntitySpecialRenderer;
 import crazypants.enderio.machines.machine.teleport.telepad.TileTelePad;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.Minecraft;
-import net.minecraft.client.renderer.BlockRendererDispatcher;
-import net.minecraft.client.renderer.BufferBuilder;
-import net.minecraft.client.renderer.GlStateManager;
-import net.minecraft.client.renderer.RenderHelper;
-import net.minecraft.client.renderer.Tessellator;
+import net.minecraft.client.renderer.*;
 import net.minecraft.client.renderer.block.model.IBakedModel;
 import net.minecraft.client.renderer.vertex.DefaultVertexFormats;
 import net.minecraft.tileentity.TileEntity;
@@ -24,6 +14,10 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraftforge.client.MinecraftForgeClient;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+import org.lwjgl.opengl.GL11;
+
+import javax.annotation.Nonnull;
+import java.util.Random;
 
 import static crazypants.enderio.machines.init.MachineObject.block_tele_pad;
 

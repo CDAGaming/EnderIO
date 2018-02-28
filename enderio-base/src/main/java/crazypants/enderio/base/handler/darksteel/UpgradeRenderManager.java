@@ -1,11 +1,5 @@
 package crazypants.enderio.base.handler.darksteel;
 
-import java.util.List;
-import java.util.Map;
-import java.util.WeakHashMap;
-
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.Log;
 import crazypants.enderio.base.item.darksteel.upgrade.elytra.CapeFilterLayer;
@@ -21,6 +15,11 @@ import net.minecraftforge.fml.relauncher.ReflectionHelper;
 import net.minecraftforge.fml.relauncher.ReflectionHelper.UnableToAccessFieldException;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import java.util.List;
+import java.util.Map;
+import java.util.WeakHashMap;
 
 @EventBusSubscriber(modid = EnderIO.MODID, value = Side.CLIENT)
 @SideOnly(Side.CLIENT)

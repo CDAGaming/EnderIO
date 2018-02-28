@@ -1,8 +1,8 @@
 package crazypants.enderio.api.farm;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.api.ILocalizable;
+
+import javax.annotation.Nonnull;
 
 public enum FarmNotification implements ILocalizable {
 

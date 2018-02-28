@@ -1,9 +1,6 @@
 package crazypants.enderio.machines.machine.teleport.telepad.packet;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.network.MessageTileEntity;
-
 import crazypants.enderio.machines.init.MachineObject;
 import crazypants.enderio.machines.machine.teleport.anchor.BlockTravelAnchor;
 import crazypants.enderio.machines.machine.teleport.telepad.BlockTelePad;
@@ -14,6 +11,8 @@ import net.minecraft.world.World;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler;
 import net.minecraftforge.fml.common.network.simpleimpl.MessageContext;
+
+import javax.annotation.Nonnull;
 
 public class PacketOpenServerGui extends MessageTileEntity<TileTelePad> {
 

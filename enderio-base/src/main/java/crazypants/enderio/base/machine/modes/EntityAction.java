@@ -1,10 +1,9 @@
 package crazypants.enderio.base.machine.modes;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
-
 import crazypants.enderio.util.CapturedMob;
+
+import javax.annotation.Nonnull;
 
 public enum EntityAction { // TODO 1.11 implement on obelisks and spawner
   ATTRACT("entity_action.block_attractor_obelisk.action"),

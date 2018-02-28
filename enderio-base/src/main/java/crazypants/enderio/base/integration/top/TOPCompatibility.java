@@ -1,15 +1,11 @@
 package crazypants.enderio.base.integration.top;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.api.client.render.IWidgetIcon;
 import com.enderio.core.api.common.util.ITankAccess.ITankData;
 import com.enderio.core.common.BlockEnder;
 import com.enderio.core.common.fluid.SmartTank;
 import com.enderio.core.common.util.NullHelper;
 import com.google.common.base.Function;
-
 import crazypants.enderio.api.ILocalizable;
 import crazypants.enderio.base.BlockEio;
 import crazypants.enderio.base.EnderIO;
@@ -24,16 +20,7 @@ import crazypants.enderio.base.paint.IPaintable;
 import crazypants.enderio.util.CapturedMob;
 import crazypants.enderio.util.NbtValue;
 import crazypants.enderio.util.Prep;
-import mcjty.theoneprobe.api.ElementAlignment;
-import mcjty.theoneprobe.api.ILayoutStyle;
-import mcjty.theoneprobe.api.IProbeConfig;
-import mcjty.theoneprobe.api.IProbeConfigProvider;
-import mcjty.theoneprobe.api.IProbeHitData;
-import mcjty.theoneprobe.api.IProbeHitEntityData;
-import mcjty.theoneprobe.api.IProbeInfo;
-import mcjty.theoneprobe.api.IProbeInfoProvider;
-import mcjty.theoneprobe.api.ITheOneProbe;
-import mcjty.theoneprobe.api.ProbeMode;
+import mcjty.theoneprobe.api.*;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
@@ -47,6 +34,9 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.text.TextFormatting;
 import net.minecraft.world.World;
 import net.minecraftforge.fluids.FluidStack;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 import static mcjty.theoneprobe.api.IProbeInfo.ENDLOC;
 import static mcjty.theoneprobe.api.IProbeInfo.STARTLOC;

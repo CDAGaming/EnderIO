@@ -1,18 +1,8 @@
 package crazypants.enderio.base.farming.farmers;
 
-import java.util.HashSet;
-import java.util.Set;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.NNList.Callback;
-
-import crazypants.enderio.api.farm.FarmNotification;
-import crazypants.enderio.api.farm.FarmingAction;
-import crazypants.enderio.api.farm.IFarmer;
-import crazypants.enderio.api.farm.IFarmerJoe;
-import crazypants.enderio.api.farm.IHarvestResult;
+import crazypants.enderio.api.farm.*;
 import crazypants.enderio.base.farming.FarmingTool;
 import crazypants.enderio.util.Prep;
 import net.minecraft.block.Block;
@@ -30,6 +20,10 @@ import net.minecraftforge.common.EnumPlantType;
 import net.minecraftforge.common.IPlantable;
 import net.minecraftforge.event.ForgeEventFactory;
 import net.minecraftforge.registries.IForgeRegistryEntry.Impl;
+
+import javax.annotation.Nonnull;
+import java.util.HashSet;
+import java.util.Set;
 
 public class PlantableFarmer extends Impl<IFarmerJoe> implements IFarmerJoe {
 

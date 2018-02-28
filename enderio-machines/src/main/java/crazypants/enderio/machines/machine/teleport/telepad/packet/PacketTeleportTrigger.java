@@ -1,7 +1,6 @@
 package crazypants.enderio.machines.machine.teleport.telepad.packet;
 
 import com.enderio.core.common.network.MessageTileEntity;
-
 import crazypants.enderio.machines.machine.teleport.telepad.TileTelePad;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.World;

@@ -3,7 +3,6 @@ package crazypants.enderio.base.render.util;
 import com.enderio.core.client.render.BoundingBox;
 import com.enderio.core.common.fluid.SmartTank;
 import com.enderio.core.common.vecmath.Vector4f;
-
 import crazypants.enderio.base.render.util.HalfBakedQuad.HalfBakedList;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.texture.TextureAtlasSprite;

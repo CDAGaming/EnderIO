@@ -1,11 +1,11 @@
 package crazypants.enderio.machines.machine.teleport.telepad.gui;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.network.GuiPacket;
 import crazypants.enderio.base.network.IRemoteExec;
 import net.minecraft.util.math.BlockPos;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
+
+import javax.annotation.Nonnull;
 
 public interface IDialingDeviceRemoteExec {
 

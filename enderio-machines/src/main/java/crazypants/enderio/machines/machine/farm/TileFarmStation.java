@@ -1,12 +1,5 @@
 package crazypants.enderio.machines.machine.farm;
 
-import java.util.EnumMap;
-import java.util.EnumSet;
-import java.util.Set;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.client.render.BoundingBox;
 import com.enderio.core.common.NBTAction;
 import com.enderio.core.common.util.ItemUtil;
@@ -15,14 +8,7 @@ import com.enderio.core.common.util.NNList.Callback;
 import com.enderio.core.common.util.blockiterators.PlanarBlockIterator;
 import com.enderio.core.common.util.blockiterators.PlanarBlockIterator.Orientation;
 import com.enderio.core.common.vecmath.Vector4f;
-
-import crazypants.enderio.api.farm.FarmNotification;
-import crazypants.enderio.api.farm.FarmingAction;
-import crazypants.enderio.api.farm.IFarmer;
-import crazypants.enderio.api.farm.IFarmingTool;
-import crazypants.enderio.api.farm.IFertilizer;
-import crazypants.enderio.api.farm.IFertilizerResult;
-import crazypants.enderio.api.farm.IHarvestResult;
+import crazypants.enderio.api.farm.*;
 import crazypants.enderio.base.capacitor.DefaultCapacitorData;
 import crazypants.enderio.base.farming.FarmingTool;
 import crazypants.enderio.base.farming.fertilizer.Fertilizer;
@@ -56,12 +42,13 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 import net.minecraftforge.server.permission.PermissionAPI;
 import net.minecraftforge.server.permission.context.BlockPosContext;
 
-import static crazypants.enderio.machines.capacitor.CapacitorKey.FARM_BASE_SIZE;
-import static crazypants.enderio.machines.capacitor.CapacitorKey.FARM_BONUS_SIZE;
-import static crazypants.enderio.machines.capacitor.CapacitorKey.FARM_POWER_BUFFER;
-import static crazypants.enderio.machines.capacitor.CapacitorKey.FARM_POWER_INTAKE;
-import static crazypants.enderio.machines.capacitor.CapacitorKey.FARM_POWER_USE;
-import static crazypants.enderio.machines.capacitor.CapacitorKey.FARM_STACK_LIMIT;
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.EnumMap;
+import java.util.EnumSet;
+import java.util.Set;
+
+import static crazypants.enderio.machines.capacitor.CapacitorKey.*;
 
 @Storable
 public class TileFarmStation extends AbstractPoweredTaskEntity implements IPaintable.IPaintableTileEntity, IRanged, INotifier {

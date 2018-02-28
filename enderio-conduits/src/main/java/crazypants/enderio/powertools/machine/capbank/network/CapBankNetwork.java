@@ -1,17 +1,7 @@
 package crazypants.enderio.powertools.machine.capbank.network;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Set;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.RoundRobinIterator;
-
 import crazypants.enderio.base.Log;
 import crazypants.enderio.base.conduit.ConnectionMode;
 import crazypants.enderio.base.config.config.DiagnosticsConfig;
@@ -38,6 +28,9 @@ import net.minecraft.world.World;
 import net.minecraftforge.energy.IEnergyStorage;
 import net.minecraftforge.fml.common.gameevent.TickEvent;
 import net.minecraftforge.fml.common.gameevent.TickEvent.ServerTickEvent;
+
+import javax.annotation.Nonnull;
+import java.util.*;
 
 public class CapBankNetwork implements ICapBankNetwork, ServerTickHandler.ITickListener {
 

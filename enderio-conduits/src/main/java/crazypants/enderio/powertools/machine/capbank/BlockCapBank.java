@@ -1,19 +1,10 @@
 package crazypants.enderio.powertools.machine.capbank;
 
-import java.text.MessageFormat;
-import java.util.Collection;
-import java.util.List;
-import java.util.Random;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.api.client.gui.IAdvancedTooltipProvider;
 import com.enderio.core.client.handlers.SpecialTooltipHandler;
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.NullHelper;
 import com.enderio.core.common.vecmath.Vector3d;
-
 import crazypants.enderio.api.redstone_dont_crash_us_mcjty.IRedstoneConnectable_dont_crash_us_mcjty;
 import crazypants.enderio.base.BlockEio;
 import crazypants.enderio.base.gui.handler.IEioGuiHandler;
@@ -70,6 +61,13 @@ import net.minecraft.world.World;
 import net.minecraftforge.fml.client.registry.ClientRegistry;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.text.MessageFormat;
+import java.util.Collection;
+import java.util.List;
+import java.util.Random;
 
 public class BlockCapBank extends BlockEio<TileCapBank> implements IEioGuiHandler.WithPos, IAdvancedTooltipProvider, IRedstoneConnectable_dont_crash_us_mcjty,
     ISmartRenderAwareBlock, IHaveTESR, ICustomSubItems, IPaintable.ISolidBlockPaintableBlock {

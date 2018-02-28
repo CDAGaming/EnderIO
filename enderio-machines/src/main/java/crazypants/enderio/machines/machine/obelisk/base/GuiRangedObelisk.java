@@ -1,16 +1,9 @@
 package crazypants.enderio.machines.machine.obelisk.base;
 
-import java.awt.Color;
-import java.io.IOException;
-import java.util.List;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.client.gui.button.ToggleButton;
 import com.enderio.core.client.gui.widget.GuiToolTip;
 import com.enderio.core.client.render.ColorUtil;
 import com.google.common.collect.Lists;
-
 import crazypants.enderio.base.gui.IconEIO;
 import crazypants.enderio.base.machine.gui.GuiInventoryMachineBase;
 import crazypants.enderio.base.machine.gui.PowerBar;
@@ -19,6 +12,11 @@ import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.inventory.Container;
+
+import javax.annotation.Nonnull;
+import java.awt.*;
+import java.io.IOException;
+import java.util.List;
 
 public class GuiRangedObelisk extends GuiInventoryMachineBase<AbstractRangedObeliskEntity> {
 

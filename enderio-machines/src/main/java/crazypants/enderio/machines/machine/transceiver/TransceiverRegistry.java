@@ -1,16 +1,7 @@
 package crazypants.enderio.machines.machine.transceiver;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.ItemUtil;
 import com.enderio.core.common.util.RoundRobinIterator;
-
 import crazypants.enderio.base.config.Config;
 import crazypants.enderio.base.machine.baselegacy.SlotDefinition;
 import crazypants.enderio.base.transceiver.Channel;
@@ -19,6 +10,9 @@ import net.minecraft.item.ItemStack;
 import net.minecraftforge.fluids.Fluid;
 import net.minecraftforge.fluids.FluidStack;
 import net.minecraftforge.fluids.capability.IFluidTankProperties;
+
+import javax.annotation.Nonnull;
+import java.util.*;
 
 public enum TransceiverRegistry {
   

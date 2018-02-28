@@ -1,14 +1,13 @@
 package crazypants.enderio.base.transceiver;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NullHelper;
 import com.enderio.core.common.util.UserIdent;
 import com.mojang.authlib.GameProfile;
-
 import info.loenwind.autosave.annotations.Storable;
 import info.loenwind.autosave.annotations.Store;
 import net.minecraft.nbt.NBTTagCompound;
+
+import javax.annotation.Nonnull;
 
 @Storable
 public class Channel {

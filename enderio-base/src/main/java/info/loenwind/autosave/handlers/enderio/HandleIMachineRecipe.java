@@ -1,19 +1,17 @@
 package info.loenwind.autosave.handlers.enderio;
 
-import java.lang.reflect.Field;
-import java.util.Set;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
-import info.loenwind.autosave.Registry;
 import com.enderio.core.common.NBTAction;
-
 import crazypants.enderio.base.recipe.IMachineRecipe;
 import crazypants.enderio.base.recipe.MachineRecipeRegistry;
+import info.loenwind.autosave.Registry;
 import info.loenwind.autosave.exceptions.NoHandlerFoundException;
 import info.loenwind.autosave.handlers.IHandler;
 import net.minecraft.nbt.NBTTagCompound;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.lang.reflect.Field;
+import java.util.Set;
 
 public class HandleIMachineRecipe implements IHandler<IMachineRecipe> {
 

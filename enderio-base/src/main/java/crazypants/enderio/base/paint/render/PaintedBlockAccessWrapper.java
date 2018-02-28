@@ -1,13 +1,6 @@
 package crazypants.enderio.base.paint.render;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.concurrent.ConcurrentHashMap;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.IBlockAccessWrapper;
-
 import crazypants.enderio.base.paint.IPaintable;
 import crazypants.enderio.util.FacadeUtil;
 import net.minecraft.block.Block;
@@ -16,6 +9,11 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
+
+import javax.annotation.Nonnull;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class PaintedBlockAccessWrapper extends IBlockAccessWrapper {
 

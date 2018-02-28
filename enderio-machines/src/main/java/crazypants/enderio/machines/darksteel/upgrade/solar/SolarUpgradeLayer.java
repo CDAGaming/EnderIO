@@ -1,7 +1,5 @@
 package crazypants.enderio.machines.darksteel.upgrade.solar;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.api.upgrades.IRenderUpgrade;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.entity.AbstractClientPlayer;
@@ -12,6 +10,8 @@ import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
 
 @SideOnly(Side.CLIENT)
 public class SolarUpgradeLayer implements IRenderUpgrade {

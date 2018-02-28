@@ -1,16 +1,14 @@
 package crazypants.enderio.conduit.redstone;
 
-import java.util.Collection;
-import java.util.Set;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.DyeColor;
-
 import crazypants.enderio.base.conduit.ConnectionMode;
 import crazypants.enderio.base.conduit.IConduit;
 import crazypants.enderio.base.conduit.redstone.signals.Signal;
 import net.minecraft.util.EnumFacing;
+
+import javax.annotation.Nonnull;
+import java.util.Collection;
+import java.util.Set;
 
 // TODO Javadocs
 

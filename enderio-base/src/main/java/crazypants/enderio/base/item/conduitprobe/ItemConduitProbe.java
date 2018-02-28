@@ -1,12 +1,7 @@
 package crazypants.enderio.base.item.conduitprobe;
 
-import java.util.Collection;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.api.client.gui.IResourceTooltipProvider;
 import com.enderio.core.common.TileEntityBase;
-
 import crazypants.enderio.api.tool.IHideFacades;
 import crazypants.enderio.base.EnderIOTab;
 import crazypants.enderio.base.conduit.IConduit;
@@ -31,6 +26,9 @@ import net.minecraft.world.World;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import java.util.Collection;
 
 public class ItemConduitProbe extends Item implements IResourceTooltipProvider, IHideFacades, IHaveRenderers {
 

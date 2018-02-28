@@ -1,14 +1,5 @@
 package crazypants.enderio.conduit.power;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.conduit.IConduitBundle;
 import crazypants.enderio.base.power.IPowerInterface;
 import crazypants.enderio.conduit.AbstractConduitNetwork;
@@ -18,6 +9,9 @@ import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.common.gameevent.TickEvent.ServerTickEvent;
+
+import javax.annotation.Nonnull;
+import java.util.*;
 
 public class PowerConduitNetwork extends AbstractConduitNetwork<IPowerConduit, IPowerConduit> {
 

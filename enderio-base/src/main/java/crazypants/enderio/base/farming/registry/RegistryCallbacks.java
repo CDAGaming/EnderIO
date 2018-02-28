@@ -1,15 +1,14 @@
 package crazypants.enderio.base.farming.registry;
 
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.util.NNList;
-
 import crazypants.enderio.api.farm.IFarmerJoe;
 import crazypants.enderio.base.farming.farmers.CustomSeedFarmer;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.registries.IForgeRegistry;
 import net.minecraftforge.registries.IForgeRegistryInternal;
 import net.minecraftforge.registries.RegistryManager;
+
+import javax.annotation.Nullable;
 
 class RegistryCallbacks implements IForgeRegistry.AddCallback<IFarmerJoe>, IForgeRegistry.ClearCallback<IFarmerJoe>, IForgeRegistry.CreateCallback<IFarmerJoe> {
 

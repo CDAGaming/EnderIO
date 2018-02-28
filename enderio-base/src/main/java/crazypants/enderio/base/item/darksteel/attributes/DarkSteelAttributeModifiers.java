@@ -1,11 +1,10 @@
 package crazypants.enderio.base.item.darksteel.attributes;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
-
 import crazypants.enderio.base.config.config.DarkSteelConfig;
 import net.minecraft.entity.ai.attributes.AttributeModifier;
+
+import javax.annotation.Nonnull;
 
 public class DarkSteelAttributeModifiers {
 

@@ -1,14 +1,8 @@
 package crazypants.enderio.base.material.alloy;
 
-import java.util.List;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.api.client.gui.IAdvancedTooltipProvider;
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.NNList.Callback;
-
 import crazypants.enderio.base.BlockEio;
 import crazypants.enderio.base.EnderIOTab;
 import crazypants.enderio.base.TileEntityEio;
@@ -33,6 +27,10 @@ import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.List;
 
 public class BlockAlloy extends BlockEio<TileEntityEio> implements IAdvancedTooltipProvider, IHaveRenderers {
 

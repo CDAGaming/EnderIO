@@ -1,15 +1,7 @@
 package crazypants.enderio.base.filter.gui;
 
-import java.awt.Color;
-import java.awt.Rectangle;
-
-import javax.annotation.Nonnull;
-
-import org.lwjgl.opengl.GL11;
-
 import com.enderio.core.client.gui.button.IconButton;
 import com.enderio.core.client.render.ColorUtil;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.filter.filters.ModItemFilter;
 import crazypants.enderio.base.gui.GuiContainerBaseEIO;
@@ -18,6 +10,10 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.FontRenderer;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.item.ItemStack;
+import org.lwjgl.opengl.GL11;
+
+import javax.annotation.Nonnull;
+import java.awt.*;
 
 public class ModItemFilterGui implements IItemFilterGui {
 

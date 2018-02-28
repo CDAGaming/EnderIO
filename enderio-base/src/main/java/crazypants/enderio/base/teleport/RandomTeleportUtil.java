@@ -1,9 +1,5 @@
 package crazypants.enderio.base.teleport;
 
-import java.util.Random;
-
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.sound.SoundRegistry;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
@@ -16,6 +12,9 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.entity.living.EnderTeleportEvent;
+
+import javax.annotation.Nonnull;
+import java.util.Random;
 
 public class RandomTeleportUtil {
 

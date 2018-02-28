@@ -1,15 +1,14 @@
 package crazypants.enderio.base.block.coldfire;
 
-import java.util.Random;
-
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.init.IModObject;
 import crazypants.enderio.base.render.IDefaultRenderers;
 import net.minecraft.block.BlockFire;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+
+import javax.annotation.Nonnull;
+import java.util.Random;
 
 public class BlockColdFire extends BlockFire implements IDefaultRenderers {
 

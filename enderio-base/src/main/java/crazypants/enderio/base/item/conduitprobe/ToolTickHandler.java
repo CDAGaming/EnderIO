@@ -1,7 +1,5 @@
 package crazypants.enderio.base.item.conduitprobe;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.api.tool.IConduitControl;
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.conduit.ConduitDisplayMode;
@@ -18,6 +16,8 @@ import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
 
 @SideOnly(Side.CLIENT)
 @EventBusSubscriber(modid = EnderIO.MODID, value = Side.CLIENT)

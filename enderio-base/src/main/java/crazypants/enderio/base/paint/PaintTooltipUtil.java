@@ -1,9 +1,6 @@
 package crazypants.enderio.base.paint;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.stackable.Things;
-
 import crazypants.enderio.util.Prep;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
@@ -12,6 +9,8 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.entity.player.ItemTooltipEvent;
 import net.minecraftforge.fml.common.eventhandler.EventPriority;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+
+import javax.annotation.Nonnull;
 
 /**
  * Adds a tooltip with paint information to items that can be painted.

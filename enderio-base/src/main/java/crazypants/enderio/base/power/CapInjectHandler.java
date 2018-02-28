@@ -1,12 +1,12 @@
 package crazypants.enderio.base.power;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.Log;
 import crazypants.enderio.base.power.forge.ForgeAdapter;
 import net.minecraftforge.common.capabilities.Capability;
 import net.minecraftforge.common.capabilities.CapabilityInject;
 import net.minecraftforge.energy.IEnergyStorage;
+
+import javax.annotation.Nonnull;
 
 /**
  * This class MUST be safe to be class-loaded before the full classpath is in place!

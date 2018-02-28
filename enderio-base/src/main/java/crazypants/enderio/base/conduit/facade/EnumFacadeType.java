@@ -1,14 +1,12 @@
 package crazypants.enderio.base.conduit.facade;
 
-import java.util.Locale;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NullHelper;
-
 import net.minecraft.item.Item;
 import net.minecraft.util.IStringSerializable;
 import net.minecraft.util.math.MathHelper;
+
+import javax.annotation.Nonnull;
+import java.util.Locale;
 
 public enum EnumFacadeType implements IStringSerializable {
 

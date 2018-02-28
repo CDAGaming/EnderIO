@@ -1,10 +1,10 @@
 package crazypants.enderio.api.farm;
 
-import javax.annotation.Nonnull;
-
 import net.minecraft.entity.item.EntityItem;
 import net.minecraft.util.NonNullList;
 import net.minecraft.util.math.BlockPos;
+
+import javax.annotation.Nonnull;
 
 /**
  * This represents the result of a harvest.

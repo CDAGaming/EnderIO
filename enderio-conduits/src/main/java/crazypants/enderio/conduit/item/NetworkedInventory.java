@@ -1,16 +1,6 @@
 package crazypants.enderio.conduit.item;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.util.RoundRobinIterator;
-
 import crazypants.enderio.base.Log;
 import crazypants.enderio.base.capability.ItemTools;
 import crazypants.enderio.base.conduit.ConnectionMode;
@@ -26,6 +16,10 @@ import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraftforge.items.IItemHandler;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.*;
 
 public class NetworkedInventory implements INetworkedInventory {
 

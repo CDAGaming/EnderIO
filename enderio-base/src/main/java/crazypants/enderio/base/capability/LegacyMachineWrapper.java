@@ -1,10 +1,7 @@
 package crazypants.enderio.base.capability;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.ItemUtil;
 import com.enderio.core.common.util.NNList;
-
 import crazypants.enderio.base.machine.baselegacy.AbstractInventoryMachineEntity;
 import crazypants.enderio.base.machine.baselegacy.SlotDefinition;
 import crazypants.enderio.base.machine.modes.IoMode;
@@ -12,6 +9,8 @@ import crazypants.enderio.util.Prep;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.EnumFacing;
 import net.minecraftforge.items.IItemHandler;
+
+import javax.annotation.Nonnull;
 
 public class LegacyMachineWrapper implements IItemHandler {
   protected final @Nonnull AbstractInventoryMachineEntity machine;

@@ -1,15 +1,14 @@
 package crazypants.enderio.base.xp;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.client.render.ColorUtil;
 import com.enderio.core.client.render.RenderUtil;
-
 import crazypants.enderio.base.gui.IconEIO;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.FontRenderer;
 import net.minecraft.client.gui.Gui;
 import net.minecraft.client.renderer.GlStateManager;
+
+import javax.annotation.Nonnull;
 
 public class ExperienceBarRenderer {
 

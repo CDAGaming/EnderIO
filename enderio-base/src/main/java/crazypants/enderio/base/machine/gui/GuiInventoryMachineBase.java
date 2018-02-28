@@ -1,14 +1,13 @@
 package crazypants.enderio.base.machine.gui;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.ContainerEnder;
-
 import crazypants.enderio.base.machine.baselegacy.AbstractInventoryMachineEntity;
 import crazypants.enderio.base.machine.baselegacy.SlotDefinition;
 import crazypants.enderio.base.machine.modes.IoMode;
 import net.minecraft.inventory.Container;
 import net.minecraft.inventory.Slot;
+
+import javax.annotation.Nonnull;
 
 public class GuiInventoryMachineBase<T extends AbstractInventoryMachineEntity> extends GuiMachineBase<T> {
 

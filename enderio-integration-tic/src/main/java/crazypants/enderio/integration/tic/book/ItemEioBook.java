@@ -1,7 +1,5 @@
 package crazypants.enderio.integration.tic.book;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.EnderIOTab;
 import crazypants.enderio.base.init.IModObject;
 import net.minecraft.entity.player.EntityPlayer;
@@ -11,6 +9,8 @@ import net.minecraft.util.ActionResult;
 import net.minecraft.util.EnumActionResult;
 import net.minecraft.util.EnumHand;
 import net.minecraft.world.World;
+
+import javax.annotation.Nonnull;
 
 public class ItemEioBook extends Item {
 

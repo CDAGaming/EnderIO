@@ -1,16 +1,15 @@
 package crazypants.enderio.base.conduit;
 
+import crazypants.enderio.base.conduit.geom.CollidableComponent;
+import net.minecraft.util.math.RayTraceResult;
+import net.minecraft.util.math.Vec3d;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
-import crazypants.enderio.base.conduit.geom.CollidableComponent;
-import net.minecraft.util.math.RayTraceResult;
-import net.minecraft.util.math.Vec3d;
 
 public class RaytraceResult {
 

@@ -1,13 +1,6 @@
 package crazypants.enderio.machines.integration.jei;
 
-import java.awt.Color;
-import java.util.Collections;
-import java.util.List;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.client.render.ColorUtil;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.capacitor.DefaultCapacitorData;
 import crazypants.enderio.base.fluid.Fluids;
@@ -22,11 +15,7 @@ import crazypants.enderio.machines.lang.Lang;
 import crazypants.enderio.machines.machine.generator.zombie.GuiZombieGenerator;
 import mezz.jei.api.IGuiHelper;
 import mezz.jei.api.IModRegistry;
-import mezz.jei.api.gui.IDrawable;
-import mezz.jei.api.gui.IGuiFluidStackGroup;
-import mezz.jei.api.gui.IGuiIngredientGroup;
-import mezz.jei.api.gui.IRecipeLayout;
-import mezz.jei.api.gui.ITooltipCallback;
+import mezz.jei.api.gui.*;
 import mezz.jei.api.ingredients.IIngredients;
 import mezz.jei.api.recipe.BlankRecipeCategory;
 import mezz.jei.api.recipe.BlankRecipeWrapper;
@@ -36,6 +25,11 @@ import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fluids.FluidStack;
+
+import javax.annotation.Nonnull;
+import java.awt.*;
+import java.util.Collections;
+import java.util.List;
 
 public class ZombieGeneratorRecipeCategory extends BlankRecipeCategory<ZombieGeneratorRecipeCategory.ZombieGeneratorRecipeWrapper> {
 

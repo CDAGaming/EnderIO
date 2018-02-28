@@ -1,20 +1,18 @@
 package info.loenwind.autosave.handlers.enderio;
 
+import com.enderio.core.common.NBTAction;
+import crazypants.enderio.base.machine.interfaces.IPoweredTask;
+import info.loenwind.autosave.Registry;
+import info.loenwind.autosave.exceptions.NoHandlerFoundException;
+import info.loenwind.autosave.handlers.IHandler;
+import net.minecraft.nbt.NBTTagCompound;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.Set;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
-import info.loenwind.autosave.Registry;
-import com.enderio.core.common.NBTAction;
-
-import crazypants.enderio.base.machine.interfaces.IPoweredTask;
-import info.loenwind.autosave.exceptions.NoHandlerFoundException;
-import info.loenwind.autosave.handlers.IHandler;
-import net.minecraft.nbt.NBTTagCompound;
 
 public class HandlePoweredTask implements IHandler<IPoweredTask> {
 

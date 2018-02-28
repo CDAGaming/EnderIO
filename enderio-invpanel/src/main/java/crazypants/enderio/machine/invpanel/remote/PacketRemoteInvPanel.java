@@ -1,7 +1,5 @@
 package crazypants.enderio.machine.invpanel.remote;
 
-import static crazypants.enderio.util.NbtValue.*;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.machine.invpanel.TileInventoryPanel;
 import io.netty.buffer.ByteBuf;
@@ -19,6 +17,8 @@ import net.minecraftforge.fml.common.FMLCommonHandler;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler;
 import net.minecraftforge.fml.common.network.simpleimpl.MessageContext;
+
+import static crazypants.enderio.util.NbtValue.*;
 
 public class PacketRemoteInvPanel implements IMessage, IMessageHandler<PacketRemoteInvPanel, IMessage> {
 

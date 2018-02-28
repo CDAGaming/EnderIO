@@ -1,14 +1,5 @@
 package crazypants.enderio.conduit;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.EnumSet;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
-
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.Log;
 import crazypants.enderio.base.conduit.ConduitUtil;
 import crazypants.enderio.base.conduit.IConduit;
@@ -26,6 +17,9 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraftforge.event.ForgeEventFactory;
 import net.minecraftforge.fml.common.gameevent.TickEvent.ServerTickEvent;
+
+import javax.annotation.Nonnull;
+import java.util.*;
 
 //I=base type, I is the base class of the implementations accepted by the network 
 public abstract class AbstractConduitNetwork<T extends IConduit, I extends T> implements IConduitNetwork<T, I> {

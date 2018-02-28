@@ -1,11 +1,5 @@
 package crazypants.enderio.base.handler;
 
-import java.util.Iterator;
-
-import javax.annotation.Nonnull;
-
-import org.lwjgl.input.Keyboard;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.config.config.PersonalConfig;
 import crazypants.enderio.base.integration.jei.JeiAccessor;
@@ -22,6 +16,10 @@ import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+import org.lwjgl.input.Keyboard;
+
+import javax.annotation.Nonnull;
+import java.util.Iterator;
 
 @EventBusSubscriber(modid = EnderIO.MODID, value = Side.CLIENT)
 @SideOnly(Side.CLIENT)

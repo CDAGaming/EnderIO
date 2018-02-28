@@ -1,14 +1,13 @@
 package info.loenwind.autosave.annotations;
 
+import com.enderio.core.common.NBTAction;
+import info.loenwind.autosave.handlers.IHandler;
+import info.loenwind.autosave.handlers.internal.NullHandler;
+
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
-
-import com.enderio.core.common.NBTAction;
-
-import info.loenwind.autosave.handlers.IHandler;
-import info.loenwind.autosave.handlers.internal.NullHandler;
 
 /**
  * Marks a field to be stored in NBT.

@@ -1,11 +1,5 @@
 package crazypants.enderio.machines.machine.tank;
 
-import java.util.Collections;
-import java.util.List;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.api.common.util.ITankAccess;
 import com.enderio.core.common.fluid.FluidWrapper;
 import com.enderio.core.common.fluid.SmartTank;
@@ -13,7 +7,6 @@ import com.enderio.core.common.fluid.SmartTankFluidHandler;
 import com.enderio.core.common.util.FluidUtil;
 import com.enderio.core.common.util.FluidUtil.FluidAndStackResult;
 import com.enderio.core.common.util.ItemUtil;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.fluid.Fluids;
 import crazypants.enderio.base.fluid.SmartTankFluidMachineHandler;
@@ -40,6 +33,11 @@ import net.minecraftforge.fluids.FluidRegistry;
 import net.minecraftforge.fluids.FluidStack;
 import net.minecraftforge.fluids.FluidTank;
 import net.minecraftforge.fluids.capability.CapabilityFluidHandler;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.Collections;
+import java.util.List;
 
 @Storable
 public class TileTank extends AbstractInventoryMachineEntity implements ITankAccess.IExtendedTankAccess, IPaintable.IPaintableTileEntity {

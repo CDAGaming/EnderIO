@@ -1,12 +1,6 @@
 package crazypants.enderio.base.gui.tooltip;
 
-import java.util.List;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.client.handlers.SpecialTooltipHandler.ITooltipCallback;
-
 import crazypants.enderio.base.config.config.PersonalConfig;
 import crazypants.enderio.base.lang.Lang;
 import crazypants.enderio.base.lang.LangPower;
@@ -15,6 +9,10 @@ import crazypants.enderio.base.machine.fuel.SolidFuelCenter;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.text.TextFormatting;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.List;
 
 public class TooltipHandlerBurnTime implements ITooltipCallback {
 

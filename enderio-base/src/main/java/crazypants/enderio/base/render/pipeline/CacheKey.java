@@ -1,11 +1,11 @@
 package crazypants.enderio.base.render.pipeline;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import crazypants.enderio.base.render.ICacheKey;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 public class CacheKey implements ICacheKey {
 

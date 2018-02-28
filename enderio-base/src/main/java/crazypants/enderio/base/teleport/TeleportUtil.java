@@ -1,10 +1,7 @@
 package crazypants.enderio.base.teleport;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.Util;
 import com.enderio.core.common.vecmath.Vector3d;
-
 import crazypants.enderio.api.teleport.TeleportEntityEvent;
 import crazypants.enderio.api.teleport.TravelSource;
 import crazypants.enderio.base.Log;
@@ -21,6 +18,8 @@ import net.minecraft.world.World;
 import net.minecraft.world.WorldServer;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.FMLCommonHandler;
+
+import javax.annotation.Nonnull;
 
 public class TeleportUtil {
 

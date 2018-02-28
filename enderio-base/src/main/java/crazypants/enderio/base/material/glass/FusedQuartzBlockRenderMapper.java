@@ -1,11 +1,6 @@
 package crazypants.enderio.base.material.glass;
 
-import java.util.List;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
-
 import crazypants.enderio.base.render.IBlockStateWrapper;
 import crazypants.enderio.base.render.property.EnumMergingBlockRenderMode;
 import crazypants.enderio.base.render.rendermapper.ConnectedBlockRenderMapper;
@@ -17,6 +12,9 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import java.util.List;
 
 import static crazypants.enderio.base.config.Config.glassConnectToTheirColorVariants;
 import static crazypants.enderio.base.render.property.EnumMergingBlockRenderMode.RENDER;

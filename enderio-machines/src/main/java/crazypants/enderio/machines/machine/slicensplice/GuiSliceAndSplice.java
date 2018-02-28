@@ -1,11 +1,11 @@
 package crazypants.enderio.machines.machine.slicensplice;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.machine.gui.GuiInventoryMachineBase;
 import crazypants.enderio.base.machine.gui.PowerBar;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.entity.player.InventoryPlayer;
+
+import javax.annotation.Nonnull;
 
 public class GuiSliceAndSplice extends GuiInventoryMachineBase<TileSliceAndSplice> {
 

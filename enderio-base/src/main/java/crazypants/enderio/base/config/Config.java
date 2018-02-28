@@ -1,17 +1,11 @@
 package crazypants.enderio.base.config;
 
-import java.io.File;
-import java.util.Map.Entry;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.event.ConfigFileChangedEvent;
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.NNList.Callback;
 import com.enderio.core.common.util.NullHelper;
 import com.enderio.core.common.util.stackable.Things;
 import com.enderio.core.common.vecmath.VecmathUtil;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.Log;
 import crazypants.enderio.base.capacitor.CapacitorKey;
@@ -31,6 +25,10 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.PlayerEvent.PlayerLoggedInEvent;
+
+import javax.annotation.Nonnull;
+import java.io.File;
+import java.util.Map.Entry;
 
 public final class Config {
 

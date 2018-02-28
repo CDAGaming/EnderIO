@@ -1,10 +1,5 @@
 package crazypants.enderio.powertools.capacitor;
 
-import java.util.Locale;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import crazypants.enderio.base.capacitor.CapacitorKeyHelper;
 import crazypants.enderio.base.capacitor.CapacitorKeyType;
 import crazypants.enderio.base.capacitor.ICapacitorKey;
@@ -14,6 +9,10 @@ import crazypants.enderio.powertools.EnderIOPowerTools;
 import crazypants.enderio.powertools.config.Config;
 import crazypants.enderio.powertools.init.PowerToolObject;
 import net.minecraftforge.common.config.Configuration;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.Locale;
 
 public enum CapacitorKey implements ICapacitorKey.Computable {
 

@@ -1,21 +1,18 @@
 package crazypants.enderio.machines.machine.transceiver.gui;
 
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.annotation.Nonnull;
-
-import org.lwjgl.opengl.GL11;
-
 import com.enderio.core.api.client.gui.IGuiOverlay;
 import com.enderio.core.api.client.gui.ITabPanel;
-
 import crazypants.enderio.base.machine.gui.GuiInventoryMachineBase;
 import crazypants.enderio.base.transceiver.ChannelType;
 import crazypants.enderio.machines.machine.transceiver.TileTransceiver;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.entity.player.InventoryPlayer;
+import org.lwjgl.opengl.GL11;
+
+import javax.annotation.Nonnull;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class GuiTransceiver extends GuiInventoryMachineBase<TileTransceiver> implements ITransceiverRemoteExec.GUI {
 

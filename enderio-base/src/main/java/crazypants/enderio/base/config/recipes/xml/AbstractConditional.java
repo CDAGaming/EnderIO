@@ -1,14 +1,13 @@
 package crazypants.enderio.base.config.recipes.xml;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.xml.stream.XMLStreamException;
-import javax.xml.stream.events.StartElement;
-
 import crazypants.enderio.base.config.recipes.InvalidRecipeConfigException;
 import crazypants.enderio.base.config.recipes.RecipeGameRecipe;
 import crazypants.enderio.base.config.recipes.StaxFactory;
+
+import javax.xml.stream.XMLStreamException;
+import javax.xml.stream.events.StartElement;
+import java.util.ArrayList;
+import java.util.List;
 
 public abstract class AbstractConditional implements RecipeGameRecipe {
 

@@ -1,17 +1,16 @@
 package crazypants.enderio.base.diagnostics;
 
-import java.io.PrintWriter;
-import java.io.StringWriter;
-import java.util.LinkedList;
-import java.util.List;
-
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.Log;
 import net.minecraft.profiler.Profiler;
 import net.minecraft.server.MinecraftServer;
 import net.minecraftforge.fml.common.event.FMLServerAboutToStartEvent;
 import net.minecraftforge.fml.relauncher.ReflectionHelper;
+
+import javax.annotation.Nonnull;
+import java.io.PrintWriter;
+import java.io.StringWriter;
+import java.util.LinkedList;
+import java.util.List;
 
 public class ProfilerDebugger extends Profiler {
 

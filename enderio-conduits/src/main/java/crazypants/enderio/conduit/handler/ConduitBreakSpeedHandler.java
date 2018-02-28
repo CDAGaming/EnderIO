@@ -1,7 +1,6 @@
 package crazypants.enderio.conduit.handler;
 
 import com.enderio.core.common.util.NullHelper;
-
 import crazypants.enderio.base.conduit.IConduitBundle;
 import crazypants.enderio.base.paint.YetaUtil;
 import crazypants.enderio.conduit.EnderIOConduits;

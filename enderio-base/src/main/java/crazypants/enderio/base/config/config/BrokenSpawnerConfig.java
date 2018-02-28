@@ -1,7 +1,6 @@
 package crazypants.enderio.base.config.config;
 
 import com.enderio.core.common.util.stackable.Things;
-
 import crazypants.enderio.base.config.Config.Section;
 import crazypants.enderio.base.config.SectionedValueFactory;
 import crazypants.enderio.base.config.ValueFactory.IValue;

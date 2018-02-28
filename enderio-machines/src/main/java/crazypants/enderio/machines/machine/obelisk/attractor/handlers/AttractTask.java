@@ -1,7 +1,5 @@
 package crazypants.enderio.machines.machine.obelisk.attractor.handlers;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.machines.machine.obelisk.attractor.TileAttractor;
 import net.minecraft.entity.EntityLiving;
 import net.minecraft.entity.ai.EntityAIBase;
@@ -9,6 +7,8 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
 import net.minecraftforge.common.util.FakePlayer;
+
+import javax.annotation.Nonnull;
 
 class AttractTask extends EntityAIBase {
 

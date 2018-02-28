@@ -1,7 +1,5 @@
 package crazypants.enderio.base.recipe.painter;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.item.darksteel.ItemDarkSteelArmor;
 import crazypants.enderio.base.paint.PaintTooltipUtil;
 import crazypants.enderio.base.recipe.MachineRecipeInput;
@@ -9,6 +7,8 @@ import crazypants.enderio.util.Prep;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
+
+import javax.annotation.Nonnull;
 
 public class HelmetPainterTemplate extends AbstractPainterTemplate<ItemDarkSteelArmor> {
 

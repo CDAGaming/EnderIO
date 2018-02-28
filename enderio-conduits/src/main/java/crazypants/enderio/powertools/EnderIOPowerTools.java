@@ -1,13 +1,7 @@
 package crazypants.enderio.powertools;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
-import org.apache.commons.lang3.tuple.Triple;
-
 import com.enderio.core.common.Lang;
 import com.enderio.core.common.util.NNList;
-
 import crazypants.enderio.api.addon.IEnderIOAddon;
 import crazypants.enderio.base.config.recipes.RecipeFactory;
 import crazypants.enderio.conduit.EnderIOConduits;
@@ -19,6 +13,10 @@ import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import org.apache.commons.lang3.tuple.Triple;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 @Mod(modid = EnderIOPowerTools.MODID, name = EnderIOPowerTools.MOD_NAME, version = EnderIOPowerTools.VERSION, dependencies = "after:" + EnderIOConduits.MODID)
 public class EnderIOPowerTools implements IEnderIOAddon {

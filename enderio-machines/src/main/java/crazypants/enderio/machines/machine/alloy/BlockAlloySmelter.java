@@ -1,8 +1,5 @@
 package crazypants.enderio.machines.machine.alloy;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import crazypants.enderio.base.init.IModObject;
 import crazypants.enderio.base.machine.baselegacy.AbstractPoweredTaskBlock;
 import crazypants.enderio.base.machine.render.RenderMappers;
@@ -21,6 +18,9 @@ import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 public class BlockAlloySmelter<T extends TileAlloySmelter> extends AbstractPoweredTaskBlock<T>
     implements IPaintable.ISolidBlockPaintableBlock, IPaintable.IWrenchHideablePaint {

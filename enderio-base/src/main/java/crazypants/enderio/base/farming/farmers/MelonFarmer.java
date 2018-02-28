@@ -1,12 +1,12 @@
 package crazypants.enderio.base.farming.farmers;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.api.farm.IFarmer;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.math.BlockPos;
+
+import javax.annotation.Nonnull;
 
 public class MelonFarmer extends CustomSeedFarmer {
 

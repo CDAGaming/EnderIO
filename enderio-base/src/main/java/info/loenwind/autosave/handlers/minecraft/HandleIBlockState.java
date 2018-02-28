@@ -1,19 +1,17 @@
 package info.loenwind.autosave.handlers.minecraft;
 
-import java.lang.reflect.Field;
-import java.util.Set;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
-import info.loenwind.autosave.Registry;
 import com.enderio.core.common.NBTAction;
-
 import crazypants.enderio.base.paint.PaintUtil;
+import info.loenwind.autosave.Registry;
 import info.loenwind.autosave.exceptions.NoHandlerFoundException;
 import info.loenwind.autosave.handlers.IHandler;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.nbt.NBTTagCompound;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.lang.reflect.Field;
+import java.util.Set;
 
 public class HandleIBlockState implements IHandler<IBlockState> {
 

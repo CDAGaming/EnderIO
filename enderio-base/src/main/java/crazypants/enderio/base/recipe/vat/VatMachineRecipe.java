@@ -1,9 +1,6 @@
 package crazypants.enderio.base.recipe.vat;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
-
 import crazypants.enderio.base.recipe.AbstractMachineRecipe;
 import crazypants.enderio.base.recipe.IRecipe;
 import crazypants.enderio.base.recipe.MachineRecipeInput;
@@ -11,6 +8,8 @@ import crazypants.enderio.base.recipe.MachineRecipeRegistry;
 import crazypants.enderio.util.Prep;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fluids.FluidStack;
+
+import javax.annotation.Nonnull;
 
 public class VatMachineRecipe extends AbstractMachineRecipe {
 

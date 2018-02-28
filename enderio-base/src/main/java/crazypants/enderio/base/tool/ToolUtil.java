@@ -1,11 +1,5 @@
 package crazypants.enderio.base.tool;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import crazypants.enderio.api.tool.ITool;
 import crazypants.enderio.base.lang.Lang;
 import crazypants.enderio.util.Prep;
@@ -21,6 +15,11 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.world.BlockEvent;
 import net.minecraftforge.server.permission.PermissionAPI;
 import net.minecraftforge.server.permission.context.BlockPosContext;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.ArrayList;
+import java.util.List;
 
 public class ToolUtil {
 

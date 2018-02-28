@@ -1,13 +1,10 @@
 package crazypants.enderio.base.material.material;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.api.common.util.ITankAccess;
 import com.enderio.core.common.util.FluidUtil;
 import com.enderio.core.common.util.FluidUtil.FluidAndStackResult;
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.OreDictionaryHelper;
-
 import crazypants.enderio.base.fluid.Fluids;
 import crazypants.enderio.util.Prep;
 import net.minecraft.inventory.InventoryCrafting;
@@ -22,6 +19,8 @@ import net.minecraftforge.fluids.Fluid;
 import net.minecraftforge.fluids.FluidStack;
 import net.minecraftforge.fluids.FluidTank;
 import net.minecraftforge.oredict.OreIngredient;
+
+import javax.annotation.Nonnull;
 
 public class NutritiousStickRecipe extends ShapelessRecipes { // sic! JEI won't work if we don't extend that
 

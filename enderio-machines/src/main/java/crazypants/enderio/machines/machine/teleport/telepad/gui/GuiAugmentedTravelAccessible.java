@@ -1,7 +1,5 @@
 package crazypants.enderio.machines.machine.teleport.telepad.gui;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.gui.IToggleableGui;
 import crazypants.enderio.base.gui.IconEIO;
 import crazypants.enderio.base.gui.ToggleTravelButton;
@@ -13,6 +11,8 @@ import crazypants.enderio.machines.machine.teleport.telepad.packet.PacketOpenSer
 import crazypants.enderio.machines.network.PacketHandler;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.world.World;
+
+import javax.annotation.Nonnull;
 
 public class GuiAugmentedTravelAccessible extends GuiTravelAccessable<TileTelePad> implements IToggleableGui {
 

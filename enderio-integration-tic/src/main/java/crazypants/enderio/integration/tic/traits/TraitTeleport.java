@@ -1,9 +1,5 @@
 package crazypants.enderio.integration.tic.traits;
 
-import java.util.Iterator;
-
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.teleport.RandomTeleportUtil;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.item.ItemStack;
@@ -14,6 +10,9 @@ import slimeknights.tconstruct.library.modifiers.ModifierNBT;
 import slimeknights.tconstruct.library.traits.AbstractTraitLeveled;
 import slimeknights.tconstruct.library.utils.TinkerUtil;
 import slimeknights.tconstruct.library.utils.ToolHelper;
+
+import javax.annotation.Nonnull;
+import java.util.Iterator;
 
 public class TraitTeleport extends AbstractTraitLeveled {
 

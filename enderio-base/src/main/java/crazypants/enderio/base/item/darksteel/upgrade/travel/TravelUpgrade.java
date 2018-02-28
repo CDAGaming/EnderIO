@@ -1,13 +1,13 @@
 package crazypants.enderio.base.item.darksteel.upgrade.travel;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.config.Config;
 import crazypants.enderio.base.handler.darksteel.AbstractUpgrade;
 import crazypants.enderio.base.init.ModObject;
 import crazypants.enderio.base.item.darksteel.upgrade.energy.EnergyUpgradeManager;
 import crazypants.enderio.base.material.material.Material;
 import net.minecraft.item.ItemStack;
+
+import javax.annotation.Nonnull;
 
 public class TravelUpgrade extends AbstractUpgrade {
 

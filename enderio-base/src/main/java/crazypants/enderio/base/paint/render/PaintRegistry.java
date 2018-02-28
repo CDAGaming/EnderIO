@@ -1,16 +1,6 @@
 package crazypants.enderio.base.paint.render;
 
-import java.util.Map.Entry;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.ConcurrentMap;
-
-import javax.annotation.Nullable;
-import javax.vecmath.Vector3f;
-
-import org.apache.commons.lang3.tuple.Pair;
-
 import com.google.common.base.Function;
-
 import crazypants.enderio.base.Log;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.Minecraft;
@@ -29,6 +19,13 @@ import net.minecraftforge.common.model.TRSRTransformation;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+import org.apache.commons.lang3.tuple.Pair;
+
+import javax.annotation.Nullable;
+import javax.vecmath.Vector3f;
+import java.util.Map.Entry;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.ConcurrentMap;
 
 public class PaintRegistry {
 

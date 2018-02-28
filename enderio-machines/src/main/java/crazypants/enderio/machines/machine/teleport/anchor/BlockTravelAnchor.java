@@ -1,10 +1,6 @@
 package crazypants.enderio.machines.machine.teleport.anchor;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.util.UserIdent;
-
 import crazypants.enderio.api.teleport.ITravelAccessable;
 import crazypants.enderio.base.init.IModObject;
 import crazypants.enderio.base.machine.base.block.AbstractMachineBlock;
@@ -32,6 +28,9 @@ import net.minecraft.world.World;
 import net.minecraftforge.fml.client.registry.ClientRegistry;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 public class BlockTravelAnchor<T extends TileTravelAnchor> extends AbstractMachineBlock<T>
     implements IPaintable.IBlockPaintableBlock, IPaintable.IWrenchHideablePaint, IDefaultRenderers, IHaveTESR {

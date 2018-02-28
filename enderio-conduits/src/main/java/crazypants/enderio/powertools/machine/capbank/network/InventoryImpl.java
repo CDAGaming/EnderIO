@@ -1,10 +1,7 @@
 package crazypants.enderio.powertools.machine.capbank.network;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.Util;
-
 import crazypants.enderio.base.power.PowerHandlerUtil;
 import crazypants.enderio.powertools.init.PowerToolObject;
 import crazypants.enderio.powertools.machine.capbank.TileCapBank;
@@ -14,6 +11,8 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.TextComponentString;
 import net.minecraft.util.text.TextComponentTranslation;
+
+import javax.annotation.Nonnull;
 
 public class InventoryImpl implements IInventory {
 

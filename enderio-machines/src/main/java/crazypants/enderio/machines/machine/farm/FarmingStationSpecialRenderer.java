@@ -1,17 +1,16 @@
 package crazypants.enderio.machines.machine.farm;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.client.render.ManagedTESR;
 import com.enderio.core.client.render.RenderUtil;
 import com.enderio.core.common.vecmath.Vector3f;
-
 import crazypants.enderio.api.farm.FarmNotification;
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.machines.config.config.FarmConfig;
 import net.minecraft.block.state.IBlockState;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
 
 import static crazypants.enderio.machines.init.MachineObject.block_farm_station;
 

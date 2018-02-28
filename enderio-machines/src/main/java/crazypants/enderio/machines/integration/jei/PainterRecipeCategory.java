@@ -1,16 +1,7 @@
 package crazypants.enderio.machines.integration.jei;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.List;
-import java.util.Random;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.stackable.Things;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.Log;
 import crazypants.enderio.base.integration.jei.energy.EnergyIngredient;
@@ -27,12 +18,7 @@ import crazypants.enderio.machines.machine.painter.GuiPainter;
 import mezz.jei.api.IGuiHelper;
 import mezz.jei.api.IJeiHelpers;
 import mezz.jei.api.IModRegistry;
-import mezz.jei.api.gui.IDrawable;
-import mezz.jei.api.gui.IDrawableAnimated;
-import mezz.jei.api.gui.IDrawableStatic;
-import mezz.jei.api.gui.IGuiIngredientGroup;
-import mezz.jei.api.gui.IGuiItemStackGroup;
-import mezz.jei.api.gui.IRecipeLayout;
+import mezz.jei.api.gui.*;
 import mezz.jei.api.ingredients.IIngredients;
 import mezz.jei.api.recipe.BlankRecipeCategory;
 import mezz.jei.api.recipe.BlankRecipeWrapper;
@@ -44,11 +30,11 @@ import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
 
+import javax.annotation.Nonnull;
+import java.util.*;
+
 import static crazypants.enderio.machines.init.MachineObject.block_painter;
-import static crazypants.enderio.machines.machine.painter.ContainerPainter.FIRST_INVENTORY_SLOT;
-import static crazypants.enderio.machines.machine.painter.ContainerPainter.FIRST_RECIPE_SLOT;
-import static crazypants.enderio.machines.machine.painter.ContainerPainter.NUM_INVENTORY_SLOT;
-import static crazypants.enderio.machines.machine.painter.ContainerPainter.NUM_RECIPE_SLOT;
+import static crazypants.enderio.machines.machine.painter.ContainerPainter.*;
 
 public class PainterRecipeCategory extends BlankRecipeCategory<PainterRecipeCategory.PainterRecipeWrapper> {
 

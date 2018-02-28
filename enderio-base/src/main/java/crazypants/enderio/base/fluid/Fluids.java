@@ -1,12 +1,8 @@
 package crazypants.enderio.base.fluid;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.fluid.BlockFluidEnder;
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.NullHelper;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.config.Config;
 import crazypants.enderio.base.integration.railcraft.RailcraftUtil;
@@ -29,6 +25,9 @@ import net.minecraftforge.fml.common.eventhandler.EventPriority;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 @EventBusSubscriber(modid = EnderIO.MODID)
 public enum Fluids {

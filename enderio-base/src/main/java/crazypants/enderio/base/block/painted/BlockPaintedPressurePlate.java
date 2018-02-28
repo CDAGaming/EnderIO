@@ -1,16 +1,9 @@
 package crazypants.enderio.base.block.painted;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.api.client.gui.IResourceTooltipProvider;
 import com.enderio.core.common.BlockEnder;
 import com.enderio.core.common.transform.EnderCoreMethods.IOverlayRenderAware;
 import com.enderio.core.common.util.NNList;
-
 import crazypants.enderio.base.EnderIOTab;
 import crazypants.enderio.base.block.painted.BlockItemPaintedBlock.INamedSubBlocks;
 import crazypants.enderio.base.init.IModObject;
@@ -22,22 +15,14 @@ import crazypants.enderio.base.paint.render.PaintHelper;
 import crazypants.enderio.base.paint.render.PaintRegistry;
 import crazypants.enderio.base.recipe.MachineRecipeRegistry;
 import crazypants.enderio.base.recipe.painter.PressurePlatePainterTemplate;
-import crazypants.enderio.base.render.IBlockStateWrapper;
-import crazypants.enderio.base.render.ICacheKey;
-import crazypants.enderio.base.render.ICustomSubItems;
-import crazypants.enderio.base.render.IRenderMapper;
-import crazypants.enderio.base.render.ISmartRenderAwareBlock;
+import crazypants.enderio.base.render.*;
 import crazypants.enderio.base.render.itemoverlay.MobNameOverlayRenderHelper;
 import crazypants.enderio.base.render.pipeline.BlockStateWrapperBase;
 import crazypants.enderio.base.render.property.EnumRenderPart;
 import crazypants.enderio.base.render.registry.SmartModelAttacher;
 import crazypants.enderio.base.render.util.QuadCollector;
 import crazypants.enderio.util.CapturedMob;
-import net.minecraft.block.Block;
-import net.minecraft.block.BlockBasePressurePlate;
-import net.minecraft.block.BlockPressurePlateWeighted;
-import net.minecraft.block.ITileEntityProvider;
-import net.minecraft.block.SoundType;
+import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.properties.IProperty;
 import net.minecraft.block.state.BlockStateContainer;
@@ -54,11 +39,7 @@ import net.minecraft.init.SoundEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.tileentity.TileEntity;
-import net.minecraft.util.BlockRenderLayer;
-import net.minecraft.util.EnumFacing;
-import net.minecraft.util.NonNullList;
-import net.minecraft.util.ResourceLocation;
-import net.minecraft.util.SoundCategory;
+import net.minecraft.util.*;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.math.RayTraceResult;
@@ -66,6 +47,11 @@ import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.ArrayList;
+import java.util.List;
 
 import static crazypants.enderio.base.init.ModObject.blockFusedQuartz;
 

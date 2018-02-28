@@ -1,9 +1,9 @@
 package crazypants.enderio.base.power;
 
-import javax.annotation.Nonnull;
-
 import net.minecraft.block.Block;
 import net.minecraft.item.ItemStack;
+
+import javax.annotation.Nonnull;
 
 public class GeneratorBlockItem extends PoweredBlockItem {
 

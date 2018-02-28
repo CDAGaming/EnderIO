@@ -1,9 +1,5 @@
 package crazypants.enderio.conduit.liquid;
 
-import java.util.List;
-
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.conduit.ConnectionMode;
 import crazypants.enderio.base.conduit.IConduit;
 import crazypants.enderio.base.conduit.IConduitBundle;
@@ -15,6 +11,9 @@ import net.minecraft.client.renderer.block.model.BakedQuad;
 import net.minecraft.client.renderer.texture.TextureAtlasSprite;
 import net.minecraft.util.BlockRenderLayer;
 import net.minecraft.util.EnumFacing;
+
+import javax.annotation.Nonnull;
+import java.util.List;
 
 public class EnderLiquidConduitRenderer extends DefaultConduitRenderer {
 

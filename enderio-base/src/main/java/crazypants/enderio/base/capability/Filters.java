@@ -1,16 +1,15 @@
 package crazypants.enderio.base.capability;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.inventory.Filters.PredicateItemStack;
 import com.google.common.base.Predicate;
-
 import crazypants.enderio.base.capacitor.CapacitorHelper;
 import crazypants.enderio.base.paint.IPaintable;
 import crazypants.enderio.base.recipe.sagmill.SagMillRecipeManager;
 import crazypants.enderio.util.CapturedMob;
 import net.minecraft.block.Block;
 import net.minecraft.item.ItemStack;
+
+import javax.annotation.Nonnull;
 
 import static com.enderio.core.common.inventory.Filters.and;
 import static com.enderio.core.common.inventory.Filters.not;

@@ -1,10 +1,9 @@
 package crazypants.enderio.base.integration;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.UserIdent;
-
 import net.minecraftforge.registries.IForgeRegistryEntry;
+
+import javax.annotation.Nonnull;
 
 public interface IIntegration extends IForgeRegistryEntry<IIntegration> {
 

@@ -2,7 +2,6 @@ package crazypants.enderio.machine.invpanel.server;
 
 import com.enderio.core.common.network.CompressedDataInput;
 import com.enderio.core.common.network.CompressedDataOutput;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.config.Config;
 import crazypants.enderio.base.network.PacketHandler;

@@ -1,18 +1,6 @@
 package crazypants.enderio.conduit.gui;
 
-import java.awt.Color;
-import java.awt.Point;
-import java.io.IOException;
-import java.util.EnumMap;
-import java.util.HashSet;
-import java.util.Set;
-
-import javax.annotation.Nonnull;
-
-import org.lwjgl.opengl.GL11;
-
 import com.enderio.core.client.render.ColorUtil;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.conduit.IConduit;
 import crazypants.enderio.base.conduit.IConduitBundle;
@@ -32,6 +20,14 @@ import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.World;
+import org.lwjgl.opengl.GL11;
+
+import javax.annotation.Nonnull;
+import java.awt.*;
+import java.io.IOException;
+import java.util.EnumMap;
+import java.util.HashSet;
+import java.util.Set;
 
 public class GuiExternalConnectionSelector extends GuiScreen {
 

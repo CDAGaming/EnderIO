@@ -1,16 +1,7 @@
 package crazypants.enderio.machines.integration.jei;
 
-import java.awt.Color;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.client.render.ColorUtil;
 import com.enderio.core.common.util.NNList;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.Log;
 import crazypants.enderio.base.capacitor.DefaultCapacitorData;
@@ -28,11 +19,7 @@ import crazypants.enderio.machines.machine.generator.combustion.CombustionMath;
 import crazypants.enderio.machines.machine.generator.combustion.GuiCombustionGenerator;
 import mezz.jei.api.IGuiHelper;
 import mezz.jei.api.IModRegistry;
-import mezz.jei.api.gui.IDrawable;
-import mezz.jei.api.gui.IGuiFluidStackGroup;
-import mezz.jei.api.gui.IGuiIngredient;
-import mezz.jei.api.gui.IGuiIngredientGroup;
-import mezz.jei.api.gui.IRecipeLayout;
+import mezz.jei.api.gui.*;
 import mezz.jei.api.ingredients.IIngredients;
 import mezz.jei.api.recipe.BlankRecipeCategory;
 import mezz.jei.api.recipe.BlankRecipeWrapper;
@@ -44,6 +31,13 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fluids.Fluid;
 import net.minecraftforge.fluids.FluidRegistry;
 import net.minecraftforge.fluids.FluidStack;
+
+import javax.annotation.Nonnull;
+import java.awt.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
 
 public class CombustionRecipeCategory extends BlankRecipeCategory<CombustionRecipeCategory.CombustionRecipeWrapper> {
 

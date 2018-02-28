@@ -1,17 +1,9 @@
 package crazypants.enderio.machines.machine.killera;
 
-import java.awt.Rectangle;
-import java.io.IOException;
-import java.util.List;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.client.gui.button.ToggleButton;
 import com.enderio.core.client.gui.widget.GuiToolTip;
 import com.enderio.core.client.render.RenderUtil;
 import com.google.common.collect.Lists;
-
 import crazypants.enderio.base.gui.IconEIO;
 import crazypants.enderio.base.lang.LangFluid;
 import crazypants.enderio.base.machine.gui.GuiMachineBase;
@@ -20,6 +12,12 @@ import crazypants.enderio.machines.lang.Lang;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.entity.player.InventoryPlayer;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.awt.*;
+import java.io.IOException;
+import java.util.List;
 
 public class GuiKillerJoe extends GuiMachineBase<TileKillerJoe> {
 

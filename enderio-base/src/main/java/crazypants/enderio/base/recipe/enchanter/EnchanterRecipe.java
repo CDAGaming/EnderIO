@@ -1,11 +1,8 @@
 package crazypants.enderio.base.recipe.enchanter;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.NullHelper;
 import com.enderio.core.common.util.stackable.Things;
-
 import crazypants.enderio.base.config.config.EnchanterConfig;
 import crazypants.enderio.base.recipe.IMachineRecipe;
 import crazypants.enderio.base.recipe.MachineRecipeInput;
@@ -16,6 +13,8 @@ import net.minecraft.enchantment.EnchantmentData;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemEnchantedBook;
 import net.minecraft.item.ItemStack;
+
+import javax.annotation.Nonnull;
 
 public class EnchanterRecipe implements IMachineRecipe {
 

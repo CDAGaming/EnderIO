@@ -1,11 +1,6 @@
 package crazypants.enderio.conduit.packet;
 
-import java.util.UUID;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.BlockCoord;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.Log;
 import crazypants.enderio.base.conduit.IConduit;
@@ -18,6 +13,9 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.common.network.simpleimpl.MessageContext;
 import net.minecraftforge.fml.relauncher.Side;
+
+import javax.annotation.Nonnull;
+import java.util.UUID;
 
 public class AbstractConduitPacket<T extends IConduit> extends AbstractConduitBundlePacket {
 

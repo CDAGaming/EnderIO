@@ -1,13 +1,12 @@
 package crazypants.enderio.base.integration.jei;
 
-import java.awt.Rectangle;
-import java.util.List;
+import crazypants.enderio.base.gui.GuiContainerBaseEIO;
+import mezz.jei.api.gui.IAdvancedGuiHandler;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
-
-import crazypants.enderio.base.gui.GuiContainerBaseEIO;
-import mezz.jei.api.gui.IAdvancedGuiHandler;
+import java.awt.*;
+import java.util.List;
 
 public class AdvancedGuiHandlerEnderIO implements IAdvancedGuiHandler<GuiContainerBaseEIO> {
 

@@ -1,19 +1,17 @@
 package crazypants.enderio.base.power;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.ListIterator;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.NNList.Callback;
-
 import crazypants.enderio.base.machine.base.te.AbstractMachineEntity;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+
+import javax.annotation.Nonnull;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.ListIterator;
 
 public class PowerDistributor implements Callback<EnumFacing> {
 

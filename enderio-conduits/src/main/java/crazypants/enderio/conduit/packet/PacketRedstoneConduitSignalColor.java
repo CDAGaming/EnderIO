@@ -1,7 +1,6 @@
 package crazypants.enderio.conduit.packet;
 
 import com.enderio.core.common.util.DyeColor;
-
 import crazypants.enderio.conduit.redstone.IRedstoneConduit;
 import io.netty.buffer.ByteBuf;
 import net.minecraft.block.state.IBlockState;

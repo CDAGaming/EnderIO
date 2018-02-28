@@ -1,20 +1,16 @@
 package crazypants.enderio.base.config.recipes.xml;
 
+import com.enderio.core.common.util.NNList;
+import com.enderio.core.common.util.NNList.NNIterator;
+import crazypants.enderio.base.config.recipes.InvalidRecipeConfigException;
+import crazypants.enderio.base.config.recipes.StaxFactory;
+import crazypants.enderio.base.recipe.*;
+import crazypants.enderio.base.recipe.Recipe;
+import crazypants.enderio.base.recipe.slicensplice.SliceAndSpliceRecipeManager;
+
 import javax.annotation.Nonnull;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.events.StartElement;
-
-import com.enderio.core.common.util.NNList;
-import com.enderio.core.common.util.NNList.NNIterator;
-
-import crazypants.enderio.base.config.recipes.InvalidRecipeConfigException;
-import crazypants.enderio.base.config.recipes.StaxFactory;
-import crazypants.enderio.base.recipe.IRecipeInput;
-import crazypants.enderio.base.recipe.Recipe;
-import crazypants.enderio.base.recipe.RecipeBonusType;
-import crazypants.enderio.base.recipe.RecipeOutput;
-import crazypants.enderio.base.recipe.ThingsRecipeInput;
-import crazypants.enderio.base.recipe.slicensplice.SliceAndSpliceRecipeManager;
 
 public class Slicing extends AbstractCrafting {
 

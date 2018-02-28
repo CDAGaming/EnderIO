@@ -1,13 +1,13 @@
 package crazypants.enderio.machines.machine.obelisk.relocator;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.machines.machine.obelisk.render.ObeliskSpecialRenderer;
 import crazypants.enderio.util.Prep;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
 
 import static crazypants.enderio.machines.init.MachineObject.block_relocator_obelisk;
 

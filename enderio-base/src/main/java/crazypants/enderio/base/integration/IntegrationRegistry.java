@@ -1,11 +1,8 @@
 package crazypants.enderio.base.integration;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.NNList.ShortCallback;
 import com.enderio.core.common.util.UserIdent;
-
 import crazypants.enderio.base.EnderIO;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.event.RegistryEvent;
@@ -14,6 +11,8 @@ import net.minecraftforge.fml.common.eventhandler.EventPriority;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.registries.IForgeRegistry;
 import net.minecraftforge.registries.RegistryBuilder;
+
+import javax.annotation.Nonnull;
 
 @EventBusSubscriber(modid = EnderIO.MODID)
 public class IntegrationRegistry {

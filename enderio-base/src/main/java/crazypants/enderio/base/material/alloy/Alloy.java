@@ -1,16 +1,13 @@
 package crazypants.enderio.base.material.alloy;
 
-import java.util.Locale;
-
-import javax.annotation.Nonnull;
-
-import org.apache.commons.lang3.StringUtils;
-
 import com.enderio.core.common.util.NullHelper;
-
 import crazypants.enderio.base.init.ModObject;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.IStringSerializable;
+import org.apache.commons.lang3.StringUtils;
+
+import javax.annotation.Nonnull;
+import java.util.Locale;
 
 public enum Alloy implements IStringSerializable {
 

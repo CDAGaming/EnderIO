@@ -1,8 +1,5 @@
 package crazypants.enderio.machines.machine.buffer;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import crazypants.enderio.base.capacitor.DefaultCapacitorData;
 import crazypants.enderio.base.capacitor.ICapacitorKey;
 import crazypants.enderio.base.machine.baselegacy.AbstractPowerConsumerEntity;
@@ -24,12 +21,10 @@ import net.minecraft.world.World;
 import net.minecraftforge.common.capabilities.Capability;
 import net.minecraftforge.energy.CapabilityEnergy;
 
-import static crazypants.enderio.machines.capacitor.CapacitorKey.BUFFER_POWER_BUFFER;
-import static crazypants.enderio.machines.capacitor.CapacitorKey.BUFFER_POWER_INTAKE;
-import static crazypants.enderio.machines.capacitor.CapacitorKey.BUFFER_POWER_USE;
-import static crazypants.enderio.machines.capacitor.CapacitorKey.CREATIVE_BUFFER_POWER_BUFFER;
-import static crazypants.enderio.machines.capacitor.CapacitorKey.CREATIVE_BUFFER_POWER_INTAKE;
-import static crazypants.enderio.machines.capacitor.CapacitorKey.CREATIVE_BUFFER_POWER_USE;
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+
+import static crazypants.enderio.machines.capacitor.CapacitorKey.*;
 
 @Storable
 public abstract class TileBuffer extends AbstractPowerConsumerEntity implements ILegacyPowerReceiver, IPaintable.IPaintableTileEntity {

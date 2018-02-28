@@ -1,17 +1,16 @@
 package crazypants.enderio.base.integration.jei.energy;
 
-import java.awt.Color;
-import java.util.Collections;
-import java.util.List;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.lang.LangPower;
 import crazypants.enderio.util.Prep;
 import mezz.jei.api.ingredients.IIngredientHelper;
 import net.minecraft.item.ItemStack;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.awt.*;
+import java.util.Collections;
+import java.util.List;
 
 public class EnergyIngredientHelper implements IIngredientHelper<EnergyIngredient> {
 

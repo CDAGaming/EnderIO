@@ -1,7 +1,5 @@
 package crazypants.enderio.machines.darksteel.upgrade.solar;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.api.upgrades.IHasPlayerRenderer;
 import crazypants.enderio.api.upgrades.IRenderUpgrade;
 import crazypants.enderio.base.config.Config;
@@ -21,6 +19,8 @@ import net.minecraft.util.math.MathHelper;
 import net.minecraftforge.energy.IEnergyStorage;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
 
 public class SolarUpgrade extends AbstractUpgrade implements IHasPlayerRenderer {
 

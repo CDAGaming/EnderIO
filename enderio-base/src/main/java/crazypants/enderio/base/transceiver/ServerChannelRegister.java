@@ -1,10 +1,5 @@
 package crazypants.enderio.base.transceiver;
 
-import java.util.concurrent.Callable;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.Log;
 import crazypants.enderio.base.events.EnderIOLifecycleEvent;
@@ -23,6 +18,10 @@ import net.minecraftforge.common.capabilities.ICapabilityProvider;
 import net.minecraftforge.event.AttachCapabilitiesEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.concurrent.Callable;
 
 @EventBusSubscriber(modid = EnderIO.MODID)
 public class ServerChannelRegister extends ChannelRegister implements ICapabilityProvider, IServerChannelRegister {

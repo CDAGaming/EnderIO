@@ -1,9 +1,9 @@
 package crazypants.enderio.conduit.liquid;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.conduit.AbstractConduitNetwork;
 import net.minecraftforge.fluids.FluidStack;
+
+import javax.annotation.Nonnull;
 
 public class AbstractTankConduitNetwork<T extends AbstractTankConduit> extends AbstractConduitNetwork<ILiquidConduit, T> {
 

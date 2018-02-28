@@ -1,7 +1,5 @@
 package crazypants.enderio.base.gui.handler;
 
-import javax.annotation.Nullable;
-
 import crazypants.enderio.base.Log;
 import crazypants.enderio.base.init.IModObject.Registerable;
 import crazypants.enderio.base.network.IRemoteExec;
@@ -10,6 +8,8 @@ import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.common.network.IGuiHandler;
+
+import javax.annotation.Nullable;
 
 class GuiHandler implements IGuiHandler {
 

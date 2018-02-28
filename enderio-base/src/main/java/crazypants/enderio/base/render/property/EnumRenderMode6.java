@@ -1,12 +1,11 @@
 package crazypants.enderio.base.render.property;
 
-import java.util.Locale;
-
-import javax.annotation.Nonnull;
-
 import net.minecraft.block.properties.PropertyEnum;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.IStringSerializable;
+
+import javax.annotation.Nonnull;
+import java.util.Locale;
 
 /**
  * A property for blocks that use the MachineSmartModel for rendering and can be rotated in all 6 directions.

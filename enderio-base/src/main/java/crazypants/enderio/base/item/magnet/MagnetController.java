@@ -1,12 +1,6 @@
 package crazypants.enderio.base.item.magnet;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.MagnetUtil;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.config.Config;
 import crazypants.enderio.base.init.ModObject;
@@ -33,6 +27,10 @@ import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.TickEvent;
 import net.minecraftforge.fml.relauncher.Side;
+
+import javax.annotation.Nonnull;
+import java.util.ArrayList;
+import java.util.List;
 
 import static crazypants.enderio.base.integration.botania.BotaniaUtil.hasSolegnoliaAround;
 

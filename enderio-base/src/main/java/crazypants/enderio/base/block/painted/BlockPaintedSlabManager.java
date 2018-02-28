@@ -1,7 +1,5 @@
 package crazypants.enderio.base.block.painted;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.init.IModObject;
 import crazypants.enderio.base.init.ModObject;
 import crazypants.enderio.base.recipe.MachineRecipeRegistry;
@@ -11,6 +9,8 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
+
+import javax.annotation.Nonnull;
 
 public class BlockPaintedSlabManager {
 

@@ -1,13 +1,13 @@
 package crazypants.enderio.base.render;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import crazypants.enderio.base.paint.YetaUtil.YetaDisplayMode;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 /**
  * The block state wrapper is the object that is responsible for building the final baked model. This happens in the method bakeModel(), which must be called

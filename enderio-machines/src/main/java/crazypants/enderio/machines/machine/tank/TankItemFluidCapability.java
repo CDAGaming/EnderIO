@@ -1,11 +1,7 @@
 package crazypants.enderio.machines.machine.tank;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.fluid.SmartTank;
 import com.enderio.core.common.util.FluidUtil;
-
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.EnumFacing;
 import net.minecraftforge.common.capabilities.Capability;
@@ -13,6 +9,9 @@ import net.minecraftforge.common.capabilities.ICapabilityProvider;
 import net.minecraftforge.fluids.FluidStack;
 import net.minecraftforge.fluids.capability.IFluidHandlerItem;
 import net.minecraftforge.fluids.capability.IFluidTankProperties;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 class TankItemFluidCapability implements IFluidHandlerItem, ICapabilityProvider {
   protected final @Nonnull ItemStack container;

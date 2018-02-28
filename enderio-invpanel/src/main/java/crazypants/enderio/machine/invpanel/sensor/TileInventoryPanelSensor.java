@@ -1,6 +1,5 @@
 package crazypants.enderio.machine.invpanel.sensor;
 
-import crazypants.enderio.machine.MachineObject;
 import crazypants.enderio.base.capacitor.CapacitorKey;
 import crazypants.enderio.base.conduit.ConduitUtil;
 import crazypants.enderio.base.network.PacketHandler;
@@ -8,6 +7,7 @@ import crazypants.enderio.base.paint.IPaintable.IPaintableTileEntity;
 import crazypants.enderio.conduit.AbstractConduitNetwork;
 import crazypants.enderio.conduit.item.IItemConduit;
 import crazypants.enderio.conduit.item.ItemConduitNetwork;
+import crazypants.enderio.machine.MachineObject;
 import crazypants.enderio.machine.invpanel.server.InventoryDatabaseServer;
 import crazypants.enderio.machine.invpanel.server.ItemEntry;
 import info.loenwind.autosave.annotations.Store;

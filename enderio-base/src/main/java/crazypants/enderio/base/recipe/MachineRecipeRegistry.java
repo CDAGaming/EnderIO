@@ -1,13 +1,12 @@
 package crazypants.enderio.base.recipe;
 
+import com.enderio.core.common.util.NNList;
+
+import javax.annotation.Nonnull;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.TreeMap;
-
-import javax.annotation.Nonnull;
-
-import com.enderio.core.common.util.NNList;
 
 public class MachineRecipeRegistry {
 

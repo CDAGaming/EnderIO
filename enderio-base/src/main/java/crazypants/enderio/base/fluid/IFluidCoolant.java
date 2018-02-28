@@ -1,8 +1,8 @@
 package crazypants.enderio.base.fluid;
 
-import javax.annotation.Nonnull;
-
 import net.minecraftforge.fluids.Fluid;
+
+import javax.annotation.Nonnull;
 
 public interface IFluidCoolant {
 

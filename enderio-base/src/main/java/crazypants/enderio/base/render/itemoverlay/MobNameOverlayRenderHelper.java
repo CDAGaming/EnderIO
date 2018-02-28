@@ -1,9 +1,5 @@
 package crazypants.enderio.base.render.itemoverlay;
 
-import javax.annotation.Nonnull;
-
-import org.lwjgl.input.Keyboard;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.util.CapturedMob;
 import net.minecraft.client.Minecraft;
@@ -12,6 +8,9 @@ import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+import org.lwjgl.input.Keyboard;
+
+import javax.annotation.Nonnull;
 
 public class MobNameOverlayRenderHelper {
 

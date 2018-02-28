@@ -1,13 +1,12 @@
 package crazypants.enderio.base.farming.harvesters;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.client.render.BoundingBox;
-
 import crazypants.enderio.api.farm.IFarmer;
 import crazypants.enderio.base.farming.farmers.TreeFarmer;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.util.math.BlockPos;
+
+import javax.annotation.Nonnull;
 
 public class FarmHarvestingTarget implements IHarvestingTarget {
 

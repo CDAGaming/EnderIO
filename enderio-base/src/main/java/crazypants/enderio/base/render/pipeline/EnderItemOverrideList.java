@@ -1,17 +1,8 @@
 package crazypants.enderio.base.render.pipeline;
 
-import java.util.Collections;
-import java.util.List;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
-import org.apache.commons.lang3.tuple.Pair;
-
 import com.enderio.core.common.util.NullHelper;
 import com.google.common.cache.Cache;
 import com.google.common.cache.CacheBuilder;
-
 import crazypants.enderio.base.init.IModObject.Registerable;
 import crazypants.enderio.base.init.ModObject;
 import crazypants.enderio.base.init.ModObjectRegistry;
@@ -37,6 +28,12 @@ import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
+import org.apache.commons.lang3.tuple.Pair;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.Collections;
+import java.util.List;
 
 public class EnderItemOverrideList extends ItemOverrideList {
 

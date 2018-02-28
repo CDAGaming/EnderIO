@@ -1,10 +1,6 @@
 package crazypants.enderio.base.farming.registry;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.util.NNList;
-
 import crazypants.enderio.api.farm.IFarmer;
 import crazypants.enderio.api.farm.IFarmerJoe;
 import crazypants.enderio.api.farm.IHarvestResult;
@@ -16,6 +12,9 @@ import net.minecraft.block.state.IBlockState;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.BlockPos;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 public class Commune implements IFarmerJoe {
 

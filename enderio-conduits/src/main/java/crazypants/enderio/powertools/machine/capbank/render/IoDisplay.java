@@ -1,17 +1,8 @@
 package crazypants.enderio.powertools.machine.capbank.render;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Locale;
-
-import javax.annotation.Nonnull;
-
-import org.lwjgl.opengl.GL11;
-
 import com.enderio.core.client.render.ColorUtil;
 import com.enderio.core.client.render.RenderUtil;
 import com.enderio.core.common.vecmath.Vertex;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.lang.LangPower;
 import crazypants.enderio.powertools.machine.capbank.BlockCapBank;
@@ -25,6 +16,12 @@ import net.minecraft.client.renderer.Tessellator;
 import net.minecraft.client.renderer.texture.TextureAtlasSprite;
 import net.minecraft.client.renderer.vertex.DefaultVertexFormats;
 import net.minecraft.util.EnumFacing;
+import org.lwjgl.opengl.GL11;
+
+import javax.annotation.Nonnull;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Locale;
 
 public class IoDisplay implements IInfoRenderer {
 

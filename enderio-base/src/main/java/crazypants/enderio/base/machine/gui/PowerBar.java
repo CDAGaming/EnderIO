@@ -1,19 +1,8 @@
 package crazypants.enderio.base.machine.gui;
 
-import java.awt.Rectangle;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
-import org.lwjgl.opengl.GL11;
-
 import com.enderio.core.client.gui.IDrawingElement;
 import com.enderio.core.client.gui.widget.GuiToolTip;
 import com.enderio.core.client.render.RenderUtil;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.capacitor.DefaultCapacitorData;
 import crazypants.enderio.base.gui.GuiContainerBaseEIO;
@@ -26,6 +15,14 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.math.MathHelper;
+import org.lwjgl.opengl.GL11;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.awt.*;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 
 public class PowerBar<T extends AbstractPoweredMachineEntity> implements IDrawingElement {
 

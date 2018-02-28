@@ -1,9 +1,9 @@
 package crazypants.enderio.api.teleport;
 
-import javax.annotation.Nonnull;
-
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
+
+import javax.annotation.Nonnull;
 
 public interface IItemOfTravel {
 

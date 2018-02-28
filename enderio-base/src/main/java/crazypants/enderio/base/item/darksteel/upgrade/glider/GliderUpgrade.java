@@ -1,12 +1,9 @@
 package crazypants.enderio.base.item.darksteel.upgrade.glider;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.Util;
 import com.enderio.core.common.vecmath.VecmathUtil;
 import com.enderio.core.common.vecmath.Vector3d;
 import com.enderio.core.common.vecmath.Vector4d;
-
 import crazypants.enderio.api.upgrades.IHasPlayerRenderer;
 import crazypants.enderio.api.upgrades.IRenderUpgrade;
 import crazypants.enderio.base.config.Config;
@@ -19,6 +16,8 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
 
 public class GliderUpgrade extends AbstractUpgrade implements IHasPlayerRenderer {
 

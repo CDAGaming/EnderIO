@@ -1,13 +1,13 @@
 package crazypants.enderio.base.integration.jei;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import crazypants.enderio.base.init.ModObject;
 import crazypants.enderio.util.CapturedMob;
 import mezz.jei.api.ISubtypeRegistry;
 import mezz.jei.api.ISubtypeRegistry.ISubtypeInterpreter;
 import net.minecraft.item.ItemStack;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 public class MobContainerSubtypeInterpreter implements ISubtypeInterpreter {
 

@@ -1,12 +1,12 @@
 package crazypants.enderio.base.integration.bigreactors;
 
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
-
 import crazypants.enderio.base.Log;
 import net.minecraftforge.fml.common.Loader;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.relauncher.ReflectionHelper;
+
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
 
 public class BRProxy {
 

@@ -1,9 +1,5 @@
 package crazypants.enderio.machines.integration.jei;
 
-import java.awt.Rectangle;
-
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.integration.jei.RecipeWrapper;
 import crazypants.enderio.base.integration.jei.energy.EnergyIngredient;
@@ -18,11 +14,7 @@ import crazypants.enderio.machines.machine.vat.GuiVat;
 import crazypants.enderio.util.Prep;
 import mezz.jei.api.IGuiHelper;
 import mezz.jei.api.IModRegistry;
-import mezz.jei.api.gui.IDrawable;
-import mezz.jei.api.gui.IGuiFluidStackGroup;
-import mezz.jei.api.gui.IGuiIngredientGroup;
-import mezz.jei.api.gui.IGuiItemStackGroup;
-import mezz.jei.api.gui.IRecipeLayout;
+import mezz.jei.api.gui.*;
 import mezz.jei.api.ingredients.IIngredients;
 import mezz.jei.api.recipe.BlankRecipeCategory;
 import net.minecraft.client.Minecraft;
@@ -30,11 +22,11 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fluids.FluidStack;
 
+import javax.annotation.Nonnull;
+import java.awt.*;
+
 import static crazypants.enderio.machines.init.MachineObject.block_vat;
-import static crazypants.enderio.machines.machine.vat.ContainerVat.FIRST_INVENTORY_SLOT;
-import static crazypants.enderio.machines.machine.vat.ContainerVat.FIRST_RECIPE_SLOT;
-import static crazypants.enderio.machines.machine.vat.ContainerVat.NUM_INVENTORY_SLOT;
-import static crazypants.enderio.machines.machine.vat.ContainerVat.NUM_RECIPE_SLOT;
+import static crazypants.enderio.machines.machine.vat.ContainerVat.*;
 
 public class VatRecipeCategory extends BlankRecipeCategory<VatRecipeCategory.VatRecipeWrapper> {
 

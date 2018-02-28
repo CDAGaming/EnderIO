@@ -1,20 +1,18 @@
 package info.loenwind.autosave;
 
-import java.util.EnumSet;
-import java.util.Set;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.NBTAction;
 import com.enderio.core.common.util.NullHelper;
-
 import info.loenwind.autosave.annotations.Storable;
 import info.loenwind.autosave.annotations.Store;
 import info.loenwind.autosave.engine.StorableEngine;
 import info.loenwind.autosave.exceptions.NoHandlerFoundException;
 import info.loenwind.autosave.handlers.IHandler;
 import net.minecraft.nbt.NBTTagCompound;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.EnumSet;
+import java.util.Set;
 
 /**
  * Store an object's fields to NBT data.

@@ -1,14 +1,6 @@
 package crazypants.enderio.base.config.recipes.xml;
 
-import java.util.ArrayList;
-import java.util.Locale;
-
-import javax.annotation.Nonnull;
-import javax.xml.stream.XMLStreamException;
-import javax.xml.stream.events.StartElement;
-
 import com.enderio.core.common.util.NNList;
-
 import crazypants.enderio.base.config.recipes.InvalidRecipeConfigException;
 import crazypants.enderio.base.config.recipes.StaxFactory;
 import crazypants.enderio.base.recipe.Recipe;
@@ -16,6 +8,12 @@ import crazypants.enderio.base.recipe.RecipeBonusType;
 import crazypants.enderio.base.recipe.RecipeOutput;
 import crazypants.enderio.base.recipe.ThingsRecipeInput;
 import crazypants.enderio.base.recipe.sagmill.SagMillRecipeManager;
+
+import javax.annotation.Nonnull;
+import javax.xml.stream.XMLStreamException;
+import javax.xml.stream.events.StartElement;
+import java.util.ArrayList;
+import java.util.Locale;
 
 public class Sagmilling extends AbstractCrafting {
 

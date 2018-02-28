@@ -1,16 +1,15 @@
 package crazypants.enderio.base.gui;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.api.client.gui.IGuiScreen;
 import com.enderio.core.client.gui.button.CycleButton;
-
 import crazypants.enderio.base.lang.Lang;
 import crazypants.enderio.base.machine.interfaces.IRedstoneModeControlable;
 import crazypants.enderio.base.machine.modes.PacketRedstoneMode;
 import crazypants.enderio.base.machine.modes.RedstoneControlMode;
 import crazypants.enderio.base.network.PacketHandler;
 import net.minecraft.tileentity.TileEntity;
+
+import javax.annotation.Nonnull;
 
 public class RedstoneModeButton<T extends TileEntity & IRedstoneModeControlable> extends CycleButton<RedstoneControlMode.IconHolder> {
 

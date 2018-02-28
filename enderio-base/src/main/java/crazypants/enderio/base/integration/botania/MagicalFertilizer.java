@@ -1,7 +1,5 @@
 package crazypants.enderio.base.integration.botania;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.api.farm.IFertilizerResult;
 import crazypants.enderio.base.farming.fertilizer.Bonemeal;
 import crazypants.enderio.base.farming.fertilizer.FertilizerResult;
@@ -12,6 +10,8 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+
+import javax.annotation.Nonnull;
 
 public class MagicalFertilizer extends Bonemeal {
   public MagicalFertilizer(Item item) {

@@ -1,11 +1,11 @@
 package crazypants.enderio.api.teleport;
 
-import javax.annotation.Nonnull;
-
 import net.minecraft.entity.Entity;
 import net.minecraft.util.math.BlockPos;
 import net.minecraftforge.event.entity.EntityEvent;
 import net.minecraftforge.fml.common.eventhandler.Cancelable;
+
+import javax.annotation.Nonnull;
 
 /**
  * An event that can be used to respond to, edit, and prevent entity teleports.

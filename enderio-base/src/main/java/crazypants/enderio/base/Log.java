@@ -1,9 +1,8 @@
 package crazypants.enderio.base;
 
+import crazypants.enderio.base.config.config.DiagnosticsConfig;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
-import crazypants.enderio.base.config.config.DiagnosticsConfig;
 
 public final class Log {
 

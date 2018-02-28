@@ -1,7 +1,5 @@
 package crazypants.enderio.machines.machine.slicensplice;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.machines.config.config.ClientConfig;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.particle.Particle;
@@ -10,6 +8,8 @@ import net.minecraft.entity.Entity;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumParticleTypes;
 import net.minecraft.world.World;
+
+import javax.annotation.Nonnull;
 
 public class ParticleBloodDrip extends Particle {
 

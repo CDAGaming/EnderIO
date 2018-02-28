@@ -1,8 +1,8 @@
 package crazypants.enderio.base.render;
 
-import javax.annotation.Nonnull;
-
 import net.minecraft.util.ResourceLocation;
+
+import javax.annotation.Nonnull;
 
 /**
  * This interface is for items that get registered by the SmartModelLoader but do not have their own blockstate file, using another block's one instead. The

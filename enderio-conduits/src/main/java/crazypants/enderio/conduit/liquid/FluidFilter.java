@@ -1,7 +1,6 @@
 package crazypants.enderio.conduit.liquid;
 
 import com.enderio.core.common.util.FluidUtil;
-
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.nbt.NBTTagList;

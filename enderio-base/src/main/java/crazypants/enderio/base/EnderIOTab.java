@@ -1,11 +1,11 @@
 package crazypants.enderio.base;
 
-import javax.annotation.Nonnull;
-
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
 
 import static crazypants.enderio.base.init.ModObject.itemEnderface;
 

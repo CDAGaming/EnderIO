@@ -1,16 +1,9 @@
 package crazypants.enderio.machines.machine.generator.combustion;
 
-import java.awt.Color;
-import java.awt.Rectangle;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.client.gui.widget.GuiToolTip;
 import com.enderio.core.client.render.ColorUtil;
 import com.enderio.core.client.render.RenderUtil;
 import com.enderio.core.common.fluid.SmartTank;
-
 import crazypants.enderio.base.lang.LangFluid;
 import crazypants.enderio.base.lang.LangPower;
 import crazypants.enderio.base.machine.gui.GuiInventoryMachineBase;
@@ -21,6 +14,10 @@ import net.minecraft.client.gui.FontRenderer;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraftforge.fluids.FluidStack;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.awt.*;
 
 public class GuiCombustionGenerator<T extends TileCombustionGenerator> extends GuiInventoryMachineBase<T> {
 

@@ -1,16 +1,9 @@
 package crazypants.enderio.machines.machine.wired;
 
-import java.util.List;
-
-import javax.annotation.Nonnull;
-
-import org.apache.commons.lang3.tuple.Triple;
-
 import com.enderio.core.client.gui.widget.GhostBackgroundItemSlot;
 import com.enderio.core.client.gui.widget.GhostSlot;
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.NNList.Callback;
-
 import crazypants.enderio.base.integration.jei.ItemHelper;
 import crazypants.enderio.base.machine.gui.AbstractMachineContainer;
 import crazypants.enderio.base.power.PowerHandlerUtil;
@@ -18,6 +11,10 @@ import crazypants.enderio.machines.machine.tank.InventorySlot;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.energy.IEnergyStorage;
+import org.apache.commons.lang3.tuple.Triple;
+
+import javax.annotation.Nonnull;
+import java.util.List;
 
 public class ContainerWiredCharger extends AbstractMachineContainer<TileWiredCharger> {
 

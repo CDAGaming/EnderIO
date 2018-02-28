@@ -1,11 +1,7 @@
 package crazypants.enderio.base.farming.farmers;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.NNList.NNIterator;
-
 import crazypants.enderio.api.farm.FarmingAction;
 import crazypants.enderio.api.farm.IFarmer;
 import crazypants.enderio.base.farming.FarmingTool;
@@ -20,6 +16,9 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 import static net.minecraft.block.BlockHorizontal.FACING;
 

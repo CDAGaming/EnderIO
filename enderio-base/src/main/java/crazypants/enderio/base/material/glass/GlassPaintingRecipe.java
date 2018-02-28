@@ -1,16 +1,15 @@
 package crazypants.enderio.base.material.glass;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.NNList.NNIterator;
-
 import crazypants.enderio.base.paint.PaintUtil;
 import crazypants.enderio.base.recipe.painter.BasicPainterTemplate;
 import crazypants.enderio.util.Prep;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemStack;
+
+import javax.annotation.Nonnull;
 
 public class GlassPaintingRecipe extends BasicPainterTemplate<BlockPaintedFusedQuartz> {
 

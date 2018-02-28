@@ -1,11 +1,8 @@
 package crazypants.enderio.integration.tic;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.NNList.Callback;
 import com.enderio.core.common.util.NullHelper;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.integration.tic.TicProxy;
 import crazypants.enderio.base.material.alloy.Alloy;
@@ -31,6 +28,8 @@ import slimeknights.tconstruct.shared.TinkerFluids;
 import slimeknights.tconstruct.smeltery.TinkerSmeltery;
 import slimeknights.tconstruct.tools.TinkerModifiers;
 import slimeknights.tconstruct.tools.TinkerTools;
+
+import javax.annotation.Nonnull;
 
 public class TicControl {
 

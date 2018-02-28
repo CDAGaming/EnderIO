@@ -1,8 +1,8 @@
 package crazypants.enderio.machines.machine.obelisk.base;
 
-import javax.annotation.Nonnull;
-
 import net.minecraft.entity.EntityLivingBase;
+
+import javax.annotation.Nonnull;
 
 public interface ISpawnCallback {
 

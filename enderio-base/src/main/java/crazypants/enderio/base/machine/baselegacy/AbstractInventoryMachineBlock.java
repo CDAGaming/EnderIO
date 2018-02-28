@@ -1,7 +1,5 @@
 package crazypants.enderio.base.machine.baselegacy;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.init.IModObject;
 import crazypants.enderio.base.machine.base.block.AbstractMachineBlock;
 import crazypants.enderio.util.Prep;
@@ -13,6 +11,8 @@ import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumHand;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+
+import javax.annotation.Nonnull;
 
 public abstract class AbstractInventoryMachineBlock<T extends AbstractInventoryMachineEntity> extends AbstractMachineBlock<T> {
 

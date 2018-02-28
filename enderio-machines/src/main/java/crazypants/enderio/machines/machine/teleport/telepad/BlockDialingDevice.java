@@ -1,10 +1,6 @@
 package crazypants.enderio.machines.machine.teleport.telepad;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.api.client.gui.IResourceTooltipProvider;
-
 import crazypants.enderio.base.BlockEio;
 import crazypants.enderio.base.gui.handler.IEioGuiHandler;
 import crazypants.enderio.base.init.IModObject;
@@ -30,6 +26,9 @@ import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 public class BlockDialingDevice extends BlockEio<TileDialingDevice>
     implements IEioGuiHandler.WithPos, ITileEntityProvider, IResourceTooltipProvider, IHaveRenderers {

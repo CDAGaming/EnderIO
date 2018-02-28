@@ -1,11 +1,11 @@
 package crazypants.enderio.base.config.recipes.xml;
 
-import javax.xml.stream.XMLStreamException;
-import javax.xml.stream.events.StartElement;
-
 import crazypants.enderio.base.config.recipes.InvalidRecipeConfigException;
 import crazypants.enderio.base.config.recipes.RecipeConfigElement;
 import crazypants.enderio.base.config.recipes.StaxFactory;
+
+import javax.xml.stream.XMLStreamException;
+import javax.xml.stream.events.StartElement;
 
 public class ConditionDependency implements RecipeConfigElement {
 

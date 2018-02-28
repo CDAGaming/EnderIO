@@ -1,15 +1,14 @@
 package crazypants.enderio.machines.config.config;
 
-import java.util.Locale;
-
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.Log;
 import crazypants.enderio.base.config.Config.Section;
 import crazypants.enderio.base.config.SectionedValueFactory;
 import crazypants.enderio.base.config.ValueFactory.IValue;
 import crazypants.enderio.base.config.config.PersonalConfig;
 import crazypants.enderio.machines.config.Config;
+
+import javax.annotation.Nonnull;
+import java.util.Locale;
 
 public final class ClientConfig {
 

@@ -1,10 +1,6 @@
 package crazypants.enderio.base.farming.fertilizer;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.util.NNList;
-
 import crazypants.enderio.api.farm.IFertilizer;
 import crazypants.enderio.api.farm.IFertilizerResult;
 import crazypants.enderio.util.Prep;
@@ -17,6 +13,9 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraftforge.oredict.OreDictionary;
 import net.minecraftforge.registries.IForgeRegistryEntry;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 public abstract class AbstractFertilizer extends IForgeRegistryEntry.Impl<IFertilizer> implements IFertilizer {
 

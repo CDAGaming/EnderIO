@@ -1,15 +1,9 @@
 package crazypants.enderio.base.item.magnet;
 
-import java.util.List;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
-import com.enderio.core.api.client.gui.IResourceTooltipProvider;
-import com.enderio.core.common.transform.EnderCoreMethods.IOverlayRenderAware;
-
 import baubles.api.BaubleType;
 import baubles.api.IBauble;
+import com.enderio.core.api.client.gui.IResourceTooltipProvider;
+import com.enderio.core.common.transform.EnderCoreMethods.IOverlayRenderAware;
 import crazypants.enderio.api.upgrades.IHasPlayerRenderer;
 import crazypants.enderio.api.upgrades.IRenderUpgrade;
 import crazypants.enderio.base.EnderIOTab;
@@ -35,6 +29,10 @@ import net.minecraftforge.fml.common.Optional;
 import net.minecraftforge.fml.common.Optional.Method;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.List;
 
 import static crazypants.enderio.base.config.Config.magnetAllowInMainInventory;
 import static crazypants.enderio.util.NbtValue.MAGNET_ACTIVE;

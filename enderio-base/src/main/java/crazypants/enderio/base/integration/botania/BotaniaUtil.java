@@ -1,9 +1,5 @@
 package crazypants.enderio.base.integration.botania;
 
-import java.lang.reflect.Method;
-
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.api.farm.IFarmerJoe;
 import crazypants.enderio.api.farm.IFertilizer;
 import crazypants.enderio.base.EnderIO;
@@ -15,6 +11,9 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.EventPriority;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+
+import javax.annotation.Nonnull;
+import java.lang.reflect.Method;
 
 @EventBusSubscriber(modid = EnderIO.MODID)
 public class BotaniaUtil {

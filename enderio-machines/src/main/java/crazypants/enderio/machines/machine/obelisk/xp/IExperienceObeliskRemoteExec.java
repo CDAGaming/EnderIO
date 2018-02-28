@@ -1,12 +1,12 @@
 package crazypants.enderio.machines.machine.obelisk.xp;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.network.GuiPacket;
 import crazypants.enderio.base.network.IRemoteExec;
 import net.minecraft.client.Minecraft;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
+
+import javax.annotation.Nonnull;
 
 public interface IExperienceObeliskRemoteExec {
 

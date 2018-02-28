@@ -1,15 +1,13 @@
 package crazypants.enderio.machines.machine.sagmill;
 
-import java.awt.Rectangle;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.client.gui.widget.GuiToolTip;
-
 import crazypants.enderio.base.machine.gui.GuiInventoryMachineBase;
 import crazypants.enderio.base.machine.gui.PowerBar;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.entity.player.InventoryPlayer;
+
+import javax.annotation.Nonnull;
+import java.awt.*;
 
 public class GuiSagMill extends GuiInventoryMachineBase<TileSagMill> {
 

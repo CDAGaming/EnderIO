@@ -1,13 +1,8 @@
 package crazypants.enderio.base.material.recipes;
 
-import java.util.Locale;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.NNList.Callback;
 import com.enderio.core.common.util.stackable.Things;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.material.alloy.Alloy;
 import crazypants.enderio.base.material.glass.FusedQuartzType;
@@ -22,6 +17,9 @@ import net.minecraftforge.fml.common.event.FMLInterModComms.IMCEvent;
 import net.minecraftforge.fml.common.eventhandler.EventPriority;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.oredict.OreDictionary;
+
+import javax.annotation.Nonnull;
+import java.util.Locale;
 
 import static crazypants.enderio.base.init.ModObject.blockEndermanSkull;
 import static crazypants.enderio.base.init.ModObject.itemMaterial;

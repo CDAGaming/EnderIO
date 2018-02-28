@@ -1,10 +1,10 @@
 package crazypants.enderio.machines.machine.painter;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.machine.gui.AbstractMachineContainer;
 import crazypants.enderio.machines.machine.tank.InventorySlot;
 import net.minecraft.entity.player.InventoryPlayer;
+
+import javax.annotation.Nonnull;
 
 public class ContainerPainter extends AbstractMachineContainer<TileEntityPainter> {
 

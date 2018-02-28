@@ -1,14 +1,12 @@
 package crazypants.enderio.machines.machine.solar;
 
-import java.util.Locale;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NullHelper;
-
 import crazypants.enderio.machines.config.config.SolarConfig;
 import net.minecraft.block.properties.PropertyEnum;
 import net.minecraft.util.IStringSerializable;
+
+import javax.annotation.Nonnull;
+import java.util.Locale;
 
 public enum SolarType implements IStringSerializable {
 

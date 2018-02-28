@@ -1,7 +1,5 @@
 package crazypants.enderio.base.item.darksteel.upgrade.nightvision;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.config.Config;
 import crazypants.enderio.base.handler.darksteel.AbstractUpgrade;
 import crazypants.enderio.base.init.ModObject;
@@ -9,6 +7,8 @@ import net.minecraft.init.Items;
 import net.minecraft.init.PotionTypes;
 import net.minecraft.item.ItemStack;
 import net.minecraft.potion.PotionUtils;
+
+import javax.annotation.Nonnull;
 
 public class NightVisionUpgrade extends AbstractUpgrade {
 

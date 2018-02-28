@@ -1,11 +1,10 @@
 package crazypants.enderio.base.recipe.soul;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
-
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
+
+import javax.annotation.Nonnull;
 
 public interface ISoulBinderRecipe {
 

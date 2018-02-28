@@ -1,18 +1,16 @@
 package crazypants.enderio.base.machine.gui;
 
-import javax.annotation.Nonnull;
-
-import org.lwjgl.input.Keyboard;
-
 import com.enderio.core.api.client.gui.IGuiScreen;
 import com.enderio.core.client.gui.button.ToggleButton;
-
 import crazypants.enderio.base.gui.IconEIO;
 import crazypants.enderio.base.lang.Lang;
 import crazypants.enderio.base.machine.interfaces.IIoConfigurable;
 import crazypants.enderio.base.machine.modes.PacketIoMode;
 import crazypants.enderio.base.network.PacketHandler;
 import net.minecraft.tileentity.TileEntity;
+import org.lwjgl.input.Keyboard;
+
+import javax.annotation.Nonnull;
 
 public class GuiButtonIoConfig<E extends TileEntity & IIoConfigurable> extends ToggleButton {
 

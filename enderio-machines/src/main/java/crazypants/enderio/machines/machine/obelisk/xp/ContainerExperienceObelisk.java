@@ -1,12 +1,12 @@
 package crazypants.enderio.machines.machine.obelisk.xp;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.xp.PacketExperienceContainer;
 import crazypants.enderio.base.xp.XpUtil;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.Container;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
+
+import javax.annotation.Nonnull;
 
 public class ContainerExperienceObelisk extends Container implements IExperienceObeliskRemoteExec.Container {
 

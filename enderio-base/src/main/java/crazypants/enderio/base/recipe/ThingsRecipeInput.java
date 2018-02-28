@@ -1,11 +1,10 @@
 package crazypants.enderio.base.recipe;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.stackable.Things;
-
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fluids.FluidStack;
+
+import javax.annotation.Nonnull;
 
 /**
  * A RecipeInput that is capable of handling Things and stack sized and nbt.

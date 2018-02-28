@@ -1,7 +1,5 @@
 package crazypants.enderio.base.integration.buildcraft;
 
-import javax.annotation.Nonnull;
-
 import buildcraft.api.tools.IToolWrench;
 import crazypants.enderio.api.tool.ITool;
 import crazypants.enderio.base.tool.IToolProvider;
@@ -13,6 +11,8 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.util.math.Vec3d;
+
+import javax.annotation.Nonnull;
 
 public class BuildCraftToolProvider implements IToolProvider {
 

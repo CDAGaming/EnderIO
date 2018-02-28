@@ -1,11 +1,11 @@
 package crazypants.enderio.base.machine.interfaces;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import crazypants.enderio.base.machine.modes.IoMode;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 public interface IIoConfigurable {
 

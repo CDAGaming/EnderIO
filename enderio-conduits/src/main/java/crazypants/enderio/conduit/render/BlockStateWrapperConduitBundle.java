@@ -1,16 +1,7 @@
 package crazypants.enderio.conduit.render;
 
-import java.util.Arrays;
-import java.util.Map;
-import java.util.Map.Entry;
-import java.util.Set;
-import java.util.concurrent.TimeUnit;
-
-import javax.annotation.Nonnull;
-
 import com.google.common.cache.Cache;
 import com.google.common.cache.CacheBuilder;
-
 import crazypants.enderio.base.conduit.ConnectionMode;
 import crazypants.enderio.base.render.IRenderMapper.IBlockRenderMapper;
 import crazypants.enderio.base.render.pipeline.BlockStateWrapperBase;
@@ -21,6 +12,13 @@ import net.minecraft.block.state.IBlockState;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
+
+import javax.annotation.Nonnull;
+import java.util.Arrays;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Set;
+import java.util.concurrent.TimeUnit;
 
 public class BlockStateWrapperConduitBundle extends BlockStateWrapperBase {
 

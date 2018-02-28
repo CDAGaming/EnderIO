@@ -1,11 +1,10 @@
 package crazypants.enderio.base.capacitor;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.Lang;
-
 import crazypants.enderio.base.config.Config.Section;
 import net.minecraftforge.common.config.Configuration;
+
+import javax.annotation.Nonnull;
 
 public class CapacitorKeyHelper {
 

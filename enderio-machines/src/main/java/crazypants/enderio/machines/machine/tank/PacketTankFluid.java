@@ -1,10 +1,7 @@
 package crazypants.enderio.machines.machine.tank;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.network.MessageTileEntity;
 import com.enderio.core.common.network.NetworkUtil;
-
 import crazypants.enderio.base.EnderIO;
 import io.netty.buffer.ByteBuf;
 import net.minecraft.entity.player.EntityPlayer;
@@ -12,6 +9,8 @@ import net.minecraft.nbt.NBTTagCompound;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler;
 import net.minecraftforge.fml.common.network.simpleimpl.MessageContext;
+
+import javax.annotation.Nonnull;
 
 public class PacketTankFluid extends MessageTileEntity<TileTank> {
 

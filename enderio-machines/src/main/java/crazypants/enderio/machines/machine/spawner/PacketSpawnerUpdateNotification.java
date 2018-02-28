@@ -1,17 +1,15 @@
 package crazypants.enderio.machines.machine.spawner;
 
-import java.util.EnumSet;
-import java.util.Set;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.network.MessageTileEntity;
-
 import crazypants.enderio.base.EnderIO;
 import io.netty.buffer.ByteBuf;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler;
 import net.minecraftforge.fml.common.network.simpleimpl.MessageContext;
+
+import javax.annotation.Nonnull;
+import java.util.EnumSet;
+import java.util.Set;
 
 public class PacketSpawnerUpdateNotification extends MessageTileEntity<TilePoweredSpawner> {
 

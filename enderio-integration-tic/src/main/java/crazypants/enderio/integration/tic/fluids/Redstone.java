@@ -1,7 +1,6 @@
 package crazypants.enderio.integration.tic.fluids;
 
 import com.enderio.core.common.util.stackable.Things;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.fluid.Fluids;
 import crazypants.enderio.base.integration.tic.TicProxy;

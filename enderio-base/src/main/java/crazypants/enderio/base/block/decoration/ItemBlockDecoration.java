@@ -1,9 +1,6 @@
 package crazypants.enderio.base.block.decoration;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.transform.EnderCoreMethods.IOverlayRenderAware;
-
 import net.minecraft.block.Block;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.FontRenderer;
@@ -12,6 +9,8 @@ import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
 
 public class ItemBlockDecoration extends ItemBlock implements IOverlayRenderAware {
 

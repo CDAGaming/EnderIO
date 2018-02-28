@@ -1,12 +1,11 @@
 package crazypants.enderio.api.teleport;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.util.BlockCoord;
-
 import net.minecraft.entity.Entity;
 import net.minecraft.util.math.BlockPos;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 public interface ITelePad extends ITravelAccessable {
 

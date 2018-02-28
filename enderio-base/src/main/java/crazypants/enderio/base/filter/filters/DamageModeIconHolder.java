@@ -1,20 +1,18 @@
 package crazypants.enderio.base.filter.filters;
 
-import java.util.Collections;
-import java.util.List;
-import java.util.Locale;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.api.client.render.IWidgetIcon;
 import com.enderio.core.client.gui.button.CycleButton.ICycleEnum;
 import com.enderio.core.common.util.NullHelper;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.gui.IconEIO;
 import net.minecraft.util.math.MathHelper;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import java.util.Collections;
+import java.util.List;
+import java.util.Locale;
 
 @SideOnly(Side.CLIENT)
 public enum DamageModeIconHolder implements ICycleEnum {

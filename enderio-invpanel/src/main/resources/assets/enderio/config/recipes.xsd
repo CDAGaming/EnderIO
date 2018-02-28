@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schema targetNamespace="http://enderio.com/recipes" elementFormDefault="unqualified" attributeFormDefault="unqualified"
-  xmlns="http://www.w3.org/2001/XMLSchema" xmlns:enderio="http://enderio.com/recipes">
+        xmlns="http://www.w3.org/2001/XMLSchema">
 
   <element name="recipes">
     <complexType>

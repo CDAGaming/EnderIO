@@ -1,9 +1,6 @@
 package crazypants.enderio.base.init;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.vecmath.Vector4f;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.Log;
 import crazypants.enderio.base.diagnostics.EnderIOCrashCallable;
@@ -24,6 +21,8 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.TickEvent.ClientTickEvent;
 import net.minecraftforge.fml.common.gameevent.TickEvent.Phase;
 import net.minecraftforge.fml.common.gameevent.TickEvent.ServerTickEvent;
+
+import javax.annotation.Nonnull;
 
 public class CommonProxy {
 

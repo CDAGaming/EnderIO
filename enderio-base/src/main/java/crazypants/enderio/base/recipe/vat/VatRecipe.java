@@ -1,24 +1,18 @@
 package crazypants.enderio.base.recipe.vat;
 
-import java.util.List;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
 import com.google.common.collect.HashBasedTable;
 import com.google.common.collect.Table;
-
 import crazypants.enderio.base.Log;
-import crazypants.enderio.base.recipe.IRecipe;
-import crazypants.enderio.base.recipe.IRecipeInput;
-import crazypants.enderio.base.recipe.MachineRecipeInput;
-import crazypants.enderio.base.recipe.RecipeBonusType;
-import crazypants.enderio.base.recipe.RecipeOutput;
+import crazypants.enderio.base.recipe.*;
 import crazypants.enderio.util.Prep;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fluids.Fluid;
 import net.minecraftforge.fluids.FluidRegistry;
 import net.minecraftforge.fluids.FluidStack;
+
+import javax.annotation.Nonnull;
+import java.util.List;
 
 public class VatRecipe implements IRecipe {
 

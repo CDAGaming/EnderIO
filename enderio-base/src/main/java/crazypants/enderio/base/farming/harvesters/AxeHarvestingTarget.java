@@ -1,14 +1,13 @@
 package crazypants.enderio.base.farming.harvesters;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.client.render.BoundingBox;
-
 import net.minecraft.block.BlockNewLog;
 import net.minecraft.block.BlockOldLog;
 import net.minecraft.block.BlockPlanks.EnumType;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.util.math.BlockPos;
+
+import javax.annotation.Nonnull;
 
 public class AxeHarvestingTarget implements IHarvestingTarget {
 

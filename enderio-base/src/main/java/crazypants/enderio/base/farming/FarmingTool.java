@@ -1,10 +1,7 @@
 package crazypants.enderio.base.farming;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.OreDictionaryHelper;
 import com.enderio.core.common.util.stackable.Things;
-
 import crazypants.enderio.api.farm.IFarmingTool;
 import crazypants.enderio.base.config.Config;
 import crazypants.enderio.base.power.PowerHandlerUtil;
@@ -12,6 +9,8 @@ import crazypants.enderio.util.Prep;
 import net.minecraft.item.ItemShears;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.energy.IEnergyStorage;
+
+import javax.annotation.Nonnull;
 
 public enum FarmingTool implements IFarmingTool {
   HAND,

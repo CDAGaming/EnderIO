@@ -1,12 +1,12 @@
 package crazypants.enderio.api.upgrades;
 
-import javax.annotation.Nonnull;
-
 import net.minecraft.client.entity.AbstractClientPlayer;
 import net.minecraft.client.renderer.entity.RenderPlayer;
 import net.minecraft.client.renderer.entity.layers.LayerRenderer;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.ItemStack;
+
+import javax.annotation.Nonnull;
 
 /**
  * See {@link IHasPlayerRenderer}.

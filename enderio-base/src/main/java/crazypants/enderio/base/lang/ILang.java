@@ -1,12 +1,11 @@
 package crazypants.enderio.base.lang;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
-
 import crazypants.enderio.base.Log;
 import net.minecraft.util.text.TextComponentString;
 import net.minecraft.util.text.TextComponentTranslation;
+
+import javax.annotation.Nonnull;
 
 public interface ILang {
 

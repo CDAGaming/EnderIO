@@ -1,15 +1,7 @@
 package crazypants.enderio.base.power;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.inventory.InventorySlot;
-
-import crazypants.enderio.base.capacitor.CapacitorHelper;
-import crazypants.enderio.base.capacitor.CapacitorKey;
-import crazypants.enderio.base.capacitor.DefaultCapacitorData;
-import crazypants.enderio.base.capacitor.ICapacitorData;
-import crazypants.enderio.base.capacitor.ICapacitorKey;
+import crazypants.enderio.base.capacitor.*;
 import crazypants.enderio.base.machine.base.te.AbstractMachineEntity;
 import crazypants.enderio.util.Prep;
 import info.loenwind.autosave.annotations.Storable;
@@ -18,6 +10,9 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.MathHelper;
 import net.minecraftforge.energy.IEnergyStorage;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 @Storable
 public class EnergyTank implements IEnergyStorage {

@@ -1,7 +1,5 @@
 package crazypants.enderio.powertools.recipes;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.powertools.machine.capbank.BlockItemCapBank;
 import crazypants.enderio.util.Prep;
 import net.minecraft.inventory.InventoryCrafting;
@@ -9,6 +7,8 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.world.World;
 import net.minecraftforge.oredict.ShapedOreRecipe;
+
+import javax.annotation.Nonnull;
 
 public class UpgradeCapBankRecipe extends ShapedOreRecipe {
 

@@ -1,9 +1,5 @@
 package crazypants.enderio.base.item.darksteel.upgrade.sound;
 
-import javax.annotation.Nonnull;
-
-import org.lwjgl.opengl.GL11;
-
 import crazypants.enderio.base.config.Config;
 import crazypants.enderio.base.gui.IconEIO;
 import crazypants.enderio.base.item.darksteel.upgrade.sound.SoundDetector.SoundSource;
@@ -17,6 +13,9 @@ import net.minecraft.client.renderer.vertex.DefaultVertexFormats;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.World;
+import org.lwjgl.opengl.GL11;
+
+import javax.annotation.Nonnull;
 
 public class SoundParticle extends Particle {
 

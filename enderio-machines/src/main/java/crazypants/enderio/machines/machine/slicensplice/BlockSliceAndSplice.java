@@ -1,11 +1,5 @@
 package crazypants.enderio.machines.machine.slicensplice;
 
-import java.awt.Color;
-import java.util.Random;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import crazypants.enderio.base.init.IModObject;
 import crazypants.enderio.base.machine.baselegacy.AbstractPoweredTaskBlock;
 import crazypants.enderio.base.machine.render.RenderMappers;
@@ -28,6 +22,11 @@ import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.awt.*;
+import java.util.Random;
 
 public class BlockSliceAndSplice extends AbstractPoweredTaskBlock<TileSliceAndSplice>
     implements IPaintable.ISolidBlockPaintableBlock, IPaintable.IWrenchHideablePaint {

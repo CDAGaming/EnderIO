@@ -1,7 +1,5 @@
 package crazypants.enderio.integration.tic.fluids;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.fluid.Fluids;
 import crazypants.enderio.base.material.alloy.Alloy;
 import crazypants.enderio.integration.tic.materials.TicMaterials;
@@ -15,6 +13,8 @@ import net.minecraftforge.registries.IForgeRegistry;
 import slimeknights.tconstruct.library.MaterialIntegration;
 import slimeknights.tconstruct.library.TinkerRegistry;
 import slimeknights.tconstruct.library.materials.Material;
+
+import javax.annotation.Nonnull;
 
 public class Metal {
 

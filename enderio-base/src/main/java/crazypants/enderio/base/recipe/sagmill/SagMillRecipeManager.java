@@ -1,12 +1,6 @@
 package crazypants.enderio.base.recipe.sagmill;
 
-import java.util.HashSet;
-import java.util.Set;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
-
 import crazypants.enderio.base.Log;
 import crazypants.enderio.base.recipe.IRecipe;
 import crazypants.enderio.base.recipe.MachineRecipeInput;
@@ -15,6 +9,10 @@ import crazypants.enderio.base.recipe.Recipe;
 import crazypants.enderio.util.Prep;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.oredict.OreDictionary;
+
+import javax.annotation.Nonnull;
+import java.util.HashSet;
+import java.util.Set;
 
 public class SagMillRecipeManager {
 

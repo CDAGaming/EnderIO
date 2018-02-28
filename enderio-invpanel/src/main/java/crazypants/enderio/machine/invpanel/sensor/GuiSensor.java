@@ -2,7 +2,6 @@ package crazypants.enderio.machine.invpanel.sensor;
 
 import com.enderio.core.client.gui.widget.GhostSlot;
 import com.enderio.core.client.gui.widget.TextFieldEnder;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.machine.gui.GuiPoweredMachineBase;
 import crazypants.enderio.base.network.PacketHandler;

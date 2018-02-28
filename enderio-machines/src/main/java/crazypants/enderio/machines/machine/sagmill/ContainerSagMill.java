@@ -1,7 +1,5 @@
 package crazypants.enderio.machines.machine.sagmill;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.machine.gui.AbstractMachineContainer;
 import crazypants.enderio.machines.machine.tank.InventorySlot;
 import net.minecraft.entity.player.InventoryPlayer;
@@ -9,6 +7,8 @@ import net.minecraft.inventory.Slot;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
 
 public class ContainerSagMill<E extends TileSagMill> extends AbstractMachineContainer<E> {
 

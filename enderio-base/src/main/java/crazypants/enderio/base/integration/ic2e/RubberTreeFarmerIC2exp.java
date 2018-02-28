@@ -1,9 +1,5 @@
 package crazypants.enderio.base.integration.ic2e;
 
-import java.util.Random;
-
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.farming.farmers.RubberTreeFarmer;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
@@ -11,6 +7,9 @@ import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
+
+import javax.annotation.Nonnull;
+import java.util.Random;
 
 public class RubberTreeFarmerIC2exp extends RubberTreeFarmer {
 

@@ -1,18 +1,16 @@
 package crazypants.enderio.machines.machine.teleport;
 
-import java.awt.Point;
-import java.util.List;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.client.gui.widget.GhostSlot;
 import com.enderio.core.common.ContainerEnder;
 import com.enderio.core.common.util.ArrayInventory;
-
 import crazypants.enderio.machines.machine.teleport.ContainerTravelAuth.AuthInventory;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.item.ItemStack;
+
+import javax.annotation.Nonnull;
+import java.awt.*;
+import java.util.List;
 
 public class ContainerTravelAuth extends ContainerEnder<AuthInventory> {
 

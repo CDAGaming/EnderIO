@@ -1,14 +1,14 @@
 package crazypants.enderio.machines.integration.jei.sagmill;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import mezz.jei.api.gui.IGuiFluidStackGroup;
 import mezz.jei.api.gui.IGuiIngredientGroup;
 import mezz.jei.api.gui.IGuiItemStackGroup;
 import mezz.jei.api.gui.IRecipeLayout;
 import mezz.jei.api.recipe.IFocus;
 import mezz.jei.api.recipe.IRecipeCategory;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 public class SagMillRecipeLayout implements IRecipeLayout {
 

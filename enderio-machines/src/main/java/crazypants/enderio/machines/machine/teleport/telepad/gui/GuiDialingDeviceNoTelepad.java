@@ -1,14 +1,8 @@
 package crazypants.enderio.machines.machine.teleport.telepad.gui;
 
-import java.io.IOException;
-import java.util.List;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.client.gui.button.ToggleButton;
 import com.enderio.core.client.gui.widget.GuiToolTip;
 import com.google.common.collect.Lists;
-
 import crazypants.enderio.base.gui.GuiContainerBaseEIO;
 import crazypants.enderio.base.gui.IconEIO;
 import crazypants.enderio.base.lang.LangPower;
@@ -20,6 +14,10 @@ import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.util.text.TextFormatting;
+
+import javax.annotation.Nonnull;
+import java.io.IOException;
+import java.util.List;
 
 import static crazypants.enderio.base.machine.gui.GuiMachineBase.BUTTON_SIZE;
 

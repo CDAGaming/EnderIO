@@ -1,9 +1,9 @@
 package crazypants.enderio.base.sound;
 
-import javax.annotation.Nonnull;
-
 import net.minecraft.util.SoundCategory;
 import net.minecraft.util.SoundEvent;
+
+import javax.annotation.Nonnull;
 
 public interface IModSound {
 

@@ -1,10 +1,10 @@
 package crazypants.enderio.util;
 
-import java.util.HashSet;
-import java.util.Set;
-
 import net.minecraft.nbt.NBTBase;
 import net.minecraft.nbt.NBTTagCompound;
+
+import java.util.HashSet;
+import java.util.Set;
 
 public class NbtComparer {
   private final HashSet<String> invarientTagsKeys;

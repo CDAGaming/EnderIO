@@ -1,7 +1,5 @@
 package crazypants.enderio.base.integration.thaumcraft;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.config.Config;
 import crazypants.enderio.base.handler.darksteel.AbstractUpgrade;
 import crazypants.enderio.base.init.ModObject;
@@ -11,6 +9,8 @@ import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
+
+import javax.annotation.Nonnull;
 
 public class GogglesOfRevealingUpgrade extends AbstractUpgrade {
 

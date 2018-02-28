@@ -1,14 +1,7 @@
 package crazypants.enderio.machines.machine.buffer;
 
-import java.io.IOException;
-
-import javax.annotation.Nonnull;
-
-import org.lwjgl.opengl.GL11;
-
 import com.enderio.core.client.gui.widget.TextFieldEnder;
 import com.enderio.core.client.render.RenderUtil;
-
 import crazypants.enderio.base.lang.LangPower;
 import crazypants.enderio.base.machine.gui.GuiInventoryMachineBase;
 import crazypants.enderio.base.machine.gui.PowerBar;
@@ -20,6 +13,10 @@ import crazypants.enderio.machines.network.PacketHandler;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.inventory.Slot;
+import org.lwjgl.opengl.GL11;
+
+import javax.annotation.Nonnull;
+import java.io.IOException;
 
 public class GuiBuffer extends GuiInventoryMachineBase<TileBuffer> {
 

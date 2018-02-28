@@ -1,13 +1,5 @@
 package crazypants.enderio.base.handler;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.annotation.Nonnull;
-
-import org.apache.commons.lang3.tuple.Pair;
-import org.lwjgl.input.Keyboard;
-
 import crazypants.enderio.api.tool.IConduitControl;
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.conduit.ConduitDisplayMode;
@@ -44,6 +36,12 @@ import net.minecraftforge.client.event.EntityViewRenderEvent.FOVModifier;
 import net.minecraftforge.fml.client.registry.ClientRegistry;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.InputEvent.KeyInputEvent;
+import org.apache.commons.lang3.tuple.Pair;
+import org.lwjgl.input.Keyboard;
+
+import javax.annotation.Nonnull;
+import java.util.ArrayList;
+import java.util.List;
 
 import static crazypants.enderio.base.init.ModObject.itemConduitProbe;
 

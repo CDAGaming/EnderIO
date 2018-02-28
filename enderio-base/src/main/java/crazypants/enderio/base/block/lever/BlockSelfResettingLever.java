@@ -1,9 +1,5 @@
 package crazypants.enderio.base.block.lever;
 
-import java.util.Random;
-
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.EnderIOTab;
 import crazypants.enderio.base.init.IModObject;
 import crazypants.enderio.base.render.IDefaultRenderers;
@@ -16,6 +12,9 @@ import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumHand;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+
+import javax.annotation.Nonnull;
+import java.util.Random;
 
 public class BlockSelfResettingLever extends BlockLever implements IDefaultRenderers, IModObject.WithBlockItem {
 

@@ -1,10 +1,6 @@
 package crazypants.enderio.base.gui.handler;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.util.NNList;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.Log;
 import crazypants.enderio.base.init.IModObject;
@@ -21,6 +17,9 @@ import net.minecraftforge.server.permission.DefaultPermissionLevel;
 import net.minecraftforge.server.permission.PermissionAPI;
 import net.minecraftforge.server.permission.context.BlockPosContext;
 import net.minecraftforge.server.permission.context.PlayerContext;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 public class GuiHelper {
 

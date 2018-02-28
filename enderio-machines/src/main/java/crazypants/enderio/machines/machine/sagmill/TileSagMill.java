@@ -1,7 +1,5 @@
 package crazypants.enderio.machines.machine.sagmill;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.capacitor.ICapacitorKey;
 import crazypants.enderio.base.machine.baselegacy.AbstractPoweredTaskEntity;
@@ -22,13 +20,9 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.MathHelper;
 
-import static crazypants.enderio.machines.capacitor.CapacitorKey.SAG_MILL_POWER_BUFFER;
-import static crazypants.enderio.machines.capacitor.CapacitorKey.SAG_MILL_POWER_INTAKE;
-import static crazypants.enderio.machines.capacitor.CapacitorKey.SAG_MILL_POWER_USE;
-import static crazypants.enderio.machines.capacitor.CapacitorKey.SIMPLE_SAG_MILL_POWER_BUFFER;
-import static crazypants.enderio.machines.capacitor.CapacitorKey.SIMPLE_SAG_MILL_POWER_INTAKE;
-import static crazypants.enderio.machines.capacitor.CapacitorKey.SIMPLE_SAG_MILL_POWER_LOSS;
-import static crazypants.enderio.machines.capacitor.CapacitorKey.SIMPLE_SAG_MILL_POWER_USE;
+import javax.annotation.Nonnull;
+
+import static crazypants.enderio.machines.capacitor.CapacitorKey.*;
 
 @Storable
 public abstract class TileSagMill extends AbstractPoweredTaskEntity implements IPaintable.IPaintableTileEntity {

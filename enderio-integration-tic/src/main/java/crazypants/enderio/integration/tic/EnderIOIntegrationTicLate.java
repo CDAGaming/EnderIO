@@ -1,13 +1,13 @@
 package crazypants.enderio.integration.tic;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.api.addon.IEnderIOAddon;
 import crazypants.enderio.base.Log;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
+
+import javax.annotation.Nonnull;
 
 @Mod(modid = EnderIOIntegrationTicLate.MODID, name = EnderIOIntegrationTicLate.MOD_NAME, version = EnderIOIntegrationTicLate.VERSION, dependencies = EnderIOIntegrationTicLate.DEFAULT_DEPENDENCIES)
 @EventBusSubscriber

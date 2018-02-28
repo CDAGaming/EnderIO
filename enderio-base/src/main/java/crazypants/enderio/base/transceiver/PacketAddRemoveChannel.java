@@ -2,7 +2,6 @@ package crazypants.enderio.base.transceiver;
 
 import com.enderio.core.common.network.NetworkUtil;
 import com.enderio.core.common.util.UserIdent;
-
 import crazypants.enderio.base.network.PacketHandler;
 import io.netty.buffer.ByteBuf;
 import net.minecraft.nbt.NBTTagCompound;

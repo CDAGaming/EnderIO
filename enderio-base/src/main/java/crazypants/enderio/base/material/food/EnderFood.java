@@ -1,14 +1,13 @@
 package crazypants.enderio.base.material.food;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.util.stackable.IProducer;
-
 import crazypants.enderio.util.Prep;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 import static crazypants.enderio.base.init.ModObject.itemEnderFood;
 

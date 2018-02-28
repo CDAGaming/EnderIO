@@ -1,12 +1,12 @@
 package crazypants.enderio.machines.machine.teleport;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import crazypants.enderio.base.network.GuiPacket;
 import crazypants.enderio.base.network.IRemoteExec;
 import crazypants.enderio.machines.machine.teleport.anchor.TileTravelAnchor;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 public class ITravelAccessableRemoteExec {
 

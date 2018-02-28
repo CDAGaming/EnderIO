@@ -1,12 +1,7 @@
 package crazypants.enderio.powertools.config;
 
-import java.io.File;
-
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.event.ConfigFileChangedEvent;
 import com.enderio.core.common.util.NullHelper;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.Log;
 import crazypants.enderio.powertools.EnderIOPowerTools;
@@ -16,6 +11,9 @@ import net.minecraftforge.fml.client.event.ConfigChangedEvent.OnConfigChangedEve
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+
+import javax.annotation.Nullable;
+import java.io.File;
 
 @EventBusSubscriber(modid = EnderIOPowerTools.MODID)
 public class ConfigHandler {

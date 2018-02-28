@@ -1,15 +1,14 @@
 package crazypants.enderio.machines.machine.tank;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.network.MessageTileEntity;
 import com.enderio.core.common.util.NullHelper;
-
 import io.netty.buffer.ByteBuf;
 import net.minecraft.util.math.MathHelper;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler;
 import net.minecraftforge.fml.common.network.simpleimpl.MessageContext;
+
+import javax.annotation.Nonnull;
 
 public class PacketTankVoidMode extends MessageTileEntity<TileTank> {
 

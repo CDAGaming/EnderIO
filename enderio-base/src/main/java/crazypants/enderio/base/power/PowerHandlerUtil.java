@@ -1,15 +1,14 @@
 package crazypants.enderio.base.power;
 
-import java.util.List;
-import java.util.concurrent.CopyOnWriteArrayList;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.EnumFacing;
 import net.minecraftforge.common.capabilities.ICapabilityProvider;
 import net.minecraftforge.energy.IEnergyStorage;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.List;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 public class PowerHandlerUtil {
 

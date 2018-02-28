@@ -1,25 +1,17 @@
 package crazypants.enderio.base.integration.jei;
 
-import java.util.Collections;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
-
 import crazypants.enderio.base.Log;
 import crazypants.enderio.base.integration.jei.energy.EnergyIngredient;
 import crazypants.enderio.base.integration.jei.energy.EnergyIngredientHelper;
 import crazypants.enderio.base.integration.jei.energy.EnergyIngredientRenderer;
-import mezz.jei.api.IGuiHelper;
-import mezz.jei.api.IJeiHelpers;
-import mezz.jei.api.IJeiRuntime;
-import mezz.jei.api.IModPlugin;
-import mezz.jei.api.IModRegistry;
-import mezz.jei.api.ISubtypeRegistry;
-import mezz.jei.api.JEIPlugin;
+import mezz.jei.api.*;
 import mezz.jei.api.ingredients.IModIngredientRegistration;
 import mezz.jei.api.recipe.IRecipeCategoryRegistration;
 import mezz.jei.api.recipe.VanillaRecipeCategoryUid;
+
+import javax.annotation.Nonnull;
+import java.util.Collections;
 
 @JEIPlugin
 public class JeiPlugin implements IModPlugin {

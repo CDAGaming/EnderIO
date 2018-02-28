@@ -1,22 +1,7 @@
 package crazypants.enderio.base.config.recipes;
 
-import java.io.File;
-import java.io.IOException;
-import java.io.InputStream;
-import java.nio.charset.Charset;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.HashSet;
-import java.util.Set;
-
-import javax.xml.stream.XMLStreamException;
-
-import org.apache.commons.io.IOUtils;
-import org.apache.commons.lang3.tuple.Triple;
-
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.NullHelper;
-
 import crazypants.enderio.api.addon.IEnderIOAddon;
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.Log;
@@ -25,6 +10,18 @@ import crazypants.enderio.base.config.config.RecipeConfig;
 import crazypants.enderio.base.config.recipes.xml.Recipes;
 import net.minecraftforge.fml.common.Loader;
 import net.minecraftforge.fml.common.ModContainer;
+import org.apache.commons.io.IOUtils;
+import org.apache.commons.lang3.tuple.Triple;
+
+import javax.xml.stream.XMLStreamException;
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
+import java.nio.charset.Charset;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.HashSet;
+import java.util.Set;
 
 public class RecipeLoader {
 

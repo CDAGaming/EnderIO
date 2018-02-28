@@ -1,15 +1,6 @@
 package crazypants.enderio.base.render.pipeline;
 
-import java.util.EnumMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Map.Entry;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.util.NNList.NNIterator;
-
 import crazypants.enderio.base.Log;
 import crazypants.enderio.base.init.ModObject;
 import crazypants.enderio.base.render.property.IOMode;
@@ -25,6 +16,13 @@ import net.minecraft.util.EnumFacing;
 import net.minecraftforge.client.ForgeHooksClient;
 import net.minecraftforge.client.MinecraftForgeClient;
 import net.minecraftforge.client.event.ModelBakeEvent;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.EnumMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
 
 public class OverlayHolder {
 

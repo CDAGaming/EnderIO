@@ -1,10 +1,7 @@
 package crazypants.enderio.machines.machine.reservoir;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.api.client.gui.IResourceTooltipProvider;
 import com.enderio.core.common.util.FluidUtil;
-
 import crazypants.enderio.base.BlockEio;
 import crazypants.enderio.base.init.IModObject;
 import crazypants.enderio.base.render.IBlockStateWrapper;
@@ -35,6 +32,8 @@ import net.minecraftforge.fluids.Fluid;
 import net.minecraftforge.fml.client.registry.ClientRegistry;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
 
 import static crazypants.enderio.machines.init.MachineObject.block_reservoir;
 

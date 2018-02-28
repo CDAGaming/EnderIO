@@ -1,12 +1,6 @@
 package crazypants.enderio.base.recipe.painter;
 
-import java.util.Collections;
-import java.util.List;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
-
 import crazypants.enderio.base.config.config.RecipeConfig;
 import crazypants.enderio.base.recipe.IMachineRecipe;
 import crazypants.enderio.base.recipe.MachineRecipeInput;
@@ -14,6 +8,10 @@ import crazypants.enderio.base.recipe.MachineRecipeRegistry;
 import crazypants.enderio.base.recipe.RecipeBonusType;
 import crazypants.enderio.util.Prep;
 import net.minecraft.item.ItemStack;
+
+import javax.annotation.Nonnull;
+import java.util.Collections;
+import java.util.List;
 
 import static crazypants.enderio.base.recipe.MachineRecipeInput.getInputForSlot;
 

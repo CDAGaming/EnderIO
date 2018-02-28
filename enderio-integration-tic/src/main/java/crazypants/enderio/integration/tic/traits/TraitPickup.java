@@ -1,12 +1,12 @@
 package crazypants.enderio.integration.tic.traits;
 
-import java.util.Iterator;
-
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.event.world.BlockEvent.HarvestDropsEvent;
 import slimeknights.tconstruct.library.modifiers.IToolMod;
 import slimeknights.tconstruct.library.modifiers.ModifierTrait;
 import slimeknights.tconstruct.library.utils.ToolHelper;
+
+import java.util.Iterator;
 
 public class TraitPickup extends ModifierTrait {
 

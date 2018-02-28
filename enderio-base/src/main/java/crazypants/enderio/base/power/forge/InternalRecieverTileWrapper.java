@@ -1,12 +1,12 @@
 package crazypants.enderio.base.power.forge;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import crazypants.enderio.base.power.ILegacyPowerReceiver;
 import net.minecraft.util.EnumFacing;
 import net.minecraftforge.common.capabilities.Capability;
 import net.minecraftforge.energy.CapabilityEnergy;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 public class InternalRecieverTileWrapper extends InternalPoweredTileWrapper {
   

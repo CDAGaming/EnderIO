@@ -1,18 +1,11 @@
 package crazypants.enderio.machines.machine.generator.zombie;
 
-import java.util.Collections;
-import java.util.List;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.api.common.util.ITankAccess;
 import com.enderio.core.common.NBTAction;
 import com.enderio.core.common.fluid.FluidWrapper;
 import com.enderio.core.common.fluid.SmartTank;
 import com.enderio.core.common.fluid.SmartTankFluidHandler;
 import com.enderio.core.common.util.BlockCoord;
-
 import crazypants.enderio.base.fluid.Fluids;
 import crazypants.enderio.base.fluid.SmartTankFluidMachineHandler;
 import crazypants.enderio.base.machine.baselegacy.AbstractGeneratorEntity;
@@ -36,9 +29,12 @@ import net.minecraftforge.fluids.FluidStack;
 import net.minecraftforge.fluids.FluidTank;
 import net.minecraftforge.fluids.capability.CapabilityFluidHandler;
 
-import static crazypants.enderio.machines.capacitor.CapacitorKey.ZOMBIE_POWER_BUFFER;
-import static crazypants.enderio.machines.capacitor.CapacitorKey.ZOMBIE_POWER_GEN;
-import static crazypants.enderio.machines.capacitor.CapacitorKey.ZOMBIE_POWER_LOSS;
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.Collections;
+import java.util.List;
+
+import static crazypants.enderio.machines.capacitor.CapacitorKey.*;
 
 @Storable
 public class TileZombieGenerator extends AbstractGeneratorEntity implements ITankAccess.IExtendedTankAccess, IHasNutrientTank {

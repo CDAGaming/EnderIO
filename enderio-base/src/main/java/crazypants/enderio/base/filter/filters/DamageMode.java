@@ -1,9 +1,9 @@
 package crazypants.enderio.base.filter.filters;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.util.Prep;
 import net.minecraft.item.ItemStack;
+
+import javax.annotation.Nonnull;
 
 public enum DamageMode {
   DISABLED() {

@@ -1,15 +1,11 @@
 package crazypants.enderio.base.machine.base.te;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.NBTAction;
 import com.enderio.core.common.inventory.Callback;
 import com.enderio.core.common.inventory.EnderInventory;
 import com.enderio.core.common.inventory.EnderInventory.Type;
 import com.enderio.core.common.inventory.InventorySlot;
 import com.enderio.core.common.vecmath.VecmathUtil;
-
 import crazypants.enderio.base.capability.Filters;
 import crazypants.enderio.base.capacitor.ICapacitorData;
 import crazypants.enderio.base.capacitor.ICapacitorKey;
@@ -23,6 +19,9 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.EnumFacing;
 import net.minecraftforge.common.capabilities.Capability;
 import net.minecraftforge.energy.CapabilityEnergy;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 @Storable
 public abstract class AbstractCapabilityPoweredMachineEntity extends AbstractCapabilityMachineEntity {

@@ -3,7 +3,6 @@ package crazypants.enderio.machine.invpanel.chest;
 import com.enderio.core.common.NBTAction;
 import com.enderio.core.common.inventory.EnderInventory;
 import com.enderio.core.common.inventory.InventorySlot;
-
 import crazypants.enderio.base.capacitor.CapacitorKeyType;
 import crazypants.enderio.base.capacitor.DefaultCapacitorKey;
 import crazypants.enderio.base.capacitor.Scaler;

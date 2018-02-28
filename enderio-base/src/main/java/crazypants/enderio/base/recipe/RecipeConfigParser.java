@@ -1,25 +1,6 @@
 package crazypants.enderio.base.recipe;
 
-import java.io.BufferedInputStream;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.StringReader;
-import java.util.Locale;
-
-import javax.annotation.Nonnull;
-import javax.xml.parsers.SAXParser;
-import javax.xml.parsers.SAXParserFactory;
-
-import org.apache.commons.io.IOUtils;
-import org.xml.sax.Attributes;
-import org.xml.sax.InputSource;
-import org.xml.sax.SAXException;
-import org.xml.sax.SAXParseException;
-import org.xml.sax.XMLReader;
-import org.xml.sax.helpers.DefaultHandler;
-
 import com.enderio.core.common.util.OreDictionaryHelper;
-
 import crazypants.enderio.base.Log;
 import crazypants.enderio.base.material.OreDictionaryPreferences;
 import crazypants.enderio.base.recipe.RecipeConfig.RecipeElement;
@@ -34,6 +15,18 @@ import net.minecraftforge.fluids.Fluid;
 import net.minecraftforge.fluids.FluidRegistry;
 import net.minecraftforge.fluids.FluidStack;
 import net.minecraftforge.oredict.OreDictionary;
+import org.apache.commons.io.IOUtils;
+import org.xml.sax.*;
+import org.xml.sax.helpers.DefaultHandler;
+
+import javax.annotation.Nonnull;
+import javax.xml.parsers.SAXParser;
+import javax.xml.parsers.SAXParserFactory;
+import java.io.BufferedInputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.StringReader;
+import java.util.Locale;
 
 public class RecipeConfigParser extends DefaultHandler {
 

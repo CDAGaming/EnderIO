@@ -1,9 +1,6 @@
 package crazypants.enderio.base.config.recipes;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.stackable.Things;
-
 import crazypants.enderio.base.init.ModObjectRegistry;
 import crazypants.enderio.util.Prep;
 import net.minecraft.init.Items;
@@ -14,6 +11,8 @@ import net.minecraft.item.crafting.ShapelessRecipes;
 import net.minecraft.util.NonNullList;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.World;
+
+import javax.annotation.Nonnull;
 
 public class ShapelessRecipe extends ShapelessRecipes {
 

@@ -1,10 +1,10 @@
 package crazypants.enderio.machines.machine.obelisk.relocator;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.init.IModObject;
 import crazypants.enderio.machines.machine.obelisk.base.AbstractBlockRangedObelisk;
 import crazypants.enderio.machines.machine.obelisk.base.SpawningObeliskController;
+
+import javax.annotation.Nonnull;
 
 public class BlockRelocatorObelisk extends AbstractBlockRangedObelisk<TileRelocatorObelisk> {
 

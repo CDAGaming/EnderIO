@@ -1,12 +1,12 @@
 package crazypants.enderio.base.integration.buildcraft;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.Log;
 import crazypants.enderio.base.fluid.FluidFuelRegister;
 import crazypants.enderio.base.fluid.IFluidRegister;
 import net.minecraftforge.fml.common.Loader;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
+
+import javax.annotation.Nonnull;
 
 public class BuildcraftIntegration {
 

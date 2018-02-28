@@ -1,18 +1,16 @@
 package crazypants.enderio.base.config.recipes.xml;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.annotation.Nonnull;
-import javax.xml.stream.XMLStreamException;
-import javax.xml.stream.events.StartElement;
-
 import com.enderio.core.common.util.NNList;
-
 import crazypants.enderio.base.config.recipes.InvalidRecipeConfigException;
 import crazypants.enderio.base.config.recipes.RecipeConfigElement;
 import crazypants.enderio.base.config.recipes.StaxFactory;
 import net.minecraft.item.crafting.Ingredient;
+
+import javax.annotation.Nonnull;
+import javax.xml.stream.XMLStreamException;
+import javax.xml.stream.events.StartElement;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Shapeless implements RecipeConfigElement {
 

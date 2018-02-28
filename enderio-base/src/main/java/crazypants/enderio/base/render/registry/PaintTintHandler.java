@@ -1,8 +1,5 @@
 package crazypants.enderio.base.render.registry;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import crazypants.enderio.base.paint.IPaintable;
 import crazypants.enderio.base.render.ITintedBlock;
 import crazypants.enderio.base.render.ITintedItem;
@@ -16,6 +13,9 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 public class PaintTintHandler implements IBlockColor, IItemColor {
 

@@ -1,11 +1,10 @@
 package info.loenwind.scheduler;
 
-import java.util.Calendar;
-import java.util.Locale;
+import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 
 import javax.annotation.Nonnull;
-
-import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
+import java.util.Calendar;
+import java.util.Locale;
 
 public class Celeb implements Event {
 

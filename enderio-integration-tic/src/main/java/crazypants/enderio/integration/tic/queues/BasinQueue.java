@@ -1,10 +1,9 @@
 package crazypants.enderio.integration.tic.queues;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.stackable.Things;
-
 import net.minecraftforge.fluids.Fluid;
+
+import javax.annotation.Nonnull;
 
 public class BasinQueue {
   final @Nonnull private Things output;

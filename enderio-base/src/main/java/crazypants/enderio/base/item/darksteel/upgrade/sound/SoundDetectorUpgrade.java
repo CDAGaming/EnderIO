@@ -1,12 +1,12 @@
 package crazypants.enderio.base.item.darksteel.upgrade.sound;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.config.Config;
 import crazypants.enderio.base.handler.darksteel.AbstractUpgrade;
 import crazypants.enderio.base.init.ModObject;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemStack;
+
+import javax.annotation.Nonnull;
 
 public class SoundDetectorUpgrade extends AbstractUpgrade {
 

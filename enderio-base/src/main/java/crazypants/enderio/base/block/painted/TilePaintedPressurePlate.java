@@ -1,11 +1,11 @@
 package crazypants.enderio.base.block.painted;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.util.CapturedMob;
 import info.loenwind.autosave.annotations.Storable;
 import info.loenwind.autosave.annotations.Store;
 import net.minecraft.util.EnumFacing;
+
+import javax.annotation.Nonnull;
 
 @Storable
 public class TilePaintedPressurePlate extends TileEntityPaintedBlock {

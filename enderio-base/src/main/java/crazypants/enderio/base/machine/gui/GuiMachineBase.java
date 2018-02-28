@@ -1,11 +1,5 @@
 package crazypants.enderio.base.machine.gui;
 
-import java.awt.Rectangle;
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.api.common.util.IProgressTile;
 import com.enderio.core.client.gui.button.IconButton;
 import com.enderio.core.client.gui.widget.GuiToolTip;
@@ -13,7 +7,6 @@ import com.enderio.core.client.render.RenderUtil;
 import com.enderio.core.common.ContainerEnder;
 import com.enderio.core.common.util.Util;
 import com.enderio.core.common.vecmath.Vector4f;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.gui.GuiContainerBaseEIO;
 import crazypants.enderio.base.gui.IconEIO;
@@ -27,6 +20,11 @@ import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.inventory.Container;
 import net.minecraft.inventory.Slot;
+
+import javax.annotation.Nonnull;
+import java.awt.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public abstract class GuiMachineBase<T extends AbstractInventoryMachineEntity> extends GuiContainerBaseEIO {
 

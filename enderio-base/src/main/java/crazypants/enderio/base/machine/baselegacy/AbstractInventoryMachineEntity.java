@@ -1,10 +1,6 @@
 package crazypants.enderio.base.machine.baselegacy;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.NBTAction;
-
 import crazypants.enderio.base.capability.ItemTools;
 import crazypants.enderio.base.capability.ItemTools.MoveResult;
 import crazypants.enderio.base.capability.LegacyMachineWrapper;
@@ -23,6 +19,9 @@ import net.minecraft.util.text.TextComponentString;
 import net.minecraft.util.text.TextComponentTranslation;
 import net.minecraftforge.common.capabilities.Capability;
 import net.minecraftforge.items.CapabilityItemHandler;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 @Storable
 public abstract class AbstractInventoryMachineEntity extends AbstractMachineEntity {

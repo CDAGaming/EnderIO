@@ -1,12 +1,7 @@
 package crazypants.enderio.base.item.darksteel.upgrade.jump;
 
-import java.util.Random;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.client.ClientUtil;
 import com.enderio.core.common.util.NullHelper;
-
 import crazypants.enderio.base.config.Config;
 import crazypants.enderio.base.handler.darksteel.AbstractUpgrade;
 import crazypants.enderio.base.init.ModObject;
@@ -22,6 +17,9 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.EnumParticleTypes;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import java.util.Random;
 
 public class JumpUpgrade extends AbstractUpgrade {
 

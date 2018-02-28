@@ -1,10 +1,10 @@
 package crazypants.enderio.base.paint.render;
 
-import java.util.Optional;
-
 import net.minecraftforge.common.model.IModelPart;
 import net.minecraftforge.common.model.IModelState;
 import net.minecraftforge.common.model.TRSRTransformation;
+
+import java.util.Optional;
 
 public class UVLock implements IModelState {
 

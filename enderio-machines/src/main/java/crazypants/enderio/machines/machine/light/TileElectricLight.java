@@ -1,16 +1,7 @@
 package crazypants.enderio.machines.machine.light;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.ForgeDirectionOffsets;
 import com.enderio.core.common.vecmath.Vector3d;
-
 import crazypants.enderio.base.TileEntityEio;
 import crazypants.enderio.base.capacitor.DefaultCapacitorData;
 import crazypants.enderio.base.power.ILegacyPowerReceiver;
@@ -24,6 +15,9 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.EnumSkyBlock;
+
+import javax.annotation.Nonnull;
+import java.util.*;
 
 import static crazypants.enderio.base.capacitor.CapacitorKey.LEGACY_ENERGY_INTAKE;
 import static crazypants.enderio.machines.init.MachineObject.block_light_node;

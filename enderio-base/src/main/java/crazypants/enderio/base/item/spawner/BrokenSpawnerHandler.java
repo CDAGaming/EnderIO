@@ -1,13 +1,7 @@
 package crazypants.enderio.base.item.spawner;
 
-import java.lang.reflect.Field;
-import java.lang.reflect.Method;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNMap;
 import com.enderio.core.common.util.NullHelper;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.Log;
 import crazypants.enderio.base.config.config.BrokenSpawnerConfig;
@@ -27,6 +21,10 @@ import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.TickEvent;
 import net.minecraftforge.fml.relauncher.ReflectionHelper;
+
+import javax.annotation.Nonnull;
+import java.lang.reflect.Field;
+import java.lang.reflect.Method;
 
 @EventBusSubscriber(modid = EnderIO.MODID)
 public class BrokenSpawnerHandler {

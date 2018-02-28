@@ -1,7 +1,5 @@
 package crazypants.enderio.api.upgrades;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.handler.darksteel.PacketDarkSteelSFXPacket;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.EntityEquipmentSlot;
@@ -10,6 +8,8 @@ import net.minecraftforge.fml.common.gameevent.TickEvent.PlayerTickEvent;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import net.minecraftforge.registries.IForgeRegistryEntry;
+
+import javax.annotation.Nonnull;
 
 /**
  * This class is an upgrade that can be applied to Dark Steel items.

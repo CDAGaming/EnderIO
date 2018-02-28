@@ -1,13 +1,12 @@
 package crazypants.enderio.util;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.Util;
-
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.IInventory;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.text.ITextComponent;
+
+import javax.annotation.Nonnull;
 
 public class ShadowInventory implements IInventory { // TODO: DONE111
   private final ItemStack[] items;

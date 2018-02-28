@@ -1,13 +1,7 @@
 package crazypants.enderio.machines;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
-import org.apache.commons.lang3.tuple.Triple;
-
 import com.enderio.core.common.Lang;
 import com.enderio.core.common.util.NNList;
-
 import crazypants.enderio.api.addon.IEnderIOAddon;
 import crazypants.enderio.base.config.recipes.RecipeFactory;
 import crazypants.enderio.machines.config.ConfigHandler;
@@ -24,6 +18,10 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+import org.apache.commons.lang3.tuple.Triple;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 @Mod(modid = EnderIOMachines.MODID, name = EnderIOMachines.MOD_NAME, version = EnderIOMachines.VERSION, dependencies = EnderIOMachines.DEPENDENCIES)
 @EventBusSubscriber(Side.CLIENT)

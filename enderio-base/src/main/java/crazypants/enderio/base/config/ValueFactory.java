@@ -1,16 +1,8 @@
 package crazypants.enderio.base.config;
 
-import java.nio.charset.Charset;
-import java.util.HashMap;
-import java.util.Map;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.NullHelper;
 import com.enderio.core.common.util.stackable.Things;
-
 import crazypants.enderio.base.Log;
 import crazypants.enderio.base.config.Config.Section;
 import crazypants.enderio.base.network.PacketHandler;
@@ -26,6 +18,12 @@ import net.minecraftforge.fml.common.LoaderState;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.PlayerEvent.PlayerLoggedInEvent;
 import net.minecraftforge.fml.common.network.FMLNetworkEvent.ClientDisconnectionFromServerEvent;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.nio.charset.Charset;
+import java.util.HashMap;
+import java.util.Map;
 
 public class ValueFactory {
 

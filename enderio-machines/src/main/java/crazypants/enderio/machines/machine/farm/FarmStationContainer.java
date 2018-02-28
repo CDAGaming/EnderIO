@@ -1,20 +1,18 @@
 package crazypants.enderio.machines.machine.farm;
 
-import java.awt.Point;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.client.gui.GhostSlotHandler;
 import com.enderio.core.client.gui.widget.GhostBackgroundItemSlot;
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.stackable.Things;
-
 import crazypants.enderio.base.farming.FarmersRegistry;
 import crazypants.enderio.base.farming.fertilizer.Fertilizer;
 import crazypants.enderio.base.machine.gui.AbstractMachineContainer;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.inventory.Slot;
 import net.minecraft.item.ItemStack;
+
+import javax.annotation.Nonnull;
+import java.awt.*;
 
 public class FarmStationContainer extends AbstractMachineContainer<TileFarmStation> {
 

@@ -1,17 +1,7 @@
 package crazypants.enderio.machines.machine.generator.stirling;
 
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.Rectangle;
-import java.text.MessageFormat;
-
-import javax.annotation.Nonnull;
-
-import org.lwjgl.opengl.GL11;
-
 import com.enderio.core.client.gui.widget.GuiToolTip;
 import com.enderio.core.client.render.ColorUtil;
-
 import crazypants.enderio.base.capacitor.DefaultCapacitorData;
 import crazypants.enderio.base.capacitor.ICapacitorData;
 import crazypants.enderio.base.lang.LangPower;
@@ -23,6 +13,11 @@ import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.util.text.TextFormatting;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+import org.lwjgl.opengl.GL11;
+
+import javax.annotation.Nonnull;
+import java.awt.*;
+import java.text.MessageFormat;
 
 @SideOnly(Side.CLIENT)
 public class GuiStirlingGenerator<T extends TileStirlingGenerator> extends GuiInventoryMachineBase<T> {

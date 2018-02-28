@@ -1,9 +1,6 @@
 package crazypants.enderio.base.machine.recipes;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
-
 import crazypants.enderio.base.Log;
 import crazypants.enderio.base.lang.Lang;
 import crazypants.enderio.base.machine.interfaces.IClearableConfiguration;
@@ -22,6 +19,8 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import net.minecraftforge.registries.IForgeRegistryEntry;
+
+import javax.annotation.Nonnull;
 
 public class ClearConfigRecipe extends IForgeRegistryEntry.Impl<IRecipe> implements IRecipe {
 

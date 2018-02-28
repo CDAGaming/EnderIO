@@ -1,10 +1,6 @@
 package crazypants.enderio.base.material.glass;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.util.NNList;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.TileEntityEio;
 import crazypants.enderio.base.init.IModObject;
@@ -36,6 +32,9 @@ import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 import static crazypants.enderio.base.config.Config.glassConnectToTheirColorVariants;
 

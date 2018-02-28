@@ -1,10 +1,7 @@
 package crazypants.enderio.machines.machine.wired;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.api.common.util.IProgressTile;
 import com.enderio.core.common.NBTAction;
-
 import crazypants.enderio.base.machine.baselegacy.AbstractPowerConsumerEntity;
 import crazypants.enderio.base.machine.baselegacy.SlotDefinition;
 import crazypants.enderio.base.paint.IPaintable;
@@ -19,6 +16,8 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraftforge.energy.IEnergyStorage;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
 
 @Storable
 public class TileWiredCharger extends AbstractPowerConsumerEntity implements ILegacyPowerReceiver, IPaintable.IPaintableTileEntity, IProgressTile {

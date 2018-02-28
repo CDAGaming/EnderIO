@@ -1,12 +1,8 @@
 package crazypants.enderio.base.filter.filters;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.client.gui.widget.GhostSlot;
 import com.enderio.core.common.network.NetworkUtil;
 import com.enderio.core.common.util.NNList;
-
 import crazypants.enderio.base.filter.IItemFilter;
 import crazypants.enderio.base.filter.INetworkedInventory;
 import crazypants.enderio.base.filter.gui.IItemFilterContainer;
@@ -19,6 +15,9 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.util.ResourceLocation;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 public class ModItemFilter implements IItemFilter {
 

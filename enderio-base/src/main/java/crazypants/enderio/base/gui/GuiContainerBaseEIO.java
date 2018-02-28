@@ -1,21 +1,10 @@
 package crazypants.enderio.base.gui;
 
-import java.awt.Rectangle;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
-import org.lwjgl.opengl.GL11;
-
 import com.enderio.core.api.client.render.IWidgetIcon;
 import com.enderio.core.client.gui.GuiContainerBase;
 import com.enderio.core.client.render.RenderUtil;
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.NullHelper;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.network.IRemoteExec;
 import crazypants.enderio.base.sound.SoundHelper;
@@ -32,6 +21,14 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+import org.lwjgl.opengl.GL11;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.awt.*;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 @SideOnly(Side.CLIENT)
 public abstract class GuiContainerBaseEIO extends GuiContainerBase implements IRemoteExec.IGui {

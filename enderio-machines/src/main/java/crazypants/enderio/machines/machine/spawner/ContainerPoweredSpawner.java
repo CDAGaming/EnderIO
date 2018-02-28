@@ -1,12 +1,7 @@
 package crazypants.enderio.machines.machine.spawner;
 
-import java.util.List;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.client.gui.widget.GhostBackgroundItemSlot;
 import com.enderio.core.client.gui.widget.GhostSlot;
-
 import crazypants.enderio.base.init.ModObject;
 import crazypants.enderio.base.machine.gui.AbstractMachineContainer;
 import crazypants.enderio.machines.machine.tank.InventorySlot;
@@ -14,6 +9,9 @@ import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.inventory.Slot;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
+
+import javax.annotation.Nonnull;
+import java.util.List;
 
 public class ContainerPoweredSpawner extends AbstractMachineContainer<TilePoweredSpawner> implements IPoweredSpawnerRemoteExec.Container {
 

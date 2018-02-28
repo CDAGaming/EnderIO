@@ -1,8 +1,5 @@
 package crazypants.enderio.base.power.forge;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import crazypants.enderio.base.power.IInternalPoweredItem;
 import crazypants.enderio.base.power.ItemPowerCapabilityProvider;
 import net.minecraft.item.ItemStack;
@@ -10,6 +7,9 @@ import net.minecraft.util.EnumFacing;
 import net.minecraftforge.common.capabilities.Capability;
 import net.minecraftforge.energy.CapabilityEnergy;
 import net.minecraftforge.energy.IEnergyStorage;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 public class InternalPoweredItemWrapper implements IEnergyStorage {
 

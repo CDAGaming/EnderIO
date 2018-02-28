@@ -1,20 +1,6 @@
 package info.loenwind.autosave.engine;
 
-import java.lang.reflect.Field;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.EnumSet;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.NBTAction;
-
 import crazypants.enderio.base.Log;
 import info.loenwind.autosave.Reader;
 import info.loenwind.autosave.Registry;
@@ -26,6 +12,11 @@ import info.loenwind.autosave.handlers.IHandler;
 import info.loenwind.autosave.handlers.internal.HandleStorable;
 import info.loenwind.autosave.handlers.internal.NullHandler;
 import net.minecraft.nbt.NBTTagCompound;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.lang.reflect.Field;
+import java.util.*;
 
 /**
  * The thread-safe engine that handles (re-)storing {@link Storable} objects by storing their fields. The fields to (re-)store must be annotated {@link Store}.

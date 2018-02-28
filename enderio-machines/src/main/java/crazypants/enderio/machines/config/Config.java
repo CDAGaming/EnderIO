@@ -1,26 +1,13 @@
 package crazypants.enderio.machines.config;
 
-import javax.annotation.Nonnull;
-import javax.annotation.ParametersAreNonnullByDefault;
-
 import crazypants.enderio.base.config.Config.Section;
 import crazypants.enderio.base.config.ValueFactory;
 import crazypants.enderio.base.config.ValueFactory.IValue;
 import crazypants.enderio.machines.EnderIOMachines;
-import crazypants.enderio.machines.config.config.ClientConfig;
-import crazypants.enderio.machines.config.config.CombustionGenConfig;
-import crazypants.enderio.machines.config.config.ExperienceConfig;
-import crazypants.enderio.machines.config.config.FarmConfig;
-import crazypants.enderio.machines.config.config.InhibitorConfig;
-import crazypants.enderio.machines.config.config.KillerJoeConfig;
-import crazypants.enderio.machines.config.config.SolarConfig;
-import crazypants.enderio.machines.config.config.SoulBinderConfig;
-import crazypants.enderio.machines.config.config.SpawnerConfig;
-import crazypants.enderio.machines.config.config.TankConfig;
-import crazypants.enderio.machines.config.config.VacuumConfig;
-import crazypants.enderio.machines.config.config.VatConfig;
-import crazypants.enderio.machines.config.config.WeatherConfig;
-import crazypants.enderio.machines.config.config.ZombieGenConfig;
+import crazypants.enderio.machines.config.config.*;
+
+import javax.annotation.Nonnull;
+import javax.annotation.ParametersAreNonnullByDefault;
 
 @ParametersAreNonnullByDefault // Not the right one, but eclipse knows only 3 null annotations anyway, so it's ok
 public final class Config {

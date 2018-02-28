@@ -1,19 +1,17 @@
 package crazypants.enderio.base.machine.modes;
 
-import java.util.List;
-import java.util.Locale;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.api.client.render.IWidgetIcon;
 import com.enderio.core.client.gui.button.CycleButton.ICycleEnum;
 import com.enderio.core.common.util.NNList;
 import com.google.common.collect.Lists;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.conduit.ConduitUtil;
 import crazypants.enderio.base.gui.IconEIO;
 import net.minecraft.tileentity.TileEntity;
+
+import javax.annotation.Nonnull;
+import java.util.List;
+import java.util.Locale;
 
 public enum RedstoneControlMode {
   IGNORE,

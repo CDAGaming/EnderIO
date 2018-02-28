@@ -1,7 +1,5 @@
 package crazypants.enderio.base.item.darksteel.upgrade.energy;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.api.upgrades.IDarkSteelItem;
 import crazypants.enderio.base.EnderIO;
 import net.minecraft.item.ItemStack;
@@ -9,6 +7,8 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.event.AttachCapabilitiesEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+
+import javax.annotation.Nonnull;
 
 @EventBusSubscriber(modid = EnderIO.MODID)
 public class EnergyUpgradePowerAdapter {

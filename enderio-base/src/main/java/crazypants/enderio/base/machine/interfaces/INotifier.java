@@ -1,10 +1,9 @@
 package crazypants.enderio.base.machine.interfaces;
 
-import java.util.Set;
+import crazypants.enderio.api.ILocalizable;
 
 import javax.annotation.Nonnull;
-
-import crazypants.enderio.api.ILocalizable;
+import java.util.Set;
 
 public interface INotifier {
 

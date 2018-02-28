@@ -1,13 +1,7 @@
 package crazypants.enderio.machines.machine.reservoir;
 
-import java.util.EnumMap;
-import java.util.List;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.NNList.NNIterator;
-
 import crazypants.enderio.base.render.IBlockStateWrapper;
 import crazypants.enderio.base.render.property.IOMode.EnumIOMode;
 import crazypants.enderio.base.render.rendermapper.ConnectedBlockRenderMapper;
@@ -20,6 +14,10 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import java.util.EnumMap;
+import java.util.List;
 
 public class ReservoirBlockRenderMapper extends ConnectedBlockRenderMapper {
 

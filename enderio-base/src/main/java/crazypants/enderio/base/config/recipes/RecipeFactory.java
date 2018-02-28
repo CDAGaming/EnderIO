@@ -1,15 +1,11 @@
 package crazypants.enderio.base.config.recipes;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.FileWriter;
-import java.io.FilenameFilter;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
+import com.enderio.core.common.util.NNList;
+import crazypants.enderio.base.Log;
+import net.minecraft.util.ResourceLocation;
+import net.minecraftforge.fml.common.Loader;
+import net.minecraftforge.fml.common.ModContainer;
+import org.apache.commons.io.IOUtils;
 
 import javax.annotation.Nonnull;
 import javax.xml.stream.XMLEventReader;
@@ -17,15 +13,7 @@ import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.events.StartElement;
 import javax.xml.stream.events.XMLEvent;
-
-import org.apache.commons.io.IOUtils;
-
-import com.enderio.core.common.util.NNList;
-
-import crazypants.enderio.base.Log;
-import net.minecraft.util.ResourceLocation;
-import net.minecraftforge.fml.common.Loader;
-import net.minecraftforge.fml.common.ModContainer;
+import java.io.*;
 
 public class RecipeFactory {
 

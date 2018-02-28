@@ -1,11 +1,6 @@
 package crazypants.enderio.base.config;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.regex.Pattern;
-
 import com.enderio.core.common.util.NullHelper;
-
 import crazypants.enderio.base.config.config.BaseConfig;
 import net.minecraft.util.text.TextFormatting;
 import net.minecraftforge.common.config.ConfigCategory;
@@ -15,6 +10,10 @@ import net.minecraftforge.fml.client.config.ConfigGuiType;
 import net.minecraftforge.fml.client.config.GuiConfigEntries.IConfigEntry;
 import net.minecraftforge.fml.client.config.GuiEditArrayEntries.IArrayEntry;
 import net.minecraftforge.fml.client.config.IConfigElement;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.regex.Pattern;
 
 /**
  ** Forge's {@link ConfigElement} is written in a way to prevent sub-classing, so we had to copy it.

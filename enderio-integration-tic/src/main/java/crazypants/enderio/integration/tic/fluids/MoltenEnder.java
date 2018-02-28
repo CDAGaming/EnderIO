@@ -1,9 +1,6 @@
 package crazypants.enderio.integration.tic.fluids;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.fluid.BlockFluidEnder;
-
 import crazypants.enderio.base.teleport.RandomTeleportUtil;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -11,6 +8,8 @@ import net.minecraft.entity.Entity;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraftforge.fluids.Fluid;
+
+import javax.annotation.Nonnull;
 
 public class MoltenEnder extends BlockFluidEnder {
 

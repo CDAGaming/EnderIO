@@ -1,7 +1,5 @@
 package crazypants.enderio.base.filter.recipes;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.filter.FilterRegistry;
 import crazypants.enderio.base.filter.IItemFilterUpgrade;
 import crazypants.enderio.util.Prep;
@@ -11,6 +9,8 @@ import net.minecraft.item.crafting.IRecipe;
 import net.minecraft.util.NonNullList;
 import net.minecraft.world.World;
 import net.minecraftforge.registries.IForgeRegistryEntry;
+
+import javax.annotation.Nonnull;
 
 public class CopyFilterRecipe extends IForgeRegistryEntry.Impl<IRecipe> implements IRecipe {
 

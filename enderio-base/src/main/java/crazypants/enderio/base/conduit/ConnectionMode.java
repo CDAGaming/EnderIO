@@ -1,11 +1,10 @@
 package crazypants.enderio.base.conduit;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NullHelper;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.Log;
+
+import javax.annotation.Nonnull;
 
 public enum ConnectionMode {
 

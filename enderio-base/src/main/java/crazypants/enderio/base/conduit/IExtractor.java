@@ -1,11 +1,10 @@
 package crazypants.enderio.base.conduit;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.DyeColor;
-
 import crazypants.enderio.base.machine.modes.RedstoneControlMode;
 import net.minecraft.util.EnumFacing;
+
+import javax.annotation.Nonnull;
 
 public interface IExtractor extends IConduit {
 

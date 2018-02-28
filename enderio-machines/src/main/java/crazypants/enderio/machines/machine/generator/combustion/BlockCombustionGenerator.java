@@ -1,10 +1,5 @@
 package crazypants.enderio.machines.machine.generator.combustion;
 
-import java.util.Random;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import crazypants.enderio.base.init.IModObject;
 import crazypants.enderio.base.machine.base.block.BlockMachineExtension;
 import crazypants.enderio.base.machine.base.te.AbstractMachineEntity;
@@ -34,6 +29,10 @@ import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.Random;
 
 public class BlockCombustionGenerator<T extends TileCombustionGenerator> extends AbstractGeneratorBlock<T>
     implements IPaintable.INonSolidBlockPaintableBlock, IPaintable.IWrenchHideablePaint {

@@ -1,11 +1,10 @@
 package info.loenwind.autosave.handlers.endercore;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
-
 import info.loenwind.autosave.handlers.IHandler;
 import info.loenwind.autosave.handlers.java.HandleAbstractCollection;
+
+import javax.annotation.Nonnull;
 
 public abstract class HandleNNList<E> extends HandleAbstractCollection<E, NNList<E>> {
 

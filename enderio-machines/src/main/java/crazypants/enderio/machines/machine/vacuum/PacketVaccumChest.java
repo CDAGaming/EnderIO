@@ -1,17 +1,16 @@
 package crazypants.enderio.machines.machine.vacuum;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.network.MessageTileEntity;
 import com.enderio.core.common.util.NullHelper;
-
 import io.netty.buffer.ByteBuf;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.network.ByteBufUtils;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler;
 import net.minecraftforge.fml.common.network.simpleimpl.MessageContext;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 public class PacketVaccumChest extends MessageTileEntity<TileVacuumChest> {
 

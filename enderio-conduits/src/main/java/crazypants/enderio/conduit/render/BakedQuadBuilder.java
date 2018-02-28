@@ -1,17 +1,15 @@
 package crazypants.enderio.conduit.render;
 
-import java.util.List;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.client.render.BoundingBox;
 import com.enderio.core.client.render.RenderUtil;
 import com.enderio.core.common.vecmath.Vector4f;
 import com.enderio.core.common.vecmath.Vertex;
-
 import net.minecraft.client.renderer.block.model.BakedQuad;
 import net.minecraft.client.renderer.texture.TextureAtlasSprite;
 import net.minecraft.util.EnumFacing;
+
+import javax.annotation.Nonnull;
+import java.util.List;
 
 //I am using this class instead of RenderUtil directly in case I decide to cache the BakedQuads
 public class BakedQuadBuilder {

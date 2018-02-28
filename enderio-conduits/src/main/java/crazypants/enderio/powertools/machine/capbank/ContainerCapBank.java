@@ -1,13 +1,7 @@
 package crazypants.enderio.powertools.machine.capbank;
 
-import java.awt.Point;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.ContainerEnder;
 import com.enderio.core.common.util.ArrayInventory;
-
 import crazypants.enderio.base.integration.baubles.BaublesUtil;
 import crazypants.enderio.powertools.machine.capbank.network.InventoryImpl;
 import crazypants.enderio.util.ShadowInventory;
@@ -25,6 +19,10 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.NonNullList;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.awt.*;
 
 public abstract class ContainerCapBank extends ContainerEnder<TileCapBank> {
 

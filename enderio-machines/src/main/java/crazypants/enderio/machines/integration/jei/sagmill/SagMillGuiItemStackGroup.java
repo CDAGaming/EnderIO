@@ -1,12 +1,5 @@
 package crazypants.enderio.machines.integration.jei.sagmill;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import mezz.jei.api.gui.IDrawable;
 import mezz.jei.api.gui.IGuiIngredient;
 import mezz.jei.api.gui.IGuiItemStackGroup;
@@ -15,6 +8,12 @@ import mezz.jei.api.ingredients.IIngredientRenderer;
 import mezz.jei.api.ingredients.IIngredients;
 import mezz.jei.api.recipe.IFocus;
 import net.minecraft.item.ItemStack;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class SagMillGuiItemStackGroup implements IGuiItemStackGroup {
   private final @Nonnull IGuiItemStackGroup itemStacks;

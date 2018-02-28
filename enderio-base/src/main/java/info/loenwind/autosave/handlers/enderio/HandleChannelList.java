@@ -1,17 +1,6 @@
 package info.loenwind.autosave.handlers.enderio;
 
-import java.lang.reflect.Field;
-import java.util.EnumMap;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.Map.Entry;
-import java.util.Set;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.NBTAction;
-
 import crazypants.enderio.base.transceiver.Channel;
 import crazypants.enderio.base.transceiver.ChannelList;
 import crazypants.enderio.base.transceiver.ChannelType;
@@ -21,6 +10,15 @@ import info.loenwind.autosave.handlers.internal.HandleStorable;
 import info.loenwind.autosave.handlers.java.HandleAbstractCollection;
 import info.loenwind.autosave.handlers.java.HandleAbstractEnumMap;
 import net.minecraft.nbt.NBTTagCompound;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.lang.reflect.Field;
+import java.util.EnumMap;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Map.Entry;
+import java.util.Set;
 
 public class HandleChannelList extends HandleAbstractEnumMap<ChannelType, Set<Channel>> {
 

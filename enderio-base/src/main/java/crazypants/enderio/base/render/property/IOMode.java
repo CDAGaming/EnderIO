@@ -1,14 +1,12 @@
 package crazypants.enderio.base.render.property;
 
-import java.util.Locale;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.NNList.NNIterator;
 import com.enderio.core.common.util.NNMap;
-
 import net.minecraft.util.EnumFacing;
+
+import javax.annotation.Nonnull;
+import java.util.Locale;
 
 /**
  * A property for the IO overlays of the block sides. These are implemented in the MachineIO dummy block and can be pulled from there for rendering using these

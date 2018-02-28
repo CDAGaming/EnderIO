@@ -1,12 +1,12 @@
 package crazypants.enderio.base.integration.chiselsandbits;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.Log;
 import crazypants.enderio.base.init.ModObject;
 import net.minecraft.block.Block;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLInterModComms;
+
+import javax.annotation.Nonnull;
 
 public class CABIMC {
 

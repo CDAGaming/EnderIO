@@ -1,12 +1,12 @@
 package crazypants.enderio.machines.machine.wired;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.machine.gui.GuiInventoryMachineBase;
 import crazypants.enderio.base.machine.gui.PowerBar;
 import crazypants.enderio.machines.EnderIOMachines;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.entity.player.InventoryPlayer;
+
+import javax.annotation.Nonnull;
 
 public class GuiWiredCharger extends GuiInventoryMachineBase<TileWiredCharger> {
 

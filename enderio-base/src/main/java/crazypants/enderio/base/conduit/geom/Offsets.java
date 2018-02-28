@@ -1,13 +1,12 @@
 package crazypants.enderio.base.conduit.geom;
 
+import crazypants.enderio.base.conduit.IConduit;
+import net.minecraft.util.EnumFacing;
+
+import javax.annotation.Nonnull;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
-
-import javax.annotation.Nonnull;
-
-import crazypants.enderio.base.conduit.IConduit;
-import net.minecraft.util.EnumFacing;
 
 public class Offsets {
 

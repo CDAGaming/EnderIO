@@ -1,7 +1,5 @@
 package crazypants.enderio.machines.machine.wireless;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.TileEntityEio;
 import crazypants.enderio.base.capacitor.DefaultCapacitorData;
 import crazypants.enderio.base.paint.IPaintable;
@@ -20,6 +18,8 @@ import net.minecraft.util.NonNullList;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraftforge.energy.IEnergyStorage;
+
+import javax.annotation.Nonnull;
 
 @Storable
 public class TileWirelessCharger extends TileEntityEio implements ILegacyPowerReceiver, IWirelessCharger, IPaintable.IPaintableTileEntity {

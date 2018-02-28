@@ -1,9 +1,9 @@
 package crazypants.enderio.base.machine.baselegacy;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.init.IModObject;
 import net.minecraft.block.material.Material;
+
+import javax.annotation.Nonnull;
 
 public abstract class AbstractPoweredTaskBlock<T extends AbstractPoweredTaskEntity> extends AbstractPowerConsumerBlock<T> {
 

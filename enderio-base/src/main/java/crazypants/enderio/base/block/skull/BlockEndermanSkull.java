@@ -1,10 +1,7 @@
 package crazypants.enderio.base.block.skull;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.NNList.Callback;
-
 import crazypants.enderio.base.BlockEio;
 import crazypants.enderio.base.EnderIOTab;
 import crazypants.enderio.base.init.IModObject;
@@ -33,6 +30,8 @@ import net.minecraftforge.fml.client.registry.ClientRegistry;
 import net.minecraftforge.fml.common.Optional;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
 
 @Optional.Interface(iface = "thaumcraft.api.crafting.IInfusionStabiliser", modid = "Thaumcraft")
 public class BlockEndermanSkull extends BlockEio<TileEndermanSkull> implements IHaveTESR, IHaveRenderers { // TODO: Mod Thaumcraft IInfusionStabiliser

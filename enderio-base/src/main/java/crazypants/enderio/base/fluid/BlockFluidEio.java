@@ -1,15 +1,8 @@
 package crazypants.enderio.base.fluid;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.fluid.BlockFluidEnder;
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.NNList.Callback;
-
 import crazypants.enderio.base.config.Config;
 import crazypants.enderio.base.init.ModObject;
 import net.minecraft.block.Block;
@@ -34,6 +27,11 @@ import net.minecraftforge.fluids.Fluid;
 import net.minecraftforge.fluids.IFluidBlock;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
 
 import static crazypants.enderio.base.config.Config.rocketFuelIsExplosive;
 

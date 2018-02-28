@@ -1,9 +1,6 @@
 package crazypants.enderio.powertools.machine.capbank.packet;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.network.MessageTileEntity;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.powertools.machine.capbank.TileCapBank;
 import net.minecraft.world.World;
@@ -11,6 +8,8 @@ import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler;
 import net.minecraftforge.fml.common.network.simpleimpl.MessageContext;
 import net.minecraftforge.fml.relauncher.Side;
+
+import javax.annotation.Nonnull;
 
 public abstract class PacketCapBank<T extends PacketCapBank<?, ?>, Q extends IMessage> extends MessageTileEntity<TileCapBank> {
 

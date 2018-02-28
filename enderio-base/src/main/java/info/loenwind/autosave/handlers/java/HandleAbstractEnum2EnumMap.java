@@ -1,20 +1,18 @@
 package info.loenwind.autosave.handlers.java;
 
-import java.lang.reflect.Field;
-import java.util.EnumMap;
-import java.util.Set;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.NBTAction;
-
 import crazypants.enderio.base.Log;
 import crazypants.enderio.base.machine.modes.IoMode;
 import info.loenwind.autosave.Registry;
 import info.loenwind.autosave.exceptions.NoHandlerFoundException;
 import info.loenwind.autosave.handlers.IHandler;
 import net.minecraft.nbt.NBTTagCompound;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.lang.reflect.Field;
+import java.util.EnumMap;
+import java.util.Set;
 
 /**
  * This is a specialized version of {@link HandleAbstractEnumMap}, for maps with enum values as well.

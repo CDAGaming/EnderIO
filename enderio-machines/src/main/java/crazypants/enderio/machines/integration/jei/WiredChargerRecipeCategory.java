@@ -1,14 +1,6 @@
 package crazypants.enderio.machines.integration.jei;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.annotation.Nonnull;
-
-import org.apache.commons.lang3.tuple.Triple;
-
 import com.enderio.core.common.util.NNList.Callback;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.Log;
 import crazypants.enderio.base.integration.jei.energy.EnergyIngredient;
@@ -19,17 +11,18 @@ import crazypants.enderio.machines.machine.wired.ContainerWiredCharger;
 import crazypants.enderio.machines.machine.wired.GuiWiredCharger;
 import mezz.jei.api.IGuiHelper;
 import mezz.jei.api.IModRegistry;
-import mezz.jei.api.gui.IDrawable;
-import mezz.jei.api.gui.IDrawableAnimated;
-import mezz.jei.api.gui.IGuiIngredientGroup;
-import mezz.jei.api.gui.IGuiItemStackGroup;
-import mezz.jei.api.gui.IRecipeLayout;
+import mezz.jei.api.gui.*;
 import mezz.jei.api.ingredients.IIngredients;
 import mezz.jei.api.recipe.BlankRecipeCategory;
 import mezz.jei.api.recipe.BlankRecipeWrapper;
 import net.minecraft.client.Minecraft;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
+import org.apache.commons.lang3.tuple.Triple;
+
+import javax.annotation.Nonnull;
+import java.util.ArrayList;
+import java.util.List;
 
 public class WiredChargerRecipeCategory extends BlankRecipeCategory<WiredChargerRecipeCategory.WiredChargerRecipeWrapper> {
 

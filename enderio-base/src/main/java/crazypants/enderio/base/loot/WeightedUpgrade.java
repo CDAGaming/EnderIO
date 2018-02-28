@@ -1,14 +1,13 @@
 package crazypants.enderio.base.loot;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.util.NNList;
-
 import crazypants.enderio.base.capacitor.CapacitorHelper.SetType;
 import crazypants.enderio.base.capacitor.CapacitorKey;
 import crazypants.enderio.base.capacitor.ICapacitorKey;
 import net.minecraft.util.WeightedRandom;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 public class WeightedUpgrade {
   static {

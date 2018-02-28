@@ -1,11 +1,6 @@
 package crazypants.enderio.base.enchantment;
 
-import java.util.ListIterator;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NullHelper;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.Log;
 import crazypants.enderio.base.init.ModObject;
@@ -30,6 +25,9 @@ import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.EventPriority;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder;
+
+import javax.annotation.Nonnull;
+import java.util.ListIterator;
 
 import static crazypants.enderio.util.NbtValue.FLUIDAMOUNT;
 

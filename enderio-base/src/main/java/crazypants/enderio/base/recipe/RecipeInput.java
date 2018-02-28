@@ -1,11 +1,11 @@
 package crazypants.enderio.base.recipe;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.util.Prep;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fluids.FluidStack;
 import net.minecraftforge.oredict.OreDictionary;
+
+import javax.annotation.Nonnull;
 
 public class RecipeInput implements IRecipeInput {
 

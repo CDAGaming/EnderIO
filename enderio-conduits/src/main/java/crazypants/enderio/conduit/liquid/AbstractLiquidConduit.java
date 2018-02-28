@@ -1,21 +1,10 @@
 package crazypants.enderio.conduit.liquid;
 
-import java.util.EnumMap;
-import java.util.Map.Entry;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.api.client.gui.ITabPanel;
 import com.enderio.core.common.fluid.FluidWrapper;
 import com.enderio.core.common.fluid.IFluidWrapper;
 import com.enderio.core.common.util.DyeColor;
-
-import crazypants.enderio.base.conduit.ConduitUtil;
-import crazypants.enderio.base.conduit.ConnectionMode;
-import crazypants.enderio.base.conduit.IConduit;
-import crazypants.enderio.base.conduit.IConduitBundle;
-import crazypants.enderio.base.conduit.IGuiExternalConnection;
+import crazypants.enderio.base.conduit.*;
 import crazypants.enderio.base.machine.modes.RedstoneControlMode;
 import crazypants.enderio.conduit.AbstractConduit;
 import crazypants.enderio.conduit.gui.GuiExternalConnection;
@@ -31,6 +20,11 @@ import net.minecraftforge.fluids.capability.IFluidHandler;
 import net.minecraftforge.fluids.capability.IFluidTankProperties;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.EnumMap;
+import java.util.Map.Entry;
 
 public abstract class AbstractLiquidConduit extends AbstractConduit implements ILiquidConduit {
 

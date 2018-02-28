@@ -1,8 +1,5 @@
 package crazypants.enderio.base.config;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import crazypants.enderio.api.addon.IEnderIOAddon;
 import crazypants.enderio.base.EnderIO;
 import net.minecraft.client.gui.GuiScreen;
@@ -13,6 +10,9 @@ import net.minecraftforge.fml.client.config.GuiConfig;
 import net.minecraftforge.fml.client.config.IConfigElement;
 import net.minecraftforge.fml.common.Loader;
 import net.minecraftforge.fml.common.ModContainer;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import static crazypants.enderio.base.lang.Lang.CONFIG_TITLE;
 

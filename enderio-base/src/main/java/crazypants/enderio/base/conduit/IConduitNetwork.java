@@ -1,12 +1,11 @@
 package crazypants.enderio.base.conduit;
 
-import java.util.Collection;
-import java.util.List;
-
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.handler.ServerTickHandler.ITickListener;
 import net.minecraft.world.World;
+
+import javax.annotation.Nonnull;
+import java.util.Collection;
+import java.util.List;
 
 /**
  * 

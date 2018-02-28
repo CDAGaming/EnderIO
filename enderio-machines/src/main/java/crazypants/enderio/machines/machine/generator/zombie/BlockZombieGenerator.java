@@ -1,10 +1,5 @@
 package crazypants.enderio.machines.machine.generator.zombie;
 
-import java.util.Random;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import crazypants.enderio.base.init.IModObject;
 import crazypants.enderio.base.machine.baselegacy.AbstractGeneratorBlock;
 import crazypants.enderio.base.render.IBlockStateWrapper;
@@ -34,6 +29,10 @@ import net.minecraft.world.World;
 import net.minecraftforge.fml.client.registry.ClientRegistry;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.Random;
 
 public class BlockZombieGenerator extends AbstractGeneratorBlock<TileZombieGenerator> implements IHaveTESR {
 

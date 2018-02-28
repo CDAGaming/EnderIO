@@ -1,7 +1,6 @@
 package crazypants.enderio.machine.invpanel;
 
 import com.enderio.core.common.util.ItemUtil;
-
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.IInventory;
 import net.minecraft.inventory.InventoryCrafting;

@@ -1,12 +1,11 @@
 package crazypants.enderio.base.conduit.geom;
 
-import javax.annotation.Nullable;
-import javax.annotation.ParametersAreNonnullByDefault;
-
 import com.enderio.core.client.render.BoundingBox;
-
 import crazypants.enderio.base.conduit.IConduit;
 import net.minecraft.util.EnumFacing;
+
+import javax.annotation.Nullable;
+import javax.annotation.ParametersAreNonnullByDefault;
 
 @ParametersAreNonnullByDefault
 public class CollidableComponent {

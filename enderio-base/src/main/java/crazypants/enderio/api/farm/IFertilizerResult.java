@@ -1,8 +1,8 @@
 package crazypants.enderio.api.farm;
 
-import javax.annotation.Nonnull;
-
 import net.minecraft.item.ItemStack;
+
+import javax.annotation.Nonnull;
 
 /**
  * The result of a fertilizing action, see {@link IFertilizer}.

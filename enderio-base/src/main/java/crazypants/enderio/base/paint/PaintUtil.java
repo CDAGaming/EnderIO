@@ -1,10 +1,6 @@
 package crazypants.enderio.base.paint;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.util.FluidUtil;
-
 import crazypants.enderio.base.lang.Lang;
 import crazypants.enderio.util.Prep;
 import net.minecraft.block.Block;
@@ -24,6 +20,9 @@ import net.minecraft.nbt.NBTUtil;
 import net.minecraft.util.BlockRenderLayer;
 import net.minecraft.util.EnumBlockRenderType;
 import net.minecraftforge.fluids.FluidStack;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 import static crazypants.enderio.util.NbtValue.BLOCKSTATE;
 

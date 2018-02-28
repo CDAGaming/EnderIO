@@ -1,10 +1,10 @@
 package crazypants.enderio.base.recipe.painter;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.block.painted.BlockPaintedPressurePlate;
 import net.minecraft.block.Block;
 import net.minecraft.item.ItemStack;
+
+import javax.annotation.Nonnull;
 
 public class PressurePlatePainterTemplate extends BasicPainterTemplate<BlockPaintedPressurePlate> {
 

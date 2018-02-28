@@ -1,8 +1,8 @@
 package crazypants.enderio.base.recipe;
 
-import javax.annotation.Nonnull;
-
 import net.minecraft.item.ItemStack;
+
+import javax.annotation.Nonnull;
 
 public interface IManyToOneRecipe extends IRecipe {
 

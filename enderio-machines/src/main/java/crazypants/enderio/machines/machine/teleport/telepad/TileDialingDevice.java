@@ -1,11 +1,5 @@
 package crazypants.enderio.machines.machine.teleport.telepad;
 
-import java.util.ArrayList;
-import java.util.Collection;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.client.render.BoundingBox;
 import com.enderio.core.common.BlockEnder;
 import com.enderio.core.common.inventory.EnderInventory.Type;
@@ -13,7 +7,6 @@ import com.enderio.core.common.inventory.InventorySlot;
 import com.enderio.core.common.util.NullHelper;
 import com.enderio.core.common.util.blockiterators.CubicBlockIterator;
 import com.enderio.core.common.vecmath.Vector4f;
-
 import crazypants.enderio.base.capacitor.DefaultCapacitorData;
 import crazypants.enderio.base.init.ModObject;
 import crazypants.enderio.base.item.coordselector.TelepadTarget;
@@ -33,6 +26,11 @@ import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.ArrayList;
+import java.util.Collection;
 
 @Storable
 public class TileDialingDevice extends AbstractCapabilityPoweredMachineEntity implements IRanged {

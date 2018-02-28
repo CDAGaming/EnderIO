@@ -1,7 +1,5 @@
 package crazypants.enderio.base.recipe.painter;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.conduit.facade.ItemConduitFacade;
 import crazypants.enderio.base.paint.PaintTooltipUtil;
 import crazypants.enderio.base.paint.PaintUtil;
@@ -10,6 +8,8 @@ import crazypants.enderio.util.Prep;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.item.ItemStack;
+
+import javax.annotation.Nonnull;
 
 public class FacadePainterRecipe extends AbstractPainterTemplate<ItemConduitFacade> {
 

@@ -1,11 +1,6 @@
 package crazypants.enderio.machines.machine.painter;
 
-import java.util.Map;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.ItemUtil;
-
 import crazypants.enderio.base.machine.baselegacy.AbstractPoweredTaskEntity;
 import crazypants.enderio.base.machine.baselegacy.SlotDefinition;
 import crazypants.enderio.base.paint.IPaintable;
@@ -15,9 +10,10 @@ import crazypants.enderio.base.recipe.painter.AbstractPainterTemplate;
 import info.loenwind.autosave.annotations.Storable;
 import net.minecraft.item.ItemStack;
 
-import static crazypants.enderio.machines.capacitor.CapacitorKey.PAINTER_POWER_BUFFER;
-import static crazypants.enderio.machines.capacitor.CapacitorKey.PAINTER_POWER_INTAKE;
-import static crazypants.enderio.machines.capacitor.CapacitorKey.PAINTER_POWER_USE;
+import javax.annotation.Nonnull;
+import java.util.Map;
+
+import static crazypants.enderio.machines.capacitor.CapacitorKey.*;
 
 @Storable
 public class TileEntityPainter extends AbstractPoweredTaskEntity implements IPaintable.IPaintableTileEntity {

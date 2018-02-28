@@ -1,15 +1,8 @@
 package crazypants.enderio.powertools.machine.gauge;
 
-import java.util.EnumMap;
-import java.util.Map;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.api.client.gui.IResourceTooltipProvider;
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.NNList.Callback;
-
 import crazypants.enderio.base.BlockEio;
 import crazypants.enderio.base.conduit.IConduitBundle;
 import crazypants.enderio.base.init.IModObject;
@@ -37,6 +30,11 @@ import net.minecraft.world.IBlockAccess;
 import net.minecraftforge.fml.client.registry.ClientRegistry;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.EnumMap;
+import java.util.Map;
 
 public class BlockGauge extends BlockEio<TileGauge> implements IResourceTooltipProvider, ISmartRenderAwareBlock, IHaveTESR {
 

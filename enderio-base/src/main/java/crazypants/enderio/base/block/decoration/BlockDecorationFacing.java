@@ -1,12 +1,7 @@
 package crazypants.enderio.base.block.decoration;
 
-import java.util.Map;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.NNList.NNIterator;
-
 import crazypants.enderio.base.init.IModObject;
 import crazypants.enderio.base.machine.base.te.AbstractMachineEntity;
 import crazypants.enderio.base.paint.render.PaintedBlockAccessWrapper;
@@ -26,6 +21,9 @@ import net.minecraft.world.IBlockAccess;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import java.util.Map;
 
 public class BlockDecorationFacing extends BlockDecoration {
 

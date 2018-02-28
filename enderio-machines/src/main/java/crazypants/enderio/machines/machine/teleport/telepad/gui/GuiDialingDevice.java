@@ -1,14 +1,8 @@
 package crazypants.enderio.machines.machine.teleport.telepad.gui;
 
-import java.awt.Rectangle;
-import java.io.IOException;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.client.gui.widget.GuiToolTip;
 import com.enderio.core.common.util.BlockCoord;
 import com.enderio.core.common.util.Util;
-
 import crazypants.enderio.base.gui.GuiContainerBaseEIO;
 import crazypants.enderio.base.item.coordselector.TelepadTarget;
 import crazypants.enderio.base.machine.gui.CapPowerBar;
@@ -23,6 +17,10 @@ import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.util.text.TextFormatting;
+
+import javax.annotation.Nonnull;
+import java.awt.*;
+import java.io.IOException;
 
 public class GuiDialingDevice extends GuiContainerBaseEIO implements IDialingDeviceRemoteExec.GUI {
 

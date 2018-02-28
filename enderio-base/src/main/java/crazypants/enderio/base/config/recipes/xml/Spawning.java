@@ -1,16 +1,14 @@
 package crazypants.enderio.base.config.recipes.xml;
 
-import java.util.List;
+import com.enderio.core.common.util.NNList;
+import crazypants.enderio.base.config.recipes.InvalidRecipeConfigException;
+import crazypants.enderio.base.config.recipes.StaxFactory;
+import crazypants.enderio.base.recipe.spawner.PoweredSpawnerRecipeRegistry;
 
 import javax.annotation.Nonnull;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.events.StartElement;
-
-import com.enderio.core.common.util.NNList;
-
-import crazypants.enderio.base.config.recipes.InvalidRecipeConfigException;
-import crazypants.enderio.base.config.recipes.StaxFactory;
-import crazypants.enderio.base.recipe.spawner.PoweredSpawnerRecipeRegistry;
+import java.util.List;
 
 public class Spawning extends AbstractConditional {
 

@@ -1,11 +1,6 @@
 package crazypants.enderio.base.material.glass;
 
-import java.util.Map;
-
-import javax.annotation.Nonnull;
-
 import com.google.common.collect.Maps;
-
 import crazypants.enderio.base.init.ModObject;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockColored;
@@ -14,6 +9,9 @@ import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.client.renderer.block.statemap.StateMapperBase;
 import net.minecraftforge.client.model.ModelLoader;
+
+import javax.annotation.Nonnull;
+import java.util.Map;
 
 public class EnderIOGlassesStateMapper extends StateMapperBase {
 

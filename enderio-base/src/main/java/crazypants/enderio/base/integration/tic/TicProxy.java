@@ -1,11 +1,10 @@
 package crazypants.enderio.base.integration.tic;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.stackable.Things;
-
 import net.minecraftforge.fluids.Fluid;
+
+import javax.annotation.Nonnull;
 
 public class TicProxy {
 

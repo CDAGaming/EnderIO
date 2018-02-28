@@ -1,8 +1,5 @@
 package crazypants.enderio.base.block.darksteel.door;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import crazypants.enderio.base.EnderIOTab;
 import net.minecraft.block.Block;
 import net.minecraft.creativetab.CreativeTabs;
@@ -11,6 +8,9 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.NonNullList;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 public class BlockItemDarkSteelDoor extends ItemDoor {
 

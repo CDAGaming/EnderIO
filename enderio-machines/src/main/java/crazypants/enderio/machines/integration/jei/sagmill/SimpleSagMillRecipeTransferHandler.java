@@ -1,8 +1,5 @@
 package crazypants.enderio.machines.integration.jei.sagmill;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import crazypants.enderio.machines.machine.sagmill.ContainerSagMill;
 import mezz.jei.api.IModRegistry;
 import mezz.jei.api.gui.IRecipeLayout;
@@ -11,6 +8,9 @@ import mezz.jei.startup.StackHelper;
 import mezz.jei.transfer.BasicRecipeTransferHandler;
 import mezz.jei.transfer.BasicRecipeTransferInfo;
 import net.minecraft.entity.player.EntityPlayer;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 public class SimpleSagMillRecipeTransferHandler extends BasicRecipeTransferHandler<ContainerSagMill.Simple> {
 

@@ -1,7 +1,5 @@
 package crazypants.enderio.base.block.painted;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.block.darksteel.door.BlockItemDarkSteelDoor;
 import crazypants.enderio.base.paint.PaintUtil;
 import net.minecraft.block.Block;
@@ -16,6 +14,8 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+
+import javax.annotation.Nonnull;
 
 public class BlockItemPaintedDoor extends BlockItemDarkSteelDoor {
 

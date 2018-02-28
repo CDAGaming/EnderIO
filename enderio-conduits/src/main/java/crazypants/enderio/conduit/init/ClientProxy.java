@@ -1,7 +1,5 @@
 package crazypants.enderio.conduit.init;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.conduit.ConduitBundleStateMapper;
 import crazypants.enderio.conduit.EnderIOConduits;
 import crazypants.enderio.conduit.render.ConduitBundleRenderManager;
@@ -14,6 +12,8 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.relauncher.Side;
+
+import javax.annotation.Nonnull;
 
 @EventBusSubscriber(modid = EnderIOConduits.MODID, value = Side.CLIENT)
 public class ClientProxy extends CommonProxy {

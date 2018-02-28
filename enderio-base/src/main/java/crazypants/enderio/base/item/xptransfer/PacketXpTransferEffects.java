@@ -1,7 +1,6 @@
 package crazypants.enderio.base.item.xptransfer;
 
 import com.enderio.core.client.ClientUtil;
-
 import crazypants.enderio.base.EnderIO;
 import io.netty.buffer.ByteBuf;
 import net.minecraft.client.Minecraft;

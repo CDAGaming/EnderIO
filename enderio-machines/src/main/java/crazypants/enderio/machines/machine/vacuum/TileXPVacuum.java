@@ -1,8 +1,5 @@
 package crazypants.enderio.machines.machine.vacuum;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.api.common.util.ITankAccess;
 import com.enderio.core.client.render.BoundingBox;
 import com.enderio.core.common.NBTAction;
@@ -11,7 +8,6 @@ import com.enderio.core.common.util.MagnetUtil;
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.NNList.Callback;
 import com.google.common.base.Predicate;
-
 import crazypants.enderio.base.TileEntityEio;
 import crazypants.enderio.base.fluid.Fluids;
 import crazypants.enderio.base.paint.IPaintable;
@@ -26,6 +22,9 @@ import net.minecraftforge.common.capabilities.Capability;
 import net.minecraftforge.fluids.FluidStack;
 import net.minecraftforge.fluids.FluidTank;
 import net.minecraftforge.fluids.capability.CapabilityFluidHandler;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 @Storable
 public class TileXPVacuum extends TileEntityEio implements Predicate<EntityXPOrb>, IPaintable.IPaintableTileEntity, ITankAccess {

@@ -1,12 +1,11 @@
 package crazypants.enderio.base.render;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
-
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+
+import javax.annotation.Nonnull;
 
 public interface ICustomSubItems {
 

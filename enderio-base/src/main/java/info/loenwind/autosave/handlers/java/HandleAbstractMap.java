@@ -1,15 +1,6 @@
 package info.loenwind.autosave.handlers.java;
 
-import java.lang.reflect.Field;
-import java.util.Map;
-import java.util.Map.Entry;
-import java.util.Set;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.NBTAction;
-
 import info.loenwind.autosave.Registry;
 import info.loenwind.autosave.engine.StorableEngine;
 import info.loenwind.autosave.exceptions.NoHandlerFoundException;
@@ -17,6 +8,13 @@ import info.loenwind.autosave.handlers.IHandler;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.nbt.NBTTagList;
 import net.minecraftforge.common.util.Constants;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.lang.reflect.Field;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Set;
 
 public abstract class HandleAbstractMap<K, V> implements IHandler<Map<K, V>> {
 

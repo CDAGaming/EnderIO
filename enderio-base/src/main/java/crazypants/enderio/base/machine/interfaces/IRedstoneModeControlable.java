@@ -1,8 +1,8 @@
 package crazypants.enderio.base.machine.interfaces;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.machine.modes.RedstoneControlMode;
+
+import javax.annotation.Nonnull;
 
 public interface IRedstoneModeControlable {
 

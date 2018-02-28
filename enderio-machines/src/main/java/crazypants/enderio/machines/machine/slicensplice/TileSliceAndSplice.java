@@ -1,21 +1,11 @@
 package crazypants.enderio.machines.machine.slicensplice;
 
-import java.util.List;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.machine.baselegacy.AbstractPoweredTaskEntity;
 import crazypants.enderio.base.machine.baselegacy.SlotDefinition;
 import crazypants.enderio.base.paint.IPaintable;
-import crazypants.enderio.base.recipe.IMachineRecipe;
-import crazypants.enderio.base.recipe.IManyToOneRecipe;
-import crazypants.enderio.base.recipe.IRecipeInput;
-import crazypants.enderio.base.recipe.MachineRecipeInput;
-import crazypants.enderio.base.recipe.MachineRecipeRegistry;
-import crazypants.enderio.base.recipe.ManyToOneMachineRecipe;
+import crazypants.enderio.base.recipe.*;
 import crazypants.enderio.util.Prep;
 import info.loenwind.autosave.annotations.Storable;
 import net.minecraft.entity.EntityLivingBase;
@@ -26,10 +16,11 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.common.util.FakePlayerFactory;
 import net.minecraftforge.fml.common.FMLCommonHandler;
 
+import javax.annotation.Nonnull;
+import java.util.List;
+
 import static crazypants.enderio.base.config.Config.slicenspliceToolDamageChance;
-import static crazypants.enderio.machines.capacitor.CapacitorKey.SLICE_POWER_BUFFER;
-import static crazypants.enderio.machines.capacitor.CapacitorKey.SLICE_POWER_INTAKE;
-import static crazypants.enderio.machines.capacitor.CapacitorKey.SLICE_POWER_USE;
+import static crazypants.enderio.machines.capacitor.CapacitorKey.*;
 
 @Storable
 public class TileSliceAndSplice extends AbstractPoweredTaskEntity implements IPaintable.IPaintableTileEntity {

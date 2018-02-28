@@ -1,12 +1,9 @@
 package crazypants.enderio.machines.machine.generator.stirling;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.client.gui.widget.GhostBackgroundItemSlot;
 import com.enderio.core.client.gui.widget.GhostSlot;
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.NNList.Callback;
-
 import crazypants.enderio.base.integration.jei.ItemHelper;
 import crazypants.enderio.base.machine.fuel.ISolidFuelHandler;
 import crazypants.enderio.base.machine.gui.AbstractMachineContainer;
@@ -14,6 +11,8 @@ import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.init.Items;
 import net.minecraft.inventory.Slot;
 import net.minecraft.item.ItemStack;
+
+import javax.annotation.Nonnull;
 
 public class ContainerStirlingGenerator<T extends TileStirlingGenerator> extends AbstractMachineContainer<T> implements ISolidFuelHandler {
 

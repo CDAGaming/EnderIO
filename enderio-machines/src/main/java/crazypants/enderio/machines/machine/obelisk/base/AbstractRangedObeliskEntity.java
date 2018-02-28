@@ -1,9 +1,6 @@
 package crazypants.enderio.machines.machine.obelisk.base;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.client.render.BoundingBox;
-
 import crazypants.enderio.base.capacitor.ICapacitorKey;
 import crazypants.enderio.base.machine.baselegacy.AbstractPowerConsumerEntity;
 import crazypants.enderio.base.machine.baselegacy.SlotDefinition;
@@ -14,6 +11,8 @@ import info.loenwind.autosave.annotations.Storable;
 import net.minecraft.client.Minecraft;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
 
 @Storable
 public abstract class AbstractRangedObeliskEntity extends AbstractPowerConsumerEntity implements IRanged {

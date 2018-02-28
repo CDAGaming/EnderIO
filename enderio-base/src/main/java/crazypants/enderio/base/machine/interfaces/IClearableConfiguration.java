@@ -1,8 +1,8 @@
 package crazypants.enderio.base.machine.interfaces;
 
-import javax.annotation.Nonnull;
-
 import net.minecraft.item.ItemStack;
+
+import javax.annotation.Nonnull;
 
 /**
  * Interface to be implemented on items or blocks to indicate that the item can be cleared of configuration in the crafting grid.

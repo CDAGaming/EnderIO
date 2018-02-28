@@ -1,7 +1,5 @@
 package crazypants.enderio.base.item.darksteel;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.api.upgrades.IRenderUpgrade;
 import crazypants.enderio.util.Prep;
 import net.minecraft.client.Minecraft;
@@ -13,6 +11,8 @@ import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
 
 @SideOnly(Side.CLIENT)
 public class PaintedHelmetLayer implements IRenderUpgrade {

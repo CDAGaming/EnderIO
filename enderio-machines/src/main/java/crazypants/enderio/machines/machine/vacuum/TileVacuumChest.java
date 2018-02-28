@@ -1,10 +1,5 @@
 package crazypants.enderio.machines.machine.vacuum;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.client.render.BoundingBox;
 import com.enderio.core.common.NBTAction;
 import com.enderio.core.common.inventory.Callback;
@@ -14,7 +9,6 @@ import com.enderio.core.common.inventory.Filters.PredicateItemStack;
 import com.enderio.core.common.inventory.InventorySlot;
 import com.enderio.core.common.util.MagnetUtil;
 import com.enderio.core.common.vecmath.Vector4f;
-
 import crazypants.enderio.base.capability.ItemTools;
 import crazypants.enderio.base.filter.FilterRegistry;
 import crazypants.enderio.base.filter.IItemFilter;
@@ -42,6 +36,10 @@ import net.minecraft.world.World;
 import net.minecraft.world.chunk.Chunk;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import java.util.ArrayList;
+import java.util.List;
 
 @Storable
 public class TileVacuumChest extends AbstractCapabilityMachineEntity implements IRedstoneModeControlable, IPaintable.IPaintableTileEntity, IRanged {

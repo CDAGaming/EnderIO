@@ -1,31 +1,13 @@
 package crazypants.enderio.base.gui;
 
-import java.awt.Color;
-import java.awt.Rectangle;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.List;
-
-import javax.annotation.Nonnull;
-
-import org.lwjgl.input.Keyboard;
-import org.lwjgl.input.Mouse;
-import org.lwjgl.opengl.GL11;
-import org.lwjgl.opengl.GL14;
-
 import com.enderio.core.client.render.BoundingBox;
 import com.enderio.core.client.render.ColorUtil;
 import com.enderio.core.client.render.RenderUtil;
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.NNList.Callback;
 import com.enderio.core.common.util.NullHelper;
-import com.enderio.core.common.vecmath.Camera;
-import com.enderio.core.common.vecmath.Matrix4d;
-import com.enderio.core.common.vecmath.VecmathUtil;
+import com.enderio.core.common.vecmath.*;
 import com.enderio.core.common.vecmath.Vector3d;
-import com.enderio.core.common.vecmath.Vector4f;
-import com.enderio.core.common.vecmath.Vertex;
-
 import crazypants.enderio.base.machine.interfaces.IIoConfigurable;
 import crazypants.enderio.base.machine.modes.IoMode;
 import crazypants.enderio.base.machine.modes.PacketIoMode;
@@ -37,11 +19,7 @@ import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.ScaledResolution;
-import net.minecraft.client.renderer.BlockRendererDispatcher;
-import net.minecraft.client.renderer.BufferBuilder;
-import net.minecraft.client.renderer.GlStateManager;
-import net.minecraft.client.renderer.RenderHelper;
-import net.minecraft.client.renderer.Tessellator;
+import net.minecraft.client.renderer.*;
 import net.minecraft.client.renderer.block.model.IBakedModel;
 import net.minecraft.client.renderer.texture.TextureAtlasSprite;
 import net.minecraft.client.renderer.tileentity.TileEntityRendererDispatcher;
@@ -59,6 +37,16 @@ import net.minecraft.world.World;
 import net.minecraftforge.client.ForgeHooksClient;
 import net.minecraftforge.client.MinecraftForgeClient;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import org.lwjgl.input.Keyboard;
+import org.lwjgl.input.Mouse;
+import org.lwjgl.opengl.GL11;
+import org.lwjgl.opengl.GL14;
+
+import javax.annotation.Nonnull;
+import java.awt.*;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
 
 public class IoConfigRenderer<E extends TileEntity & IIoConfigurable> {
 

@@ -1,12 +1,12 @@
 package crazypants.enderio.powertools.machine.capbank.network;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import crazypants.enderio.base.machine.modes.RedstoneControlMode;
 import crazypants.enderio.powertools.machine.capbank.TileCapBank;
 import io.netty.buffer.ByteBuf;
 import net.minecraft.util.math.BlockPos;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 public class NetworkState {
 

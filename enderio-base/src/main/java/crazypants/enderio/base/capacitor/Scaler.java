@@ -1,9 +1,9 @@
 package crazypants.enderio.base.capacitor;
 
+import net.minecraft.util.math.MathHelper;
+
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
-
-import net.minecraft.util.math.MathHelper;
 
 /**
  * A scaler translates a raw capacitor level into a factor that can be used to scale a dynamic value of a machine. The input for a scaler is the capacitor

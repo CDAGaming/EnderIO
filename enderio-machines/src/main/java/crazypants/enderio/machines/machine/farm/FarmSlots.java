@@ -1,10 +1,9 @@
 package crazypants.enderio.machines.machine.farm;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
-
 import net.minecraft.item.ItemStack;
+
+import javax.annotation.Nonnull;
 
 public enum FarmSlots {
   TOOL1(0),

@@ -1,13 +1,9 @@
 package crazypants.enderio.base;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.NBTAction;
 import com.enderio.core.common.TileEntityBase;
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.vecmath.Vector4f;
-
 import crazypants.enderio.base.config.config.DiagnosticsConfig;
 import crazypants.enderio.base.lang.Lang;
 import crazypants.enderio.base.paint.PaintUtil;
@@ -23,6 +19,9 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.TickEvent;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 @Storable
 @EventBusSubscriber(modid = EnderIO.MODID)

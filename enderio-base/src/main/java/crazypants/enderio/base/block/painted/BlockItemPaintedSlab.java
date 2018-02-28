@@ -1,7 +1,5 @@
 package crazypants.enderio.base.block.painted;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.paint.PaintUtil;
 import net.minecraft.block.BlockSlab;
 import net.minecraft.block.state.IBlockState;
@@ -17,6 +15,8 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
 
 public class BlockItemPaintedSlab extends ItemBlock {
   private final @Nonnull BlockPaintedSlab singleSlab;

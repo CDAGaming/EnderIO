@@ -1,12 +1,7 @@
 package crazypants.enderio.base.item.darksteel.upgrade.speed;
 
-import java.util.UUID;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.Log;
 import com.enderio.core.common.util.NullHelper;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.config.Config;
 import crazypants.enderio.base.handler.darksteel.DarkSteelController;
@@ -26,6 +21,9 @@ import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import java.util.UUID;
 
 @EventBusSubscriber(modid = EnderIO.MODID, value = Side.CLIENT)
 public class SpeedController {

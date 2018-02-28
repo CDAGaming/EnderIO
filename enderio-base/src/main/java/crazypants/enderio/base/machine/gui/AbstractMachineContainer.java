@@ -1,16 +1,8 @@
 package crazypants.enderio.base.machine.gui;
 
-import java.awt.Point;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.api.common.util.IProgressTile;
 import com.enderio.core.common.ContainerEnder;
 import com.enderio.core.common.util.Util;
-
 import crazypants.enderio.base.gui.IconEIO;
 import crazypants.enderio.base.machine.baselegacy.AbstractInventoryMachineEntity;
 import crazypants.enderio.base.machine.baselegacy.AbstractInventoryMachineEntity.InventoryWrapper;
@@ -27,6 +19,12 @@ import net.minecraft.network.play.server.SPacketUpdateTileEntity;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import java.awt.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 public abstract class AbstractMachineContainer<E extends AbstractInventoryMachineEntity> extends ContainerEnder<InventoryWrapper> {
 

@@ -1,18 +1,10 @@
 package crazypants.enderio.powertools.machine.capbank;
 
-import java.awt.Rectangle;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.client.gui.widget.GuiToolTip;
 import com.enderio.core.client.gui.widget.TextFieldEnder;
 import com.enderio.core.client.render.RenderUtil;
 import com.enderio.core.common.util.NullHelper;
 import com.enderio.core.common.vecmath.VecmathUtil;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.gui.GuiContainerBaseEIO;
 import crazypants.enderio.base.gui.RedstoneModeButton;
@@ -39,6 +31,12 @@ import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.text.TextFormatting;
+
+import javax.annotation.Nonnull;
+import java.awt.*;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class GuiCapBank extends GuiContainerBaseEIO {
 

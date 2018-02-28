@@ -1,18 +1,10 @@
 package crazypants.enderio.machines.machine.vat;
 
-import java.awt.Color;
-import java.awt.Rectangle;
-import java.io.IOException;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.client.gui.button.IconButton;
 import com.enderio.core.client.gui.widget.GuiToolTip;
 import com.enderio.core.client.render.ColorUtil;
 import com.enderio.core.client.render.RenderUtil;
 import com.enderio.core.common.util.NullHelper;
-
 import crazypants.enderio.base.gui.IconEIO;
 import crazypants.enderio.base.lang.LangFluid;
 import crazypants.enderio.base.machine.gui.GuiInventoryMachineBase;
@@ -27,6 +19,11 @@ import net.minecraft.client.renderer.texture.TextureAtlasSprite;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fluids.Fluid;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.awt.*;
+import java.io.IOException;
 
 public class GuiVat extends GuiInventoryMachineBase<TileVat> {
 

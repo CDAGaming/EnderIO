@@ -1,14 +1,7 @@
 package crazypants.enderio.base.item.coordselector;
 
-import java.lang.reflect.Field;
-import java.util.Set;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.NBTAction;
 import com.enderio.core.common.util.BlockCoord;
-
 import crazypants.enderio.util.NbtValue;
 import crazypants.enderio.util.Prep;
 import info.loenwind.autosave.Registry;
@@ -21,6 +14,11 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.text.TextFormatting;
 import net.minecraft.world.DimensionType;
 import net.minecraftforge.common.DimensionManager;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.lang.reflect.Field;
+import java.util.Set;
 
 public class TelepadTarget implements IHandler<TelepadTarget> {
 

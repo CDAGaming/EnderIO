@@ -1,9 +1,5 @@
 package crazypants.enderio.base.network;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 import crazypants.enderio.util.ClientUtil;
 import io.netty.buffer.ByteBuf;
 import net.minecraft.entity.Entity;
@@ -13,6 +9,10 @@ import net.minecraft.world.World;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler;
 import net.minecraftforge.fml.common.network.simpleimpl.MessageContext;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class PacketSpawnParticles implements IMessage {
 

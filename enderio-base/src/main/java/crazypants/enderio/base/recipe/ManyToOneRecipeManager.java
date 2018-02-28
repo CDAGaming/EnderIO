@@ -1,19 +1,17 @@
 package crazypants.enderio.base.recipe;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.NullHelper;
 import com.enderio.core.common.util.stackable.Things;
-
 import crazypants.enderio.base.Log;
 import crazypants.enderio.base.config.config.RecipeConfig;
 import crazypants.enderio.base.integration.tic.TicProxy;
 import crazypants.enderio.util.Prep;
 import net.minecraft.item.ItemStack;
+
+import javax.annotation.Nonnull;
+import java.util.ArrayList;
+import java.util.List;
 
 public class ManyToOneRecipeManager {
 

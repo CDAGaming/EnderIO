@@ -1,10 +1,10 @@
 package crazypants.enderio.base.power.forge;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.power.IPowerInterface;
 import net.minecraftforge.common.capabilities.ICapabilityProvider;
 import net.minecraftforge.energy.IEnergyStorage;
+
+import javax.annotation.Nonnull;
 
 public class PowerInterfaceForge implements IPowerInterface {
 

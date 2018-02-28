@@ -1,18 +1,17 @@
 package crazypants.enderio.base.recipe.soul;
 
-import static crazypants.enderio.base.init.ModObject.blockPaintedPressurePlate;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.EntityUtil;
 import com.enderio.core.common.util.NNList;
-
 import crazypants.enderio.base.block.painted.EnumPressurePlateType;
 import crazypants.enderio.base.config.Config;
 import crazypants.enderio.util.CapturedMob;
 import net.minecraft.block.Block;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
+
+import javax.annotation.Nonnull;
+
+import static crazypants.enderio.base.init.ModObject.blockPaintedPressurePlate;
 
 public class SoulBinderTunedPressurePlateRecipe extends AbstractSoulBinderRecipe {
 

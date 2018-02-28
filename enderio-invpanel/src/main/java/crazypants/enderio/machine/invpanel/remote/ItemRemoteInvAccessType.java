@@ -1,7 +1,6 @@
 package crazypants.enderio.machine.invpanel.remote;
 
 import com.enderio.core.common.util.NullHelper;
-
 import crazypants.enderio.base.Log;
 import crazypants.enderio.base.config.Config;
 import crazypants.enderio.base.fluid.Fluids;

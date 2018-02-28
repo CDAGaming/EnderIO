@@ -1,14 +1,6 @@
 package crazypants.enderio.machines.integration.jei;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.stream.Collectors;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.integration.jei.energy.EnergyIngredient;
 import crazypants.enderio.base.integration.jei.energy.EnergyIngredientRenderer;
@@ -23,12 +15,7 @@ import crazypants.enderio.util.CapturedMob;
 import crazypants.enderio.util.Prep;
 import mezz.jei.api.IGuiHelper;
 import mezz.jei.api.IModRegistry;
-import mezz.jei.api.gui.IDrawable;
-import mezz.jei.api.gui.IDrawableAnimated;
-import mezz.jei.api.gui.IDrawableStatic;
-import mezz.jei.api.gui.IGuiIngredientGroup;
-import mezz.jei.api.gui.IGuiItemStackGroup;
-import mezz.jei.api.gui.IRecipeLayout;
+import mezz.jei.api.gui.*;
 import mezz.jei.api.ingredients.IIngredients;
 import mezz.jei.api.recipe.BlankRecipeCategory;
 import mezz.jei.api.recipe.BlankRecipeWrapper;
@@ -39,13 +26,16 @@ import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
 
+import javax.annotation.Nonnull;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.stream.Collectors;
+
 import static crazypants.enderio.base.init.ModObject.itemBrokenSpawner;
 import static crazypants.enderio.base.init.ModObject.itemSoulVial;
 import static crazypants.enderio.machines.init.MachineObject.block_soul_binder;
-import static crazypants.enderio.machines.machine.soul.ContainerSoulBinder.FIRST_INVENTORY_SLOT;
-import static crazypants.enderio.machines.machine.soul.ContainerSoulBinder.FIRST_RECIPE_SLOT;
-import static crazypants.enderio.machines.machine.soul.ContainerSoulBinder.NUM_INVENTORY_SLOT;
-import static crazypants.enderio.machines.machine.soul.ContainerSoulBinder.NUM_RECIPE_SLOT;
+import static crazypants.enderio.machines.machine.soul.ContainerSoulBinder.*;
 
 public class SoulBinderRecipeCategory extends BlankRecipeCategory<SoulBinderRecipeCategory.SoulBinderRecipeWrapper> {
 

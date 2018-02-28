@@ -1,12 +1,12 @@
 package crazypants.enderio.conduit.power;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.conduit.IExtractor;
 import crazypants.enderio.base.power.IPowerInterface;
 import net.minecraft.client.renderer.texture.TextureAtlasSprite;
 import net.minecraft.util.EnumFacing;
 import net.minecraftforge.energy.IEnergyStorage;
+
+import javax.annotation.Nonnull;
 
 public interface IPowerConduit extends IEnergyStorage, IExtractor {
 

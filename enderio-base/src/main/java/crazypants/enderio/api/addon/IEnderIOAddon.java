@@ -1,12 +1,6 @@
 package crazypants.enderio.api.addon;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
-import org.apache.commons.lang3.tuple.Triple;
-
 import com.enderio.core.common.util.NNList;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.config.recipes.RecipeFactory;
 import crazypants.enderio.base.init.ModObjectRegistry;
@@ -15,6 +9,10 @@ import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.fml.client.event.ConfigChangedEvent.OnConfigChangedEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.IForgeRegistry;
+import org.apache.commons.lang3.tuple.Triple;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 /**
  * Interface to tag mod classes (i.e. classes annotated with {@link Mod}) as addons for Ender IO. Implementing this interface is only needed if the addon wants

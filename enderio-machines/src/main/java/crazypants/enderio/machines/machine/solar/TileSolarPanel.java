@@ -1,8 +1,5 @@
 package crazypants.enderio.machines.machine.solar;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import crazypants.enderio.base.TileEntityEio;
 import crazypants.enderio.base.item.conduitprobe.PacketConduitProbe.IHasConduitProbeData;
 import crazypants.enderio.base.power.ILegacyPoweredTile;
@@ -19,6 +16,9 @@ import net.minecraft.world.EnumSkyBlock;
 import net.minecraft.world.World;
 import net.minecraftforge.common.capabilities.Capability;
 import net.minecraftforge.energy.CapabilityEnergy;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 import static crazypants.enderio.machines.init.MachineObject.block_solar_panel;
 

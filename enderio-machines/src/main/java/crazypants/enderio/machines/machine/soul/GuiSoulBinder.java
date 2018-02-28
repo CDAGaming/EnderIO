@@ -1,12 +1,7 @@
 package crazypants.enderio.machines.machine.soul;
 
-import java.io.IOException;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.client.gui.button.IconButton;
 import com.enderio.core.common.util.SoundUtil;
-
 import crazypants.enderio.base.gui.IconEIO;
 import crazypants.enderio.base.machine.gui.GuiInventoryMachineBase;
 import crazypants.enderio.base.machine.gui.PowerBar;
@@ -18,6 +13,9 @@ import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.init.SoundEvents;
+
+import javax.annotation.Nonnull;
+import java.io.IOException;
 
 public class GuiSoulBinder extends GuiInventoryMachineBase<TileSoulBinder> implements ISoulBinderRemoteExec.GUI {
 

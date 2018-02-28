@@ -1,7 +1,5 @@
 package crazypants.enderio.base.material.recipes;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.config.recipes.xml.Crafting;
 import crazypants.enderio.base.material.alloy.Alloy;
@@ -16,6 +14,8 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.oredict.ShapedOreRecipe;
 import net.minecraftforge.oredict.ShapelessOreRecipe;
 import net.minecraftforge.registries.IForgeRegistry;
+
+import javax.annotation.Nonnull;
 
 @EventBusSubscriber(modid = EnderIO.MODID)
 public class MaterialRecipes {

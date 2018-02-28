@@ -1,13 +1,6 @@
 package crazypants.enderio.machines.machine.teleport;
 
-import java.awt.Color;
-
-import javax.annotation.Nonnull;
-
-import org.lwjgl.opengl.GL11;
-
 import com.enderio.core.client.render.ColorUtil;
-
 import crazypants.enderio.api.teleport.ITravelAccessable;
 import crazypants.enderio.base.gui.GuiContainerBaseEIO;
 import crazypants.enderio.machines.lang.Lang;
@@ -15,6 +8,10 @@ import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.world.World;
+import org.lwjgl.opengl.GL11;
+
+import javax.annotation.Nonnull;
+import java.awt.*;
 
 public class GuiTravelAuth extends GuiContainerBaseEIO {
 

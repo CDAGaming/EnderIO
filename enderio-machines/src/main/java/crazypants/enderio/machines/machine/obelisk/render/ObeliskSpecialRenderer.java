@@ -1,16 +1,8 @@
 package crazypants.enderio.machines.machine.obelisk.render;
 
-import java.util.List;
-import java.util.Random;
-
-import javax.annotation.Nonnull;
-
-import org.lwjgl.opengl.GL11;
-
 import com.enderio.core.client.render.ManagedTESR;
 import com.enderio.core.client.render.RenderUtil;
 import com.enderio.core.common.TileEntityBase;
-
 import crazypants.enderio.base.EnderIO;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
@@ -33,6 +25,11 @@ import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+import org.lwjgl.opengl.GL11;
+
+import javax.annotation.Nonnull;
+import java.util.List;
+import java.util.Random;
 
 import static org.lwjgl.opengl.GL11.glScalef;
 import static org.lwjgl.opengl.GL11.glTranslated;

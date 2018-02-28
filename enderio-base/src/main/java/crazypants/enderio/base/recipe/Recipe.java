@@ -1,17 +1,15 @@
 package crazypants.enderio.base.recipe;
 
+import com.enderio.core.common.util.NNList;
+import crazypants.enderio.util.Prep;
+import net.minecraft.item.ItemStack;
+import net.minecraftforge.fluids.FluidStack;
+
+import javax.annotation.Nonnull;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
-
-import javax.annotation.Nonnull;
-
-import com.enderio.core.common.util.NNList;
-
-import crazypants.enderio.util.Prep;
-import net.minecraft.item.ItemStack;
-import net.minecraftforge.fluids.FluidStack;
 
 public class Recipe implements IRecipe {
 

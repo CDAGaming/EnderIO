@@ -1,18 +1,8 @@
 package crazypants.enderio.powertools.network;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.network.ThreadedNetworkWrapper;
-
 import crazypants.enderio.powertools.EnderIOPowerTools;
-import crazypants.enderio.powertools.machine.capbank.packet.PacketCapBank;
-import crazypants.enderio.powertools.machine.capbank.packet.PacketGuiChange;
-import crazypants.enderio.powertools.machine.capbank.packet.PacketNetworkEnergyRequest;
-import crazypants.enderio.powertools.machine.capbank.packet.PacketNetworkEnergyResponse;
-import crazypants.enderio.powertools.machine.capbank.packet.PacketNetworkIdRequest;
-import crazypants.enderio.powertools.machine.capbank.packet.PacketNetworkIdResponse;
-import crazypants.enderio.powertools.machine.capbank.packet.PacketNetworkStateRequest;
-import crazypants.enderio.powertools.machine.capbank.packet.PacketNetworkStateResponse;
+import crazypants.enderio.powertools.machine.capbank.packet.*;
 import crazypants.enderio.powertools.machine.monitor.PacketPowerMonitorGraph;
 import crazypants.enderio.powertools.machine.monitor.PacketPowerMonitorStatData;
 import net.minecraft.entity.player.EntityPlayerMP;
@@ -20,6 +10,8 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
 import net.minecraftforge.fml.relauncher.Side;
+
+import javax.annotation.Nonnull;
 
 public class PacketHandler {
 

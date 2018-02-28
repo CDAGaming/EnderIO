@@ -1,10 +1,6 @@
 package crazypants.enderio.base.block.painted;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.util.NNList;
-
 import crazypants.enderio.base.config.Config;
 import crazypants.enderio.base.init.IModObject;
 import crazypants.enderio.base.paint.IPaintable;
@@ -45,6 +41,9 @@ import net.minecraft.world.World;
 import net.minecraftforge.event.ForgeEventFactory;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 public abstract class BlockPaintedGlowstone extends BlockGlowstone
     implements ITileEntityProvider, IPaintable.IBlockPaintableBlock, IModObject.WithBlockItem, ICustomSubItems {

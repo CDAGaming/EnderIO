@@ -1,19 +1,5 @@
 package crazypants.enderio.base.material;
 
-import java.io.File;
-import java.io.IOException;
-import java.io.StringReader;
-
-import javax.annotation.Nonnull;
-import javax.xml.parsers.SAXParser;
-import javax.xml.parsers.SAXParserFactory;
-
-import org.xml.sax.Attributes;
-import org.xml.sax.InputSource;
-import org.xml.sax.SAXException;
-import org.xml.sax.XMLReader;
-import org.xml.sax.helpers.DefaultHandler;
-
 import crazypants.enderio.base.Log;
 import crazypants.enderio.base.config.Config;
 import crazypants.enderio.base.recipe.IRecipeInput;
@@ -22,6 +8,18 @@ import crazypants.enderio.base.recipe.RecipeConfigParser;
 import crazypants.enderio.util.Prep;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.oredict.OreDictionary;
+import org.xml.sax.Attributes;
+import org.xml.sax.InputSource;
+import org.xml.sax.SAXException;
+import org.xml.sax.XMLReader;
+import org.xml.sax.helpers.DefaultHandler;
+
+import javax.annotation.Nonnull;
+import javax.xml.parsers.SAXParser;
+import javax.xml.parsers.SAXParserFactory;
+import java.io.File;
+import java.io.IOException;
+import java.io.StringReader;
 
 public final class OreDictionaryPreferenceParser extends DefaultHandler {
 

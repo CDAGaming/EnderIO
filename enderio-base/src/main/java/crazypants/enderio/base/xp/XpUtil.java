@@ -1,8 +1,8 @@
 package crazypants.enderio.base.xp;
 
-import javax.annotation.Nonnull;
-
 import net.minecraft.entity.player.EntityPlayer;
+
+import javax.annotation.Nonnull;
 
 /**
  * Values taken from OpenMods EnchantmentUtils to ensure consistent behavior

@@ -1,8 +1,8 @@
 package crazypants.enderio.base.power;
 
-import javax.annotation.Nonnull;
-
 import net.minecraftforge.energy.IEnergyStorage;
+
+import javax.annotation.Nonnull;
 
 public interface IPowerInterface extends IEnergyStorage {
 

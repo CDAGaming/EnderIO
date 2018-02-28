@@ -1,17 +1,15 @@
 package crazypants.enderio.base.recipe.sagmill;
 
-import java.util.HashMap;
-import java.util.Map;
-
-import javax.annotation.Nonnull;
-
-import org.xml.sax.Attributes;
-import org.xml.sax.SAXException;
-
 import crazypants.enderio.base.Log;
 import crazypants.enderio.base.recipe.CustomTagHandler;
 import crazypants.enderio.base.recipe.IRecipeInput;
 import crazypants.enderio.base.recipe.RecipeConfigParser;
+import org.xml.sax.Attributes;
+import org.xml.sax.SAXException;
+
+import javax.annotation.Nonnull;
+import java.util.HashMap;
+import java.util.Map;
 
 public class GrindingBallTagHandler implements CustomTagHandler {
 

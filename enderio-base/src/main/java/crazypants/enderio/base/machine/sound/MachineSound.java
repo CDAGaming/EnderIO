@@ -1,13 +1,13 @@
 package crazypants.enderio.base.machine.sound;
 
-import javax.annotation.Nonnull;
-
 import net.minecraft.client.audio.ITickableSound;
 import net.minecraft.client.audio.PositionedSound;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundCategory;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
 
 @SideOnly(Side.CLIENT)
 public class MachineSound extends PositionedSound implements ITickableSound {

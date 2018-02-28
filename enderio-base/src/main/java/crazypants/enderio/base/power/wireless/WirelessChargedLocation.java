@@ -1,16 +1,14 @@
 package crazypants.enderio.base.power.wireless;
 
-import java.util.Collections;
-import java.util.Comparator;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
-
 import net.minecraft.item.ItemStack;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.NonNullList;
 import net.minecraft.util.math.BlockPos;
+
+import javax.annotation.Nonnull;
+import java.util.Collections;
+import java.util.Comparator;
 
 public class WirelessChargedLocation {
 

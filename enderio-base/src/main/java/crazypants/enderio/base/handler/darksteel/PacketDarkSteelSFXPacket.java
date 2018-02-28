@@ -1,9 +1,5 @@
 package crazypants.enderio.base.handler.darksteel;
 
-import java.util.UUID;
-
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.api.upgrades.IDarkSteelUpgrade;
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.network.PacketHandler;
@@ -19,6 +15,9 @@ import net.minecraftforge.fml.common.network.ByteBufUtils;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler;
 import net.minecraftforge.fml.common.network.simpleimpl.MessageContext;
+
+import javax.annotation.Nonnull;
+import java.util.UUID;
 
 public class PacketDarkSteelSFXPacket implements IMessage {
 

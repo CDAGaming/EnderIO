@@ -1,12 +1,7 @@
 package crazypants.enderio.base.item.darksteel.upgrade.sound;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.concurrent.ArrayBlockingQueue;
-
 import com.enderio.core.common.util.Util;
 import com.enderio.core.common.vecmath.Vector3d;
-
 import crazypants.enderio.base.config.Config;
 import net.minecraft.client.Minecraft;
 import net.minecraft.entity.Entity;
@@ -16,6 +11,10 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.TickEvent;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.ArrayBlockingQueue;
 
 public class SoundDetector {
 

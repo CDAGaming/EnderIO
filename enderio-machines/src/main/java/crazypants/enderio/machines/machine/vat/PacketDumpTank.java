@@ -1,15 +1,14 @@
 package crazypants.enderio.machines.machine.vat;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.network.MessageTileEntity;
-
 import crazypants.enderio.machines.lang.Lang;
 import io.netty.buffer.ByteBuf;
 import net.minecraftforge.fluids.FluidStack;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler;
 import net.minecraftforge.fml.common.network.simpleimpl.MessageContext;
+
+import javax.annotation.Nonnull;
 
 public class PacketDumpTank extends MessageTileEntity<TileVat> {
 

@@ -1,9 +1,6 @@
 package crazypants.enderio.machines.machine.killera;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.client.render.ManagedTESR;
-
 import crazypants.enderio.base.render.util.HalfBakedQuad.HalfBakedList;
 import crazypants.enderio.base.render.util.TankRenderHelper;
 import crazypants.enderio.util.Prep;
@@ -18,6 +15,8 @@ import net.minecraft.util.math.MathHelper;
 import net.minecraftforge.client.MinecraftForgeClient;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
 
 import static crazypants.enderio.machines.init.MachineObject.block_killer_joe;
 

@@ -1,13 +1,13 @@
 package crazypants.enderio.base.config.recipes;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.util.Prep;
 import net.minecraft.block.Block;
 import net.minecraft.inventory.InventoryCrafting;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.oredict.ShapelessOreRecipe;
+
+import javax.annotation.Nonnull;
 
 public class GenericUpgradeRecipeShapeless extends ShapelessOreRecipe {
 

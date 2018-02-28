@@ -1,9 +1,6 @@
 package crazypants.enderio.base.farming.fertilizer;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
-
 import crazypants.enderio.api.farm.IFertilizer;
 import crazypants.enderio.base.EnderIO;
 import net.minecraft.init.Items;
@@ -15,6 +12,8 @@ import net.minecraftforge.fml.common.eventhandler.EventPriority;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.registries.IForgeRegistry;
 import net.minecraftforge.registries.RegistryBuilder;
+
+import javax.annotation.Nonnull;
 
 @EventBusSubscriber(modid = EnderIO.MODID)
 public class Fertilizer {

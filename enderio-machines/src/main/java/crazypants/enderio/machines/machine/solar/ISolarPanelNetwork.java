@@ -1,11 +1,10 @@
 package crazypants.enderio.machines.machine.solar;
 
-import java.util.Set;
-
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.item.conduitprobe.PacketConduitProbe.IHasConduitProbeData;
 import net.minecraft.util.math.BlockPos;
+
+import javax.annotation.Nonnull;
+import java.util.Set;
 
 public interface ISolarPanelNetwork extends IHasConduitProbeData {
 

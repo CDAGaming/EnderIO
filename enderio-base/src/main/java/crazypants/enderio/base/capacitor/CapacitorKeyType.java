@@ -1,8 +1,7 @@
 package crazypants.enderio.base.capacitor;
 
-import java.util.Locale;
-
 import javax.annotation.Nonnull;
+import java.util.Locale;
 
 public enum CapacitorKeyType {
   ENERGY_BUFFER,

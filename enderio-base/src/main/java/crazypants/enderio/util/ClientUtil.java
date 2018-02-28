@@ -1,9 +1,5 @@
 package crazypants.enderio.util;
 
-import java.util.Random;
-
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.init.IModObject;
 import net.minecraft.block.Block;
@@ -13,6 +9,9 @@ import net.minecraft.item.Item;
 import net.minecraft.util.EnumParticleTypes;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.client.model.ModelLoader;
+
+import javax.annotation.Nonnull;
+import java.util.Random;
 
 public class ClientUtil {
 

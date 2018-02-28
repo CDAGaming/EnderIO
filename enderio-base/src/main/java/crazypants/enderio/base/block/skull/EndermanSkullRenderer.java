@@ -1,16 +1,15 @@
 package crazypants.enderio.base.block.skull;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.client.render.ManagedTESR;
 import com.enderio.core.client.render.RenderUtil;
-
 import crazypants.enderio.base.EnderIO;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.entity.EntityPlayerSP;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.util.math.MathHelper;
+
+import javax.annotation.Nonnull;
 
 import static crazypants.enderio.base.init.ModObject.blockEndermanSkull;
 

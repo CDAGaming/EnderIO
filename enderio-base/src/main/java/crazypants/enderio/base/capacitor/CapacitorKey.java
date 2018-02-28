@@ -1,14 +1,13 @@
 package crazypants.enderio.base.capacitor;
 
-import java.util.Locale;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.config.Config.Section;
 import crazypants.enderio.base.init.ModObject;
 import net.minecraftforge.common.config.Configuration;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.Locale;
 
 import static crazypants.enderio.base.config.Config.sectionCapacitor;
 

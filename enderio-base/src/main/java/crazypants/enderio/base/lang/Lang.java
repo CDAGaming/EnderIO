@@ -1,8 +1,8 @@
 package crazypants.enderio.base.lang;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.EnderIO;
+
+import javax.annotation.Nonnull;
 
 public enum Lang implements ILang {
 

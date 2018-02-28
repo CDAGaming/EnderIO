@@ -1,15 +1,11 @@
 package crazypants.enderio.machines;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
-
 import crazypants.enderio.base.capacitor.CapacitorHelper;
 import crazypants.enderio.base.capacitor.CapacitorHelper.SetType;
 import crazypants.enderio.machines.capacitor.CapacitorKey;
 import net.minecraft.item.ItemStack;
+
+import java.util.*;
 
 import static crazypants.enderio.base.init.ModObject.itemBasicCapacitor;
 

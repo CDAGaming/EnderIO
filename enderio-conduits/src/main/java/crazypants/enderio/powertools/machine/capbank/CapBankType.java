@@ -1,17 +1,15 @@
 package crazypants.enderio.powertools.machine.capbank;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Locale;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NullHelper;
-
 import crazypants.enderio.base.config.ValueFactory.IValue;
 import crazypants.enderio.powertools.config.CapBankConfig;
 import net.minecraft.block.properties.PropertyEnum;
 import net.minecraft.util.IStringSerializable;
+
+import javax.annotation.Nonnull;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Locale;
 
 public enum CapBankType implements IStringSerializable {
 

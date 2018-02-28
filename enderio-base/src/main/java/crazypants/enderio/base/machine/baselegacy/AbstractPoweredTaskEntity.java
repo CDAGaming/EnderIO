@@ -1,16 +1,8 @@
 package crazypants.enderio.base.machine.baselegacy;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.api.common.util.IProgressTile;
 import com.enderio.core.common.NBTAction;
 import com.enderio.core.common.util.NNList;
-
 import crazypants.enderio.base.capacitor.ICapacitorKey;
 import crazypants.enderio.base.machine.interfaces.IPoweredTask;
 import crazypants.enderio.base.machine.task.PoweredTask;
@@ -25,6 +17,12 @@ import info.loenwind.autosave.annotations.Store;
 import net.minecraft.block.Block;
 import net.minecraft.item.ItemStack;
 import net.minecraft.tileentity.TileEntity;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
 
 @Storable
 public abstract class AbstractPoweredTaskEntity extends AbstractPowerConsumerEntity implements IProgressTile {

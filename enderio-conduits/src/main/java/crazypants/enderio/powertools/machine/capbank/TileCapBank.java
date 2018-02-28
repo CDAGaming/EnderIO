@@ -1,21 +1,11 @@
 package crazypants.enderio.powertools.machine.capbank;
 
-import java.util.ArrayList;
-import java.util.EnumMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Map.Entry;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.NBTAction;
 import com.enderio.core.common.util.EntityUtil;
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.NullHelper;
 import com.enderio.core.common.util.Util;
 import com.enderio.core.common.vecmath.Vector3d;
-
 import crazypants.enderio.base.Log;
 import crazypants.enderio.base.TileEntityEio;
 import crazypants.enderio.base.conduit.ConduitUtil;
@@ -31,12 +21,7 @@ import crazypants.enderio.base.power.IPowerInterface;
 import crazypants.enderio.base.power.IPowerStorage;
 import crazypants.enderio.base.power.PowerHandlerUtil;
 import crazypants.enderio.powertools.init.PowerToolObject;
-import crazypants.enderio.powertools.machine.capbank.network.CapBankClientNetwork;
-import crazypants.enderio.powertools.machine.capbank.network.ClientNetworkManager;
-import crazypants.enderio.powertools.machine.capbank.network.EnergyReceptor;
-import crazypants.enderio.powertools.machine.capbank.network.ICapBankNetwork;
-import crazypants.enderio.powertools.machine.capbank.network.InventoryImpl;
-import crazypants.enderio.powertools.machine.capbank.network.NetworkUtil;
+import crazypants.enderio.powertools.machine.capbank.network.*;
 import crazypants.enderio.powertools.machine.capbank.packet.PacketNetworkIdRequest;
 import crazypants.enderio.util.NbtValue;
 import crazypants.enderio.util.Prep;
@@ -56,6 +41,14 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.ArrayList;
+import java.util.EnumMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
 
 @Storable
 public class TileCapBank extends TileEntityEio implements ILegacyPowerReceiver, IIoConfigurable, IPowerStorage, IInventory, IPaintable.IPaintableTileEntity {

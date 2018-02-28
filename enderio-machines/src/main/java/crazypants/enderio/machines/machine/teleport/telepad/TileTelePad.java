@@ -1,13 +1,5 @@
 package crazypants.enderio.machines.machine.teleport.telepad;
 
-import java.util.Collections;
-import java.util.List;
-import java.util.Queue;
-import java.util.Set;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.api.common.util.IProgressTile;
 import com.enderio.core.api.common.util.ITankAccess;
 import com.enderio.core.common.fluid.SmartTank;
@@ -18,16 +10,11 @@ import com.enderio.core.common.util.NullHelper;
 import com.google.common.base.Predicate;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Queues;
-
 import crazypants.enderio.api.ILocalizable;
 import crazypants.enderio.api.teleport.ITelePad;
 import crazypants.enderio.api.teleport.TravelSource;
 import crazypants.enderio.base.EnderIO;
-import crazypants.enderio.base.capacitor.CapacitorKeyType;
-import crazypants.enderio.base.capacitor.DefaultCapacitorData;
-import crazypants.enderio.base.capacitor.DefaultCapacitorKey;
-import crazypants.enderio.base.capacitor.ICapacitorKey;
-import crazypants.enderio.base.capacitor.Scaler;
+import crazypants.enderio.base.capacitor.*;
 import crazypants.enderio.base.init.ModObject;
 import crazypants.enderio.base.item.coordselector.TelepadTarget;
 import crazypants.enderio.base.machine.interfaces.INotifier;
@@ -64,6 +51,13 @@ import net.minecraftforge.fml.client.FMLClientHandler;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import net.minecraftforge.items.CapabilityItemHandler;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.Collections;
+import java.util.List;
+import java.util.Queue;
+import java.util.Set;
 
 public class TileTelePad extends TileTravelAnchor implements ITelePad, IProgressTile, ITankAccess.IExtendedTankAccess, INotifier {
 

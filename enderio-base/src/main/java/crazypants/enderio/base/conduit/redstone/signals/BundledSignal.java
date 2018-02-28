@@ -1,16 +1,14 @@
 package crazypants.enderio.base.conduit.redstone.signals;
 
-import java.util.EnumMap;
-import java.util.Map;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.util.DyeColor;
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.NNList.Callback;
-
 import crazypants.enderio.base.conduit.redstone.filters.IOutputSignalFilter;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.EnumMap;
+import java.util.Map;
 
 public class BundledSignal {
 

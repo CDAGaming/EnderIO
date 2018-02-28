@@ -1,7 +1,5 @@
 package crazypants.enderio.machines.machine.obelisk.aversion;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.machine.baselegacy.SlotDefinition;
 import crazypants.enderio.base.machine.modes.EntityAction;
 import crazypants.enderio.machines.init.MachineObject;
@@ -9,10 +7,9 @@ import crazypants.enderio.machines.machine.obelisk.base.AbstractSpawningObeliskE
 import info.loenwind.autosave.annotations.Storable;
 import net.minecraft.entity.EntityLivingBase;
 
-import static crazypants.enderio.machines.capacitor.CapacitorKey.AVERSION_POWER_BUFFER;
-import static crazypants.enderio.machines.capacitor.CapacitorKey.AVERSION_POWER_INTAKE;
-import static crazypants.enderio.machines.capacitor.CapacitorKey.AVERSION_POWER_USE;
-import static crazypants.enderio.machines.capacitor.CapacitorKey.AVERSION_RANGE;
+import javax.annotation.Nonnull;
+
+import static crazypants.enderio.machines.capacitor.CapacitorKey.*;
 
 @Storable
 public class TileAversionObelisk extends AbstractSpawningObeliskEntity {

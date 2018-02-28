@@ -1,7 +1,5 @@
 package crazypants.enderio.base.item.darksteel.upgrade.glider;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.api.upgrades.IRenderUpgrade;
 import crazypants.enderio.base.handler.darksteel.DarkSteelController;
 import crazypants.enderio.base.material.material.Material;
@@ -14,6 +12,8 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.math.MathHelper;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
 
 @SideOnly(Side.CLIENT)
 public class GliderUpgradeLayer implements IRenderUpgrade {

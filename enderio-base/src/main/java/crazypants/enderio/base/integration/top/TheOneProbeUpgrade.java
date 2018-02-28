@@ -1,16 +1,15 @@
 package crazypants.enderio.base.integration.top;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.ItemUtil;
 import com.enderio.core.common.util.NullHelper;
-
 import crazypants.enderio.base.config.Config;
 import crazypants.enderio.base.handler.darksteel.AbstractUpgrade;
 import crazypants.enderio.base.init.ModObject;
 import crazypants.enderio.util.Prep;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.registry.GameRegistry.ItemStackHolder;
+
+import javax.annotation.Nonnull;
 
 public class TheOneProbeUpgrade extends AbstractUpgrade {
 

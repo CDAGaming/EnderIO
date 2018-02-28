@@ -1,14 +1,12 @@
 package crazypants.enderio.integration.tic.queues;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.annotation.Nonnull;
-
-import org.apache.commons.lang3.tuple.Pair;
-
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.stackable.Things;
+import org.apache.commons.lang3.tuple.Pair;
+
+import javax.annotation.Nonnull;
+import java.util.ArrayList;
+import java.util.List;
 
 public class TiCQueues {
 

@@ -1,10 +1,10 @@
 package crazypants.enderio.base.integration.te;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.Log;
 import net.minecraftforge.fml.common.ModAPIManager;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
+
+import javax.annotation.Nonnull;
 
 public class TEUtil {
 

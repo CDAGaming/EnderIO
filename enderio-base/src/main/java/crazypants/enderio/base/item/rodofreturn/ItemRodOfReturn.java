@@ -1,12 +1,5 @@
 package crazypants.enderio.base.item.rodofreturn;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.api.client.gui.IAdvancedTooltipProvider;
 import com.enderio.core.client.ClientUtil;
 import com.enderio.core.client.handlers.SpecialTooltipHandler;
@@ -16,7 +9,6 @@ import com.enderio.core.common.util.BlockCoord;
 import com.enderio.core.common.util.FluidUtil;
 import com.enderio.core.common.util.NullHelper;
 import com.enderio.core.common.vecmath.Vector3d;
-
 import crazypants.enderio.api.teleport.ITelePad;
 import crazypants.enderio.api.teleport.TravelSource;
 import crazypants.enderio.base.EnderIO;
@@ -43,13 +35,7 @@ import net.minecraft.item.EnumAction;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.tileentity.TileEntity;
-import net.minecraft.util.ActionResult;
-import net.minecraft.util.EnumActionResult;
-import net.minecraft.util.EnumFacing;
-import net.minecraft.util.EnumHand;
-import net.minecraft.util.EnumParticleTypes;
-import net.minecraft.util.NonNullList;
-import net.minecraft.util.ResourceLocation;
+import net.minecraft.util.*;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.text.TextFormatting;
@@ -65,6 +51,12 @@ import net.minecraftforge.fluids.capability.IFluidTankProperties;
 import net.minecraftforge.fml.client.FMLClientHandler;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
 
 import static crazypants.enderio.util.NbtValue.FLUIDAMOUNT;
 import static crazypants.enderio.util.NbtValue.LAST_USED_TICK;

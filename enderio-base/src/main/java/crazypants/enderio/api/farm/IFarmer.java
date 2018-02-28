@@ -1,14 +1,14 @@
 package crazypants.enderio.api.farm;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.NonNullList;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraftforge.common.util.FakePlayer;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 /**
  * This represents a call back mechanism into the Farming Station.

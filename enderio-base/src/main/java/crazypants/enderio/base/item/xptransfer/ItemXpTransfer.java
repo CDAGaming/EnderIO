@@ -1,11 +1,8 @@
 package crazypants.enderio.base.item.xptransfer;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.api.client.gui.IResourceTooltipProvider;
 import com.enderio.core.common.fluid.FluidWrapper;
 import com.enderio.core.common.fluid.IFluidWrapper;
-
 import crazypants.enderio.base.EnderIOTab;
 import crazypants.enderio.base.fluid.Fluids;
 import crazypants.enderio.base.init.IModObject;
@@ -26,6 +23,8 @@ import net.minecraft.world.World;
 import net.minecraftforge.fluids.FluidStack;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
 
 public class ItemXpTransfer extends Item implements IResourceTooltipProvider {
 

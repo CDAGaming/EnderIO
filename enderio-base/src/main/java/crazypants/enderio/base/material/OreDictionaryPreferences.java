@@ -1,17 +1,16 @@
 package crazypants.enderio.base.material;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.NNList.ShortCallback;
 import com.enderio.core.common.util.NNMap;
 import com.enderio.core.common.util.NullHelper;
-
 import crazypants.enderio.util.Prep;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.event.FMLInterModComms.IMCEvent;
 import net.minecraftforge.oredict.OreDictionary;
+
+import javax.annotation.Nonnull;
 
 public final class OreDictionaryPreferences {
 

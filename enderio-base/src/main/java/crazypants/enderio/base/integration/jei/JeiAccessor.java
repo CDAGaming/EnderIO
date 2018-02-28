@@ -1,10 +1,9 @@
 package crazypants.enderio.base.integration.jei;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
-
 import net.minecraft.item.crafting.IRecipe;
+
+import javax.annotation.Nonnull;
 
 public class JeiAccessor {
 

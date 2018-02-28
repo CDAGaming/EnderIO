@@ -1,14 +1,9 @@
 package crazypants.enderio.util;
 
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.InputStream;
-
+import crazypants.enderio.base.config.Config;
 import org.apache.commons.io.IOUtils;
 
-import crazypants.enderio.base.config.Config;
+import java.io.*;
 
 public class IoUtil {
 

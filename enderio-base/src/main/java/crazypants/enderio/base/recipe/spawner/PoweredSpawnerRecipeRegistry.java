@@ -1,13 +1,11 @@
 package crazypants.enderio.base.recipe.spawner;
 
-import java.util.HashMap;
-import java.util.Map;
+import com.enderio.core.common.util.NNList;
+import net.minecraft.util.ResourceLocation;
 
 import javax.annotation.Nonnull;
-
-import com.enderio.core.common.util.NNList;
-
-import net.minecraft.util.ResourceLocation;
+import java.util.HashMap;
+import java.util.Map;
 
 public class PoweredSpawnerRecipeRegistry {
 

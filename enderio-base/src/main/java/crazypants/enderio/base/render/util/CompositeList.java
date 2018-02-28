@@ -1,10 +1,9 @@
 package crazypants.enderio.base.render.util;
 
+import javax.annotation.Nonnull;
 import java.util.AbstractList;
 import java.util.Collections;
 import java.util.List;
-
-import javax.annotation.Nonnull;
 
 public class CompositeList<E> extends AbstractList<E> {
 

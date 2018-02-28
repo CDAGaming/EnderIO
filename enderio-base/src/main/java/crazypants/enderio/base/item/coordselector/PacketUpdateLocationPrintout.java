@@ -1,7 +1,5 @@
 package crazypants.enderio.base.item.coordselector;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.util.Prep;
 import io.netty.buffer.ByteBuf;
 import net.minecraft.entity.player.EntityPlayerMP;
@@ -13,6 +11,8 @@ import net.minecraftforge.fml.common.network.ByteBufUtils;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler;
 import net.minecraftforge.fml.common.network.simpleimpl.MessageContext;
+
+import javax.annotation.Nonnull;
 
 import static crazypants.enderio.base.init.ModObject.itemLocationPrintout;
 

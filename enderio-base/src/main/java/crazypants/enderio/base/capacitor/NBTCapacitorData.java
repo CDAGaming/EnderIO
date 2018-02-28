@@ -1,9 +1,9 @@
 package crazypants.enderio.base.capacitor;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.EnderIO;
 import net.minecraft.nbt.NBTTagCompound;
+
+import javax.annotation.Nonnull;
 
 public class NBTCapacitorData implements ICapacitorData {
 

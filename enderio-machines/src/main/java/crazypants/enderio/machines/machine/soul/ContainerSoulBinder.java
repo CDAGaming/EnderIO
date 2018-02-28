@@ -1,13 +1,7 @@
 package crazypants.enderio.machines.machine.soul;
 
-import java.util.List;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.client.gui.widget.GhostBackgroundItemSlot;
 import com.enderio.core.client.gui.widget.GhostSlot;
-
 import crazypants.enderio.base.init.ModObject;
 import crazypants.enderio.base.machine.gui.AbstractMachineContainer;
 import crazypants.enderio.base.xp.PacketExperienceContainer;
@@ -18,6 +12,10 @@ import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.inventory.Slot;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.List;
 
 public class ContainerSoulBinder extends AbstractMachineContainer<TileSoulBinder> implements ISoulBinderRemoteExec.Container {
 

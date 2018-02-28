@@ -1,12 +1,6 @@
 package crazypants.enderio.base.machine.task;
 
-import java.util.Random;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.util.NNList;
-
 import crazypants.enderio.base.machine.interfaces.IPoweredTask;
 import crazypants.enderio.base.recipe.IMachineRecipe;
 import crazypants.enderio.base.recipe.IMachineRecipe.ResultStack;
@@ -17,6 +11,10 @@ import crazypants.enderio.util.Prep;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.nbt.NBTTagList;
 import net.minecraft.util.math.MathHelper;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.Random;
 
 public class PoweredTask implements IPoweredTask {
 

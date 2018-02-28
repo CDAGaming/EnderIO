@@ -1,10 +1,7 @@
 package crazypants.enderio.base.integration.natura;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.NNList.NNIterator;
-
 import crazypants.enderio.api.farm.IFarmer;
 import crazypants.enderio.api.farm.IFarmerJoe;
 import crazypants.enderio.base.EnderIO;
@@ -24,6 +21,8 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.EventPriority;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+
+import javax.annotation.Nonnull;
 
 @EventBusSubscriber(modid = EnderIO.MODID)
 public class NaturaUtil {

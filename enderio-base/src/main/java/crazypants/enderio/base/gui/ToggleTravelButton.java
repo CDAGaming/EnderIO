@@ -1,10 +1,9 @@
 package crazypants.enderio.base.gui;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.client.gui.button.IconButton;
-
 import net.minecraft.client.Minecraft;
+
+import javax.annotation.Nonnull;
 
 public class ToggleTravelButton extends IconButton {
 

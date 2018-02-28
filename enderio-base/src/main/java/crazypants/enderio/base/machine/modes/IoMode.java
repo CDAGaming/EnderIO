@@ -1,10 +1,9 @@
 package crazypants.enderio.base.machine.modes;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NNList;
-
 import crazypants.enderio.base.EnderIO;
+
+import javax.annotation.Nonnull;
 
 public enum IoMode {
 

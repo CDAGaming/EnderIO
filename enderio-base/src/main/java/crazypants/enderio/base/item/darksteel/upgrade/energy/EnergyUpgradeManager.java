@@ -1,15 +1,14 @@
 package crazypants.enderio.base.item.darksteel.upgrade.energy;
 
-import java.util.Random;
-
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.handler.darksteel.AbstractUpgrade;
 import crazypants.enderio.base.item.darksteel.upgrade.energy.EnergyUpgrade.EnergyUpgradeHolder;
 import crazypants.enderio.base.lang.LangPower;
 import crazypants.enderio.util.NbtComparer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
+
+import javax.annotation.Nonnull;
+import java.util.Random;
 
 public abstract class EnergyUpgradeManager {
 

@@ -1,14 +1,7 @@
 package crazypants.enderio.base.farming.farmers;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.stackable.Things;
-
-import crazypants.enderio.api.farm.FarmNotification;
-import crazypants.enderio.api.farm.FarmingAction;
-import crazypants.enderio.api.farm.IFarmer;
-import crazypants.enderio.api.farm.IFarmerJoe;
-import crazypants.enderio.api.farm.IHarvestResult;
+import crazypants.enderio.api.farm.*;
 import crazypants.enderio.base.farming.FarmingTool;
 import crazypants.enderio.util.Prep;
 import net.minecraft.block.Block;
@@ -20,6 +13,8 @@ import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumHand;
 import net.minecraft.util.math.BlockPos;
 import net.minecraftforge.registries.IForgeRegistryEntry.Impl;
+
+import javax.annotation.Nonnull;
 
 public class PlaceableFarmer extends Impl<IFarmerJoe> implements IFarmerJoe {
 

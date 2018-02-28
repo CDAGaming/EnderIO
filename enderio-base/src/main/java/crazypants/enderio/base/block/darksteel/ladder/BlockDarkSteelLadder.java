@@ -1,9 +1,6 @@
 package crazypants.enderio.base.block.darksteel.ladder;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.api.client.gui.IResourceTooltipProvider;
-
 import crazypants.enderio.base.EnderIOTab;
 import crazypants.enderio.base.config.Config;
 import crazypants.enderio.base.init.IModObject;
@@ -19,6 +16,8 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.World;
+
+import javax.annotation.Nonnull;
 
 public class BlockDarkSteelLadder extends BlockLadder implements IResourceTooltipProvider, IDefaultRenderers, IModObject.WithBlockItem {
 

@@ -1,13 +1,6 @@
 package crazypants.enderio.base.render.pipeline;
 
-import java.util.List;
-import java.util.concurrent.ConcurrentHashMap;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.util.NullHelper;
-
 import crazypants.enderio.base.Log;
 import crazypants.enderio.base.paint.render.PaintedBlockAccessWrapper;
 import crazypants.enderio.base.render.util.QuadCollector;
@@ -22,6 +15,11 @@ import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.IBlockAccess;
 import net.minecraftforge.client.ForgeHooksClient;
 import net.minecraftforge.client.MinecraftForgeClient;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.List;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class PaintWrangler {
 

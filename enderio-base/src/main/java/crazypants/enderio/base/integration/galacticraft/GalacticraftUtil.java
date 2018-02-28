@@ -1,11 +1,11 @@
 package crazypants.enderio.base.integration.galacticraft;
 
-import java.lang.reflect.Field;
-import java.lang.reflect.Method;
-
 import crazypants.enderio.base.Log;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.inventory.IInventory;
+
+import java.lang.reflect.Field;
+import java.lang.reflect.Method;
 
 /**
  * This is a near-verbatim copy of Galacticraft's API class 'AccessInventoryGC'.

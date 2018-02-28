@@ -1,9 +1,6 @@
 package crazypants.enderio.integration.forestry.upgrades;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NullHelper;
-
 import crazypants.enderio.base.handler.darksteel.AbstractUpgrade;
 import crazypants.enderio.integration.forestry.EnderIOIntegrationForestry;
 import crazypants.enderio.integration.forestry.ForestryItemStacks;
@@ -12,6 +9,8 @@ import crazypants.enderio.util.Prep;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemStack;
+
+import javax.annotation.Nonnull;
 
 public class ApiaristArmorUpgrade extends AbstractUpgrade {
 

@@ -1,9 +1,6 @@
 package crazypants.enderio.machines.machine.teleport.telepad.packet;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.network.MessageTileEntity;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.item.coordselector.TelepadTarget;
 import crazypants.enderio.machines.machine.teleport.telepad.TileDialingDevice;
@@ -13,6 +10,8 @@ import net.minecraftforge.fml.common.network.ByteBufUtils;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler;
 import net.minecraftforge.fml.common.network.simpleimpl.MessageContext;
+
+import javax.annotation.Nonnull;
 
 public class PacketTargetList extends MessageTileEntity<TileDialingDevice> {
 

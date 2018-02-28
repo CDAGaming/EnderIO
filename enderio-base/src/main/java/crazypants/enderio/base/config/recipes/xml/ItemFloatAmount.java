@@ -1,9 +1,9 @@
 package crazypants.enderio.base.config.recipes.xml;
 
-import javax.xml.stream.XMLStreamException;
-
 import crazypants.enderio.base.config.recipes.InvalidRecipeConfigException;
 import crazypants.enderio.base.config.recipes.StaxFactory;
+
+import javax.xml.stream.XMLStreamException;
 
 public class ItemFloatAmount extends Item {
 

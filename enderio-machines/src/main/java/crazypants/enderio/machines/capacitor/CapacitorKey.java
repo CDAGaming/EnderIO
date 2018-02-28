@@ -1,10 +1,5 @@
 package crazypants.enderio.machines.capacitor;
 
-import java.util.Locale;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import crazypants.enderio.base.capacitor.CapacitorHelper.SetType;
 import crazypants.enderio.base.capacitor.CapacitorKeyHelper;
 import crazypants.enderio.base.capacitor.CapacitorKeyType;
@@ -16,6 +11,10 @@ import crazypants.enderio.base.loot.WeightedUpgrade;
 import crazypants.enderio.machines.EnderIOMachines;
 import crazypants.enderio.machines.init.MachineObject;
 import net.minecraftforge.common.config.Configuration;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.Locale;
 
 import static crazypants.enderio.machines.config.Config.sectionCapacitor;
 

@@ -1,14 +1,13 @@
 package crazypants.enderio.base.recipe.painter;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.common.util.stackable.IProducer;
-
 import crazypants.enderio.base.block.painted.BlockPaintedDoor;
 import crazypants.enderio.base.init.ModObjectRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.item.ItemStack;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 public class DoorPainterTemplate extends BasicPainterTemplate<BlockPaintedDoor> {
 

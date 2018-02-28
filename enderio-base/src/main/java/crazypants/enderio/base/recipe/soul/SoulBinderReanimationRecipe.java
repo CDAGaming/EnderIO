@@ -1,12 +1,12 @@
 package crazypants.enderio.base.recipe.soul;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.config.Config;
 import crazypants.enderio.base.material.material.Material;
 import crazypants.enderio.util.CapturedMob;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
+
+import javax.annotation.Nonnull;
 
 public class SoulBinderReanimationRecipe extends AbstractSoulBinderRecipe {
 

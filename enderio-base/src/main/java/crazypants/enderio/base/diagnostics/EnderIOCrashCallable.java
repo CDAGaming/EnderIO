@@ -1,12 +1,5 @@
 package crazypants.enderio.base.diagnostics;
 
-import java.net.URL;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.List;
-
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.api.EnderIOAPIProps;
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.Log;
@@ -22,6 +15,12 @@ import net.minecraftforge.fml.common.eventhandler.EventPriority;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.server.FMLServerHandler;
+
+import javax.annotation.Nonnull;
+import java.net.URL;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
 
 @EventBusSubscriber(modid = EnderIO.MODID)
 public class EnderIOCrashCallable implements ICrashCallable {

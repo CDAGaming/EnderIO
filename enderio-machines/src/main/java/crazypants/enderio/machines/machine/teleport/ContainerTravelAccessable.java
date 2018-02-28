@@ -1,15 +1,8 @@
 package crazypants.enderio.machines.machine.teleport;
 
-import java.awt.Point;
-import java.util.List;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.client.gui.widget.GhostSlot;
 import com.enderio.core.common.ContainerEnder;
 import com.enderio.core.common.TileEntityBase;
-
 import crazypants.enderio.api.teleport.ITravelAccessable;
 import crazypants.enderio.api.teleport.ITravelAccessable.AccessMode;
 import crazypants.enderio.base.teleport.packet.PacketPassword;
@@ -22,6 +15,11 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.awt.*;
+import java.util.List;
 
 public class ContainerTravelAccessable extends ContainerEnder<IInventory> implements ITravelAccessableRemoteExec.Container {
 

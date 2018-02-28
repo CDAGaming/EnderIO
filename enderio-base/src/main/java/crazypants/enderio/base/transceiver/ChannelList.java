@@ -1,11 +1,11 @@
 package crazypants.enderio.base.transceiver;
 
+import com.enderio.core.common.util.Log;
+
 import java.util.EnumMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
-
-import com.enderio.core.common.util.Log;
 
 public class ChannelList extends EnumMap<ChannelType, Set<Channel>> {
 

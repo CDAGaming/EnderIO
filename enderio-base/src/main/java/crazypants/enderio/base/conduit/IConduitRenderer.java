@@ -1,12 +1,11 @@
 package crazypants.enderio.base.conduit;
 
-import java.util.List;
-
-import javax.annotation.Nonnull;
-
 import net.minecraft.client.renderer.block.model.BakedQuad;
 import net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer;
 import net.minecraft.util.BlockRenderLayer;
+
+import javax.annotation.Nonnull;
+import java.util.List;
 
 public interface IConduitRenderer {
 

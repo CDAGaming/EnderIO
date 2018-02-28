@@ -1,23 +1,11 @@
 package crazypants.enderio.integration.tic.recipes;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.annotation.Nonnull;
-
-import org.apache.commons.lang3.tuple.Pair;
-
 import com.enderio.core.common.util.NNList;
 import com.enderio.core.common.util.NNList.NNIterator;
 import com.enderio.core.common.util.NullHelper;
 import com.enderio.core.common.util.stackable.Things;
-
 import crazypants.enderio.base.Log;
-import crazypants.enderio.integration.tic.queues.BasinQueue;
-import crazypants.enderio.integration.tic.queues.CastQueue;
-import crazypants.enderio.integration.tic.queues.SmeltQueue;
-import crazypants.enderio.integration.tic.queues.TiCQueues;
-import crazypants.enderio.integration.tic.queues.TicHandler;
+import crazypants.enderio.integration.tic.queues.*;
 import crazypants.enderio.util.Prep;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
@@ -26,10 +14,15 @@ import net.minecraft.item.ItemStack;
 import net.minecraftforge.fluids.Fluid;
 import net.minecraftforge.fluids.FluidRegistry;
 import net.minecraftforge.fluids.FluidStack;
+import org.apache.commons.lang3.tuple.Pair;
 import slimeknights.mantle.util.RecipeMatch;
 import slimeknights.tconstruct.library.TinkerRegistry;
 import slimeknights.tconstruct.library.smeltery.CastingRecipe;
 import slimeknights.tconstruct.library.smeltery.MeltingRecipe;
+
+import javax.annotation.Nonnull;
+import java.util.ArrayList;
+import java.util.List;
 
 public class TicRegistration {
 

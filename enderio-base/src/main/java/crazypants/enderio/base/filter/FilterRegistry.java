@@ -1,14 +1,14 @@
 package crazypants.enderio.base.filter;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import crazypants.enderio.base.Log;
 import crazypants.enderio.util.NbtValue;
 import io.netty.buffer.ByteBuf;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraftforge.fml.common.network.ByteBufUtils;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 public class FilterRegistry {
 

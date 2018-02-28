@@ -1,9 +1,6 @@
 package crazypants.enderio.integration.forestry.farmers;
 
-import javax.annotation.Nonnull;
-
 import com.enderio.core.common.util.NullHelper;
-
 import crazypants.enderio.api.farm.IFarmer;
 import crazypants.enderio.api.farm.IFarmerJoe;
 import crazypants.enderio.api.farm.IHarvestResult;
@@ -19,6 +16,8 @@ import net.minecraft.block.state.IBlockState;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.math.BlockPos;
 import net.minecraftforge.registries.IForgeRegistryEntry.Impl;
+
+import javax.annotation.Nonnull;
 
 public class ForestryFarmer extends Impl<IFarmerJoe> implements IFarmerJoe {
 

@@ -1,10 +1,5 @@
 package crazypants.enderio.machines.machine.transceiver.gui;
 
-import java.awt.Color;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.api.client.gui.ITabPanel;
 import com.enderio.core.api.client.gui.ListSelectionListener;
 import com.enderio.core.client.gui.button.IconButton;
@@ -14,7 +9,6 @@ import com.enderio.core.client.render.ColorUtil;
 import com.enderio.core.common.util.UserIdent;
 import com.google.common.base.Predicate;
 import com.google.common.base.Predicates;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.base.gui.IconEIO;
 import crazypants.enderio.base.transceiver.Channel;
@@ -29,6 +23,10 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.GuiTextField;
 import net.minecraft.util.ResourceLocation;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.awt.*;
 
 public class ChannelTab implements ITabPanel {
 

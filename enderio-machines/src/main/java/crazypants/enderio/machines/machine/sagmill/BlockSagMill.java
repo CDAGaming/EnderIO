@@ -1,10 +1,5 @@
 package crazypants.enderio.machines.machine.sagmill;
 
-import java.util.Random;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import crazypants.enderio.base.init.IModObject;
 import crazypants.enderio.base.machine.baselegacy.AbstractPoweredTaskBlock;
 import crazypants.enderio.base.machine.render.RenderMappers;
@@ -23,6 +18,10 @@ import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.Random;
 
 public class BlockSagMill<T extends TileSagMill> extends AbstractPoweredTaskBlock<T>
     implements IPaintable.ISolidBlockPaintableBlock, IPaintable.IWrenchHideablePaint {

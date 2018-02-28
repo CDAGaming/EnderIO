@@ -1,7 +1,5 @@
 package crazypants.enderio.base.block.darksteel.bars;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.base.EnderIOTab;
 import crazypants.enderio.base.block.darksteel.BlastResistantItemBlock;
 import crazypants.enderio.base.init.IModObject;
@@ -10,6 +8,8 @@ import net.minecraft.block.BlockPane;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.Item;
+
+import javax.annotation.Nonnull;
 
 public class BlockDarkIronBars extends BlockPane implements IDefaultRenderers, IModObject.WithBlockItem {
 

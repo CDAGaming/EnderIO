@@ -1,12 +1,7 @@
 package crazypants.enderio.machines.machine.wired;
 
-import java.util.Random;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.client.render.ManagedTESR;
 import com.enderio.core.client.render.RenderUtil;
-
 import crazypants.enderio.base.EnderIO;
 import crazypants.enderio.util.Prep;
 import net.minecraft.block.Block;
@@ -23,6 +18,9 @@ import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import java.util.Random;
 
 @SideOnly(Side.CLIENT)
 public class TESRWiredCharger<T extends TileWiredCharger> extends ManagedTESR<T> {

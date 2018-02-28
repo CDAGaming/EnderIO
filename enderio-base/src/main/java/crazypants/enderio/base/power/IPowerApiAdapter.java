@@ -1,10 +1,10 @@
 package crazypants.enderio.base.power;
 
-import javax.annotation.Nullable;
-
 import net.minecraft.util.EnumFacing;
 import net.minecraftforge.common.capabilities.ICapabilityProvider;
 import net.minecraftforge.energy.IEnergyStorage;
+
+import javax.annotation.Nullable;
 
 public interface IPowerApiAdapter {
 

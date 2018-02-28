@@ -1,12 +1,10 @@
 package crazypants.enderio.base.block.skull;
 
-import java.util.Locale;
+import com.enderio.core.common.util.NullHelper;
+import net.minecraft.util.IStringSerializable;
 
 import javax.annotation.Nonnull;
-
-import com.enderio.core.common.util.NullHelper;
-
-import net.minecraft.util.IStringSerializable;
+import java.util.Locale;
 
 public enum SkullType implements IStringSerializable {
 

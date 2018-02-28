@@ -1,7 +1,5 @@
 package crazypants.enderio.integration.forestry;
 
-import javax.annotation.Nonnull;
-
 import crazypants.enderio.api.farm.IFarmerJoe;
 import crazypants.enderio.api.farm.IFertilizer;
 import crazypants.enderio.api.upgrades.IDarkSteelUpgrade;
@@ -18,6 +16,8 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.registries.IForgeRegistry;
+
+import javax.annotation.Nonnull;
 
 public class ForestryControl {
 

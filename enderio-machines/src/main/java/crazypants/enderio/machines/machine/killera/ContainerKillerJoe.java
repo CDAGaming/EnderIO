@@ -1,15 +1,13 @@
 package crazypants.enderio.machines.machine.killera;
 
-import java.util.List;
-
-import javax.annotation.Nonnull;
-
 import com.enderio.core.client.gui.widget.GhostBackgroundItemSlot;
 import com.enderio.core.client.gui.widget.GhostSlot;
-
 import crazypants.enderio.base.machine.gui.AbstractMachineContainer;
 import crazypants.enderio.machines.machine.tank.InventorySlot;
 import net.minecraft.entity.player.InventoryPlayer;
+
+import javax.annotation.Nonnull;
+import java.util.List;
 
 public class ContainerKillerJoe extends AbstractMachineContainer<TileKillerJoe> {
 

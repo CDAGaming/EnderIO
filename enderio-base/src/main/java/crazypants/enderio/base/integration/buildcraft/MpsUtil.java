@@ -1,11 +1,10 @@
 package crazypants.enderio.base.integration.buildcraft;
 
-import java.lang.reflect.Method;
-
-import javax.annotation.Nonnull;
-
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+
+import javax.annotation.Nonnull;
+import java.lang.reflect.Method;
 
 public class MpsUtil {
 

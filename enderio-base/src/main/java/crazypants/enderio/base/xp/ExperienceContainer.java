@@ -1,13 +1,7 @@
 package crazypants.enderio.base.xp;
 
-import java.security.InvalidParameterException;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.enderio.core.api.common.util.ITankAccess;
 import com.enderio.core.common.util.FluidUtil;
-
 import crazypants.enderio.base.fluid.Fluids;
 import io.netty.buffer.ByteBuf;
 import net.minecraft.entity.player.EntityPlayer;
@@ -17,6 +11,10 @@ import net.minecraftforge.fluids.Fluid;
 import net.minecraftforge.fluids.FluidStack;
 import net.minecraftforge.fluids.FluidTank;
 import net.minecraftforge.fluids.FluidTankInfo;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.security.InvalidParameterException;
 
 public class ExperienceContainer extends FluidTank {
   // Note: We extend FluidTank instead of implementing IFluidTank because it has
