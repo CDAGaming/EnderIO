@@ -7,7 +7,7 @@ buildscript {
             url = "http://files.minecraftforge.net/maven"
         }
         maven {
-            url "https://plugins.gradle.org/m2/"
+            url = "https://plugins.gradle.org/m2/"
         }
     }
     dependencies {
@@ -17,7 +17,7 @@ buildscript {
 }
 
 plugins {
-    id 'com.matthewprenger.cursegradle' version "1.0.7"
+    id 'com.matthewprenger.cursegradle' version "1.0.10"
 }
 
 apply plugin: 'maven'
@@ -95,7 +95,7 @@ allprojects {
         maven { url = "http://maven.mcmoddev.com" }
         maven { url = "http://mod-buildcraft.com/maven/" }
         ivy {
-            url "http://ae-mod.info/builds"
+            url = "http://ae-mod.info/builds"
             layout "pattern", {
                 artifact "[module]-[revision](-[classifier])(.[ext])"
             }
@@ -246,7 +246,7 @@ jar.doFirst {
     combjarprojects.each { subproject ->
         mcmod += new File(subproject.sourceSets.main.output.resourcesDir, 'mcmod.info').text
     }
-    new File(project.sourceSets.main.output.resourcesDir, "mcmod.info") << mcmod.replaceAll(/\]\s*\[/, ',')
+    new File(project.sourceSets.main.output.resourcesDir, "mcmod.info") << mcmod.replaceAll(/]\s*\[/, ',')
 
     def sound = ""
     combjarprojects.each { subproject ->
@@ -255,7 +255,7 @@ jar.doFirst {
             sound += soundFile.text
         }
     }
-    new File(project.sourceSets.main.output.resourcesDir, "assets/enderio/sounds.json") << sound.replaceAll(/\}\s*\{/, ',')
+    new File(project.sourceSets.main.output.resourcesDir, "assets/enderio/sounds.json") << sound.replaceAll(/}\s*\{/, ',')
 
     println "Created derived resources in ${target}"
 }
@@ -288,9 +288,7 @@ curseforge {
     }
 
     def build_number = System.getenv('BUILD_NUMBER') == null ? '0' : System.getenv('BUILD_NUMBER')
-    def changelog_content = System.getenv('CHANGELOG') != null && !System.getenv('CHANGELOG').equals('none')
-        ? System.getenv('CHANGELOG')
-        : ''
+    def changelog_content = System.getenv('CHANGELOG') != null && System.getenv('CHANGELOG') != 'none' ? System.getenv('CHANGELOG') : ''
 
     def changelog_text = getChangelogFormat()
         .replaceAll('#BUILD#', build_number)
@@ -361,8 +359,8 @@ gradle.taskGraph.whenReady {
     }
 }
 
-// Generate a random cmmon name for the cert
-String getCN() {
+// Generate a random common name for the cert
+static String getCN() {
     def firsts = ['Donald', 'Lex', 'The', 'Arthur', 'Bridget', 'Dorian', 'Ford', 'Guy', 'James', 'Jessica', 'John', 'Michael', 'Robinson', 'Zaphod', 'Bell', 'Penelope']
     def lasts = ['Duck', 'Luthor', 'Doctor', 'Master', 'Dent', 'Jones', 'Gray', 'Prefect', 'Montag', 'Moriarty', 'Rabbit', 'Watson', 'Smith', 'Corleone', 'Crusoe', 'Beeblebrox', 'Cranel', 'Akk']
     def rand = new Random()
@@ -390,7 +388,7 @@ String getCN() {
 //   * enderio-base-1.12.2-4.0.1.jar            :: release version 4.0.1 for mc 1.12.2
 //   * enderio-base-1.12.2-4.2.1-nightly-4      :: nightly build no. 4 for version 4.2.1
 //   * enderio-base-1.12.2-4.5.1-dev-c91c8ee6e  :: dev (local) build for commit c91c8ee6e
-String getVersionString(Project proj) {
+static String getVersionString(Project proj) {
     def build_server = System.getenv('CI') != null || System.getenv('BUILD_NUMBER') != null
 
     def version_patch_lc = proj.version_patch
@@ -429,7 +427,7 @@ String getChangelogFormat() {
 }
 
 // parse and import external config
-def parseConfig(File config) {
+static def parseConfig(File config) {
     if (!config.exists())
         return null
 
@@ -440,10 +438,8 @@ def parseConfig(File config) {
     }
 }
 
-def resolveOption(Project project, String option, boolean defaultValue = false) {
-    def sourceValue = project.hasProperty(option)
-        ? project.property(option)
-        : defaultValue
+static def resolveOption(Project project, String option, boolean defaultValue = false) {
+    def sourceValue = project.hasProperty(option) ? project.property(option) : defaultValue
 
     return sourceValue == 'true' || sourceValue == true || sourceValue == 1
 }
