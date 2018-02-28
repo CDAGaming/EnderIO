@@ -440,9 +440,9 @@ public class TileFarmStation extends AbstractPoweredTaskEntity implements IPaint
   @Override
   public @Nonnull Set<FarmNotification> getNotification() {
     return notification;
-  };
+  }
 
-  public void enQueueOverflow(@Nonnull ItemStack stack) {
+    public void enQueueOverflow(@Nonnull ItemStack stack) {
     overflowQueue.add(stack);
   }
 

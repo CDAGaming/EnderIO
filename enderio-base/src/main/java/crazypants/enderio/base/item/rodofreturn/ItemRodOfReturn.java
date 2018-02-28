@@ -167,7 +167,7 @@ public class ItemRodOfReturn extends AbstractPoweredItem implements IAdvancedToo
     boolean hasFluid = true;
     if (!(entityLiving instanceof EntityPlayer) || !((EntityPlayer) entityLiving).capabilities.isCreativeMode) {
       hasPower = updateStackNBT(stack, worldIn, 0);
-      hasFluid = hasPower ? useFluid(stack) : true; // don't use fluid if we didn't have enough power
+      hasFluid = !hasPower || useFluid(stack); // don't use fluid if we didn't have enough power
     }
 
     if (hasPower && hasFluid) {

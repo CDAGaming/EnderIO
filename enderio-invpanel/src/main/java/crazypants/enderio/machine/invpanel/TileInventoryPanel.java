@@ -380,7 +380,7 @@ public class TileInventoryPanel extends AbstractInventoryMachineEntity implement
   @Override
   @Nonnull
   public List<ITankData> getTankDisplayData() {
-    return Collections.<ITankData> singletonList(new ITankData() {
+    return Collections.singletonList(new ITankData() {
 
       @Override
       @Nonnull

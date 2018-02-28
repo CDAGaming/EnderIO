@@ -18,25 +18,25 @@ public enum FusedQuartzType implements IStringSerializable {
   DARK_FUSED_QUARTZ("darkFusedQuartz", BaseMaterial.QUARTZ, Upgrade.DARKENED),
   DARK_FUSED_GLASS("darkFusedGlass", BaseMaterial.GLASS, Upgrade.DARKENED);
 
-  private static enum BaseMaterial {
+  private enum BaseMaterial {
     QUARTZ,
     GLASS
   }
 
-  private static enum Upgrade {
+  private enum Upgrade {
     NONE,
     ENLIGHTENED,
     DARKENED
   }
 
-  public static final @Nonnull PropertyEnum<FusedQuartzType> KIND = PropertyEnum.<FusedQuartzType> create("kind", FusedQuartzType.class);
+  public static final @Nonnull PropertyEnum<FusedQuartzType> KIND = PropertyEnum.create("kind", FusedQuartzType.class);
 
   private final @Nonnull String oreDictName;
   private final @Nonnull BaseMaterial baseMaterial;
   private final @Nonnull Upgrade upgrade;
   private Block block;
 
-  private FusedQuartzType(@Nonnull String oreDictName, @Nonnull BaseMaterial baseMaterial, @Nonnull Upgrade upgrade) {
+  FusedQuartzType(@Nonnull String oreDictName, @Nonnull BaseMaterial baseMaterial, @Nonnull Upgrade upgrade) {
     this.oreDictName = oreDictName;
     this.baseMaterial = baseMaterial;
     this.upgrade = upgrade;

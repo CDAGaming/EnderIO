@@ -83,9 +83,7 @@ public class Channel {
       return false;
     if (type != other.type)
       return false;
-    if (!user.equals(other.user))
-      return false;
-    return true;
+      return user.equals(other.user);
   }
 
   public @Nonnull String getName() {

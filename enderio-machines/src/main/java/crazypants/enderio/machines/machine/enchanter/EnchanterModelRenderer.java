@@ -60,10 +60,10 @@ public class EnchanterModelRenderer extends ManagedTESR<TileEnchanter> {
     vertexbuffer.begin(GL11.GL_QUADS, DefaultVertexFormats.ITEM);
 
     for (EnumFacing enumfacing : EnumFacing.values()) {
-      this.renderQuads(vertexbuffer, bakedModel.getQuads((IBlockState) null, enumfacing, 0L));
+      this.renderQuads(vertexbuffer, bakedModel.getQuads(null, enumfacing, 0L));
     }
 
-    this.renderQuads(vertexbuffer, bakedModel.getQuads((IBlockState) null, (EnumFacing) null, 0L));
+    this.renderQuads(vertexbuffer, bakedModel.getQuads(null, null, 0L));
     tessellator.draw();
 
     GlStateManager.popMatrix();

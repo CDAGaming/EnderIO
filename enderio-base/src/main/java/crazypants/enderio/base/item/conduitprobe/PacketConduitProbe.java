@@ -26,10 +26,7 @@ public class PacketConduitProbe implements IMessage {
     if (te instanceof ILegacyPoweredTile) {
       return true;
     }
-    if (te instanceof IHasConduitProbeData) {
-      return true;
-    }
-    return false;
+      return te instanceof IHasConduitProbeData;
   }
 
   private long pos;
@@ -86,7 +83,7 @@ public class PacketConduitProbe implements IMessage {
 
   }
 
-  public static interface IHasConduitProbeData {
+  public interface IHasConduitProbeData {
 
     @Nonnull
     String[] getConduitProbeData(@Nonnull EntityPlayer player, @Nullable EnumFacing side);

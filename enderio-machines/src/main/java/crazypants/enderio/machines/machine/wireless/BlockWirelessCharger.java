@@ -55,7 +55,7 @@ public class BlockWirelessCharger extends BlockEio<TileWirelessCharger>
   @Override
   @Nonnull
   protected BlockStateContainer createBlockState() {
-    return new BlockStateContainer(this, new IProperty[] { EnumRenderMode.RENDER });
+    return new BlockStateContainer(this, EnumRenderMode.RENDER);
   }
 
   @Override

@@ -16,7 +16,7 @@ public enum FarmNotification implements ILocalizable {
 
   private final @Nonnull String langStr;
 
-  private FarmNotification(@Nonnull String langStr) {
+  FarmNotification(@Nonnull String langStr) {
     this.langStr = "enderio.farm.note." + langStr;
   }
 

@@ -96,7 +96,7 @@ public enum MachineTileEntity implements IModTileEntity {
   private final @Nonnull String unlocalisedName;
   private final @Nonnull Class<? extends TileEntity> teClass;
 
-  private MachineTileEntity(@Nonnull Class<? extends TileEntity> teClass) {
+  MachineTileEntity(@Nonnull Class<? extends TileEntity> teClass) {
     this.unlocalisedName = ModObjectRegistry.sanitizeName(NullHelper.notnullJ(name(), "Enum.name()"));
     this.teClass = teClass;
   }

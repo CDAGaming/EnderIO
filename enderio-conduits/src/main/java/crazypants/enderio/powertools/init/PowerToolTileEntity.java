@@ -28,7 +28,7 @@ public enum PowerToolTileEntity implements IModTileEntity {
   private final @Nonnull String unlocalisedName;
   private final @Nonnull Class<? extends TileEntity> teClass;
 
-  private PowerToolTileEntity(@Nonnull Class<? extends TileEntity> teClass) {
+  PowerToolTileEntity(@Nonnull Class<? extends TileEntity> teClass) {
     this.unlocalisedName = ModObjectRegistry.sanitizeName(NullHelper.notnullJ(name(), "Enum.name()"));
     this.teClass = teClass;
   }

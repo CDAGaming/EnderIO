@@ -193,7 +193,7 @@ public enum IconEIO implements IWidgetIcon {
     this(x, y, width, height, null);
   }
 
-  private IconEIO(int x, int y, int width, int height, @Nullable IconEIO overlay) {
+  IconEIO(int x, int y, int width, int height, @Nullable IconEIO overlay) {
     this.x = x;
     this.y = y;
     this.width = width;

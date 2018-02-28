@@ -126,10 +126,7 @@ public class PlantableFarmer extends Impl<IFarmerJoe> implements IFarmerJoe {
     BlockPos groundPos = bc.down();
     IBlockState groundBS = world.getBlockState(groundPos);
     Block ground = groundBS.getBlock();
-    if (target != null && target.getBlock().canPlaceBlockAt(world, bc) && ground.canSustainPlant(groundBS, world, groundPos, EnumFacing.UP, plantable)) {
-      return true;
-    }
-    return false;
+      return target != null && target.getBlock().canPlaceBlockAt(world, bc) && ground.canSustainPlant(groundBS, world, groundPos, EnumFacing.UP, plantable);
   }
 
   @Override

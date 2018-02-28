@@ -32,11 +32,11 @@ public class SolarItemRenderMapper implements IRenderMapper.IItemRenderMapper.II
     SolarType bankType = SolarType.getTypeFromMeta(stack.getItemDamage());
     defaultState = defaultState.withProperty(SolarType.KIND, bankType);
 
-    states.add(Pair.of(defaultState.withProperty(RENDER, EnumMergingBlockRenderMode.sides), (ItemStack) null));
+    states.add(Pair.of(defaultState.withProperty(RENDER, EnumMergingBlockRenderMode.sides), null));
 
     for (EnumFacing facing : EnumFacing.Plane.HORIZONTAL) {
-      states.add(Pair.of(defaultState.withProperty(RENDER, EnumMergingBlockRenderMode.get(facing, EnumFacing.DOWN)), (ItemStack) null));
-      states.add(Pair.of(defaultState.withProperty(RENDER, EnumMergingBlockRenderMode.get(facing, facing.rotateYCCW(), EnumFacing.DOWN)), (ItemStack) null));
+      states.add(Pair.of(defaultState.withProperty(RENDER, EnumMergingBlockRenderMode.get(facing, EnumFacing.DOWN)), null));
+      states.add(Pair.of(defaultState.withProperty(RENDER, EnumMergingBlockRenderMode.get(facing, facing.rotateYCCW(), EnumFacing.DOWN)), null));
     }
     return states;
   }

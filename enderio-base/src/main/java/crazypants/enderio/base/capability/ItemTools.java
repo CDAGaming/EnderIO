@@ -85,12 +85,12 @@ public class ItemTools {
     }
   }
 
-  public static enum MoveResult {
+  public enum MoveResult {
     NO_ACTION,
     LIMITED,
     MOVED,
     TARGET_FULL,
-    SOURCE_EMPTY;
+    SOURCE_EMPTY
   }
 
   // private static void startProfiler(Profiler profiler, @Nonnull String section, String data) {

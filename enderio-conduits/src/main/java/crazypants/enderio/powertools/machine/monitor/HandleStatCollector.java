@@ -21,7 +21,7 @@ public class HandleStatCollector implements IHandler<StatCollector> {
 
   @Override
   public boolean store(Registry registry, Set<NBTAction> phase, NBTTagCompound nbt, String name, StatCollector object)
-      throws IllegalArgumentException, IllegalAccessException, InstantiationException, NoHandlerFoundException {
+      throws IllegalArgumentException {
     NBTTagCompound tag = new NBTTagCompound();
     tag.setInteger("pos", object.getPos());
     tag.setInteger("count", object.getCollectCount());
@@ -32,7 +32,7 @@ public class HandleStatCollector implements IHandler<StatCollector> {
 
   @Override
   public StatCollector read(Registry registry, Set<NBTAction> phase, NBTTagCompound nbt, @Nullable Field field, String name, @Nullable StatCollector object)
-      throws IllegalArgumentException, IllegalAccessException, InstantiationException, NoHandlerFoundException {
+      throws IllegalArgumentException {
     if (object == null) {
       throw new IllegalArgumentException();
     }

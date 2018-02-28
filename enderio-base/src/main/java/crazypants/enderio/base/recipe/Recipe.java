@@ -93,11 +93,7 @@ public class Recipe implements IRecipe {
       }
     }
 
-    if (!requiredInputs.isEmpty()) {
-      // unsatisfied inputs remaining
-      return false;
-    }
-    return true;
+      return requiredInputs.isEmpty();
   }
 
   private boolean isAnyInput(@Nonnull MachineRecipeInput realInput) {
@@ -176,7 +172,7 @@ public class Recipe implements IRecipe {
         } else {
           ItemStack input = in.getInput();
           if (Prep.isValid(input)) {
-            ((NNList<ItemStack>) res.get(slotNumber)).add(input);
+            res.get(slotNumber).add(input);
           }
         }
       }

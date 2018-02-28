@@ -38,9 +38,9 @@ public interface IItemFilter {
    */
   default boolean doesItemPassFilter(@Nullable INetworkedInventory inv, @Nonnull ItemStack item) {
     return getMaxCountThatPassesFilter(inv, item) > 0;
-  };
+  }
 
-  /**
+    /**
    * Checks if the given item passes the filter or not.
    * 
    * @param inv
@@ -52,22 +52,22 @@ public interface IItemFilter {
    */
   default int getMaxCountThatPassesFilter(@Nullable INetworkedInventory inv, @Nonnull ItemStack item) {
     return doesItemPassFilter(inv, item) ? item.getMaxStackSize() : 0;
-  };
+  }
 
-  boolean isValid();
+    boolean isValid();
 
   default boolean isSticky() {
     return false;
-  };
+  }
 
-  /**
+    /**
    * @return true if getMaxCountThatPassesFilter() is implemented
    */
   default boolean isLimited() {
     return false;
-  };
+  }
 
-  void createGhostSlots(@Nonnull NNList<GhostSlot> slots, int xOffset, int yOffset, @Nullable Runnable cb);
+    void createGhostSlots(@Nonnull NNList<GhostSlot> slots, int xOffset, int yOffset, @Nullable Runnable cb);
 
   int getSlotCount();
 

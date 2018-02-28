@@ -13,7 +13,7 @@ public enum Lang implements ILang {
 
   private final @Nonnull String key;
 
-  private Lang(@Nonnull String key) {
+  Lang(@Nonnull String key) {
     if (key.startsWith(".")) {
       this.key = getLang().addPrefix(key.substring(1));
     } else {

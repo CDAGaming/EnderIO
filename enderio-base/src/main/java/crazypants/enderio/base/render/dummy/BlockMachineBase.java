@@ -34,7 +34,7 @@ public class BlockMachineBase extends Block {
 
   @Override
   protected @Nonnull BlockStateContainer createBlockState() {
-    return new BlockStateContainer(this, new IProperty[] { EnumRenderPart.SUB });
+    return new BlockStateContainer(this, EnumRenderPart.SUB);
   }
 
   @Override

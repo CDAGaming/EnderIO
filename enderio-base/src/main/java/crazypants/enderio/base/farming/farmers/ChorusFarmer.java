@@ -46,7 +46,7 @@ public class ChorusFarmer extends Impl<IFarmerJoe> implements IFarmerJoe {
     final EntityPlayerMP player = farm.getFakePlayer();
     final World world = farm.getWorld();
     if (canPlant(seed) && isValidPlantingSpot(world, pos) && player.canPlayerEdit(pos, EnumFacing.UP, seed)
-        && world.mayPlace(Blocks.CHORUS_FLOWER, pos, false, EnumFacing.UP, (Entity) null)) {
+        && world.mayPlace(Blocks.CHORUS_FLOWER, pos, false, EnumFacing.UP, null)) {
       IBlockState iblockstate1 = Blocks.CHORUS_FLOWER.getDefaultState().withProperty(BlockChorusFlower.AGE, 0);
 
       IBlockState oldState = world.getBlockState(pos);

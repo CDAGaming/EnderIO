@@ -34,9 +34,7 @@ public class CombinedSignal {
     if (getClass() != obj.getClass())
       return false;
     CombinedSignal other = (CombinedSignal) obj;
-    if (strength != other.strength)
-      return false;
-    return true;
+      return strength == other.strength;
   }
 
   @Override

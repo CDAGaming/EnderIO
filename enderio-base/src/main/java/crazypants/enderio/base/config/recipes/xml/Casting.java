@@ -21,7 +21,7 @@ public class Casting extends AbstractCrafting {
         throw new InvalidRecipeConfigException("Missing <input>");
       }
 
-      valid = valid && input.isValid() && (cast == null ? true : cast.isValid());
+      valid = valid && input.isValid() && (cast == null || cast.isValid());
 
     } catch (InvalidRecipeConfigException e) {
       throw new InvalidRecipeConfigException(e, "in <casting>");

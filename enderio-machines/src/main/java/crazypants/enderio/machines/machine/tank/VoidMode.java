@@ -18,7 +18,7 @@ public enum VoidMode {
   NEVER;
 
   @SideOnly(Side.CLIENT)
-  public static enum IconHolder implements ICycleEnum {
+  public enum IconHolder implements ICycleEnum {
     ALWAYS_ICON(VoidMode.ALWAYS, IconEIO.TICK),
     IF_NOT_CONTAINER_ICON(VoidMode.IF_NOT_CONTAINER, IconEIO.ITEM_SINGLE),
     NEVER_ICON(VoidMode.NEVER, IconEIO.CROSS);

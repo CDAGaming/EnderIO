@@ -9,9 +9,9 @@ import javax.annotation.Nonnull;
 
 public interface ISoulBinderRemoteExec {
 
-  public static final int DWN_XP = 0;
+  int DWN_XP = 0;
 
-  public interface GUI extends IRemoteExec.IGui {
+  interface GUI extends IRemoteExec.IGui {
 
     default void doDrainXP(int levels) {
       GuiPacket.send(this, DWN_XP, levels);
@@ -19,7 +19,7 @@ public interface ISoulBinderRemoteExec {
 
   }
 
-  public interface Container extends IRemoteExec.IContainer {
+  interface Container extends IRemoteExec.IContainer {
 
     IMessage doDrainXP(@Nonnull EntityPlayer player, int level);
 

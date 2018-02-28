@@ -39,24 +39,24 @@ public enum EnumRenderMode implements IStringSerializable {
   FRONT_ON_WEST(FRONT_ON),
   FRONT_ON_EAST(FRONT_ON);
 
-  public static final @Nonnull PropertyEnum<EnumRenderMode> RENDER = PropertyEnum.<EnumRenderMode> create("render", EnumRenderMode.class);
+  public static final @Nonnull PropertyEnum<EnumRenderMode> RENDER = PropertyEnum.create("render", EnumRenderMode.class);
 
   private final int parentid;
   private final boolean rotates;
 
-  private EnumRenderMode() {
+  EnumRenderMode() {
     this(null, false);
   }
 
-  private EnumRenderMode(boolean rotates) {
+  EnumRenderMode(boolean rotates) {
     this(null, rotates);
   }
 
-  private EnumRenderMode(@Nullable EnumRenderMode parent) {
+  EnumRenderMode(@Nullable EnumRenderMode parent) {
     this(parent, parent != null);
   }
 
-  private EnumRenderMode(@Nullable EnumRenderMode parent, boolean rotates) {
+  EnumRenderMode(@Nullable EnumRenderMode parent, boolean rotates) {
     if (parent != null) {
       parentid = parent.ordinal();
       this.rotates = true;

@@ -57,7 +57,7 @@ public class BlockPaintedSlabManager {
   }
 
   public static Item create_item(@Nonnull IModObject modObject) {
-    final BlockItemPaintedSlab item = modObject.apply(new BlockItemPaintedSlab((BlockPaintedSlab) ((ModObject) modObject).getBlockNN()));
+    final BlockItemPaintedSlab item = modObject.apply(new BlockItemPaintedSlab((BlockPaintedSlab) modObject.getBlockNN()));
     item.addDoubleSlab((BlockPaintedSlab) ModObject.values()[((ModObject) modObject).ordinal() + 1].getBlockNN());
     return item;
   }

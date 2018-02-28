@@ -47,7 +47,7 @@ import java.util.List;
 
 public class BlockStateWrapperBase extends CacheKey implements IBlockStateWrapper {
 
-  private final static Cache<Pair<Block, Long>, QuadCollector> cache = CacheBuilder.newBuilder().maximumSize(500).<Pair<Block, Long>, QuadCollector> build();
+  private final static Cache<Pair<Block, Long>, QuadCollector> cache = CacheBuilder.newBuilder().maximumSize(500).build();
 
   protected final @Nonnull Block block;
   protected final @Nonnull IBlockState state;

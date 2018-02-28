@@ -36,7 +36,7 @@ import javax.annotation.Nonnull;
 @Optional.Interface(iface = "thaumcraft.api.crafting.IInfusionStabiliser", modid = "Thaumcraft")
 public class BlockEndermanSkull extends BlockEio<TileEndermanSkull> implements IHaveTESR, IHaveRenderers { // TODO: Mod Thaumcraft IInfusionStabiliser
 
-  public static final @Nonnull PropertyEnum<SkullType> VARIANT = PropertyEnum.<SkullType> create("variant", SkullType.class);
+  public static final @Nonnull PropertyEnum<SkullType> VARIANT = PropertyEnum.create("variant", SkullType.class);
 
   public static BlockEndermanSkull create(@Nonnull IModObject modObject) {
     BlockEndermanSkull res = new BlockEndermanSkull(modObject);
@@ -85,7 +85,7 @@ public class BlockEndermanSkull extends BlockEio<TileEndermanSkull> implements I
 
   @Override
   protected @Nonnull BlockStateContainer createBlockState() {
-    return new BlockStateContainer(this, new IProperty[] { VARIANT });
+    return new BlockStateContainer(this, VARIANT);
   }
 
   @Override

@@ -9,7 +9,7 @@ public enum RecipeBonusType {
 
   private final boolean multiply, chances;
 
-  private RecipeBonusType(boolean multiply, boolean chances) {
+  RecipeBonusType(boolean multiply, boolean chances) {
     this.multiply = multiply;
     this.chances = chances;
   }

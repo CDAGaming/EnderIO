@@ -171,7 +171,7 @@ public class DynaTextureProvider {
     }
   }
 
-  public static interface IDataProvider {
+  public interface IDataProvider {
 
     @Nonnull
     BlockPos getLocation();

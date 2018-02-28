@@ -11,7 +11,7 @@ import javax.annotation.Nullable;
 
 public interface ITravelAccessable {
 
-  public enum AccessMode {
+  enum AccessMode {
     PUBLIC,
     PRIVATE,
     PROTECTED

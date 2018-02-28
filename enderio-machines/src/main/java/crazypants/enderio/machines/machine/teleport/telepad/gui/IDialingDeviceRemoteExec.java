@@ -9,9 +9,9 @@ import javax.annotation.Nonnull;
 
 public interface IDialingDeviceRemoteExec {
 
-  static final int ID_DO_TELEPORT = 0;
+  int ID_DO_TELEPORT = 0;
 
-  public interface GUI extends IRemoteExec.IGui {
+  interface GUI extends IRemoteExec.IGui {
 
     default void doTeleport(@Nonnull BlockPos telepad, int targetID, boolean initiateTeleport) {
       GuiPacket.send(this, ID_DO_TELEPORT, targetID, initiateTeleport, telepad);
@@ -19,7 +19,7 @@ public interface IDialingDeviceRemoteExec {
 
   }
 
-  public interface Container extends IRemoteExec.IContainer {
+  interface Container extends IRemoteExec.IContainer {
 
     IMessage doTeleport(@Nonnull BlockPos telepad, int targetID, boolean initiateTeleport);
 

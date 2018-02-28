@@ -182,10 +182,7 @@ public class EnderLiquidConduit extends AbstractLiquidConduit implements ICondui
     if (!super.canConnectToConduit(direction, con)) {
       return false;
     }
-    if (!(con instanceof EnderLiquidConduit)) {
-      return false;
-    }
-    return true;
+      return con instanceof EnderLiquidConduit;
   }
 
   @Override

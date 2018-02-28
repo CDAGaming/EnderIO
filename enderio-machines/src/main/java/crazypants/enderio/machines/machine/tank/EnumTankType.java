@@ -17,13 +17,13 @@ public enum EnumTankType implements IStringSerializable {
   NORMAL(TankConfig.tankSizeNormal, false, ""),
   ADVANCED(TankConfig.tankSizeAdvanced, true, ".advanced");
 
-  public static final @Nonnull PropertyEnum<EnumTankType> KIND = PropertyEnum.<EnumTankType> create("kind", EnumTankType.class);
+  public static final @Nonnull PropertyEnum<EnumTankType> KIND = PropertyEnum.create("kind", EnumTankType.class);
 
   private final IValue<Integer> size;
   private final boolean explosionResistant;
   private final @Nonnull String suffix;
 
-  private EnumTankType(IValue<Integer> size, boolean explosionResistant, @Nonnull String suffix) {
+  EnumTankType(IValue<Integer> size, boolean explosionResistant, @Nonnull String suffix) {
     this.size = size;
     this.explosionResistant = explosionResistant;
     this.suffix = suffix;

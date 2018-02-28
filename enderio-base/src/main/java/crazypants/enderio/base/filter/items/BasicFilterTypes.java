@@ -15,7 +15,7 @@ public enum BasicFilterTypes implements IStringSerializable {
 
   public final @Nonnull String baseName;
 
-  private BasicFilterTypes(@Nonnull String baseName) {
+  BasicFilterTypes(@Nonnull String baseName) {
     this.baseName = name().replaceAll("([A-Z])", "_$0").toLowerCase(Locale.ENGLISH);
   }
 

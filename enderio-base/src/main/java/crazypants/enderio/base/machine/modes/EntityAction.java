@@ -15,7 +15,7 @@ public enum EntityAction { // TODO 1.11 implement on obelisks and spawner
 
   private final @Nonnull String langKey;
 
-  private EntityAction(@Nonnull String langKey) {
+  EntityAction(@Nonnull String langKey) {
     this.langKey = langKey;
   }
 
@@ -24,7 +24,7 @@ public enum EntityAction { // TODO 1.11 implement on obelisks and spawner
     return langKey;
   }
 
-  public static interface Implementer {
+  public interface Implementer {
 
     @Nonnull
     NNList<CapturedMob> getEntities();

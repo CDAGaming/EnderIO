@@ -111,23 +111,23 @@ public enum MachineObject implements IModObject.Registerable {
   protected final @Nullable String blockMethodName, itemMethodName;
   protected final @Nullable IModTileEntity modTileEntity;
 
-  private MachineObject(@Nonnull Class<?> clazz) {
+  MachineObject(@Nonnull Class<?> clazz) {
     this(clazz, "create", null);
   }
 
-  private MachineObject(@Nonnull Class<?> clazz, @Nullable IModTileEntity modTileEntity) {
+  MachineObject(@Nonnull Class<?> clazz, @Nullable IModTileEntity modTileEntity) {
     this(clazz, "create", modTileEntity);
   }
 
-  private MachineObject(@Nonnull Class<?> clazz, @Nonnull String methodName) {
+  MachineObject(@Nonnull Class<?> clazz, @Nonnull String methodName) {
     this(clazz, Block.class.isAssignableFrom(clazz) ? methodName : null, Item.class.isAssignableFrom(clazz) ? methodName : null, null);
   }
 
-  private MachineObject(@Nonnull Class<?> clazz, @Nonnull String methodName, @Nullable IModTileEntity modTileEntity) {
+  MachineObject(@Nonnull Class<?> clazz, @Nonnull String methodName, @Nullable IModTileEntity modTileEntity) {
     this(clazz, Block.class.isAssignableFrom(clazz) ? methodName : null, Item.class.isAssignableFrom(clazz) ? methodName : null, modTileEntity);
   }
 
-  private MachineObject(@Nonnull Class<?> clazz, @Nullable String blockMethodName, @Nullable String itemMethodName, @Nullable IModTileEntity modTileEntity) {
+  MachineObject(@Nonnull Class<?> clazz, @Nullable String blockMethodName, @Nullable String itemMethodName, @Nullable IModTileEntity modTileEntity) {
     this.unlocalisedName = ModObjectRegistry.sanitizeName(NullHelper.notnullJ(name(), "Enum.name()"));
     this.clazz = clazz;
     this.blockMethodName = blockMethodName == null || blockMethodName.isEmpty() ? null : blockMethodName;

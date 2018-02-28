@@ -12,7 +12,7 @@ import net.minecraftforge.fml.relauncher.Side;
 
 public class BaublesUtil {
 
-  public static enum WhoAmI {
+  public enum WhoAmI {
     SPCLIENT, MPCLIENT, SPSERVER, MPSERVER, OTHER;
   
     public static BaublesUtil.WhoAmI whoAmI(World world) {

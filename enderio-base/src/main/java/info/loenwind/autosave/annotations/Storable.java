@@ -33,7 +33,6 @@ import java.lang.annotation.Target;
 @Target(ElementType.TYPE)
 public @interface Storable {
 
-  @SuppressWarnings("rawtypes")
-  public Class<? extends IHandler> handler() default HandleStorable.class;
+  @SuppressWarnings("rawtypes") Class<? extends IHandler> handler() default HandleStorable.class;
 
 }

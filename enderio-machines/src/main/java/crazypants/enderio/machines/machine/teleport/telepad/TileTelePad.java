@@ -545,7 +545,7 @@ public class TileTelePad extends TileTravelAnchor implements ITelePad, IProgress
       if (tank.getFluidAmount() < TelePadConfig.telepadFluidUse.get()) {
         tank.drain(TelePadConfig.telepadFluidUse.get(), true);
         if (entity instanceof EntityPlayer) {
-          ((EntityPlayer) entity).sendMessage(Lang.GUI_TELEPAD_NOFLUID.toChatServer(new FluidStack(fluidType, 1).getLocalizedName()));
+          entity.sendMessage(Lang.GUI_TELEPAD_NOFLUID.toChatServer(new FluidStack(fluidType, 1).getLocalizedName()));
         }
         wasBlocked = true;
         return true;

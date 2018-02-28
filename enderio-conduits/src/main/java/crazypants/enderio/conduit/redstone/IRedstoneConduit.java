@@ -14,12 +14,12 @@ import java.util.Set;
 
 public interface IRedstoneConduit extends IConduit {
 
-  public static final String KEY_CONDUIT_ICON = "blocks/redstone_conduit";
-  public static final String KEY_TRANSMISSION_ICON = "blocks/redstone_conduit_transmission";
+  String KEY_CONDUIT_ICON = "blocks/redstone_conduit";
+  String KEY_TRANSMISSION_ICON = "blocks/redstone_conduit_transmission";
 
-  public static final String KEY_INS_CONDUIT_ICON = "blocks/redstone_insulated_conduit";
-  public static final String KEY_INS_CORE_OFF_ICON = "blocks/redstone_insulated_conduit_core_off";
-  public static final String KEY_INS_CORE_ON_ICON = "blocks/redstone_insulated_conduit_core_on";
+  String KEY_INS_CONDUIT_ICON = "blocks/redstone_insulated_conduit";
+  String KEY_INS_CORE_OFF_ICON = "blocks/redstone_insulated_conduit_core_off";
+  String KEY_INS_CORE_ON_ICON = "blocks/redstone_insulated_conduit_core_on";
 
   // External redstone interface
 
@@ -37,7 +37,7 @@ public interface IRedstoneConduit extends IConduit {
 
   // Old insulated interface
 
-  public static final String COLOR_CONTROLLER_ID = "ColorController";
+  String COLOR_CONTROLLER_ID = "ColorController";
 
   void onInputsChanged(@Nonnull EnumFacing side, int[] inputValues);
 

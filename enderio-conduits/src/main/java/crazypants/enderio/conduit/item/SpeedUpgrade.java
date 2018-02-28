@@ -35,7 +35,7 @@ public enum SpeedUpgrade {
   public final String unlocName;
   public final int maxStackSize;
 
-  private SpeedUpgrade(String iconName, String unlocName, int maxStackSize) {
+  SpeedUpgrade(String iconName, String unlocName, int maxStackSize) {
     baseName= iconName;
     this.iconName = "enderio:" + iconName;
     this.unlocName = unlocName;

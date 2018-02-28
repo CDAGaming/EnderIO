@@ -9,15 +9,15 @@ import javax.annotation.Nullable;
 
 public interface IIoConfigurable {
 
-  public @Nonnull IoMode toggleIoModeForFace(@Nullable EnumFacing faceHit);
+  @Nonnull IoMode toggleIoModeForFace(@Nullable EnumFacing faceHit);
 
-  public boolean supportsMode(@Nullable EnumFacing faceHit, @Nullable IoMode mode);
+  boolean supportsMode(@Nullable EnumFacing faceHit, @Nullable IoMode mode);
 
-  public void setIoMode(@Nullable EnumFacing faceHit, @Nullable IoMode mode);
+  void setIoMode(@Nullable EnumFacing faceHit, @Nullable IoMode mode);
 
-  public @Nonnull IoMode getIoMode(@Nullable EnumFacing face);
+  @Nonnull IoMode getIoMode(@Nullable EnumFacing face);
 
-  public void clearAllIoModes();
+  void clearAllIoModes();
   
   @Nonnull
   BlockPos getLocation();

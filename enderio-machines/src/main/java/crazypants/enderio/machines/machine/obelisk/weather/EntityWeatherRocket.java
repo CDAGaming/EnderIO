@@ -20,7 +20,7 @@ import javax.annotation.Nonnull;
 
 public class EntityWeatherRocket extends EntityFireworkRocket {
 
-  private static final @Nonnull DataParameter<Integer> DATA_ID = EntityDataManager.<Integer>createKey(EntityWeatherRocket.class, DataSerializers.VARINT);
+  private static final @Nonnull DataParameter<Integer> DATA_ID = EntityDataManager.createKey(EntityWeatherRocket.class, DataSerializers.VARINT);
   
   private static final int MAX_AGE = 70;
 

@@ -92,7 +92,7 @@ public class PaintSourceParser extends DefaultHandler {
   private boolean isBlacklist = false;
 
   @Override
-  public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
+  public void startElement(String uri, String localName, String qName, Attributes attributes) {
     if (ELEMENT_WHITELIST.equals(localName)) {
       isWhitelist = true;
       isBlacklist = false;
@@ -130,7 +130,7 @@ public class PaintSourceParser extends DefaultHandler {
   }
 
   @Override
-  public void endElement(String uri, String localName, String qName) throws SAXException {
+  public void endElement(String uri, String localName, String qName) {
     if (ELEMENT_WHITELIST.equals(localName)) {
       isWhitelist = false;
       return;

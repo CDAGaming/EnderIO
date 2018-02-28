@@ -66,7 +66,7 @@ public class BlockReinforcedObsidian extends BlockEio<TileEntityEio> implements 
 
       int col = COLS[rand.nextInt(COLS.length)];
 
-      worldIn.spawnParticle(EnumParticleTypes.REDSTONE, x, y, z, (col >> 16 & 255) / 255d, (col >> 8 & 255) / 255d, (col & 255) / 255d, new int[0]);
+      worldIn.spawnParticle(EnumParticleTypes.REDSTONE, x, y, z, (col >> 16 & 255) / 255d, (col >> 8 & 255) / 255d, (col & 255) / 255d);
     }
   }
 

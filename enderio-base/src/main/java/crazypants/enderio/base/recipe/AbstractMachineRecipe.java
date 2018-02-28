@@ -87,10 +87,7 @@ public abstract class AbstractMachineRecipe implements IMachineRecipe {
 
       consumedInputs.add(new MachineRecipeInput(available.slotNumber, consumedStack));
 
-      if (Prep.isInvalid(requiredStack)) {
-        // Fully met the requirement
-        return true;
-      }
+        return Prep.isInvalid(requiredStack);
 
     }
     return false;

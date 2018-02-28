@@ -212,7 +212,7 @@ public abstract class BlockPaintedSlab extends BlockSlab implements ITileEntityP
 
   @Override
   protected @Nonnull BlockStateContainer createBlockState() {
-    return this.isDouble() ? new BlockStateContainer(this, new IProperty[] {}) : new BlockStateContainer(this, new IProperty[] { HALF });
+    return this.isDouble() ? new BlockStateContainer(this) : new BlockStateContainer(this, HALF);
   }
 
   public void setPaintSource2(@Nonnull IBlockState state, @Nonnull IBlockAccess world, @Nonnull BlockPos pos, @Nullable IBlockState paintSource) {

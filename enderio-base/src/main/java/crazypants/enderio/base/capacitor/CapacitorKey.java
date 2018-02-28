@@ -34,12 +34,12 @@ public enum CapacitorKey implements ICapacitorKey.Computable {
   private final int defaultBaseValue;
   private int baseValue;
 
-  private CapacitorKey(@Nonnull ModObject owner, @Nonnull CapacitorKeyType valueType, @Nonnull Scaler scaler, int defaultBaseValue) {
+  CapacitorKey(@Nonnull ModObject owner, @Nonnull CapacitorKeyType valueType, @Nonnull Scaler scaler, int defaultBaseValue) {
     this(owner, valueType, scaler, defaultBaseValue, sectionCapacitor, null);
   }
 
-  private CapacitorKey(@Nonnull ModObject owner, @Nonnull CapacitorKeyType valueType, @Nonnull Scaler scaler, int defaultBaseValue,
-      @Nonnull Section configSection, @Nullable String configKey) {
+  CapacitorKey(@Nonnull ModObject owner, @Nonnull CapacitorKeyType valueType, @Nonnull Scaler scaler, int defaultBaseValue,
+               @Nonnull Section configSection, @Nullable String configKey) {
     this.owner = owner;
     this.valueType = valueType;
     this.scaler = scaler;

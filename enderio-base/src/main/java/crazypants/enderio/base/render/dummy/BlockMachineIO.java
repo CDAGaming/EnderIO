@@ -36,7 +36,7 @@ public class BlockMachineIO extends Block {
 
   @Override
   protected @Nonnull BlockStateContainer createBlockState() {
-    return new BlockStateContainer(this, new IProperty[] { IOMode.IO });
+    return new BlockStateContainer(this, IOMode.IO);
   }
 
   @Override

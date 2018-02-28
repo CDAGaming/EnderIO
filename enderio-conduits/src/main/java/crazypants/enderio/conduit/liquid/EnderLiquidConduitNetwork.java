@@ -56,14 +56,7 @@ public class EnderLiquidConduitNetwork extends AbstractConduitNetwork<ILiquidCon
     }
     drained.amount = amountAccepted;
     drained = tank.externalTank.drain(drained);
-    if (drained == null || drained.amount <= 0) {
-      return false;
-    }
-    // if(drained.amount != amountAccepted) {
-    // Log.warn("EnderLiquidConduit.extractFrom: Extracted fluid volume is not equal to inserted volume. Drained=" + drained.amount + " filled="
-    // + amountAccepted + " Fluid: " + drained + " Accepted=" + amountAccepted);
-    // }
-    return true;
+      return drained != null && drained.amount > 0;
   }
 
   @Nonnull
@@ -187,13 +180,8 @@ public class EnderLiquidConduitNetwork extends AbstractConduitNetwork<ILiquidCon
         return false;
       }
       if (conduitLoc == null) {
-        if (other.conduitLoc != null) {
-          return false;
-        }
-      } else if (!conduitLoc.equals(other.conduitLoc)) {
-        return false;
-      }
-      return true;
+          return other.conduitLoc == null;
+      } else return conduitLoc.equals(other.conduitLoc);
     }
 
   }
@@ -245,10 +233,7 @@ public class EnderLiquidConduitNetwork extends AbstractConduitNetwork<ILiquidCon
       if (conDir != other.conDir) {
         return false;
       }
-      if (!conduitLoc.equals(other.conduitLoc)) {
-        return false;
-      }
-      return true;
+        return conduitLoc.equals(other.conduitLoc);
     }
 
   }

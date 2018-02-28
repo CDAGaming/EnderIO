@@ -122,12 +122,12 @@ public class RecipeConfigParser extends DefaultHandler {
   }
 
   @Override
-  public void warning(SAXParseException e) throws SAXException {
+  public void warning(SAXParseException e) {
     Log.warn("Warning parsing XML config file: " + e.getMessage());
   }
 
   @Override
-  public void error(SAXParseException e) throws SAXException {
+  public void error(SAXParseException e) {
     Log.error("Error parsing XML config file: " + e.getMessage());
     e.printStackTrace();
   }
@@ -452,7 +452,7 @@ public class RecipeConfigParser extends DefaultHandler {
       return def;
     }
     val = val.toLowerCase(Locale.US).trim();
-    return val.equals("false") ? false : val.equals("true") ? true : def;
+    return !val.equals("false") && (val.equals("true") || def);
   }
 
   public static int getIntValue(String qName, Attributes attributes, int def) {

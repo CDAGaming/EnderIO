@@ -25,7 +25,7 @@ public enum CapBankType implements IStringSerializable {
 
   ;
 
-  public static final @Nonnull PropertyEnum<CapBankType> KIND = NullHelper.notnullM(PropertyEnum.<CapBankType> create("kind", CapBankType.class),
+  public static final @Nonnull PropertyEnum<CapBankType> KIND = NullHelper.notnullM(PropertyEnum.create("kind", CapBankType.class),
       "PropertyEnum.create()");
 
   public static @Nonnull List<CapBankType> types() {
@@ -62,8 +62,8 @@ public enum CapBankType implements IStringSerializable {
   private final boolean isMultiblock;
   private final boolean isCreative;
 
-  private CapBankType(@Nonnull String uid, @Nonnull String unlocalizedName, @Nonnull IValue<Integer> maxIO, @Nonnull IValue<Integer> maxStored,
-      boolean isMultiblock, boolean isCreative) {
+  CapBankType(@Nonnull String uid, @Nonnull String unlocalizedName, @Nonnull IValue<Integer> maxIO, @Nonnull IValue<Integer> maxStored,
+              boolean isMultiblock, boolean isCreative) {
     this.uid = uid;
     this.unlocalizedName = unlocalizedName;
     this.maxIO = maxIO;

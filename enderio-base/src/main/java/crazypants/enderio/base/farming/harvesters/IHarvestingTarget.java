@@ -9,8 +9,8 @@ import javax.annotation.Nonnull;
 
 public interface IHarvestingTarget {
 
-  final static @Nonnull Things LEAVES = new Things("treeLeaves");
-  final static @Nonnull Things NOT_LEAVES = new Things();
+  @Nonnull Things LEAVES = new Things("treeLeaves");
+  @Nonnull Things NOT_LEAVES = new Things();
 
   default boolean isTarget(@Nonnull IBlockState state) {
     return isWood(state) || isLeaves(state);

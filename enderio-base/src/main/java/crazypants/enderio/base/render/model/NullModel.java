@@ -16,7 +16,7 @@ import java.util.List;
 
 public class NullModel implements IBakedModel {
 
-  private static final @Nonnull ItemOverrideList itemOverrideList = new ItemOverrideList(Collections.<ItemOverride> emptyList()) {
+  private static final @Nonnull ItemOverrideList itemOverrideList = new ItemOverrideList(Collections.emptyList()) {
     @Override
     public @Nonnull IBakedModel handleItemState(@Nonnull IBakedModel originalModel, @Nonnull ItemStack stack, @Nullable World world,
         @Nullable EntityLivingBase entity) {
@@ -29,7 +29,7 @@ public class NullModel implements IBakedModel {
 
   @Override
   public @Nonnull List<BakedQuad> getQuads(@Nullable IBlockState state, @Nullable EnumFacing side, long rand) {
-    return Collections.<BakedQuad> emptyList();
+    return Collections.emptyList();
   }
 
   @Override

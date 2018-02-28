@@ -146,7 +146,7 @@ public class ItemMagnet extends AbstractPoweredItem implements IResourceTooltipP
     if (itemstack == null || player == null) {
       return;
     }
-    if (player instanceof EntityPlayer && isActive(itemstack) && hasPower(itemstack) && ((EntityPlayer) player).getHealth() > 0f) {
+    if (player instanceof EntityPlayer && isActive(itemstack) && hasPower(itemstack) && player.getHealth() > 0f) {
       MagnetController.doHoover((EntityPlayer) player);
       if (!player.world.isRemote && player.world.getTotalWorldTime() % 20 == 0) {
         // mustn't change the item that is in the slot or Baubles will ignore the change

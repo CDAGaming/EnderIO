@@ -537,7 +537,7 @@ public class ItemFilter implements IInventory, IItemFilter {
 
   @Override
   public @Nonnull ITextComponent getDisplayName() {
-    return hasCustomName() ? new TextComponentString(getName()) : new TextComponentTranslation(getName(), new Object[0]);
+    return hasCustomName() ? new TextComponentString(getName()) : new TextComponentTranslation(getName());
   }
 
   @Override

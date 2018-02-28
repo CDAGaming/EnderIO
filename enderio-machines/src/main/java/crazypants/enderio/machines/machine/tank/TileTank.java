@@ -123,7 +123,7 @@ public class TileTank extends AbstractInventoryMachineEntity implements ITankAcc
     } else if (i == 1) {
       return FluidUtil.hasEmptyCapacity(item) || canBeMended(item);
     } else if (i == 2 && canVoidItems()) {
-      return voidMode == VoidMode.ALWAYS || (voidMode == VoidMode.NEVER ? false : !FluidUtil.isFluidContainer(item));
+      return voidMode == VoidMode.ALWAYS || (voidMode != VoidMode.NEVER && !FluidUtil.isFluidContainer(item));
     }
     return false;
   }
@@ -343,7 +343,7 @@ public class TileTank extends AbstractInventoryMachineEntity implements ITankAcc
   @Override
   @Nonnull
   public List<ITankData> getTankDisplayData() {
-    return Collections.<ITankData> singletonList(new ITankData() {
+    return Collections.singletonList(new ITankData() {
 
       @Override
       @Nonnull

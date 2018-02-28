@@ -316,9 +316,7 @@ public class ConduitUtil {
   public static boolean isFluidValid(FluidStack fluidStack) {
     if (fluidStack != null) {
       String name = FluidRegistry.getFluidName(fluidStack);
-      if (name != null && !name.trim().isEmpty()) {
-        return true;
-      }
+        return name != null && !name.trim().isEmpty();
     }
     return false;
   }

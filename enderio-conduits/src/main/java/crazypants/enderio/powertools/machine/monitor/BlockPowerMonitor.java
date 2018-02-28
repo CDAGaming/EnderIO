@@ -155,10 +155,7 @@ public class BlockPowerMonitor extends AbstractMachineBlock<TilePowerMonitor>
     if (tileEntity.getFacing() != side) {
       return true;
     }
-    if (tileEntity.getPaintSource() == null) {
-      return true;
-    }
-    return false;
+      return tileEntity.getPaintSource() == null;
   }
 
   @Override

@@ -28,7 +28,7 @@ public class HandleDisplayMode implements IHandler<Map<EnumFacing, InfoDisplayTy
   @Override
   public boolean store(@Nonnull Registry registry, @Nonnull Set<NBTAction> phase, @Nonnull NBTTagCompound nbt, @Nonnull String name,
       @Nonnull Map<EnumFacing, InfoDisplayType> object)
-      throws IllegalArgumentException, IllegalAccessException, InstantiationException, NoHandlerFoundException {
+      throws IllegalArgumentException {
     long value = 0;
     for (EnumFacing face : EnumFacing.values()) {
       long subvalue = 0xFF;
@@ -44,7 +44,7 @@ public class HandleDisplayMode implements IHandler<Map<EnumFacing, InfoDisplayTy
   @Override
   public Map<EnumFacing, InfoDisplayType> read(@Nonnull Registry registry, @Nonnull Set<NBTAction> phase, @Nonnull NBTTagCompound nbt, @Nullable Field field,
       @Nonnull String name, @Nullable Map<EnumFacing, InfoDisplayType> object)
-      throws IllegalArgumentException, IllegalAccessException, InstantiationException, NoHandlerFoundException {
+      throws IllegalArgumentException {
     if (nbt.hasKey(name)) {
       if (object == null) {
         object = new EnumMap<EnumFacing, InfoDisplayType>(EnumFacing.class);

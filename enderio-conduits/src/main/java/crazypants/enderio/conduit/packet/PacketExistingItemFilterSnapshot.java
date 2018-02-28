@@ -13,7 +13,7 @@ import net.minecraftforge.fml.common.network.simpleimpl.MessageContext;
 
 public class PacketExistingItemFilterSnapshot extends AbstractConduitPacket<IItemConduit> {
 
-  public static enum Opcode {
+  public enum Opcode {
     CLEAR,
     SET,
     MERGE,

@@ -20,7 +20,7 @@ public class EndermanAttractionHandler extends AIAttractionHandler {
   @Override
   public void tick(TileAttractor attractor, EntityLiving entity) {
     super.tick(attractor, entity);
-    ((EntityEnderman) entity).setAttackTarget(attractor.getTarget());
+    entity.setAttackTarget(attractor.getTarget());
   }
 
   @Override

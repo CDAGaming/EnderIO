@@ -70,7 +70,7 @@ public class BlockTank extends AbstractInventoryMachineBlock<TileTank>
 
   @Override
   protected @Nonnull BlockStateContainer createBlockState() {
-    return new BlockStateContainer(this, new IProperty[] { EnumRenderMode.RENDER, EnumTankType.KIND });
+    return new BlockStateContainer(this, EnumRenderMode.RENDER, EnumTankType.KIND);
   }
 
   @Override

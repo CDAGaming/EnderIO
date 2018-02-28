@@ -62,7 +62,7 @@ public enum EnumPressurePlateType implements IStringSerializable {
 
   };
 
-  public static enum CountingMode {
+  public enum CountingMode {
     BINARY {
       @Override
       public int count(List<Entity> list) {
@@ -100,34 +100,34 @@ public enum EnumPressurePlateType implements IStringSerializable {
   private final @Nonnull Class<? extends Entity> searchClass;
   private final @Nonnull List<Class<? extends Entity>> whiteClasses;
 
-  private EnumPressurePlateType(boolean shadowsVanilla, @Nonnull Class<? extends Entity> searchClass) {
+  EnumPressurePlateType(boolean shadowsVanilla, @Nonnull Class<? extends Entity> searchClass) {
     this.shadowsVanilla = shadowsVanilla;
     this.countingMode = CountingMode.BINARY;
     this.searchClass = searchClass;
     this.whiteClasses = Collections.emptyList();
   }
 
-  private EnumPressurePlateType(boolean shadowsVanilla, @Nonnull Class<? extends Entity> searchClass,
-      @SuppressWarnings("unchecked") Class<? extends Entity>... whiteClasses) {
+  EnumPressurePlateType(boolean shadowsVanilla, @Nonnull Class<? extends Entity> searchClass,
+                        @SuppressWarnings("unchecked") Class<? extends Entity>... whiteClasses) {
     this.shadowsVanilla = shadowsVanilla;
     this.countingMode = CountingMode.BINARY;
     this.searchClass = searchClass;
-    this.whiteClasses = Arrays.<Class<? extends Entity>> asList(whiteClasses);
+    this.whiteClasses = Arrays.asList(whiteClasses);
   }
 
-  private EnumPressurePlateType(boolean shadowsVanilla, @Nonnull CountingMode countingMode, @Nonnull Class<? extends Entity> searchClass) {
+  EnumPressurePlateType(boolean shadowsVanilla, @Nonnull CountingMode countingMode, @Nonnull Class<? extends Entity> searchClass) {
     this.shadowsVanilla = shadowsVanilla;
     this.countingMode = countingMode;
     this.searchClass = searchClass;
-    this.whiteClasses = Collections.<Class<? extends Entity>> emptyList();
+    this.whiteClasses = Collections.emptyList();
   }
 
-  private EnumPressurePlateType(boolean shadowsVanilla, @Nonnull CountingMode countingMode, @Nonnull Class<? extends Entity> searchClass,
-      @SuppressWarnings("unchecked") Class<? extends Entity>... whiteClasses) {
+  EnumPressurePlateType(boolean shadowsVanilla, @Nonnull CountingMode countingMode, @Nonnull Class<? extends Entity> searchClass,
+                        @SuppressWarnings("unchecked") Class<? extends Entity>... whiteClasses) {
     this.shadowsVanilla = shadowsVanilla;
     this.countingMode = countingMode;
     this.searchClass = searchClass;
-    this.whiteClasses = Arrays.<Class<? extends Entity>> asList(whiteClasses);
+    this.whiteClasses = Arrays.asList(whiteClasses);
   }
 
   @Override

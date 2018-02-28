@@ -94,7 +94,6 @@ public class PowerConduit extends AbstractConduit implements IPowerConduit, ICon
 
   public PowerConduit(int meta) {
     this.subtype = meta;
-    ;
   }
 
   @Override
@@ -556,16 +555,11 @@ public class PowerConduit extends AbstractConduit implements IPowerConduit, ICon
 
       long curTick = getBundle().getBundleworld().getTotalWorldTime();
       long recT = recievedTicks.get(side);
-      if (curTick - recT <= 5) {
-        return true;
-      }
-      return false;
+        return curTick - recT <= 5;
     }
 
     private boolean isEnabled() {
-      if (getConnectionMode(side) == ConnectionMode.DISABLED || isRedstoneEnabled(side))
-        return false;
-      return true;
+        return getConnectionMode(side) != ConnectionMode.DISABLED && !isRedstoneEnabled(side);
     }
 
     private boolean isExtract() {

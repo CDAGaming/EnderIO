@@ -6,9 +6,9 @@ import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
 
 public interface ITransceiverRemoteExec {
 
-  public static final int EXEC_SET_BUFFER = 0;
+  int EXEC_SET_BUFFER = 0;
 
-  public interface GUI extends IRemoteExec.IGui {
+  interface GUI extends IRemoteExec.IGui {
 
     default void doSetBufferStacks(boolean bufferStacks) {
       GuiPacket.send(this, EXEC_SET_BUFFER, bufferStacks);
@@ -16,7 +16,7 @@ public interface ITransceiverRemoteExec {
 
   }
 
-  public interface Container extends IRemoteExec.IContainer {
+  interface Container extends IRemoteExec.IContainer {
 
     IMessage doSetBufferStacks(boolean bufferStacks);
 

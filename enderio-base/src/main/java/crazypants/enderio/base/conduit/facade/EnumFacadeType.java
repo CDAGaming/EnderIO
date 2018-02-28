@@ -18,7 +18,7 @@ public enum EnumFacadeType implements IStringSerializable {
   private final @Nonnull String namePostfix;
   private final boolean hardened, transparent;
 
-  private EnumFacadeType(@Nonnull String namePostfix, boolean hardened, boolean transparent) {
+  EnumFacadeType(@Nonnull String namePostfix, boolean hardened, boolean transparent) {
     this.namePostfix = namePostfix;
     this.hardened = hardened;
     this.transparent = transparent;

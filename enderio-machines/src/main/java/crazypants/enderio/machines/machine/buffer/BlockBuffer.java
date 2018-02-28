@@ -54,7 +54,7 @@ public class BlockBuffer extends AbstractPowerConsumerBlock<TileBuffer>
 
   @Override
   protected @Nonnull BlockStateContainer createBlockState() {
-    return new BlockStateContainer(this, new IProperty[] { EnumRenderMode.RENDER, BufferType.TYPE });
+    return new BlockStateContainer(this, EnumRenderMode.RENDER, BufferType.TYPE);
   }
 
   @Override

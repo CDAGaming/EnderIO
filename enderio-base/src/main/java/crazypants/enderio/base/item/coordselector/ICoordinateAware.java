@@ -6,13 +6,13 @@ import javax.annotation.Nonnull;
 
 public interface ICoordinateAware {
 
-  public interface SingleTarget extends ICoordinateAware, ITravelAccessable {
+  interface SingleTarget extends ICoordinateAware, ITravelAccessable {
 
     void setTarget(@Nonnull TelepadTarget target);
 
   }
 
-  public interface MultipleTargets extends ICoordinateAware {
+  interface MultipleTargets extends ICoordinateAware {
 
     void addTarget(@Nonnull TelepadTarget target);
 

@@ -28,7 +28,7 @@ public enum EnumDecoBlock implements IStringSerializable {
 
   ;
 
-  public static final @Nonnull PropertyEnum<EnumDecoBlock> TYPE = PropertyEnum.<EnumDecoBlock> create("type", EnumDecoBlock.class);
+  public static final @Nonnull PropertyEnum<EnumDecoBlock> TYPE = PropertyEnum.create("type", EnumDecoBlock.class);
 
   @Override
   public @Nonnull String getName() {

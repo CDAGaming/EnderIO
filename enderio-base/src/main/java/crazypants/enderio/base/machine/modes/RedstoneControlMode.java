@@ -26,7 +26,7 @@ public enum RedstoneControlMode {
   public static final int MIN_ON_LEVEL = 1;
 
   @SuppressWarnings("hiding")
-  public static enum IconHolder implements ICycleEnum {
+  public enum IconHolder implements ICycleEnum {
 
     IGNORE(RedstoneControlMode.IGNORE, IconEIO.REDSTONE_MODE_ALWAYS),
     ON(RedstoneControlMode.ON, IconEIO.REDSTONE_MODE_WITH_SIGNAL),
@@ -101,11 +101,11 @@ public enum RedstoneControlMode {
   }
 
   public @Nonnull RedstoneControlMode next() {
-    return NNList.<RedstoneControlMode> of(RedstoneControlMode.class).next(this);
+    return NNList.of(RedstoneControlMode.class).next(this);
   }
 
   public @Nonnull RedstoneControlMode previous() {
-    return NNList.<RedstoneControlMode> of(RedstoneControlMode.class).prev(this);
+    return NNList.of(RedstoneControlMode.class).prev(this);
   }
 
 }

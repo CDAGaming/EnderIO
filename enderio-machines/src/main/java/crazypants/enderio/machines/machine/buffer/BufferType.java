@@ -22,13 +22,13 @@ public enum BufferType implements IStringSerializable {
   final boolean hasPower;
   final boolean isCreative;
 
-  private BufferType(boolean hasInventory, boolean hasPower, boolean isCreative) {
+  BufferType(boolean hasInventory, boolean hasPower, boolean isCreative) {
     this.hasInventory = hasInventory;
     this.hasPower = hasPower;
     this.isCreative = isCreative;
   }
 
-  public static final @Nonnull PropertyEnum<BufferType> TYPE = NullHelper.notnullM(PropertyEnum.<BufferType> create("type", BufferType.class),
+  public static final @Nonnull PropertyEnum<BufferType> TYPE = NullHelper.notnullM(PropertyEnum.create("type", BufferType.class),
       "PropertyEnum.create()");
 
   @Override

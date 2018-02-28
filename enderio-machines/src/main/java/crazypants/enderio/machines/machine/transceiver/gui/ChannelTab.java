@@ -75,7 +75,7 @@ public class ChannelTab implements ITabPanel {
     int x = 7;
     int y = 48;
     channelList = new GuiChannelList(parent, w, h, x, y);
-    channelList.setChannels(ClientChannelRegister.instance.getChannelsForType(type), Predicates.<Channel> alwaysTrue());
+    channelList.setChannels(ClientChannelRegister.instance.getChannelsForType(type), Predicates.alwaysTrue());
     channelList.setShowSelectionBox(true);
     channelList.setScrollButtonIds(100, 101);
 

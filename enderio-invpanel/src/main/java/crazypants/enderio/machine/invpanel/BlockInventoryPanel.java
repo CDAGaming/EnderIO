@@ -73,7 +73,7 @@ public class BlockInventoryPanel extends AbstractMachineBlock<TileInventoryPanel
 
   @Override
   protected @Nonnull BlockStateContainer createBlockState() {
-    return new BlockStateContainer(this, new IProperty[] { EnumRenderMode6.RENDER });
+    return new BlockStateContainer(this, EnumRenderMode6.RENDER);
   }
 
   @Override

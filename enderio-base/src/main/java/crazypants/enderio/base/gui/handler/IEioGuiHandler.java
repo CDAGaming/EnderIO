@@ -18,7 +18,7 @@ public interface IEioGuiHandler {
   Object getGuiElement(boolean server, @Nonnull EntityPlayer player, @Nonnull World world, @Nonnull BlockPos pos, @Nullable EnumFacing facing, int param1,
       int param2, int param3);
 
-  public interface WithPos extends IEioGuiHandler.WithServerComponent {
+  interface WithPos extends IEioGuiHandler.WithServerComponent {
     @Override
     default @Nullable Object getGuiElement(boolean server, @Nonnull EntityPlayer player, @Nonnull World world, @Nonnull BlockPos pos,
         @Nullable EnumFacing facing, int param1, int param2, int param3) {
@@ -47,7 +47,7 @@ public interface IEioGuiHandler {
   * @author Henry Loenwind
   *
   */
-  public interface WithServerComponent extends IEioGuiHandler {
+ interface WithServerComponent extends IEioGuiHandler {
   }
 
 }

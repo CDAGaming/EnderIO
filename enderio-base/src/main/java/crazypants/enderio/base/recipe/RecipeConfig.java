@@ -83,7 +83,7 @@ public class RecipeConfig {
       BufferedWriter writer = null;
       try {
         writer = new BufferedWriter(new FileWriter(copyTo, false));
-        writer.write(output.toString());
+        writer.write(output);
       } finally {
         IOUtils.closeQuietly(writer);
       }

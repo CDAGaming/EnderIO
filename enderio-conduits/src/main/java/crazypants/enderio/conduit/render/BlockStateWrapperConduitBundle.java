@@ -23,7 +23,7 @@ import java.util.concurrent.TimeUnit;
 public class BlockStateWrapperConduitBundle extends BlockStateWrapperBase {
 
   private final static Cache<ConduitCacheKey, QuadCollector> cache = CacheBuilder.newBuilder().maximumSize(500).expireAfterAccess(10, TimeUnit.MINUTES)
-      .<ConduitCacheKey, QuadCollector> build();
+      .build();
 
   @Override
   public String toString() {

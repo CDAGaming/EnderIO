@@ -36,9 +36,9 @@ public class BlockElectricLight extends BlockEio<TileElectricLight> implements I
   static final float BLOCK_EDGE_MAX = 0.5f + (BLOCK_WIDTH / 2);
   static final float BLOCK_EDGE_MIN = 0.5f - (BLOCK_WIDTH / 2);
 
-  public static final @Nonnull PropertyEnum<LightType> TYPE = PropertyEnum.<LightType> create("type", LightType.class);
+  public static final @Nonnull PropertyEnum<LightType> TYPE = PropertyEnum.create("type", LightType.class);
   public static final @Nonnull PropertyBool ACTIVE = PropertyBool.create("active");
-  public static final @Nonnull PropertyEnum<EnumFacing> FACING = PropertyEnum.<EnumFacing> create("face", EnumFacing.class);
+  public static final @Nonnull PropertyEnum<EnumFacing> FACING = PropertyEnum.create("face", EnumFacing.class);
 
   public static BlockElectricLight create(@Nonnull IModObject modObject) {
     BlockElectricLight result = new BlockElectricLight(modObject);

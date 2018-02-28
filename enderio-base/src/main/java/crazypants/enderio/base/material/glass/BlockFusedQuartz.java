@@ -99,7 +99,7 @@ public class BlockFusedQuartz extends BlockFusedQuartzBase<TileEntityEio> implem
 
   @Override
   protected @Nonnull BlockStateContainer createBlockState() {
-    return new BlockStateContainer(this, new IProperty[] { EnumMergingBlockRenderMode.RENDER, FusedQuartzType.KIND, BlockColored.COLOR });
+    return new BlockStateContainer(this, EnumMergingBlockRenderMode.RENDER, FusedQuartzType.KIND, BlockColored.COLOR);
   }
 
   @Override

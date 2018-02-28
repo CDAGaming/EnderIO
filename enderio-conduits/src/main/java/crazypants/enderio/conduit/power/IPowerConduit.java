@@ -12,13 +12,13 @@ public interface IPowerConduit extends IEnergyStorage, IExtractor {
 
   // TODO Lang
 
-  public static final String ICON_KEY = "blocks/power_conduit";
-  public static final String ICON_KEY_INPUT = "blocks/power_conduit_input";
-  public static final String ICON_KEY_OUTPUT = "blocks/power_conduit_output";
-  public static final String ICON_CORE_KEY = "blocks/power_conduit_core";
-  public static final String ICON_TRANSMISSION_KEY = "blocks/power_conduit_transmission";
+  String ICON_KEY = "blocks/power_conduit";
+  String ICON_KEY_INPUT = "blocks/power_conduit_input";
+  String ICON_KEY_OUTPUT = "blocks/power_conduit_output";
+  String ICON_CORE_KEY = "blocks/power_conduit_core";
+  String ICON_TRANSMISSION_KEY = "blocks/power_conduit_transmission";
 
-  public static final String COLOR_CONTROLLER_ID = "ColorController";
+  String COLOR_CONTROLLER_ID = "ColorController";
 
   IPowerInterface getExternalPowerReceptor(@Nonnull EnumFacing direction);
 

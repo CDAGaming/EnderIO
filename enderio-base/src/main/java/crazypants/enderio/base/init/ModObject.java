@@ -183,23 +183,23 @@ public enum ModObject implements IModObject.Registerable {
    * together with the ModObject enum, which can cause weird errors. Implement the IModObject lifecycle interfaces on the block/item instead.
    */
 
-  private ModObject(@Nonnull Class<?> clazz) {
+  ModObject(@Nonnull Class<?> clazz) {
     this(clazz, "create", null);
   }
 
-  private ModObject(@Nonnull Class<?> clazz, @Nullable IModTileEntity modTileEntity) {
+  ModObject(@Nonnull Class<?> clazz, @Nullable IModTileEntity modTileEntity) {
     this(clazz, "create", modTileEntity);
   }
 
-  private ModObject(@Nonnull Class<?> clazz, @Nonnull String methodName) {
+  ModObject(@Nonnull Class<?> clazz, @Nonnull String methodName) {
     this(clazz, Block.class.isAssignableFrom(clazz) ? methodName : null, Item.class.isAssignableFrom(clazz) ? methodName : null, null);
   }
 
-  private ModObject(@Nonnull Class<?> clazz, @Nonnull String methodName, @Nullable IModTileEntity modTileEntity) {
+  ModObject(@Nonnull Class<?> clazz, @Nonnull String methodName, @Nullable IModTileEntity modTileEntity) {
     this(clazz, Block.class.isAssignableFrom(clazz) ? methodName : null, Item.class.isAssignableFrom(clazz) ? methodName : null, modTileEntity);
   }
 
-  private ModObject(@Nonnull Class<?> clazz, @Nullable String blockMethodName, @Nullable String itemMethodName, @Nullable IModTileEntity modTileEntity) {
+  ModObject(@Nonnull Class<?> clazz, @Nullable String blockMethodName, @Nullable String itemMethodName, @Nullable IModTileEntity modTileEntity) {
     this.unlocalisedName = ModObjectRegistry.sanitizeName(NullHelper.notnullJ(name(), "Enum.name()"));
     this.clazz = clazz;
     this.blockMethodName = blockMethodName == null || blockMethodName.isEmpty() ? null : blockMethodName;

@@ -118,10 +118,7 @@ public final class OreDictionaryPreferences {
       if (damage != other.damage) {
         return false;
       }
-      if (!item.equals(other.item)) {
-        return false;
-      }
-      return true;
+        return item.equals(other.item);
     }
 
   }

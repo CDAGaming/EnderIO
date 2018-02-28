@@ -103,7 +103,7 @@ public class BlockCapBank extends BlockEio<TileCapBank> implements IEioGuiHandle
 
   @Override
   protected @Nonnull BlockStateContainer createBlockState() {
-    return new BlockStateContainer(this, new IProperty[] { EnumMergingBlockRenderMode.RENDER, CapBankType.KIND });
+    return new BlockStateContainer(this, EnumMergingBlockRenderMode.RENDER, CapBankType.KIND);
   }
 
   @Override
@@ -286,7 +286,7 @@ public class BlockCapBank extends BlockEio<TileCapBank> implements IEioGuiHandle
   @Deprecated
   public boolean shouldSideBeRendered(@Nonnull IBlockState bs, @Nonnull IBlockAccess par1IBlockAccess, @Nonnull BlockPos pos, @Nonnull EnumFacing side) {
     Block i1 = par1IBlockAccess.getBlockState(pos.offset(side)).getBlock();
-    return i1 == this ? false : super.shouldSideBeRendered(bs, par1IBlockAccess, pos, side);
+    return i1 != this && super.shouldSideBeRendered(bs, par1IBlockAccess, pos, side);
   }
 
   @SideOnly(Side.CLIENT)

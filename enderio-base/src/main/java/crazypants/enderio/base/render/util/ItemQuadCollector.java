@@ -53,7 +53,7 @@ public class ItemQuadCollector {
   public @Nonnull List<BakedQuad> getQuads(EnumFacing side) {
     final List<BakedQuad> result = table[facing2Integer(side)];
     if (result == null) {
-      return Collections.<BakedQuad> emptyList();
+      return Collections.emptyList();
     } else {
       return result;
     }
@@ -138,7 +138,7 @@ public class ItemQuadCollector {
   }
 
   public void addBakedModel(IBakedModel model, @Nonnull ItemStack stack, boolean allFacesToGeneral) {
-    model = model.getOverrides().handleItemState(model, stack, (World) null, (EntityLivingBase) null);
+    model = model.getOverrides().handleItemState(model, stack, null, null);
     addItemBakedModel(model, allFacesToGeneral);
   }
 
@@ -147,12 +147,12 @@ public class ItemQuadCollector {
   }
 
   public void addItemBakedModel(IBakedModel model, boolean allFacesToGeneral) {
-    List<BakedQuad> generalQuads = model.getQuads((IBlockState) null, (EnumFacing) null, 0L);
+    List<BakedQuad> generalQuads = model.getQuads(null, null, 0L);
     if (!generalQuads.isEmpty()) {
       addQuads(null, generalQuads);
     }
     for (EnumFacing face : EnumFacing.values()) {
-      List<BakedQuad> faceQuads = model.getQuads((IBlockState) null, face, 0L);
+      List<BakedQuad> faceQuads = model.getQuads(null, face, 0L);
       if (!faceQuads.isEmpty()) {
         addQuads(allFacesToGeneral ? null : face, faceQuads);
       }

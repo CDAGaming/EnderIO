@@ -223,7 +223,7 @@ public class CapturedMob { // TODO: DONE111
     }
 
     if (customName != null && entity instanceof EntityLiving) {
-      ((EntityLiving) entity).setCustomNameTag(customName);
+      entity.setCustomNameTag(customName);
     }
 
     if (!world.spawnEntity(entity)) {

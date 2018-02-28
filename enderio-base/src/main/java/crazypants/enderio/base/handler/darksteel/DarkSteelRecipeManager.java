@@ -73,9 +73,7 @@ public class DarkSteelRecipeManager {
   private static boolean isRepair(AnvilUpdateEvent evt) {
     if (evt.getLeft().getItem() instanceof IDarkSteelItem) {
       IDarkSteelItem dsi = (IDarkSteelItem) evt.getLeft().getItem();
-      if (dsi.isItemForRepair(evt.getRight())) {
-        return true;
-      }
+        return dsi.isItemForRepair(evt.getRight());
     }
     return false;
   }

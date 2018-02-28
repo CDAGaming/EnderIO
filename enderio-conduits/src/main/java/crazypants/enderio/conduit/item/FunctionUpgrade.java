@@ -24,7 +24,7 @@ public enum FunctionUpgrade {
     return res;
   }
   
-  private FunctionUpgrade(String name, String unlocName, int maxStackSize) {
+  FunctionUpgrade(String name, String unlocName, int maxStackSize) {
     this.baseName = name;
     this.iconName = "enderio:" + name;
     this.unlocName = unlocName;

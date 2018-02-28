@@ -200,11 +200,8 @@ public class CustomSeedFarmer extends Impl<IFarmerJoe> implements IFarmerJoe {
     IBlockState bs = world.getBlockState(groundPos);
     Block ground = bs.getBlock();
     IPlantable plantable = (IPlantable) getPlantedBlock();
-    if (target.canPlaceBlockAt(world, bc) && (ground.canSustainPlant(bs, world, groundPos, EnumFacing.UP, plantable) || ignoreSustainCheck)
-        && (!isCheckGroundForFarmland() || isGroundTilled(farm, bc))) {
-      return true;
-    }
-    return false;
+      return target.canPlaceBlockAt(world, bc) && (ground.canSustainPlant(bs, world, groundPos, EnumFacing.UP, plantable) || ignoreSustainCheck)
+              && (!isCheckGroundForFarmland() || isGroundTilled(farm, bc));
   }
 
   protected boolean plant(@Nonnull IFarmer farm, @Nonnull World world, @Nonnull BlockPos bc) {

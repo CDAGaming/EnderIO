@@ -49,7 +49,7 @@ public class BlockDecorationFacing extends BlockDecoration {
 
   @Override
   protected @Nonnull BlockStateContainer createBlockState() {
-    return new BlockStateContainer(this, new IProperty[] { EnumDecoBlock.TYPE, FACING, ACTIVE });
+    return new BlockStateContainer(this, EnumDecoBlock.TYPE, FACING, ACTIVE);
   }
 
   @Override

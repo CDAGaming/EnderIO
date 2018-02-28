@@ -98,9 +98,9 @@ public abstract class AbstractCapabilityPoweredMachineEntity extends AbstractCap
   }
 
   protected void onCapacitorDataChange() {
-  };
+  }
 
-  private void updateCapacitorFromSlot() {
+    private void updateCapacitorFromSlot() {
     if (getEnergy().updateCapacitorFromSlot(getInventory().getSlot(CAPSLOT))) {
       onCapacitorDataChange();
     }

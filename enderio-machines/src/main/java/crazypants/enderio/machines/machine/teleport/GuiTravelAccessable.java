@@ -181,11 +181,7 @@ public class GuiTravelAccessable<T extends TileEntity & ITravelAccessable> exten
 
     boolean changed = false;
     if (newTxt == null) {
-      if (curText == null) {
-        changed = false;
-      } else {
-        changed = true;
-      }
+        changed = curText != null;
     } else {
       changed = !newTxt.equals(curText);
     }

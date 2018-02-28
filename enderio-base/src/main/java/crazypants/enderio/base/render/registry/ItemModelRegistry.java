@@ -26,7 +26,7 @@ public class ItemModelRegistry {
     MinecraftForge.EVENT_BUS.register(new ItemModelRegistry());
   }
 
-  public static interface Registry {
+  public interface Registry {
     @Nonnull
     IBakedModel wrap(@Nonnull IBakedModel model);
   }

@@ -19,5 +19,5 @@ import net.minecraft.entity.ai.attributes.AttributeModifier;
 enum Operation {
   ADD,
   PERCENT_OF_BASE,
-  PERCENT_MULTIPLIER;
+  PERCENT_MULTIPLIER
 }

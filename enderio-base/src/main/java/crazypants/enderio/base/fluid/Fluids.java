@@ -137,14 +137,14 @@ public enum Fluids {
   protected final @Nonnull Material material;
   protected final int color;
 
-  private Fluids(@Nonnull String name) {
+  Fluids(@Nonnull String name) {
     this.name = name;
     this.hasBlock = false;
     this.material = Material.AIR;
     this.color = -1;
   }
 
-  private Fluids(@Nonnull String name, @Nonnull Material material, int color) {
+  Fluids(@Nonnull String name, @Nonnull Material material, int color) {
     this.name = name;
     this.hasBlock = true;
     this.material = material;

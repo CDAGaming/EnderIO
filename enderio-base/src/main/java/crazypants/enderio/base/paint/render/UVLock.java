@@ -37,11 +37,8 @@ public class UVLock implements IModelState {
       return false;
     UVLock other = (UVLock) obj;
     if (getParent() == null) {
-      if (other.getParent() != null)
-        return false;
-    } else if (!getParent().equals(other.getParent()))
-      return false;
-    return true;
+        return other.getParent() == null;
+    } else return getParent().equals(other.getParent());
   }
 
   @Override

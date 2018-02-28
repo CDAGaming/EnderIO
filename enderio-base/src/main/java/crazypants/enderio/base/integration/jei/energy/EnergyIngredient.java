@@ -58,9 +58,7 @@ public class EnergyIngredient {
       return false;
     if (hasAmount && amount != other.amount)
       return false;
-    if (hasAmount && isPerTick != other.isPerTick)
-      return false;
-    return true;
+      return !hasAmount || isPerTick == other.isPerTick;
   }
 
 }

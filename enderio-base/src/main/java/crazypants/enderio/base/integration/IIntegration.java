@@ -9,6 +9,6 @@ public interface IIntegration extends IForgeRegistryEntry<IIntegration> {
 
   default boolean isInSameTeam(@Nonnull UserIdent identA, @Nonnull UserIdent identB) {
     return false;
-  };
+  }
 
 }

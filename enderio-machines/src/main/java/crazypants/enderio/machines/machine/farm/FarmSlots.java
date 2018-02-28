@@ -61,11 +61,11 @@ public enum FarmSlots {
   private final int id;
   private final int bitmask;
 
-  private FarmSlots(int id) {
+  FarmSlots(int id) {
     this(id, 0);
   }
 
-  private FarmSlots(int id, int bitmask) {
+  FarmSlots(int id, int bitmask) {
     this.id = id;
     this.bitmask = bitmask;
   }

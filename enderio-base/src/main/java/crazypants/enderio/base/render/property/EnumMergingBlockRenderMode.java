@@ -61,20 +61,20 @@ public enum EnumMergingBlockRenderMode implements IStringSerializable {
 
   ;
 
-  public static final @Nonnull PropertyEnum<EnumMergingBlockRenderMode> RENDER = PropertyEnum.<EnumMergingBlockRenderMode> create("render",
+  public static final @Nonnull PropertyEnum<EnumMergingBlockRenderMode> RENDER = PropertyEnum.create("render",
       EnumMergingBlockRenderMode.class);
 
-  private EnumMergingBlockRenderMode(@Nonnull EnumFacing dir1, @Nonnull EnumFacing dir2, @Nonnull EnumFacing dir3) {
+  EnumMergingBlockRenderMode(@Nonnull EnumFacing dir1, @Nonnull EnumFacing dir2, @Nonnull EnumFacing dir3) {
     int id = (1 << dir1.ordinal()) | (1 << dir2.ordinal()) | (1 << dir3.ordinal());
     Mapping.mapping.put(id, this);
   }
 
-  private EnumMergingBlockRenderMode(@Nonnull EnumFacing dir1, @Nonnull EnumFacing dir2) {
+  EnumMergingBlockRenderMode(@Nonnull EnumFacing dir1, @Nonnull EnumFacing dir2) {
     int id = (1 << dir1.ordinal()) | (1 << dir2.ordinal());
     Mapping.mapping.put(id, this);
   }
 
-  private EnumMergingBlockRenderMode() {
+  EnumMergingBlockRenderMode() {
 
   }
 

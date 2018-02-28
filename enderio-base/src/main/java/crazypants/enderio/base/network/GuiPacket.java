@@ -78,10 +78,10 @@ public class GuiPacket implements IMessage {
 
   // ------------------------------------------------------------------
 
-  private static enum DataType {
+  private enum DataType {
     INT,
     LONG,
-    STRING;
+    STRING
   }
 
   private static final DataType[][] PATTERN = { {}, { DataType.INT }, { DataType.STRING }, { DataType.INT, DataType.INT, DataType.LONG },

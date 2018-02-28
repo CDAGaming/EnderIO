@@ -107,7 +107,7 @@ public class BlockConduitBundle extends BlockEio<TileConduitBundle>
 
   @Override
   protected @Nonnull BlockStateContainer createBlockState() {
-    return new BlockStateContainer(this, new IProperty[] { OPAQUE });
+    return new BlockStateContainer(this, OPAQUE);
   }
 
   private @Nonnull AxisAlignedBB setBlockBounds(double f, double g, double h, double i, double j, double k) {
@@ -131,9 +131,9 @@ public class BlockConduitBundle extends BlockEio<TileConduitBundle>
   @Nullable
   public Item createBlockItem(@Nonnull IModObject modObject) {
     return null;
-  };
+  }
 
-  @Override
+    @Override
   public int getMetaFromState(@Nonnull IBlockState state) {
     return state.getValue(OPAQUE) ? 1 : 0;
   }
@@ -202,7 +202,7 @@ public class BlockConduitBundle extends BlockEio<TileConduitBundle>
       }
     }
     world.spawnParticle(EnumParticleTypes.BLOCK_DUST, bp.getX() + 0.5, bp.getY() + 1, bp.getZ() + 0.5, numberOfParticles, 0.0D, 0.0D, 0.0D,
-        0.15000000596046448D, new int[] { stateId });
+        0.15000000596046448D, stateId);
     return true;
   }
 

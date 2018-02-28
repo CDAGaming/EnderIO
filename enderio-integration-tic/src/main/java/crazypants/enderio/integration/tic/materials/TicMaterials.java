@@ -167,7 +167,7 @@ public class TicMaterials {
 
   }
 
-  public static interface Data {
+  public interface Data {
     void traits(@Nonnull Material material);
 
     void stats(@Nonnull Material material);

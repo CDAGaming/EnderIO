@@ -19,7 +19,7 @@ public interface ISolidFuelHandler {
 
   long getBurnTime(@Nonnull ItemStack itemstack);
 
-  public static interface Provider {
+  interface Provider {
 
     @Nonnull
     ISolidFuelHandler getSolidFuelHandler();

@@ -60,12 +60,12 @@ public class ManyToOneRecipeManager {
       out3.getOutput().grow(out.getOutput().getCount());
       out3.getOutput().grow(out.getOutput().getCount());
 
-      recipes.add(new BasicManyToOneRecipe(new Recipe(out3, er * 3, bns, new IRecipeInput[] { in.copy(), in.copy(), in.copy() })).setSynthetic());
-      recipes.add(new BasicManyToOneRecipe(new Recipe(out3, er * 3, bns, new IRecipeInput[] { in.copy(), in2.copy() })).setSynthetic());
-      recipes.add(new BasicManyToOneRecipe(new Recipe(out3, er * 3, bns, new IRecipeInput[] { in2.copy(), in.copy() })).setSynthetic());
-      recipes.add(new BasicManyToOneRecipe(new Recipe(out2, er * 2, bns, new IRecipeInput[] { in.copy(), in.copy() })).setSynthetic());
-      recipes.add(new BasicManyToOneRecipe(new Recipe(out3, er * 3, bns, new IRecipeInput[] { in3.copy() })).setSynthetic());
-      recipes.add(new BasicManyToOneRecipe(new Recipe(out2, er * 2, bns, new IRecipeInput[] { in2.copy() })).setSynthetic());
+      recipes.add(new BasicManyToOneRecipe(new Recipe(out3, er * 3, bns, in.copy(), in.copy(), in.copy())).setSynthetic());
+      recipes.add(new BasicManyToOneRecipe(new Recipe(out3, er * 3, bns, in.copy(), in2.copy())).setSynthetic());
+      recipes.add(new BasicManyToOneRecipe(new Recipe(out3, er * 3, bns, in2.copy(), in.copy())).setSynthetic());
+      recipes.add(new BasicManyToOneRecipe(new Recipe(out2, er * 2, bns, in.copy(), in.copy())).setSynthetic());
+      recipes.add(new BasicManyToOneRecipe(new Recipe(out3, er * 3, bns, in3.copy())).setSynthetic());
+      recipes.add(new BasicManyToOneRecipe(new Recipe(out2, er * 2, bns, in2.copy())).setSynthetic());
       recipes.add(new BasicManyToOneRecipe(rec));
       Log.info("Created 6 synthetic recipes for " + in.getInput() + " => " + out.getOutput());
     } else {

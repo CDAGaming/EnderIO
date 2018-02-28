@@ -45,9 +45,7 @@ public class SignalSource implements ISignalSource {
     SignalSource other = (SignalSource) obj;
     if (dir != other.dir)
       return false;
-    if (!source.equals(other.source))
-      return false;
-    return true;
+      return source.equals(other.source);
   }
 
   @Override

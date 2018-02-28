@@ -15,7 +15,7 @@ import javax.annotation.Nullable;
  */
 public interface Scaler {
 
-  public float scaleValue(float idx);
+  float scaleValue(float idx);
 
   /**
    * The IndexedScaler is s scaler that interpolates linearly between a number of points. Those points are at fixed intervals on the x-axis (one every 'scale'
@@ -25,7 +25,7 @@ public interface Scaler {
    *
    * Again, plotting it out is helpful.
    */
-  public static class IndexedScaler implements Scaler {
+  class IndexedScaler implements Scaler {
     private final float scale;
     private final float[] keyValues;
 
@@ -65,7 +65,7 @@ public interface Scaler {
    * constant or an IndexedScaler), but addons may use their own scalers.
    *
    */
-  public enum Factory implements Scaler {
+  enum Factory implements Scaler {
     IDENTITY(new Scaler() { // 1-2-3-...
       @Override
       public float scaleValue(float idx) {
@@ -120,7 +120,7 @@ public interface Scaler {
 
     private final @Nonnull Scaler scaler;
 
-    private Factory(@Nonnull Scaler scaler) {
+    Factory(@Nonnull Scaler scaler) {
       this.scaler = scaler;
     }
 

@@ -158,10 +158,7 @@ public class PowerConduitNetwork extends AbstractConduitNetwork<IPowerConduit, I
       } else if (!pos.equals(other.pos)) {
         return false;
       }
-      if (direction != other.direction) {
-        return false;
-      }
-      return true;
+        return direction == other.direction;
     }
 
   }

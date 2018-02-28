@@ -45,10 +45,7 @@ public abstract class AbstractLiquidConduit extends AbstractConduit implements I
   @Override
   public boolean canConnectToExternal(@Nonnull EnumFacing direction, boolean ignoreDisabled) {
     IFluidWrapper h = getExternalHandler(direction);
-    if (h == null) {
-      return false;
-    }
-    return true;
+      return h != null;
   }
 
   @Override
@@ -95,10 +92,7 @@ public abstract class AbstractLiquidConduit extends AbstractConduit implements I
     if (conduitConnections.contains(dir)) {
       return true;
     }
-    if (!externalConnections.contains(dir)) {
-      return false;
-    }
-    return true;
+      return externalConnections.contains(dir);
   }
 
   protected boolean autoExtractForDir(@Nonnull EnumFacing dir) {

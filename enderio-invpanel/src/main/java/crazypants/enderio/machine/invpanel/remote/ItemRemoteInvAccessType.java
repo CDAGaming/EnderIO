@@ -20,7 +20,7 @@ public enum ItemRemoteInvAccessType {
   private final boolean interdimensional;
   private final boolean visible;
 
-  private ItemRemoteInvAccessType(int index, String nameSuffix, int range, boolean interdimensional, boolean visible) {
+  ItemRemoteInvAccessType(int index, String nameSuffix, int range, boolean interdimensional, boolean visible) {
     this.nameSuffix = nameSuffix;
     this.range = range;
     this.interdimensional = interdimensional;
@@ -46,10 +46,7 @@ public enum ItemRemoteInvAccessType {
     if (range < 0) {
       return true;
     }
-    if (Math.abs(x0 - x1) > range || Math.abs(y0 - y1) > range || Math.abs(z0 - z1) > range) {
-      return false;
-    }
-    return true;
+      return Math.abs(x0 - x1) <= range && Math.abs(y0 - y1) <= range && Math.abs(z0 - z1) <= range;
   }
 
   public String getNameSuffix() {

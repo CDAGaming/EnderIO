@@ -21,10 +21,7 @@ public class ItemConduitRenderer extends DefaultConduitRenderer {
 
   @Override
   public boolean isRendererForConduit(@Nonnull IConduit conduit) {
-    if (conduit instanceof IItemConduit) {
-      return true;
-    }
-    return false;
+      return conduit instanceof IItemConduit;
   }
 
   @Override

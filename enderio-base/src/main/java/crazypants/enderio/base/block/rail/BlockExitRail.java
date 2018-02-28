@@ -61,7 +61,7 @@ public class BlockExitRail extends BlockRailBase implements IDefaultRenderers, I
 
   @Override
   protected @Nonnull BlockStateContainer createBlockState() {
-    return new BlockStateContainer(this, new IProperty[] { SHAPE });
+    return new BlockStateContainer(this, SHAPE);
   }
 
   @Override

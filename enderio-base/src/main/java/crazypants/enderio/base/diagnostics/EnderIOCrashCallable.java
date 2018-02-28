@@ -86,7 +86,7 @@ public class EnderIOCrashCallable implements ICrashCallable {
   }
 
   @Override
-  public String call() throws Exception {
+  public String call() {
     String msg = "";
     List<String> data = collectData();
     if (data.isEmpty()) {

@@ -47,15 +47,15 @@ public enum DefaultCapacitorData implements ICapacitorData {
   private final int baselevel;
   private final boolean regular;
 
-  private DefaultCapacitorData(@Nonnull String unlocalizedName) {
+  DefaultCapacitorData(@Nonnull String unlocalizedName) {
     this(unlocalizedName, 1, false);
   }
 
-  private DefaultCapacitorData(@Nonnull String unlocalizedName, int baselevel) {
+  DefaultCapacitorData(@Nonnull String unlocalizedName, int baselevel) {
     this(unlocalizedName, baselevel, true);
   }
 
-  private DefaultCapacitorData(@Nonnull String unlocalizedName, int baselevel, boolean regular) {
+  DefaultCapacitorData(@Nonnull String unlocalizedName, int baselevel, boolean regular) {
     this.unlocalizedName = unlocalizedName;
     this.baselevel = baselevel;
     this.regular = regular;

@@ -32,10 +32,7 @@ public class TeleportUtil {
 
   public static boolean checkClientTeleport(@Nonnull Entity entityLiving, @Nonnull BlockPos pos, int targetDim, @Nonnull TravelSource source) {
     TeleportEntityEvent evt = new TeleportEntityEvent(entityLiving, source, pos, targetDim);
-    if (MinecraftForge.EVENT_BUS.post(evt)) {
-      return false;
-    }
-    return true;
+      return !MinecraftForge.EVENT_BUS.post(evt);
   }
 
   public static boolean serverTeleport(@Nonnull Entity entity, @Nonnull BlockPos pos, int targetDim, boolean conserveMotion, @Nonnull TravelSource source) {

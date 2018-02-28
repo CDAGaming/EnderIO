@@ -10,11 +10,11 @@ import javax.annotation.Nonnull;
 
 public interface IExperienceObeliskRemoteExec {
 
-  public static final int ADD_XP = 0;
-  public static final int DWN_XP = 1;
-  public static final int REM_XP = 2;
+  int ADD_XP = 0;
+  int DWN_XP = 1;
+  int REM_XP = 2;
 
-  public interface GUI extends IRemoteExec.IGui {
+  interface GUI extends IRemoteExec.IGui {
 
     default void doAddXP(int levels) {
       GuiPacket.send(this, ADD_XP, levels);
@@ -30,7 +30,7 @@ public interface IExperienceObeliskRemoteExec {
 
   }
 
-  public interface Container extends IRemoteExec.IContainer {
+  interface Container extends IRemoteExec.IContainer {
 
     IMessage doAddXP(@Nonnull EntityPlayer player, int levels);
 

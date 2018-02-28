@@ -44,7 +44,7 @@ public class GuiTravelAuth extends GuiContainerBaseEIO {
   protected void actionPerformed(@Nonnull GuiButton par1GuiButton) {
     ContainerTravelAuth poo = (ContainerTravelAuth) inventorySlots;
     if (ta.authoriseUser(player, poo.getInv().getInventory())) {
-      this.mc.displayGuiScreen((GuiScreen) null);
+      this.mc.displayGuiScreen(null);
       this.mc.setIngameFocus();
     } else {
       // System.out.print("GuiTravelAuth.actionPerformed: Password is: ");

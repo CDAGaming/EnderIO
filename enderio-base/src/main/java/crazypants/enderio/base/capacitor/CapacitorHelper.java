@@ -38,10 +38,7 @@ public class CapacitorHelper {
     if (capData != null) {
       return true;
     }
-    if (stack.getItem() instanceof ICapacitorDataItem) {
-      return true;
-    }
-    return false;
+      return stack.getItem() instanceof ICapacitorDataItem;
   }
 
   protected static @Nullable ICapacitorData getNBTCapacitorDataFromItemStack(@Nonnull ItemStack stack) {
@@ -63,11 +60,11 @@ public class CapacitorHelper {
     return new NBTCapacitorData(stack.getItem().getUnlocalizedName(stack), capLevel, nbtTag);
   }
 
-  public static enum SetType {
+  public enum SetType {
     LEVEL,
     NAME,
     OWNER_TYPE,
-    TYPE;
+    TYPE
   }
 
   public static @Nonnull ItemStack addCapData(@Nonnull ItemStack stack, @Nonnull SetType setType, @Nullable ICapacitorKey key, float value) {

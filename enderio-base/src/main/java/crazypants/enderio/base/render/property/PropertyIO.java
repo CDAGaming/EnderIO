@@ -20,7 +20,7 @@ import java.util.Map;
 public class PropertyIO extends PropertyHelper<IOMode> {
 
   private final static @Nonnull ImmutableSet<IOMode> allowedValues;
-  private final static @Nonnull Map<String, IOMode> nameToValue = Maps.<String, IOMode> newHashMap();
+  private final static @Nonnull Map<String, IOMode> nameToValue = Maps.newHashMap();
   static {
     List<IOMode> values = new ArrayList<IOMode>();
     NNIterator<EnumFacing> faces = NNList.FACING.iterator();
@@ -59,7 +59,7 @@ public class PropertyIO extends PropertyHelper<IOMode> {
   @Override
   @SideOnly(Side.CLIENT)
   public @Nonnull Optional<IOMode> parseValue(@Nonnull String value) {
-    return Optional.<IOMode> fromNullable(nameToValue.get(value));
+    return Optional.fromNullable(nameToValue.get(value));
   }
  
 }

@@ -27,6 +27,6 @@ public class FtblIntegration extends IForgeRegistryEntry.Impl<IIntegration> impl
       }
     }
     return false;
-  };
+  }
 
 }

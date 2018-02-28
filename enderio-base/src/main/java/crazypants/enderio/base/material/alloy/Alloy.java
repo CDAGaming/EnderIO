@@ -26,7 +26,7 @@ public enum Alloy implements IStringSerializable {
   private final int color;
   private final int meltingPoint; // in °C
 
-  private Alloy(@Nonnull String baseName, float hardness, int color, int meltingPoint) {
+  Alloy(@Nonnull String baseName, float hardness, int color, int meltingPoint) {
     this.baseName = baseName.replaceAll("([A-Z])", "_$0").toLowerCase(Locale.ENGLISH);
     this.oreName = StringUtils.capitalize(baseName);
     this.hardness = hardness;

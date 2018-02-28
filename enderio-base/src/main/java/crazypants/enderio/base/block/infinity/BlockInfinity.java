@@ -77,7 +77,7 @@ public class BlockInfinity extends BlockEio<TileEntityEio> implements IDefaultRe
 
   @Override
   protected @Nonnull BlockStateContainer createBlockState() {
-    return new BlockStateContainer(this, new IProperty[] { AGE, HARMLESS });
+    return new BlockStateContainer(this, AGE, HARMLESS);
   }
 
   @Override
@@ -289,7 +289,7 @@ public class BlockInfinity extends BlockEio<TileEntityEio> implements IDefaultRe
         @SuppressWarnings("null")
         EntityTNTPrimed entitytntprimed = new EntityTNTPrimed(world, pos.getX() + 0.5F, pos.getY(), pos.getZ() + 0.5F, null);
         world.spawnEntity(entitytntprimed);
-        world.playSound((EntityPlayer) null, entitytntprimed.posX, entitytntprimed.posY, entitytntprimed.posZ, SoundEvents.ENTITY_TNT_PRIMED,
+        world.playSound(null, entitytntprimed.posX, entitytntprimed.posY, entitytntprimed.posZ, SoundEvents.ENTITY_TNT_PRIMED,
             SoundCategory.BLOCKS, 1.0F, 1.0F);
       }
       return;

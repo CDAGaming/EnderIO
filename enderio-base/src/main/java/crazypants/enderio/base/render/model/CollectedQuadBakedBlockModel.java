@@ -21,7 +21,7 @@ public class CollectedQuadBakedBlockModel implements IBakedModel {
   private final @Nonnull QuadCollector quads;
   private TextureAtlasSprite particleTexture = null;
 
-  private static final @Nonnull ItemOverrideList itemOverrideList = new ItemOverrideList(Collections.<ItemOverride> emptyList()) {
+  private static final @Nonnull ItemOverrideList itemOverrideList = new ItemOverrideList(Collections.emptyList()) {
     @Override
     public @Nonnull IBakedModel handleItemState(@Nonnull IBakedModel originalModel, @Nonnull ItemStack stack, @Nullable World world,
         @Nullable EntityLivingBase entity) {

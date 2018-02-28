@@ -49,7 +49,7 @@ public interface IModObject extends IProducer {
     return null;
   }
 
-  public static interface Registerable extends IModObject {
+  interface Registerable extends IModObject {
 
     @Nonnull
     Class<?> getClazz();
@@ -98,21 +98,21 @@ public interface IModObject extends IProducer {
    * the method shall NOT do the registering itself.
    *
    */
-  public static interface WithBlockItem {
+  interface WithBlockItem {
 
     default @Nullable Item createBlockItem(@Nonnull IModObject modObject) {
       return modObject.apply(new ItemBlock((Block) this));
-    };
+    }
 
   }
 
-  public static interface LifecycleInit {
+  interface LifecycleInit {
 
     void init(@Nonnull IModObject modObject, @Nonnull FMLInitializationEvent event);
 
   }
 
-  public static interface LifecyclePostInit {
+  interface LifecyclePostInit {
 
     void init(@Nonnull IModObject modObject, @Nonnull FMLPostInitializationEvent event);
 

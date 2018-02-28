@@ -61,13 +61,13 @@ public class QuadCollector {
     if (list == null || list.isEmpty()) {
       if (pass == BREAKING) {
         // breaking layer: not set by model, try to construct it on-the-fly
-        List<BakedQuad> result = Collections.<BakedQuad> emptyList();
+        List<BakedQuad> result = Collections.emptyList();
         for (BlockRenderLayer layer : BlockRenderLayer.values()) {
           result = CompositeList.create(result, table[mkKey(side, layer)]);
         }
         return result;
       }
-      return Collections.<BakedQuad> emptyList();
+      return Collections.emptyList();
     } else {
       return list;
     }

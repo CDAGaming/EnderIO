@@ -46,7 +46,7 @@ public enum TravelSource {
 
   public final IModSound sound;
 
-  private TravelSource(IModSound sound) {
+  TravelSource(IModSound sound) {
     this.sound = sound;
   }
 

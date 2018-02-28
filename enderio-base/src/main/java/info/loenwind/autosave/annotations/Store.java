@@ -27,8 +27,7 @@ public @interface Store {
 
   // Note: @Inherit does not work on fields. HandleStorable has special code to handle that.
 
-  public NBTAction[] value() default { NBTAction.SAVE, NBTAction.CLIENT, NBTAction.ITEM };
+  NBTAction[] value() default { NBTAction.SAVE, NBTAction.CLIENT, NBTAction.ITEM };
 
-  @SuppressWarnings("rawtypes")
-  public Class<? extends IHandler> handler() default NullHandler.class;
+  @SuppressWarnings("rawtypes") Class<? extends IHandler> handler() default NullHandler.class;
 }

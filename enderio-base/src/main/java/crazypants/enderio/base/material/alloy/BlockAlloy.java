@@ -40,7 +40,7 @@ public class BlockAlloy extends BlockEio<TileEntityEio> implements IAdvancedTool
     return res;
   }
 
-  public static final @Nonnull PropertyEnum<Alloy> VARIANT = PropertyEnum.<Alloy> create("variant", Alloy.class);
+  public static final @Nonnull PropertyEnum<Alloy> VARIANT = PropertyEnum.create("variant", Alloy.class);
 
   private BlockAlloy(@Nonnull IModObject modObject) {
     super(modObject, Material.IRON);
@@ -82,7 +82,7 @@ public class BlockAlloy extends BlockEio<TileEntityEio> implements IAdvancedTool
 
   @Override
   protected @Nonnull BlockStateContainer createBlockState() {
-    return new BlockStateContainer(this, new IProperty[] { VARIANT });
+    return new BlockStateContainer(this, VARIANT);
   }
 
   @Override

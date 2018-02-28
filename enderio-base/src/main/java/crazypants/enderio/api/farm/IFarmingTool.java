@@ -14,7 +14,7 @@ import javax.annotation.Nonnull;
  */
 public interface IFarmingTool {
 
-  public static class Tools {
+  class Tools {
     /**
      * These are all tools the Farming Station can handle. The fields will be filled at runtime.
      */

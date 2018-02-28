@@ -37,7 +37,7 @@ public class Metal {
     TinkerRegistry.integrate(new MaterialIntegration(TicMaterials.getMaterial(alloy), TicMaterials.getFluid(alloy), alloy.getOreName()) {
       @Override
       public void registerFluidBlock(IForgeRegistry<Block> registry) {
-      };
+      }
     }.toolforge()).preInit(); // preInit needed only for correct mod identification
     TicMaterials.getData(alloy).stats(TicMaterials.getMaterial(alloy));
   }
@@ -48,7 +48,7 @@ public class Metal {
     TinkerRegistry.integrate(new MaterialIntegration(TicMaterials.getMaterial(alloy), null, alloy.getOreName()) {
       @Override
       public void registerFluidBlock(IForgeRegistry<Block> registry) {
-      };
+      }
     }).preInit(); // preInit needed only for correct mod identification
     TicMaterials.getData(alloy).stats(TicMaterials.getMaterial(alloy));
   }

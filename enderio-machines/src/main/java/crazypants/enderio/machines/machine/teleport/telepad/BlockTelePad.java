@@ -52,7 +52,7 @@ public class BlockTelePad extends BlockTravelAnchor<TileTelePad> implements IPai
   }
 
   @Nonnull
-  public static final PropertyEnum<BlockType> BLOCK_TYPE = PropertyEnum.<BlockType> create("blocktype", BlockType.class);
+  public static final PropertyEnum<BlockType> BLOCK_TYPE = PropertyEnum.create("blocktype", BlockType.class);
 
   public BlockTelePad(@Nonnull IModObject modObject) {
     super(modObject);
@@ -68,7 +68,7 @@ public class BlockTelePad extends BlockTravelAnchor<TileTelePad> implements IPai
 
   @Override
   protected @Nonnull BlockStateContainer createBlockState() {
-    return new BlockStateContainer(this, new IProperty[] { EnumRenderMode.RENDER, BLOCK_TYPE });
+    return new BlockStateContainer(this, EnumRenderMode.RENDER, BLOCK_TYPE);
   }
 
   @Override

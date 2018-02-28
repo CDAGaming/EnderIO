@@ -44,14 +44,14 @@ import java.util.Locale;
 import java.util.Set;
 
 class TOPData {
-  static enum ProgressResult {
+  enum ProgressResult {
     NONE,
     PROGRESS,
     PROGRESS_ACTIVE,
     PROGRESS_NO_POWER,
     PROGRESS_IDLE,
     NO_PROGRESS_ACTIVE,
-    NO_PROGRESS_IDLE;
+    NO_PROGRESS_IDLE
   }
 
   boolean hasStatus, hasProgress, hasRF, hasRedstone, hasIOMode, hasRange, hasMobs, hasXP, hasRFIO, hasItemFillLevel;

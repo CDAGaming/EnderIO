@@ -27,7 +27,7 @@ public enum EnderFood {
 
   public static final EnderFood[] VALUES = values();
 
-  private EnderFood(@Nonnull String name, IProducer containerItem, int hunger, float saturation, boolean doesTeleport) {
+  EnderFood(@Nonnull String name, IProducer containerItem, int hunger, float saturation, boolean doesTeleport) {
     this.unlocalisedName = name;
     this.containerItem = containerItem;
     this.hunger = hunger;

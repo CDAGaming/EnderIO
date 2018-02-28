@@ -216,7 +216,7 @@ public class IoDisplay implements IInfoRenderer {
     return txt;
   }
 
-  static enum HeadingText {
+  enum HeadingText {
     STABLE(ColorUtil.getRGB(0, 0, 0)),
     GAIN(ColorUtil.getRGB(0, 0.25f, 0)),
     LOSS(ColorUtil.getRGB(0.25f, 0, 0)),
@@ -226,7 +226,7 @@ public class IoDisplay implements IInfoRenderer {
     final @Nonnull String text;
     final int color;
 
-    private HeadingText(int color) {
+    HeadingText(int color) {
       this.text = EnderIO.lang.localize("capbank.iodisplay.".concat(name().toLowerCase(Locale.US)));
       this.color = color;
     }

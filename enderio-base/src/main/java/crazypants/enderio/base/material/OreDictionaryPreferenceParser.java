@@ -103,7 +103,7 @@ public final class OreDictionaryPreferenceParser extends DefaultHandler {
   }
 
   @Override
-  public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
+  public void startElement(String uri, String localName, String qName, Attributes attributes) {
     if(ELEMENT_PREF.equals(localName)) {
       oreDictName = RecipeConfigParser.getStringValue(AT_ORE_DICT, attributes, null);
       return;
@@ -118,7 +118,7 @@ public final class OreDictionaryPreferenceParser extends DefaultHandler {
   }
 
   @Override
-  public void endElement(String uri, String localName, String qName) throws SAXException {
+  public void endElement(String uri, String localName, String qName) {
     if(ELEMENT_PREF.equals(localName)) {
       final String oreDictName_nullchecked = oreDictName;
       if (oreDictName_nullchecked != null && Prep.isValid(prefStack)) {

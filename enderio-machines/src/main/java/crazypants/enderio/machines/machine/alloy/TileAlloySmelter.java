@@ -41,7 +41,7 @@ public class TileAlloySmelter extends AbstractPoweredTaskEntity implements IPain
 
   }
 
-  public static enum Mode {
+  public enum Mode {
     ALL,
     ALLOY,
     FURNACE;

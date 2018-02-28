@@ -36,7 +36,7 @@ public class GrindingBallTagHandler implements CustomTagHandler {
   private int drf;
 
   @Override
-  public boolean startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
+  public boolean startElement(String uri, String localName, String qName, Attributes attributes) {
     if (ELEMENT_ROOT.equals(localName)) {
       return true;
     }
@@ -77,7 +77,7 @@ public class GrindingBallTagHandler implements CustomTagHandler {
   }
 
   @Override
-  public boolean endElement(String uri, String localName, String qName) throws SAXException {
+  public boolean endElement(String uri, String localName, String qName) {
     if (ELEMENT_ROOT.equals(localName) || BALL_ROOT.equals(localName)) {
       processStack = false;
       return true;

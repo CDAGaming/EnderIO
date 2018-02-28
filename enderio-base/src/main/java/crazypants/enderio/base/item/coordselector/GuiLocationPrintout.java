@@ -81,12 +81,12 @@ public class GuiLocationPrintout extends GuiScreenBase {
   }
 
   @Override
-  protected void actionPerformed(@Nonnull GuiButton button) throws IOException {
+  protected void actionPerformed(@Nonnull GuiButton button) {
     mc.player.closeScreen();
   }
 
   @Override
-  protected void keyTyped(char c, int key) throws IOException {
+  protected void keyTyped(char c, int key) {
     if (key == 1 || key == 28) { // esc + enter
       isCancelled = key == 1;
       mc.player.closeScreen();

@@ -6,10 +6,10 @@ import javax.annotation.Nonnull;
 
 public interface ISpawnCallback {
 
-  public enum Result {
+  enum Result {
     NEXT,
     DENY,
-    DONE;
+    DONE
   }
 
   @Nonnull

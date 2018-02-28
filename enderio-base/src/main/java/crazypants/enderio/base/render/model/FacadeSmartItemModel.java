@@ -66,7 +66,7 @@ public class FacadeSmartItemModel implements IBakedModel {
     return parent.handlePerspective(cameraTransformType);
   }
 
-  private final @Nonnull ItemOverrideList overrides = new ItemOverrideList(Lists.<ItemOverride> newArrayList()) {
+  private final @Nonnull ItemOverrideList overrides = new ItemOverrideList(Lists.newArrayList()) {
     @Override
     public @Nonnull IBakedModel handleItemState(@Nonnull IBakedModel originalModel, @Nonnull ItemStack stack, @Nullable World world,
         @Nullable EntityLivingBase entity) {

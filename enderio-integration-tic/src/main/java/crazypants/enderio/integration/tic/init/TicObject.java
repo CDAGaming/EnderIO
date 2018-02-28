@@ -23,7 +23,7 @@ public enum TicObject implements IModObject.Registerable {
 
   protected final @Nonnull Class<?> clazz;
 
-  private TicObject(@Nonnull Class<?> clazz) {
+  TicObject(@Nonnull Class<?> clazz) {
     this.unlocalisedName = ModObjectRegistry.sanitizeName(NullHelper.notnullJ(name(), "Enum.name()"));
     this.clazz = clazz;
   }

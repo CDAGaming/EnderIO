@@ -34,10 +34,7 @@ public class PaintSourceValidator {
     if (isWhitelisted(paintSource)) {
       return true;
     }
-    if (!RecipeConfig.allowTileEntitiesAsPaintSource.get() && block instanceof ITileEntityProvider) {
-      return false;
-    }
-    return true;
+      return RecipeConfig.allowTileEntitiesAsPaintSource.get() || !(block instanceof ITileEntityProvider);
   }
 
   public boolean isWhitelisted(@Nonnull ItemStack paintSource) {

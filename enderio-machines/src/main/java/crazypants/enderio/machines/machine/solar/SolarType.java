@@ -15,11 +15,11 @@ public enum SolarType implements IStringSerializable {
   ADVANCED(".advanced"),
   VIBRANT(".vibrant");
 
-  public static final @Nonnull PropertyEnum<SolarType> KIND = PropertyEnum.<SolarType> create("kind", SolarType.class);
+  public static final @Nonnull PropertyEnum<SolarType> KIND = PropertyEnum.create("kind", SolarType.class);
 
   private final @Nonnull String unlocalisedName;
 
-  private SolarType(@Nonnull String unlocalisedName) {
+  SolarType(@Nonnull String unlocalisedName) {
     this.unlocalisedName = unlocalisedName;
   }
 

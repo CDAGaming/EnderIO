@@ -103,7 +103,7 @@ public class TravelEntitySpecialRenderer<T extends TileTravelAnchor> extends Man
 
       RenderHelper.enableStandardItemLighting();
 
-      IBakedModel bakedmodel = itemRenderer.getItemModelWithOverrides(itemLabel, (World) null, (EntityLivingBase) null);
+      IBakedModel bakedmodel = itemRenderer.getItemModelWithOverrides(itemLabel, null, null);
       GlStateManager.color(1.0F, 1.0F, 1.0F, 1.0F);
       GlStateManager.tryBlendFuncSeparate(GL11.GL_SRC_ALPHA, GL11.GL_CONSTANT_COLOR, GlStateManager.SourceFactor.ONE.factor,
           GlStateManager.DestFactor.ZERO.factor);

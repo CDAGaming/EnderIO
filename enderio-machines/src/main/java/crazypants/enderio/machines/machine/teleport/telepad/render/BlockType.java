@@ -24,7 +24,7 @@ public enum BlockType implements IStringSerializable {
 
   private final BlockPos offsetToMaster;
 
-  private BlockType(BlockPos offsetToMaster) {
+  BlockType(BlockPos offsetToMaster) {
     this.offsetToMaster = offsetToMaster;
   }
 

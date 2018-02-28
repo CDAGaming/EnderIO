@@ -50,7 +50,7 @@ public enum NbtValue { // TODO: DONE111
 
   private final @Nonnull String key;
 
-  private NbtValue(@Nonnull String key) {
+  NbtValue(@Nonnull String key) {
     this.key = EnderIO.DOMAIN + ":" + key.toLowerCase(Locale.ENGLISH);
   }
 

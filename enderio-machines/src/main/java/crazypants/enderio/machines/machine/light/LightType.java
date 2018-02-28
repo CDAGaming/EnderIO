@@ -20,7 +20,7 @@ public enum LightType implements IStringSerializable {
   private final boolean isPowered;
   private final boolean isWireless;
 
-  private LightType(@Nonnull String unlocName, boolean isInverted, boolean isPowered, boolean isWireless) {
+  LightType(@Nonnull String unlocName, boolean isInverted, boolean isPowered, boolean isWireless) {
     this.unlocName = unlocName;
     this.isInverted = isInverted;
     this.isPowered = isPowered;

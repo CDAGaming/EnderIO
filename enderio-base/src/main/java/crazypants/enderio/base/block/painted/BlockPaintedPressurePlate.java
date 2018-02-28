@@ -125,7 +125,7 @@ public class BlockPaintedPressurePlate extends BlockBasePressurePlate
 
   @Override
   protected @Nonnull BlockStateContainer createBlockState() {
-    return new BlockStateContainer(this, new IProperty[] { BlockPressurePlateWeighted.POWER });
+    return new BlockStateContainer(this, BlockPressurePlateWeighted.POWER);
   }
 
   @Override
@@ -497,9 +497,9 @@ public class BlockPaintedPressurePlate extends BlockBasePressurePlate
   @Override
   protected void playClickOnSound(@Nonnull World worldIn, @Nonnull BlockPos color) {
     if (blockMaterial == Material.WOOD) {
-      worldIn.playSound((EntityPlayer) null, color, SoundEvents.BLOCK_WOOD_PRESSPLATE_CLICK_ON, SoundCategory.BLOCKS, 0.3F, 0.8F);
+      worldIn.playSound(null, color, SoundEvents.BLOCK_WOOD_PRESSPLATE_CLICK_ON, SoundCategory.BLOCKS, 0.3F, 0.8F);
     } else {
-      worldIn.playSound((EntityPlayer) null, color, SoundEvents.BLOCK_STONE_PRESSPLATE_CLICK_ON, SoundCategory.BLOCKS, 0.3F, 0.6F);
+      worldIn.playSound(null, color, SoundEvents.BLOCK_STONE_PRESSPLATE_CLICK_ON, SoundCategory.BLOCKS, 0.3F, 0.6F);
     }
 
   }

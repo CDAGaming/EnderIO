@@ -38,10 +38,7 @@ public class MpsUtil {
       return false;
     }
     Item item = equipped.getItem();
-    if(powerFistClass.isAssignableFrom(item.getClass())) {
-      return true;
-    }
-    return false;
+      return powerFistClass.isAssignableFrom(item.getClass());
   }
 
   public boolean isOmniToolActive(@Nonnull ItemStack equipped) {

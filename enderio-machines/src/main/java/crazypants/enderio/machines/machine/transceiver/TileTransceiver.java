@@ -221,9 +221,8 @@ public class TileTransceiver extends AbstractPoweredTaskEntity implements ILegac
 
   static void readChannels(NBTTagCompound nbtRoot, ChannelList channels, @Nonnull String key) {
     channels.clear();
-    ;
 
-    if (!nbtRoot.hasKey(key)) {
+      if (!nbtRoot.hasKey(key)) {
       return;
     }
     NBTTagList tags = (NBTTagList) nbtRoot.getTag(key);
@@ -496,13 +495,9 @@ public class TileTransceiver extends AbstractPoweredTaskEntity implements ILegac
       return false;
     }
     if (slotDefinition.isInputSlot(slot)) {
-      if (!getSendItemFilter().doesItemPassFilter(null, itemstack)) {
-        return false;
-      }
+        return getSendItemFilter().doesItemPassFilter(null, itemstack);
     } else if (slotDefinition.isOutputSlot(slot)) {
-      if (!getReceiveItemFilter().doesItemPassFilter(null, itemstack)) {
-        return false;
-      }
+        return getReceiveItemFilter().doesItemPassFilter(null, itemstack);
     }
     return true;
   }

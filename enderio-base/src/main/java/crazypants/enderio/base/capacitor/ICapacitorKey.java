@@ -32,7 +32,7 @@ public interface ICapacitorKey {
   @Nonnull
   String getName();
 
-  public static interface Computable extends ICapacitorKey {
+  interface Computable extends ICapacitorKey {
 
     @Nonnull
     Scaler getScaler();
@@ -57,9 +57,9 @@ public interface ICapacitorKey {
     @Override
     default float getFloat(@Nonnull ICapacitorData capacitor) {
       return getBaseValue() * getScaler().scaleValue(capacitor.getUnscaledValue(this));
-    };
+    }
 
-    @Override
+      @Override
     default int get(@Nonnull ICapacitorData capacitor) {
       return (int) (getBaseValue() * getScaler().scaleValue(capacitor.getUnscaledValue(this)));
     }

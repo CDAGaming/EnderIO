@@ -8,9 +8,9 @@ import javax.annotation.Nonnull;
 
 public interface IAlloySmelterRemoteExec {
 
-  static final int ID_MODE = 0;
+  int ID_MODE = 0;
 
-  public interface GUI extends IRemoteExec.IGui {
+  interface GUI extends IRemoteExec.IGui {
 
     default void doSetMode(@Nonnull TileAlloySmelter.Mode mode) {
       GuiPacket.send(this, ID_MODE, mode);
@@ -18,7 +18,7 @@ public interface IAlloySmelterRemoteExec {
 
   }
 
-  public interface Container extends IRemoteExec.IContainer {
+  interface Container extends IRemoteExec.IContainer {
 
     IMessage doSetMode(@Nonnull TileAlloySmelter.Mode mode);
 

@@ -60,7 +60,7 @@ public class BlockItemPaintedSlab extends ItemBlock {
 
     pos = pos.offset(side);
     IBlockState iblockstate1 = worldIn.getBlockState(pos);
-    return iblockstate1.getBlock() == this.singleSlab ? true : super.canPlaceBlockOnSide(worldIn, blockpos, side, player, stack);
+    return iblockstate1.getBlock() == this.singleSlab || super.canPlaceBlockOnSide(worldIn, blockpos, side, player, stack);
   }
 
   @Override

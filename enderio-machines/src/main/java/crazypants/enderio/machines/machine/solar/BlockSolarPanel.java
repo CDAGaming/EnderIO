@@ -65,7 +65,7 @@ public class BlockSolarPanel extends BlockEio<TileSolarPanel> implements IResour
 
   @Override
   protected @Nonnull BlockStateContainer createBlockState() {
-    return new BlockStateContainer(this, new IProperty[] { EnumMergingBlockRenderMode.RENDER, SolarType.KIND });
+    return new BlockStateContainer(this, EnumMergingBlockRenderMode.RENDER, SolarType.KIND);
   }
 
   @Override

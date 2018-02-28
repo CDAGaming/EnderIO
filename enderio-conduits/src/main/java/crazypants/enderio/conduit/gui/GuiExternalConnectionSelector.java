@@ -59,7 +59,7 @@ public class GuiExternalConnectionSelector extends GuiScreen {
   }
 
   @Override
-  protected void keyTyped(char typedChar, int keyCode) throws IOException {
+  protected void keyTyped(char typedChar, int keyCode) {
     if (keyCode == 1 || keyCode == mc.gameSettings.keyBindInventory.getKeyCode()) {
       mc.player.closeScreen();
     }

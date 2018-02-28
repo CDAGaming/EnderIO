@@ -44,7 +44,7 @@ public class ConduitHandler implements IHandler<IConduit> {
 
   @Override
   public boolean store(@Nonnull Registry registry, @Nonnull Set<NBTAction> phase, @Nonnull NBTTagCompound nbt, @Nonnull String name, @Nonnull IConduit object)
-      throws IllegalArgumentException, IllegalAccessException, InstantiationException, NoHandlerFoundException {
+      throws IllegalArgumentException {
     NBTTagCompound root = new NBTTagCompound();
     writeToNBT(object, root);
     nbt.setTag(name, root);
@@ -53,7 +53,7 @@ public class ConduitHandler implements IHandler<IConduit> {
 
   @Override
   public IConduit read(@Nonnull Registry registry, @Nonnull Set<NBTAction> phase, @Nonnull NBTTagCompound nbt, @Nullable Field field, @Nonnull String name,
-      @Nullable IConduit object) throws IllegalArgumentException, IllegalAccessException, InstantiationException, NoHandlerFoundException {
+      @Nullable IConduit object) throws IllegalArgumentException {
     if (nbt.hasKey(name)) {
       NBTTagCompound root = nbt.getCompoundTag(name);
       return readFromNBT(root);

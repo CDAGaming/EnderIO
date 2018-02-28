@@ -246,10 +246,7 @@ public class LiquidConduit extends AbstractTankConduit implements IConduitCompon
     if (tank.getFluid() == null) {
       return true;
     }
-    if (fluid != null && FluidUtil.areFluidsTheSame(fluid.getFluid(), tank.getFluid().getFluid())) {
-      return true;
-    }
-    return false;
+      return fluid != null && FluidUtil.areFluidsTheSame(fluid.getFluid(), tank.getFluid().getFluid());
   }
 
   @Override

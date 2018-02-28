@@ -29,24 +29,24 @@ public enum EnumRenderPart implements IStringSerializable {
   SIMPLE_BODY_WEST(BODY),
   SIMPLE_BODY_EAST(BODY);
 
-  public static final @Nonnull PropertyEnum<EnumRenderPart> SUB = PropertyEnum.<EnumRenderPart> create("sub", EnumRenderPart.class);
+  public static final @Nonnull PropertyEnum<EnumRenderPart> SUB = PropertyEnum.create("sub", EnumRenderPart.class);
 
   private final int parentid;
   private final boolean rotates;
 
-  private EnumRenderPart() {
+  EnumRenderPart() {
     this(null, false);
   }
 
-  private EnumRenderPart(boolean rotates) {
+  EnumRenderPart(boolean rotates) {
     this(null, rotates);
   }
 
-  private EnumRenderPart(@Nullable EnumRenderPart parent) {
+  EnumRenderPart(@Nullable EnumRenderPart parent) {
     this(parent, parent != null);
   }
 
-  private EnumRenderPart(@Nullable EnumRenderPart parent, boolean rotates) {
+  EnumRenderPart(@Nullable EnumRenderPart parent, boolean rotates) {
     if (parent != null) {
       parentid = parent.ordinal();
       this.rotates = true;

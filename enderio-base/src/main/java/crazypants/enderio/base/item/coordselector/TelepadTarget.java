@@ -181,9 +181,7 @@ public class TelepadTarget implements IHandler<TelepadTarget> {
       return false;
     if (!location.equals(other.location))
       return false;
-    if (!name.equals(other.name))
-      return false;
-    return true;
+      return name.equals(other.name);
   }
 
   // ----------------------- I/O -------------- :(

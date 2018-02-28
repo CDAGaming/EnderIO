@@ -164,7 +164,7 @@ public class InventoryImpl implements IInventory {
 
   @Override
   public @Nonnull ITextComponent getDisplayName() {
-    return hasCustomName() ? new TextComponentString(getName()) : new TextComponentTranslation(getName(), new Object[0]);
+    return hasCustomName() ? new TextComponentString(getName()) : new TextComponentTranslation(getName());
   }
 
   @Override

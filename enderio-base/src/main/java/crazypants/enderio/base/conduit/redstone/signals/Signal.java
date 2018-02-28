@@ -63,9 +63,7 @@ public class Signal extends CombinedSignal implements ISignalSource {
       return false;
     if (dir != other.dir)
       return false;
-    if (!source.equals(other.source))
-      return false;
-    return true;
+      return source.equals(other.source);
   }
 
   @Override

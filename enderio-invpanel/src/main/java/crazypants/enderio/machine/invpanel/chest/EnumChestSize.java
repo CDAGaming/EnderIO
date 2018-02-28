@@ -25,7 +25,7 @@ public enum EnumChestSize implements IStringSerializable {
 
   private final int slots;
 
-  private EnumChestSize(int rows) {
+  EnumChestSize(int rows) {
     this.slots = rows * 9;
   }
 
@@ -34,7 +34,7 @@ public enum EnumChestSize implements IStringSerializable {
   }
 
   @SuppressWarnings("null")
-  public static final @Nonnull PropertyEnum<EnumChestSize> SIZE = PropertyEnum.<EnumChestSize> create("size", EnumChestSize.class);
+  public static final @Nonnull PropertyEnum<EnumChestSize> SIZE = PropertyEnum.create("size", EnumChestSize.class);
 
   @Override
   public @Nonnull String getName() {

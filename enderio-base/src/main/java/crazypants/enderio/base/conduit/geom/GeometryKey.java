@@ -46,9 +46,7 @@ public final class GeometryKey {
       return false;
     if (isStub != other.isStub)
       return false;
-    if (offset != other.offset)
-      return false;
-    return true;
+      return offset == other.offset;
   }
 
 }

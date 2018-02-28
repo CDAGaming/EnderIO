@@ -21,7 +21,7 @@ public class StaxFactory {
       Iterator<Attribute> attributes = startElement.getAttributes();
       while (attributes.hasNext()) {
         Attribute attribute = attributes.next();
-        if (!target.setAttribute(this, attribute.getName().getLocalPart().toString(), attribute.getValue())) {
+        if (!target.setAttribute(this, attribute.getName().getLocalPart(), attribute.getValue())) {
           throw new InvalidRecipeConfigException("Unexpected attribute '" + attribute.getName() + "' inside " + startElement.getName());
         }
       }

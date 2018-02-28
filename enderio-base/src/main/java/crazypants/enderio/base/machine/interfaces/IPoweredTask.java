@@ -31,6 +31,6 @@ public interface IPoweredTask {
   @Nullable
   IMachineRecipe getRecipe();
 
-  public abstract @Nonnull NNList<MachineRecipeInput> getInputs();
+  @Nonnull NNList<MachineRecipeInput> getInputs();
 
 }

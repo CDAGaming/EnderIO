@@ -340,7 +340,7 @@ public interface IConduit extends ICapabilityProvider {
     TextureAtlasSprite getTransmitionTextureForState(@Nonnull CollidableComponent component);
 
     @SideOnly(Side.CLIENT)
-    public @Nonnull Vector4f getTransmitionTextureColorForState(@Nonnull CollidableComponent component);
+    @Nonnull Vector4f getTransmitionTextureColorForState(@Nonnull CollidableComponent component);
 
     @SideOnly(Side.CLIENT)
     float getTransmitionGeometryScale();

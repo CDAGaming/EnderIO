@@ -43,7 +43,7 @@ public class ShapelessRecipe extends ShapelessRecipes {
 
   @Override
   public boolean matches(@Nonnull InventoryCrafting inv, @Nonnull World worldIn) {
-    return result.isPotentiallyValid() ? super.matches(inv, worldIn) : false;
+    return result.isPotentiallyValid() && super.matches(inv, worldIn);
   }
 
   @Override

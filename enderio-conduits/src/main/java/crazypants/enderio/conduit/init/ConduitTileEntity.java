@@ -23,7 +23,7 @@ public enum ConduitTileEntity implements IModTileEntity {
   private final @Nonnull String unlocalisedName;
   private final @Nonnull Class<? extends TileEntity> teClass;
 
-  private ConduitTileEntity(@Nonnull Class<? extends TileEntity> teClass) {
+  ConduitTileEntity(@Nonnull Class<? extends TileEntity> teClass) {
     this.unlocalisedName = ModObjectRegistry.sanitizeName(NullHelper.notnullJ(name(), "Enum.name()"));
     this.teClass = teClass;
   }

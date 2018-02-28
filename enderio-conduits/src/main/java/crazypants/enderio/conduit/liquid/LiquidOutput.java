@@ -38,9 +38,7 @@ public class LiquidOutput {
         return false;
     } else if(!location.equals(other.location))
       return false;
-    if(dir != other.dir)
-      return false;
-    return true;
+      return dir == other.dir;
   }
 
   @Override

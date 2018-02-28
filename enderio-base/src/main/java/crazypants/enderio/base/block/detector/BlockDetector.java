@@ -79,7 +79,7 @@ public class BlockDetector extends BlockEio<TileEntityPaintedBlock> implements I
 
   @Override
   protected @Nonnull BlockStateContainer createBlockState() {
-    return new BlockStateContainer(this, new IProperty[] { IS_ON, FACING });
+    return new BlockStateContainer(this, IS_ON, FACING);
   }
 
   @Override
@@ -138,9 +138,9 @@ public class BlockDetector extends BlockEio<TileEntityPaintedBlock> implements I
 
   protected void playClickSound(@Nonnull World worldIn, @Nonnull BlockPos pos, @Nonnull IBlockState state) {
     if (state.getValue(IS_ON)) {
-      worldIn.playSound((EntityPlayer) null, pos, SoundEvents.BLOCK_STONE_PRESSPLATE_CLICK_ON, SoundCategory.BLOCKS, 0.3F, 0.6F);
+      worldIn.playSound(null, pos, SoundEvents.BLOCK_STONE_PRESSPLATE_CLICK_ON, SoundCategory.BLOCKS, 0.3F, 0.6F);
     } else {
-      worldIn.playSound((EntityPlayer) null, pos, SoundEvents.BLOCK_STONE_PRESSPLATE_CLICK_OFF, SoundCategory.BLOCKS, 0.3F, 0.5F);
+      worldIn.playSound(null, pos, SoundEvents.BLOCK_STONE_PRESSPLATE_CLICK_OFF, SoundCategory.BLOCKS, 0.3F, 0.5F);
     }
   }
 

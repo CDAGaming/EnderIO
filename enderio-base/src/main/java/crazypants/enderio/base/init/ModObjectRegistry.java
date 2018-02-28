@@ -146,7 +146,7 @@ public class ModObjectRegistry {
   private static Object createObject(@Nonnull IModObject.Registerable mo, @Nonnull String methodName) {
     Object obj;
     try {
-      obj = mo.getClazz().getDeclaredMethod(methodName, new Class<?>[] { IModObject.class }).invoke(null, new Object[] { mo });
+      obj = mo.getClazz().getDeclaredMethod(methodName, new Class<?>[] { IModObject.class }).invoke(null, mo);
     } catch (Exception | Error e) {
       throw throwCreationError(mo, methodName, e);
     }

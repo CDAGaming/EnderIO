@@ -72,7 +72,7 @@ public class SpeciesItemFilter implements IInventory, IItemFilter {
       return true;
     }
     boolean matched = itemMatched(item);
-    return isBlacklist ? !matched : matched;
+    return isBlacklist != matched;
   }
 
   private boolean itemMatched(@Nonnull ItemStack item) {

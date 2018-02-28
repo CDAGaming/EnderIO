@@ -29,9 +29,9 @@ import java.util.concurrent.ConcurrentMap;
 
 public class PaintRegistry {
 
-  public static enum PaintMode {
+  public enum PaintMode {
     ALL_TEXTURES,
-    TAGGED_TEXTURES;
+    TAGGED_TEXTURES
   }
 
   public static IModelState OVERLAY_TRANSFORMATION;
@@ -74,7 +74,7 @@ public class PaintRegistry {
       modelLocations = new ConcurrentHashMap<String, Pair<ResourceLocation, PaintMode>>();
       models = new ConcurrentHashMap<String, IModel>();
       cache = new ConcurrentHashMap<String, ConcurrentMap<Pair<IBlockState, IModelState>, IBakedModel>>();
-      modelLocations.put("_missing", Pair.of((ResourceLocation) null, PaintMode.ALL_TEXTURES));
+      modelLocations.put("_missing", Pair.of(null, PaintMode.ALL_TEXTURES));
       OVERLAY_TRANSFORMATION = new TRSRTransformation(new Vector3f(0.01f, 0.01f, 0.01f), null, null, null);
       OVERLAY_TRANSFORMATION2 = new TRSRTransformation(new Vector3f(-0.01f, -0.01f, -0.01f), null, new Vector3f(1.02f, 1.02f, 1.02f), null);
       OVERLAY_TRANSFORMATION3 = new TRSRTransformation(new Vector3f(-0.01f, -0.01f, -0.01f), null, new Vector3f(1.02f, 1.04f, 1.02f), null);

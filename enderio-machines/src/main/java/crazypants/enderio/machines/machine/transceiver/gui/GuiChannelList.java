@@ -27,7 +27,7 @@ public class GuiChannelList extends GuiScrollableList<Channel> {
 
   void setChannels(Set<Channel> val, Predicate<Channel> filter) {
     if (val == null) {
-      channels = FluentIterable.from(Sets.<Channel> newHashSet());
+      channels = FluentIterable.from(Sets.newHashSet());
     } else {
       channels = FluentIterable.from(val);
       if (filter != null) {

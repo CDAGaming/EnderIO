@@ -18,7 +18,7 @@ public class CompositeList<E> extends AbstractList<E> {
   public static @Nonnull <E extends Object> List<E> create(List<E> list1, List<E> list2) {
     if (list1 == null || list1.isEmpty()) {
       if (list2 == null || list2.isEmpty()) {
-        return Collections.<E> emptyList();
+        return Collections.emptyList();
       } else {
         return list2;
       }

@@ -43,10 +43,7 @@ public class LiquidConduitRenderer extends DefaultConduitRenderer implements IRe
 
   @Override
   public boolean isRendererForConduit(@Nonnull IConduit conduit) {
-    if (conduit instanceof LiquidConduit) {
-      return true;
-    }
-    return false;
+      return conduit instanceof LiquidConduit;
   }
 
   @Override
@@ -155,7 +152,7 @@ public class LiquidConduitRenderer extends DefaultConduitRenderer implements IRe
   private interface CachableRenderStatement {
     void execute();
 
-    static class AddVertexWithUV implements CachableRenderStatement {
+    class AddVertexWithUV implements CachableRenderStatement {
       private final double x, y, z, u, v;
       private final Vector4f color;
 

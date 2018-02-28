@@ -15,7 +15,7 @@ public enum SpawnerNotification implements ILocalizable {
 
   private final String langStr;
 
-  private SpawnerNotification(String langStr) {
+  SpawnerNotification(String langStr) {
     this.langStr = langStr;
   }
 

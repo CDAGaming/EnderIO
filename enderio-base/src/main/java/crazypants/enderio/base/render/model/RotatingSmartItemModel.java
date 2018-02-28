@@ -77,7 +77,7 @@ public class RotatingSmartItemModel implements IBakedModel {
     return Pair.of(perspective.getLeft(), transformNew.getMatrix());
   }
 
-  private final @Nonnull ItemOverrideList overrides = new ItemOverrideList(Lists.<ItemOverride> newArrayList()) {
+  private final @Nonnull ItemOverrideList overrides = new ItemOverrideList(Lists.newArrayList()) {
     @Override
     public @Nonnull IBakedModel handleItemState(@Nonnull IBakedModel originalModel, @Nonnull ItemStack stack, @Nullable World world,
         @Nullable EntityLivingBase entity) {

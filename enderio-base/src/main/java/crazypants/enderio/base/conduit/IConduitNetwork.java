@@ -19,18 +19,18 @@ import java.util.List;
 public interface IConduitNetwork<T extends IConduit, I extends T> extends ITickListener {
 
   // TODO: Tidy and edit Javadocs
-  public void init(@Nonnull IConduitBundle tile, Collection<I> connections, @Nonnull World world);
+  void init(@Nonnull IConduitBundle tile, Collection<I> connections, @Nonnull World world);
 
-  public @Nonnull Class<T> getBaseConduitType();
+  @Nonnull Class<T> getBaseConduitType();
 
-  public void setNetwork(@Nonnull World world, @Nonnull IConduitBundle tile);
+  void setNetwork(@Nonnull World world, @Nonnull IConduitBundle tile);
 
-  public void addConduit(@Nonnull I newConduit);
+  void addConduit(@Nonnull I newConduit);
 
-  public void destroyNetwork();
+  void destroyNetwork();
 
-  public @Nonnull List<I> getConduits();
+  @Nonnull List<I> getConduits();
 
-  public void sendBlockUpdatesForEntireNetwork();
+  void sendBlockUpdatesForEntireNetwork();
 
 }

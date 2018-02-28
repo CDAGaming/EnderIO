@@ -212,8 +212,6 @@ public class ConduitDisplayMode {
     ConduitDisplayMode other = (ConduitDisplayMode) obj;
     if (!conduitType.equals(other.conduitType))
       return false;
-    if (!Objects.equal(overrideName, other.overrideName))
-      return false;
-    return true;
+      return Objects.equal(overrideName, other.overrideName);
   }
 }

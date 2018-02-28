@@ -88,7 +88,7 @@ public class Offsets {
     return Axis.NONE;
   }
 
-  public static enum Axis {
+  public enum Axis {
     NONE,
     X,
     Y,
@@ -130,13 +130,8 @@ public class Offsets {
         return false;
       }
       if (typeName == null) {
-        if (other.typeName != null) {
-          return false;
-        }
-      } else if (!typeName.equals(other.typeName)) {
-        return false;
-      }
-      return true;
+          return other.typeName == null;
+      } else return typeName.equals(other.typeName);
     }
 
     @Override

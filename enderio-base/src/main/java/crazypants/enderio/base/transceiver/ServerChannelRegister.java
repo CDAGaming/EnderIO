@@ -68,7 +68,7 @@ public class ServerChannelRegister extends ChannelRegister implements ICapabilit
       }
     }, new Callable<IServerChannelRegister>() {
       @Override
-      public IServerChannelRegister call() throws Exception {
+      public IServerChannelRegister call() {
         return ServerChannelRegister.instance;
       }
     });

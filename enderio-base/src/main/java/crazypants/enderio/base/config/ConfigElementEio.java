@@ -192,13 +192,13 @@ public class ConfigElementEio implements IConfigElement {
       } else if (type == Property.Type.DOUBLE) {
         Double[] da = new Double[aVal.length];
         for (int i = 0; i < aVal.length; i++) {
-          da[i] = Double.valueOf(aVal[i].toString());
+          da[i] = Double.valueOf(aVal[i]);
         }
         return da;
       } else if (type == Property.Type.INTEGER) {
         Integer[] ia = new Integer[aVal.length];
         for (int i = 0; i < aVal.length; i++) {
-          ia[i] = Integer.valueOf(aVal[i].toString());
+          ia[i] = Integer.valueOf(aVal[i]);
         }
         return ia;
       } else
@@ -230,13 +230,13 @@ public class ConfigElementEio implements IConfigElement {
       } else if (type == Property.Type.DOUBLE) {
         Double[] da = new Double[aVal.length];
         for (int i = 0; i < aVal.length; i++) {
-          da[i] = Double.valueOf(aVal[i].toString());
+          da[i] = Double.valueOf(aVal[i]);
         }
         return da;
       } else if (type == Property.Type.INTEGER) {
         Integer[] ia = new Integer[aVal.length];
         for (int i = 0; i < aVal.length; i++) {
-          ia[i] = Integer.valueOf(aVal[i].toString());
+          ia[i] = Integer.valueOf(aVal[i]);
         }
         return ia;
       } else

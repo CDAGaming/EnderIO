@@ -38,11 +38,11 @@ import java.util.List;
 public class EnderItemOverrideList extends ItemOverrideList {
 
   public EnderItemOverrideList() {
-    super(Collections.<ItemOverride> emptyList());
+    super(Collections.emptyList());
   }
 
   private final static Cache<Pair<Block, Long>, ItemQuadCollector> cache = CacheBuilder.newBuilder().maximumSize(500)
-      .<Pair<Block, Long>, ItemQuadCollector> build();
+      .build();
 
   public static final @Nonnull EnderItemOverrideList instance = new EnderItemOverrideList();
 
@@ -71,7 +71,7 @@ public class EnderItemOverrideList extends ItemOverrideList {
     if (block instanceof IBlockPaintableBlock && (!(block instanceof IWrenchHideablePaint) || !YetaUtil.shouldHeldItemHideFacadesClient())) {
       IBlockState paintSource = ((IBlockPaintableBlock) block).getPaintSource(block, stack);
       if (paintSource != null && paintSource != Blocks.AIR.getDefaultState()) {
-        Pair<Block, Long> cacheKey = NullHelper.notnull(Pair.of((Block) null, new CacheKey().addCacheKey(paintSource).getCacheKey()), "no way");
+        Pair<Block, Long> cacheKey = NullHelper.notnull(Pair.of(null, new CacheKey().addCacheKey(paintSource).getCacheKey()), "no way");
         ItemQuadCollector quads = cache.getIfPresent(cacheKey);
         if (quads == null) {
           quads = new ItemQuadCollector();

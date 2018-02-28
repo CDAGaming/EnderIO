@@ -54,7 +54,7 @@ public class ShapedRecipe extends ShapedRecipes {
 
   @Override
   public boolean matches(@Nonnull InventoryCrafting inv, @Nonnull World worldIn) {
-    return result.isPotentiallyValid() ? super.matches(inv, worldIn) : false;
+    return result.isPotentiallyValid() && super.matches(inv, worldIn);
   }
 
   @Override

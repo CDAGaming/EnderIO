@@ -101,23 +101,23 @@ public enum MachineObject implements IModObject.Registerable {
   protected final @Nullable String blockMethodName, itemMethodName;
   protected final @Nullable Class<? extends TileEntity> teClazz;
 
-  private MachineObject(@Nonnull Class<?> clazz) {
+  MachineObject(@Nonnull Class<?> clazz) {
     this(clazz, "create", (Class<? extends TileEntity>) null);
   }
 
-  private MachineObject(@Nonnull Class<?> clazz, Class<? extends TileEntity> teClazz) {
+  MachineObject(@Nonnull Class<?> clazz, Class<? extends TileEntity> teClazz) {
     this(clazz, "create", teClazz);
   }
 
-  private MachineObject(@Nonnull Class<?> clazz, @Nonnull String methodName) {
+  MachineObject(@Nonnull Class<?> clazz, @Nonnull String methodName) {
     this(clazz, methodName, (Class<? extends TileEntity>) null);
   }
 
-  private MachineObject(@Nonnull Class<?> clazz, @Nonnull String blockMethodName, @Nonnull String itemMethodName) {
+  MachineObject(@Nonnull Class<?> clazz, @Nonnull String blockMethodName, @Nonnull String itemMethodName) {
     this(clazz, blockMethodName, itemMethodName, null);
   }
 
-  private MachineObject(@Nonnull Class<?> clazz, @Nonnull String methodName, Class<? extends TileEntity> teClazz) {
+  MachineObject(@Nonnull Class<?> clazz, @Nonnull String methodName, Class<? extends TileEntity> teClazz) {
     this.unlocalisedName = ModObjectRegistry.sanitizeName(NullHelper.notnullJ(name(), "Enum.name()"));
     this.clazz = clazz;
     if (Block.class.isAssignableFrom(clazz)) {
@@ -132,7 +132,7 @@ public enum MachineObject implements IModObject.Registerable {
     this.teClazz = teClazz;
   }
 
-  private MachineObject(@Nonnull Class<?> clazz, @Nullable String blockMethodName, @Nullable String itemMethodName, Class<? extends TileEntity> teClazz) {
+  MachineObject(@Nonnull Class<?> clazz, @Nullable String blockMethodName, @Nullable String itemMethodName, Class<? extends TileEntity> teClazz) {
     this.unlocalisedName = ModObjectRegistry.sanitizeName(NullHelper.notnullJ(name(), "Enum.name()"));
     this.clazz = clazz;
     this.blockMethodName = blockMethodName == null || blockMethodName.isEmpty() ? null : blockMethodName;

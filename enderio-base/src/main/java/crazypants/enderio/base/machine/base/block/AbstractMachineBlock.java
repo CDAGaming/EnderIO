@@ -80,7 +80,7 @@ public abstract class AbstractMachineBlock<T extends AbstractMachineEntity> exte
 
   @Override
   protected @Nonnull BlockStateContainer createBlockState() {
-    return new BlockStateContainer(this, new IProperty[] { EnumRenderMode.RENDER });
+    return new BlockStateContainer(this, EnumRenderMode.RENDER);
   }
 
   @Override
@@ -222,7 +222,7 @@ public abstract class AbstractMachineBlock<T extends AbstractMachineEntity> exte
 
   @Override
   public boolean canRenderInLayer(@Nonnull IBlockState state, @Nonnull BlockRenderLayer layer) {
-    return this instanceof IPaintable ? true : super.canRenderInLayer(state, layer);
+    return this instanceof IPaintable || super.canRenderInLayer(state, layer);
   }
 
   @SideOnly(Side.CLIENT)

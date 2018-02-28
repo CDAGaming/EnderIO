@@ -122,8 +122,7 @@ public abstract class AbstractInventoryMachineEntity extends AbstractMachineEnti
     boolean hasSpace = false;
     for (int slot = slotDefinition.minInputSlot; slot <= slotDefinition.maxInputSlot && !hasSpace; slot++) {
       final ItemStack itemStack = inventory[slot];
-      hasSpace = (itemStack == null || Prep.isInvalid(itemStack)) ? true
-          : itemStack.getCount() < Math.min(itemStack.getMaxStackSize(), getInventoryStackLimit(slot));
+      hasSpace = (itemStack == null || Prep.isInvalid(itemStack)) || itemStack.getCount() < Math.min(itemStack.getMaxStackSize(), getInventoryStackLimit(slot));
     }
     return hasSpace;
   }
@@ -231,7 +230,7 @@ public abstract class AbstractInventoryMachineEntity extends AbstractMachineEnti
 
     @Override
     public @Nonnull ITextComponent getDisplayName() {
-      return hasCustomName() ? new TextComponentString(getName()) : new TextComponentTranslation(getName(), new Object[0]);
+      return hasCustomName() ? new TextComponentString(getName()) : new TextComponentTranslation(getName());
     }
 
     @Override

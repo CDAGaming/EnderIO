@@ -30,12 +30,12 @@ public enum SoundRegistry implements IModSound {
   private final @Nonnull SoundCategory soundCategory;
   private @Nullable SoundEvent soundEvent = null;
 
-  private SoundRegistry(@Nonnull SoundCategory soundCategory, @Nonnull ResourceLocation resourceLocation) {
+  SoundRegistry(@Nonnull SoundCategory soundCategory, @Nonnull ResourceLocation resourceLocation) {
     this.soundCategory = soundCategory;
     this.resourceLocation = resourceLocation;
   }
 
-  private SoundRegistry(@Nonnull SoundCategory soundCategory, @Nonnull String name) {
+  SoundRegistry(@Nonnull SoundCategory soundCategory, @Nonnull String name) {
     this(soundCategory, new ResourceLocation(EnderIO.DOMAIN, name));
   }
 

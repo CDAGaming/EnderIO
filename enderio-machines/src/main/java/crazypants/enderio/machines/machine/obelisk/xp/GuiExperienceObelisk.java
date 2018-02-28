@@ -55,7 +55,7 @@ public class GuiExperienceObelisk extends GuiMachineBase<TileExperienceObelisk> 
         if (XpUtil.getPlayerXP(Minecraft.getMinecraft().player) <= 0) {
           text.add(Lang.GUI_XP_STORE_EMPTY.get());
         }
-      };
+      }
     });
 
     x += spacing + bw;
@@ -76,7 +76,7 @@ public class GuiExperienceObelisk extends GuiMachineBase<TileExperienceObelisk> 
         if (XpUtil.getPlayerXP(Minecraft.getMinecraft().player) <= 0) {
           text.add(Lang.GUI_XP_STORE_EMPTY.get());
         }
-      };
+      }
     });
 
     x += spacing + bw;
@@ -97,7 +97,7 @@ public class GuiExperienceObelisk extends GuiMachineBase<TileExperienceObelisk> 
         if (XpUtil.getPlayerXP(Minecraft.getMinecraft().player) <= 0) {
           text.add(Lang.GUI_XP_STORE_EMPTY.get());
         }
-      };
+      }
     });
 
     x = startX;
@@ -119,7 +119,7 @@ public class GuiExperienceObelisk extends GuiMachineBase<TileExperienceObelisk> 
         if (getTileEntity().getContainer().getExperienceTotal() <= 0) {
           text.add(Lang.GUI_XP_RETR_EMPTY.get());
         }
-      };
+      }
     });
 
     x += spacing + bw;
@@ -140,7 +140,7 @@ public class GuiExperienceObelisk extends GuiMachineBase<TileExperienceObelisk> 
         if (getTileEntity().getContainer().getExperienceTotal() <= 0) {
           text.add(Lang.GUI_XP_RETR_EMPTY.get());
         }
-      };
+      }
     });
 
     x += spacing + bw;

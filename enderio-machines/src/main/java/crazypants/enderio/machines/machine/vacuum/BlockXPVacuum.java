@@ -59,7 +59,7 @@ public class BlockXPVacuum extends BlockEio<TileXPVacuum>
 
   @Override
   protected @Nonnull BlockStateContainer createBlockState() {
-    return new BlockStateContainer(this, new IProperty[] { EnumRenderMode.RENDER });
+    return new BlockStateContainer(this, EnumRenderMode.RENDER);
   }
 
   @Override

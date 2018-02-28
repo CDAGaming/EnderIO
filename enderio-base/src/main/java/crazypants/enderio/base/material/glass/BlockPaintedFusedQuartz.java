@@ -71,7 +71,7 @@ public class BlockPaintedFusedQuartz extends BlockFusedQuartzBase<TileEntityPain
 
   @Override
   protected @Nonnull BlockStateContainer createBlockState() {
-    return new BlockStateContainer(this, new IProperty[] { FusedQuartzType.KIND });
+    return new BlockStateContainer(this, FusedQuartzType.KIND);
   }
 
   @Override

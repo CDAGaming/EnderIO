@@ -209,11 +209,8 @@ public class TravelController {
     if (doBlink(player, equipped, hand, new BlockPos((int) Math.floor(sample.x), (int) Math.floor(sample.y), (int) Math.floor(sample.z)), conserveMomentum)) {
       return true;
     }
-    if (doBlink(player, equipped, hand, new BlockPos((int) Math.floor(sample.x), (int) Math.floor(sample.y) + 1, (int) Math.floor(sample.z)),
-        conserveMomentum)) {
-      return true;
-    }
-    return false;
+      return doBlink(player, equipped, hand, new BlockPos((int) Math.floor(sample.x), (int) Math.floor(sample.y) + 1, (int) Math.floor(sample.z)),
+              conserveMomentum);
   }
 
   private boolean doBlink(@Nonnull EntityPlayer player, @Nonnull ItemStack equipped, @Nonnull EnumHand hand, @Nonnull BlockPos coord,
@@ -583,7 +580,7 @@ public class TravelController {
     if (travelToSelectedTarget(player, Prep.getEmpty(), EnumHand.MAIN_HAND, TravelSource.BLOCK, false)) {
       input.jump = false;
       try {
-        ObfuscationReflectionHelper.setPrivateValue(EntityPlayer.class, (EntityPlayer) player, 0, "flyToggleTimer", "field_71101_bC");
+        ObfuscationReflectionHelper.setPrivateValue(EntityPlayer.class, player, 0, "flyToggleTimer", "field_71101_bC");
       } catch (Exception e) {
         // ignore
       }

@@ -33,7 +33,7 @@ import java.util.List;
 
 public class GuiPowerMonitor extends GuiMachineBase<TilePowerMonitor> implements IPowerMonitorRemoteExec.GUI {
 
-  private static enum Tab {
+  private enum Tab {
     GRAPH(0, new ItemStack(PowerToolObject.block_advanced_power_monitor.getBlockNN())),
     STAT(1, new ItemStack(PowerToolObject.block_power_monitor.getBlockNN())),
     CONTROL(2, new ItemStack(Items.REDSTONE));
@@ -42,7 +42,7 @@ public class GuiPowerMonitor extends GuiMachineBase<TilePowerMonitor> implements
     @Nonnull
     ItemStack itemStack;
 
-    private Tab(int tabNo, @Nonnull ItemStack itemStack) {
+    Tab(int tabNo, @Nonnull ItemStack itemStack) {
       this.tabNo = tabNo;
       this.itemStack = itemStack;
     }

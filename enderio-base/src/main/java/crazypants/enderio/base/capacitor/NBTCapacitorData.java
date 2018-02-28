@@ -67,9 +67,7 @@ public class NBTCapacitorData implements ICapacitorData {
       return false;
     if (!tag.equals(other.tag))
       return false;
-    if (!unlocalizedName.equals(other.unlocalizedName))
-      return false;
-    return true;
+      return unlocalizedName.equals(other.unlocalizedName);
   }
 
 }

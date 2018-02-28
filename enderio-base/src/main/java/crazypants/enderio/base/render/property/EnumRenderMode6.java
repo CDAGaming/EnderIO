@@ -41,24 +41,24 @@ public enum EnumRenderMode6 implements IStringSerializable {
   FRONT_ON_WEST(FRONT_ON),
   FRONT_ON_EAST(FRONT_ON);
 
-  public static final PropertyEnum<EnumRenderMode6> RENDER = PropertyEnum.<EnumRenderMode6> create("render", EnumRenderMode6.class);
+  public static final PropertyEnum<EnumRenderMode6> RENDER = PropertyEnum.create("render", EnumRenderMode6.class);
 
   private final int parentid;
   private final boolean rotates;
 
-  private EnumRenderMode6() {
+  EnumRenderMode6() {
     this(null, false);
   }
 
-  private EnumRenderMode6(boolean rotates) {
+  EnumRenderMode6(boolean rotates) {
     this(null, rotates);
   }
 
-  private EnumRenderMode6(EnumRenderMode6 parent) {
+  EnumRenderMode6(EnumRenderMode6 parent) {
     this(parent, parent != null);
   }
 
-  private EnumRenderMode6(EnumRenderMode6 parent, boolean rotates) {
+  EnumRenderMode6(EnumRenderMode6 parent, boolean rotates) {
     if (parent != null) {
       parentid = parent.ordinal();
       this.rotates = true;

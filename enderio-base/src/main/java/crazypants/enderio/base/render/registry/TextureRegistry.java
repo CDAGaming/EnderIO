@@ -19,7 +19,7 @@ import java.util.Map.Entry;
 
 public class TextureRegistry {
 
-  public static interface TextureSupplier {
+  public interface TextureSupplier {
     @Nonnull
     <T extends Object> T get(@Nonnull Class<T> clazz);
   }

@@ -44,23 +44,23 @@ public enum PowerToolObject implements IModObject.Registerable {
   protected final @Nullable String blockMethodName, itemMethodName;
   protected final @Nullable IModTileEntity modTileEntity;
 
-  private PowerToolObject(@Nonnull Class<?> clazz) {
+  PowerToolObject(@Nonnull Class<?> clazz) {
     this(clazz, "create", (IModTileEntity) null);
   }
 
-  private PowerToolObject(@Nonnull Class<?> clazz, @Nullable IModTileEntity modTileEntity) {
+  PowerToolObject(@Nonnull Class<?> clazz, @Nullable IModTileEntity modTileEntity) {
     this(clazz, "create", modTileEntity);
   }
 
-  private PowerToolObject(@Nonnull Class<?> clazz, @Nonnull String methodName) {
+  PowerToolObject(@Nonnull Class<?> clazz, @Nonnull String methodName) {
     this(clazz, methodName, (IModTileEntity) null);
   }
 
-  private PowerToolObject(@Nonnull Class<?> clazz, @Nonnull String blockMethodName, @Nonnull String itemMethodName) {
+  PowerToolObject(@Nonnull Class<?> clazz, @Nonnull String blockMethodName, @Nonnull String itemMethodName) {
     this(clazz, blockMethodName, itemMethodName, null);
   }
 
-  private PowerToolObject(@Nonnull Class<?> clazz, @Nonnull String methodName, @Nullable IModTileEntity modTileEntity) {
+  PowerToolObject(@Nonnull Class<?> clazz, @Nonnull String methodName, @Nullable IModTileEntity modTileEntity) {
     this.unlocalisedName = ModObjectRegistry.sanitizeName(NullHelper.notnullJ(name(), "Enum.name()"));
     this.clazz = clazz;
     if (Block.class.isAssignableFrom(clazz)) {
@@ -75,7 +75,7 @@ public enum PowerToolObject implements IModObject.Registerable {
     this.modTileEntity = modTileEntity;
   }
 
-  private PowerToolObject(@Nonnull Class<?> clazz, @Nullable String blockMethodName, @Nullable String itemMethodName, @Nullable IModTileEntity modTileEntity) {
+  PowerToolObject(@Nonnull Class<?> clazz, @Nullable String blockMethodName, @Nullable String itemMethodName, @Nullable IModTileEntity modTileEntity) {
     this.unlocalisedName = ModObjectRegistry.sanitizeName(NullHelper.notnullJ(name(), "Enum.name()"));
     this.clazz = clazz;
     this.blockMethodName = blockMethodName == null || blockMethodName.isEmpty() ? null : blockMethodName;

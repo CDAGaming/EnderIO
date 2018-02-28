@@ -218,7 +218,7 @@ public class StorableEngine {
         } else {
           superclassCache.put(clazz, superclazz);
           if (!superclassCache.containsKey(superclazz)) {
-            superclassHandlerCache.put(superclazz, (List<IHandler>) Arrays.asList(annotation.handler().newInstance()));
+            superclassHandlerCache.put(superclazz, Arrays.asList(annotation.handler().newInstance()));
           }
         }
       } else {

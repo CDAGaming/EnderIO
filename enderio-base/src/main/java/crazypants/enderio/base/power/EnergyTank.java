@@ -164,10 +164,7 @@ public class EnergyTank implements IEnergyStorage {
 
   public boolean canUseEnergy(@Nonnull ICapacitorKey key) {
     int toUse = getMaxUsage(key);
-    if (toUse <= getEnergyStored()) {
-      return true;
-    }
-    return false;
+      return toUse <= getEnergyStored();
   }
 
   public boolean useEnergy() {

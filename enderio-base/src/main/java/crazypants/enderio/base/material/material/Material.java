@@ -85,27 +85,27 @@ public enum Material {
   private final @Nonnull String oreDict;
   private final String dependency;
 
-  private Material(@Nonnull String baseName) {
+  Material(@Nonnull String baseName) {
     this(baseName, "item" + StringUtils.capitalize(baseName), false);
   }
 
-  private Material(@Nonnull String baseName, @Nonnull String oreDict) {
+  Material(@Nonnull String baseName, @Nonnull String oreDict) {
     this(baseName, oreDict, false);
   }
 
-  private Material(@Nonnull String baseName, boolean hasEffect) {
+  Material(@Nonnull String baseName, boolean hasEffect) {
     this(baseName, "item" + StringUtils.capitalize(baseName), hasEffect);
   }
 
-  private Material(@Nonnull String baseName, @Nonnull String oreDict, boolean hasEffect) {
+  Material(@Nonnull String baseName, @Nonnull String oreDict, boolean hasEffect) {
     this(baseName, oreDict, hasEffect, null);
   }
 
-  private Material(@Nonnull String baseName, @Nonnull String oreDict, @Nullable String dependency) {
+  Material(@Nonnull String baseName, @Nonnull String oreDict, @Nullable String dependency) {
     this(baseName, oreDict, false, dependency);
   }
 
-  private Material(@Nonnull String baseName, @Nonnull String oreDict, boolean hasEffect, @Nullable String dependency) {
+  Material(@Nonnull String baseName, @Nonnull String oreDict, boolean hasEffect, @Nullable String dependency) {
     this.baseName = baseName.replaceAll("([A-Z])", "_$0").toLowerCase(Locale.ENGLISH);
     this.oreDict = oreDict;
     this.hasEffect = hasEffect;

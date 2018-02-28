@@ -20,7 +20,7 @@ public class SilverfishAttractorHandler implements IMobAttractionHandler {
 
   @Override
   public void startAttracting(TileAttractor attractor, EntityLiving entity) {
-    ((EntityMob) entity).setAttackTarget(attractor.getTarget());
+    entity.setAttackTarget(attractor.getTarget());
     tick(attractor, entity);
   }
 

@@ -34,19 +34,19 @@ public enum Offset {
   public final int yOffset;
   public final int zOffset;
 
-  private Offset(EnumFacing dir) {
+  Offset(EnumFacing dir) {
     xOffset = dir.getFrontOffsetX();
     yOffset = dir.getFrontOffsetY();
     zOffset = dir.getFrontOffsetZ();
   }
 
-  private Offset(EnumFacing dir, EnumFacing yDir) {
+  Offset(EnumFacing dir, EnumFacing yDir) {
     xOffset = dir.getFrontOffsetX() + yDir.getFrontOffsetX();
     yOffset = dir.getFrontOffsetY() + yDir.getFrontOffsetY();
     zOffset = dir.getFrontOffsetZ() + yDir.getFrontOffsetZ();
   }
 
-  private Offset(int xOffset, int yOffset, int zOffset) {
+  Offset(int xOffset, int yOffset, int zOffset) {
     this.xOffset = xOffset;
     this.yOffset = yOffset;
     this.zOffset = zOffset;

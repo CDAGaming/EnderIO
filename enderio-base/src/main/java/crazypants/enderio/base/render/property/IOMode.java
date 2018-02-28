@@ -17,7 +17,7 @@ public class IOMode implements Comparable<IOMode> {
   private final @Nonnull EnumFacing direction;
   private final @Nonnull EnumIOMode iomode;
 
-  public static enum EnumIOMode {
+  public enum EnumIOMode {
     NONE,
     DISABLED,
     DISABLEDNOCENTER,
@@ -98,9 +98,7 @@ public class IOMode implements Comparable<IOMode> {
     IOMode other = (IOMode) obj;
     if (direction != other.direction)
       return false;
-    if (iomode != other.iomode)
-      return false;
-    return true;
+      return iomode == other.iomode;
   }
 
   @Override

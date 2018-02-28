@@ -4,5 +4,5 @@ public enum FarmingAction {
   TILL,
   PLANT,
   HARVEST,
-  FERTILIZE;
+  FERTILIZE
 }

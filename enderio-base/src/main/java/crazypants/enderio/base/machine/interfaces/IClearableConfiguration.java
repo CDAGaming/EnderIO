@@ -16,7 +16,7 @@ public interface IClearableConfiguration {
    * Sub-interface for items or blocks that want to handle the clearing themselves.
    *
    */
-  public static interface Handler extends IClearableConfiguration {
+  interface Handler extends IClearableConfiguration {
 
     /**
      * Removes all configuration from the NBT of the given stack.

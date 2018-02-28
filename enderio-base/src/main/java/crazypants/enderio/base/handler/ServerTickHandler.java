@@ -17,10 +17,10 @@ import java.util.Map.Entry;
 @EventBusSubscriber(modid = EnderIO.MODID)
 public class ServerTickHandler {
 
-  public static interface ITickListener {
-    public void tickStart(TickEvent.ServerTickEvent event, Profiler profiler);
+  public interface ITickListener {
+    void tickStart(TickEvent.ServerTickEvent event, Profiler profiler);
 
-    public void tickEnd(TickEvent.ServerTickEvent event, Profiler profiler);
+    void tickEnd(TickEvent.ServerTickEvent event, Profiler profiler);
   }
 
   private final static @Nonnull IdentityHashMap<ITickListener, String> listeners = new IdentityHashMap<>();

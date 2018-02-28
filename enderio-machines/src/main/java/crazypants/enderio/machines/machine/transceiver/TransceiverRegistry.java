@@ -21,7 +21,7 @@ public enum TransceiverRegistry {
   private final List<TileTransceiver> transceivers = new ArrayList<TileTransceiver>();
   private Map<Channel, RoundRobinIterator<TileTransceiver>> iterators = new HashMap<Channel, RoundRobinIterator<TileTransceiver>>();
 
-  private TransceiverRegistry() {
+  TransceiverRegistry() {
   }
 
   public void register(TileTransceiver transceiver) {

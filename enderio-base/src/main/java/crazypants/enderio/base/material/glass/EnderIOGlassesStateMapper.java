@@ -24,7 +24,7 @@ public class EnderIOGlassesStateMapper extends StateMapperBase {
 
   @Override
   protected @Nonnull ModelResourceLocation getModelResourceLocation(@Nonnull IBlockState state) {
-    Map<IProperty<?>, Comparable<?>> map = Maps.<IProperty<?>, Comparable<?>> newLinkedHashMap(state.getProperties());
+    Map<IProperty<?>, Comparable<?>> map = Maps.newLinkedHashMap(state.getProperties());
 
     map.remove(BlockColored.COLOR);
 

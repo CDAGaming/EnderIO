@@ -70,7 +70,7 @@ public class BlockReservoir extends BlockEio<TileReservoir> implements IResource
 
   @Override
   protected @Nonnull BlockStateContainer createBlockState() {
-    return new BlockStateContainer(this, new IProperty[] { EnumMergingBlockRenderMode.RENDER });
+    return new BlockStateContainer(this, EnumMergingBlockRenderMode.RENDER);
   }
 
   @Override
@@ -132,13 +132,9 @@ public class BlockReservoir extends BlockEio<TileReservoir> implements IResource
             && FluidUtil.fillInternalTankFromPlayerHandItem(world, pos, entityPlayer, hand, new ReservoirTankWrapper(tank, world, pos))) {
           return true;
         }
-        if (FluidUtil.fillPlayerHandItemFromInternalTank(world, pos, entityPlayer, hand, tank)) {
-          return true;
-        }
+          return FluidUtil.fillPlayerHandItemFromInternalTank(world, pos, entityPlayer, hand, tank);
       }
-    } else if (ToolUtil.breakBlockWithTool(this, world, pos, side, entityPlayer, hand, permissionNodeWrenching)) {
-      return true;
-    }
+    } else return ToolUtil.breakBlockWithTool(this, world, pos, side, entityPlayer, hand, permissionNodeWrenching);
     return false; // super also has fluid transfer code, avoid that
   }
 

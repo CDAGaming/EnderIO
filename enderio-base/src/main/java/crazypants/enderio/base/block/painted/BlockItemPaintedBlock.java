@@ -27,7 +27,7 @@ public class BlockItemPaintedBlock extends ItemBlock {
     }
   }
 
-  public static interface INamedSubBlocks {
+  public interface INamedSubBlocks {
     @Nonnull
     String getUnlocalizedName(int meta);
   }

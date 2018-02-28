@@ -54,7 +54,7 @@ public class BlockDecoration extends Block implements IHaveRenderers, IModObject
 
   @Override
   protected @Nonnull BlockStateContainer createBlockState() {
-    return new BlockStateContainer(this, new IProperty[] { EnumDecoBlock.TYPE });
+    return new BlockStateContainer(this, EnumDecoBlock.TYPE);
   }
 
   @Override

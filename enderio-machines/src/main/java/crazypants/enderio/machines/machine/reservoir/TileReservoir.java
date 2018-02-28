@@ -218,7 +218,7 @@ public class TileReservoir extends TileEntityEio implements ITankAccess.IExtende
   @Override
   @Nonnull
   public List<ITankData> getTankDisplayData() {
-    return Collections.<ITankData> singletonList(new ITankData() {
+    return Collections.singletonList(new ITankData() {
 
       @Override
       @Nonnull

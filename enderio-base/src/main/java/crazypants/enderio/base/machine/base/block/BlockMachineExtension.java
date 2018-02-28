@@ -53,9 +53,9 @@ public class BlockMachineExtension extends BlockEio<TileEntityEio> {
   @Override
   public @Nullable Item createBlockItem(@Nonnull IModObject modObject) {
     return null;
-  };
+  }
 
-  protected @Nonnull IModObject getParent() {
+    protected @Nonnull IModObject getParent() {
     return parent;
   }
 

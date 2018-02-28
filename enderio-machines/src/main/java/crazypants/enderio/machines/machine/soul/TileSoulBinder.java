@@ -244,7 +244,7 @@ public class TileSoulBinder extends AbstractPoweredTaskEntity implements IHaveEx
   }
 
   public boolean isWorking() {
-    return currentTask == null ? false : currentTask.getProgress() >= 0;
+    return currentTask != null && currentTask.getProgress() >= 0;
   }
 
   private boolean wasWorking = false;

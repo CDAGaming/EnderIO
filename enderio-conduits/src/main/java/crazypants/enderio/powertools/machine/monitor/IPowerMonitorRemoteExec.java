@@ -8,9 +8,9 @@ import javax.annotation.Nonnull;
 
 public interface IPowerMonitorRemoteExec {
 
-  static final int ID_CONFIG = 0;
+  int ID_CONFIG = 0;
 
-  public interface GUI extends IRemoteExec.IGui {
+  interface GUI extends IRemoteExec.IGui {
 
     default void doSetConfig(@Nonnull TilePowerMonitor tile, boolean engineControlEnabled, float startLevel, float stopLevel) {
       GuiPacket.send(this, ID_CONFIG, engineControlEnabled, Float.floatToIntBits(startLevel), Float.floatToIntBits(stopLevel));
@@ -18,7 +18,7 @@ public interface IPowerMonitorRemoteExec {
 
   }
 
-  public interface Container extends IRemoteExec.IContainer {
+  interface Container extends IRemoteExec.IContainer {
 
     IMessage doSetConfig(boolean engineControlEnabled, float startLevel, float stopLevel);
 

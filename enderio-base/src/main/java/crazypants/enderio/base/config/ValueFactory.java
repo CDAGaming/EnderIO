@@ -202,15 +202,15 @@ public class ValueFactory {
       isSynced = true;
       syncValues.add(this);
       return this;
-    };
+    }
 
-    @Nonnull
+      @Nonnull
     public IValue<T> preload() {
       preloadValues.add(this);
       return this;
-    };
+    }
 
-    public void save(final ByteBuf buf) {
+      public void save(final ByteBuf buf) {
       final byte[] bytes = keyname.getBytes(Charset.forName("UTF-8"));
       buf.writeInt(bytes.length);
       buf.writeBytes(bytes);
@@ -448,7 +448,7 @@ public class ValueFactory {
     }
   }
 
-  protected static enum DataTypes {
+  protected enum DataTypes {
     INTEGER {
       @Override
       protected void saveValue(ByteBuf buf, @Nonnull Object value) {

@@ -42,7 +42,7 @@ public class ObeliskRenderMapper extends MachineRenderMapper {
       @Nonnull QuadCollector quadCollector) {
     TileEntity tileEntity = getTileEntity(state, pos);
 
-    boolean isActive = tileEntity instanceof AbstractMachineEntity ? ((AbstractMachineEntity) tileEntity).isActive() : true;
+    boolean isActive = !(tileEntity instanceof AbstractMachineEntity) || ((AbstractMachineEntity) tileEntity).isActive();
 
     quadCollector.addQuads(null, BlockRenderLayer.CUTOUT,
         ObeliskBakery.bake(isActive ? ObeliskRenderManager.INSTANCE.getActiveTextures() : ObeliskRenderManager.INSTANCE.getTextures()));

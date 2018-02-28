@@ -96,11 +96,8 @@ public class Recipes implements RecipeRoot {
     if ("xsi".equals(name)) {
       return true;
     }
-    if ("schemaLocation".equals(name)) {
-      return true;
-    }
+      return "schemaLocation".equals(name);
 
-    return false;
   }
 
   @Override

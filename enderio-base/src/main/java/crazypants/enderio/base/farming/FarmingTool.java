@@ -42,14 +42,14 @@ public enum FarmingTool implements IFarmingTool {
 
   private final @Nonnull Things things;
 
-  private FarmingTool(String... things) {
+  FarmingTool(String... things) {
     this(new Things());
     for (String s : things) {
       this.things.add(s);
     }
   }
 
-  private FarmingTool(@Nonnull Things things) {
+  FarmingTool(@Nonnull Things things) {
     this.things = things;
   }
 

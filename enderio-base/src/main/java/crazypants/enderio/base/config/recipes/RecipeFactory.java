@@ -70,7 +70,7 @@ public class RecipeFactory {
     }
 
     if (userFL.exists()) {
-      try (InputStream userFileStream = userFL.exists() ? new FileInputStream(userFL) : null;) {
+      try (InputStream userFileStream = userFL.exists() ? new FileInputStream(userFL) : null) {
         try {
           config = readStax(target, rootElement, userFileStream).addRecipes(config);
         } catch (XMLStreamException e) {
@@ -157,7 +157,7 @@ public class RecipeFactory {
   public static <T extends RecipeRoot> T readFileUser(T target, String rootElement, String fileName, File userFL) throws IOException, XMLStreamException {
     if (userFL.exists()) {
       Log.info("Reading user recipe file " + fileName);
-      try (InputStream userFileStream = userFL.exists() ? new FileInputStream(userFL) : null;) {
+      try (InputStream userFileStream = userFL.exists() ? new FileInputStream(userFL) : null) {
         try {
           return readStax(target, rootElement, userFileStream);
         } catch (XMLStreamException e) {
@@ -175,7 +175,7 @@ public class RecipeFactory {
     return target;
   }
 
-  protected static void printContentsOnError(InputStream stream, String filename) throws FileNotFoundException, IOException {
+  protected static void printContentsOnError(InputStream stream, String filename) {
     try {
       Log.error("Failed to parse xml from file '", filename, "'. Content:");
       int data = 0;

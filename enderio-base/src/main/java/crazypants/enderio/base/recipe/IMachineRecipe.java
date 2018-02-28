@@ -49,7 +49,7 @@ public interface IMachineRecipe {
    * @param inputs
    * @return
    */
-  public boolean isRecipe(@Nonnull NNList<MachineRecipeInput> inputs);
+  boolean isRecipe(@Nonnull NNList<MachineRecipeInput> inputs);
 
   /**
    * Returns the output from a single 'cycle' of the recipe (even if the inputs would allow the recipe to be crafted several times).
@@ -100,7 +100,7 @@ public interface IMachineRecipe {
   @Nonnull
   List<MachineRecipeInput> getQuantitiesConsumed(@Nonnull NNList<MachineRecipeInput> inputs);
 
-  public static class ResultStack {
+  class ResultStack {
 
     public final @Nonnull ItemStack item;
     public final @Nullable FluidStack fluid;
